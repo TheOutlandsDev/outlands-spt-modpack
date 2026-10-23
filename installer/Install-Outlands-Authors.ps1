@@ -182,6 +182,28 @@ foreach ($row in $rows) {
     }
 }
 
+function Stream-Tar-Member([string]$Archive,[string]$Member,[string]$Temp,[long]$MaxBytes) {
+    # Native Windows bsdtar streams one selected member; it never extracts archive paths.
+    $tar=Join-Path $env:WINDIR 'System32\tar.exe'
+    if (-not (Test-Path -LiteralPath $tar)) { throw 'Windows tar.exe is required for this archive compression. Extract the author archive manually and use -ImportRoot.' }
+    $start=New-Object Diagnostics.ProcessStartInfo
+    $start.FileName=$tar
+    $start.Arguments='-xOf "'+$Archive+'" -- "'+$Member+'"'
+    $start.UseShellExecute=$false;$start.CreateNoWindow=$true;$start.RedirectStandardOutput=$true;$start.RedirectStandardError=$true
+    $process=New-Object Diagnostics.Process;$process.StartInfo=$start;$null=$process.Start()
+    $errors=$process.StandardError.ReadToEndAsync();$stream=[IO.File]::Create($Temp)
+    try {
+        $buffer=New-Object byte[] (1024*1024);$total=0L
+        while (($count=$process.StandardOutput.BaseStream.Read($buffer,0,$buffer.Length)) -gt 0) {
+            $total+=$count
+            if ($total -gt $MaxBytes) { $process.Kill();throw 'Expanded archive member exceeds its pinned size.' }
+            $stream.Write($buffer,0,$count)
+        }
+        $process.WaitForExit()
+        if ($process.ExitCode -ne 0) { throw 'Author archive member could not be read; use a manually extracted original.' }
+    } finally { $stream.Dispose();$process.Dispose() }
+}
+
 function Copy-Member([string]$Archive,$Source,$Row,[string]$ImportMember) {
     $member=if ($ImportMember) { $ImportMember } else { [string]$Row.provider.member }
     $transform=if ($ImportMember) { $null } else { $Row.provider.transform }
@@ -191,40 +213,28 @@ function Copy-Member([string]$Archive,$Source,$Row,[string]$ImportMember) {
     New-Item -ItemType Directory -Force -Path (Split-Path -Parent $target) | Out-Null
     $temp=Safe-Path $stage ('payload/'+$Row.path+'.part')
     if ($Source.format -eq 'zip') {
+        $nativeFallback=$false
         $zip=[IO.Compression.ZipFile]::OpenRead($Archive)
         try {
-            $entries=@($zip.Entries | Where-Object { $_.FullName -ceq $member })
+            # .NET Framework changes DOS-origin ZIP entry separators on Windows.
+            $entries=@($zip.Entries | Where-Object { $_.FullName.Replace('\','/') -ceq $member.Replace('\','/') })
             if ($entries.Count -ne 1 -or $entries[0].Length -ne $sourceSize) { throw 'Missing, duplicate or unexpected archive member.' }
-            $inputStream=$entries[0].Open();$outputStream=[IO.File]::Create($temp)
-            try {
-                $buffer=New-Object byte[] (1024*1024);$expanded=0L
-                while (($count=$inputStream.Read($buffer,0,$buffer.Length)) -gt 0) {
-                    $expanded+=$count
-                    if ($expanded -gt $sourceSize) { throw 'Expanded archive member exceeds its pinned size.' }
-                    $outputStream.Write($buffer,0,$count)
-                }
-            } finally { $outputStream.Dispose();$inputStream.Dispose() }
-        } finally { $zip.Dispose() }
-    } elseif ($Source.format -eq '7z') {
-        # Native Windows bsdtar streams one selected member; it never extracts paths from the archive.
-        $tar=Join-Path $env:WINDIR 'System32\tar.exe'
-        if (-not (Test-Path -LiteralPath $tar)) { throw 'Windows tar.exe is required for this 7z source. Extract the author archive manually and use -ImportRoot.' }
-        $start=New-Object Diagnostics.ProcessStartInfo
-        $start.FileName=$tar
-        $start.Arguments='-xOf "'+$Archive+'" -- "'+$member+'"'
-        $start.UseShellExecute=$false;$start.CreateNoWindow=$true;$start.RedirectStandardOutput=$true;$start.RedirectStandardError=$true
-        $process=New-Object Diagnostics.Process;$process.StartInfo=$start;$null=$process.Start()
-        $errors=$process.StandardError.ReadToEndAsync();$stream=[IO.File]::Create($temp)
-        try {
-            $buffer=New-Object byte[] (1024*1024);$total=0L
-            while (($count=$process.StandardOutput.BaseStream.Read($buffer,0,$buffer.Length)) -gt 0) {
-                $total+=$count
-                if ($total -gt [long]$Row.size) { $process.Kill();throw 'Expanded archive member exceeds its pinned size.' }
-                $stream.Write($buffer,0,$count)
+            try { $inputStream=$entries[0].Open() } catch [IO.InvalidDataException] { $nativeFallback=$true }
+            if (-not $nativeFallback) {
+                $outputStream=[IO.File]::Create($temp)
+                try {
+                    $buffer=New-Object byte[] (1024*1024);$expanded=0L
+                    while (($count=$inputStream.Read($buffer,0,$buffer.Length)) -gt 0) {
+                        $expanded+=$count
+                        if ($expanded -gt $sourceSize) { throw 'Expanded archive member exceeds its pinned size.' }
+                        $outputStream.Write($buffer,0,$count)
+                    }
+                } finally { $outputStream.Dispose();$inputStream.Dispose() }
             }
-            $process.WaitForExit()
-            if ($process.ExitCode -ne 0) { throw 'Author 7z member could not be read; use a manually extracted original.' }
-        } finally { $stream.Dispose();$process.Dispose() }
+        } finally { $zip.Dispose() }
+        if ($nativeFallback) { Stream-Tar-Member $Archive $member $temp $sourceSize }
+    } elseif ($Source.format -eq '7z') {
+        Stream-Tar-Member $Archive $member $temp $sourceSize
     } elseif ($Source.format -eq 'raw' -and -not $member) { Copy-Item -LiteralPath $Archive -Destination $temp }
     else { throw 'Unsupported author archive format.' }
     if ($transform) {

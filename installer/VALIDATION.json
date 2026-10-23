@@ -35,19 +35,19 @@
       "name": "complete-selfhost-local-import",
       "passed": true,
       "exit": 0,
-      "previously_completed_same_scripts": true
+      "previously_completed_import_audit_unchanged": true
     },
     {
       "name": "assembled-selfhost-full-file-audit",
       "passed": true,
       "exit": 0,
-      "previously_completed_same_scripts": true
+      "previously_completed_import_audit_unchanged": true
     },
     {
       "name": "raw-original-normalization-and-selected-zip-import",
       "passed": true,
       "exit": 0,
-      "seconds": 0.7
+      "seconds": 0.8
     },
     {
       "name": "cache-overlap-rejected",
@@ -65,7 +65,7 @@
       "name": "install-preview-no-writes",
       "passed": true,
       "exit": 0,
-      "seconds": 0.9
+      "seconds": 0.8
     },
     {
       "name": "install-apply-with-verified-profile-and-overwrite-backups",
@@ -78,6 +78,15 @@
       "passed": true,
       "exit": 0,
       "seconds": 0.7
+    },
+    {
+      "name": "all-686-author-sources-reconstructed-without-local-imports",
+      "passed": true,
+      "exit": 2,
+      "seconds": 104.0,
+      "verified_files": 2631,
+      "only_missing_files": "226 declared manual imports",
+      "source_problems": 0
     }
   ],
   "required_files": 2857,
