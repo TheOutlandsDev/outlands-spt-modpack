@@ -1,0 +1,48 @@
+{
+    "EasyMode":
+    {
+        "Enable": false,
+        "NumberOfReps": 15
+    },
+    "NonEasyMode":
+    {
+        "NumberOfReps": 15,
+        "StartSpeed": 1,
+        "EndSpeed": 4,
+        "StartX": 0.45,
+        "EndX": 0.0,
+        "StartY": 0.175,
+        "EndY": 0.07,
+        "ProgressionType": "Exponential"
+    },
+    
+    "MusclePainTime": 43200,
+    "SuccessEnergyCost": -2,
+    "SuccessHydrationCost": -2,
+    "FailureEnergyCost": -4,
+    "FailureHydrationCost": -4,
+    "SkillLevel0ExpMultiplier": 6,
+    "SkillLevel10ExpMultiplier": 8,
+    "SkillLevel20ExpMultiplier": 10,
+    "SkillLevel30ExpMultiplier": 12,
+    "SkillLevel40ExpMultiplier": 14,
+    "SkillRewardWeights": {
+        "Strength": 25,
+        "Endurance": 25,
+        "Vitality": 0,
+        "Health": 0,
+        "StressResistance": 0,
+        "Metabolism": 0,
+        "Immunity": 0,
+        "Perception": 0,
+        "Intellect": 0,
+        "Attention": 0,
+        "Charisma": 0,
+        "MagDrills": 0,
+        "CovertMovement": 0,
+        "Surgery": 0,
+        "Search": 0,
+        "AimDrills": 0
+    },
+    "SkillReferenceSheet": "You can add any enum value from this reference sheet to the SkillRewardWeights, I only put the ones that seemed relevant though -> https://wiki.sp-tarkov.com/en/modding/references/skills-reference"
+}
