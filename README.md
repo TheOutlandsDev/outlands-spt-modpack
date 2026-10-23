@@ -1,18 +1,20 @@
 # Outlands SPT Modpack — SPT 4.0.13
 
-**The complete player/self-host modpack is not publicly available yet.** The original installation is reported working by its owner. Its full installed mod/asset/config trees have now been captured as a sanitized **0.2.0 local-only snapshot**. Full redistribution remains uncleared; no additional author permissions have been obtained.
+**Download the [0.3.0 author installer beta](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases/tag/v0.3.0-author-installer-spt4.0.13).** It fetches pinned mod binaries/assets directly from their authors and applies the owner's sanitized gameplay settings and three deployed original mods. Choose Client to join the existing Fika server or SelfHost for the client and server mod trees/assets.
 
-The earlier **0.1.0-dev.1 ZIP is an incomplete developer subset**. It does not reproduce the full Fika setup. The **0.2.0 setup kit** is also a partial payload plus a complete file inventory and local import/audit tools; it is not a ready-to-play download.
+**Exact-source gaps remain: five client files, or 226 self-host files, require legitimate local imports.** The installer refuses to install an incomplete set. It does not yet provide a fully automatic fresh reconstruction. The original setup worked according to its owner; complete local assembly/audit and synthetic installation/backup tests passed, but a fresh game launch and remote raid were not run.
 
-- [Current setup, client vs self-host instructions](setup/PLAYING.md)
-- [Exact installed files and SHA-256](setup/setup-lock.json)
-- [Mod versions, author links and redistribution decisions](setup/mod-downloads.json)
-- [Publication blockers](setup/PUBLICATION-STATUS.md)
-- [Download/reference release](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases/tag/v0.2.0-setup-spt4.0.13)
+- [Installer instructions and source](installer/README.md); extract the release ZIP and run `Start-Outlands.cmd`.
+- [Join over Tailscale or self-host](installer/PLAYING.md).
+- [Exact author URLs, releases/commits and hashes](installer/download-plan.json).
+- [Missing originals](installer/MANUAL-FILES.json), [coverage](installer/BUILD-STATUS.json) and [validation](installer/VALIDATION.json).
+- [Packaging/configuration changes](installer/CHANGES.md), [earlier documented changes](docs/CHANGES.md) and [original custom source](custom-tools).
 
-Target: **SPT 4.0.13 / EFT 0.16.9.40087 / Fika client 2.2.5.0 / Fika server 2.0.9**. Joining the existing server uses your own compatible client and a privately supplied Tailscale/backend connection. Self-hosting additionally needs the complete server mod trees/assets and fresh accounts/credentials. No retail game, personal saves or private server connection values are distributed.
+Target: **SPT 4.0.13 / EFT 0.16.9.40087 / Fika client release 2.2.5 / Fika server author release 2.2.4**. The installed server's assembly metadata says 2.0.9, but its exact files match the author's 2.2.4 download. The installer pins that matching package.
 
-SVM's author requires redistribution permission. Fika handcrafted art and other installed asset/notice/provenance gaps also need resolution. No complete public pack is claimed until exact dependencies and settings are obtainable and a fresh multiplayer setup is tested. The existing source and its documented changes remain available below.
+Provide your own compatible legitimate EFT/SPT installation. Backend addresses, Tailscale access, accounts and credentials are configured privately. No game/SPT runtime, personal profiles, private connection values or third-party mod binaries/assets are shipped in the installer. Third-party downloads retain the authors' terms; downloading them does not grant permission to republish the assembled cache/stage. There is no full publicly rehosted modpack ZIP.
+
+The 0.2.0 setup kit is an older partial inventory/import kit. The 0.1.0-dev.1 release attachments were withdrawn after the artwork audit; their old instructions below are historical and are not current download/install guidance. Use the 0.3.0 launcher above.
 
 ---
 
