@@ -1,13 +1,13 @@
 {
   "schema": 2,
   "name": "Outlands SPT Modpack",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "date": "2026-10-23",
   "spt": "4.0.13",
   "eft": "0.16.9.40087",
   "fika_client": "2.2.5.0",
   "fika_server": "2.0.9",
-  "scope": "Pinned author-download installer; exact binary/assets plus semantically preserved reformatted owner settings. Known disabled Revival artifacts omitted.",
+  "scope": "Pinned author and approved archive downloads, declared local source builds and semantically preserved owner settings. Known disabled Revival artifacts omitted.",
   "files": [
     {
       "path": "BepInEx/plugins/acidphantasm-enablelabyrinth/acidphantasm-enablelabyrinth.dll",
@@ -77,8 +77,9 @@
       "disabled": false,
       "version": "0.0.0.0",
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "1525-4.0.0",
+        "member": "BepInEx/plugins/acidphantasm-temporaryfixes/acidphantasm-temporaryfixes.dll"
       }
     },
     {
@@ -177,8 +178,9 @@
       "disabled": false,
       "version": "1.7.0",
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "betterbackpacks-archived-client",
+        "member": null
       }
     },
     {
@@ -7943,16 +7945,27 @@
     },
     {
       "path": "BepInEx/plugins/WTT-ArmoryClient/WTT-ArmoryClient.dll",
-      "sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+      "sha256": "360d928775413de511df2a1b04237bf3c15d1c809e3962c8c790258861601c0d",
       "size": 11264,
       "mode": "client",
       "component": "WTT-ArmoryClient",
       "sanitized": false,
       "disabled": false,
       "version": "2.0.5.0",
+      "snapshot_sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+      "snapshot_size": 11264,
+      "locally_source_reproduced": true,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "source-build",
+        "project": "armory-client",
+        "sources": [
+          "armory-src-0327e9be29ea1fb1",
+          "armory-src-069e019b4ad8e54b",
+          "armory-src-2d0ce2fcb73a0191",
+          "armory-src-954c2a3b9f7ed871",
+          "dotnet-sdk-9.0.305-win-x64"
+        ],
+        "description": "Locally compiled from pinned unmodified author source with a verified reproducible output. Build provenance differs from the unavailable original DLL; see SOURCE-BUILD-PROVENANCE.json."
       }
     },
     {
@@ -8219,22 +8232,36 @@
       "disabled": false,
       "version": "0.0.0.0",
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2b249319f44e672cb0b5",
+        "member": null
       }
     },
     {
       "path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackportClient.dll",
-      "sha256": "927279ae3005e066564360571ff4cc56c963819b3df02a038d2b5062536e779b",
+      "sha256": "35db8dd0609db696dd1e19dfdaf28e783eff7c993ce91cc9ca3783249e4a8919",
       "size": 15360,
       "mode": "client",
       "component": "WTT-ContentBackportClient",
       "sanitized": false,
       "disabled": false,
       "version": "1.0.7.0",
+      "snapshot_sha256": "927279ae3005e066564360571ff4cc56c963819b3df02a038d2b5062536e779b",
+      "snapshot_size": 15360,
+      "locally_source_reproduced": true,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "source-build",
+        "project": "backport-client",
+        "sources": [
+          "dotnet-sdk-9.0.305-win-x64",
+          "source-backport-11dc137a1fe18990150b",
+          "source-backport-3b88fb845699df4b9810",
+          "source-backport-63b69b1b4412f87b92ff",
+          "source-backport-7603191c1d2175963e69",
+          "source-backport-ef7efee966cb5993adf1",
+          "source-backport-ff75092fabdb11af19f6"
+        ],
+        "description": "Locally compiled from pinned unmodified author source with a verified reproducible output. Build provenance differs from the unavailable original DLL; see SOURCE-BUILD-PROVENANCE.json."
       }
     },
     {
@@ -11994,8 +12021,13 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "derived",
+        "recipe": "unique-bot-names",
+        "inputs": [
+          "SPT/user/mods/BotCallsigns/nameData/usec_new.json",
+          "SPT/user/mods/BotCallsigns/nameData/bear_new.json"
+        ],
+        "description": "Union of the downloaded USEC then BEAR name arrays, preserving first occurrence. No name list is bundled."
       }
     },
     {
@@ -12028,15 +12060,17 @@
     },
     {
       "path": "SPT/user/mods/BotCallsigns/nameData/userDefinedNames.json",
-      "sha256": "b419f6828f5be527605d2c205b60e68a13e92dd4f4cf592420e2b511a9062c9f",
-      "size": 43,
+      "sha256": "916b229b9b8ff8cb3d58c210058150f2aa65e4a490ef93278d924011ef22717c",
+      "size": 41,
       "mode": "server",
       "component": "BotCallsigns",
       "sanitized": false,
       "disabled": false,
+      "snapshot_sha256": "b419f6828f5be527605d2c205b60e68a13e92dd4f4cf592420e2b511a9062c9f",
+      "configuration_reformatted": true,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "settings",
+        "file": "settings-payload/SPT/user/mods/BotCallsigns/nameData/userDefinedNames.json"
       }
     },
     {
@@ -14520,8 +14554,9 @@
       "disabled": false,
       "version": "1.0.1.0",
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "betterbackpacks-archived-server",
+        "member": null
       }
     },
     {
@@ -26958,8 +26993,29 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "wtt-armory-source-f62171148778da23dbe50d284f446bb183782e46",
+        "member": "WTT-Armory-f62171148778da23dbe50d284f446bb183782e46/WTT-Armory/Resources/bundles.json",
+        "transform": {
+          "type": "utf8-byte-edits",
+          "edits": [
+            {
+              "start_byte": 6639,
+              "delete_bytes": 27,
+              "insert_utf8": "assets/systems/effects/smoke.bundle"
+            },
+            {
+              "start_byte": 202113,
+              "delete_bytes": 0,
+              "insert_utf8": "\n"
+            }
+          ],
+          "newline": "crlf",
+          "bom": false,
+          "encoding": "utf-8"
+        },
+        "source_sha256": "6ed9a3788fb84b7dca1aef2e3613cb907f417c82d2b162ede847c0541142c1fb",
+        "source_size": 202113
       }
     },
     {
@@ -28784,8 +28840,24 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "wtt-armory-source-f62171148778da23dbe50d284f446bb183782e46",
+        "member": "WTT-Armory-f62171148778da23dbe50d284f446bb183782e46/WTT-Armory/Resources/db/CustomLocales/en.json",
+        "transform": {
+          "type": "utf8-byte-edits",
+          "edits": [
+            {
+              "start_byte": 236788,
+              "delete_bytes": 19659,
+              "insert_utf8": "\n}\n"
+            }
+          ],
+          "newline": "crlf",
+          "bom": false,
+          "encoding": "utf-8"
+        },
+        "source_sha256": "0ef64655610c17441029f065d55aec11bc93c7332664758a37004ae04c42d0ae",
+        "source_size": 256447
       }
     },
     {
@@ -29392,16 +29464,40 @@
     },
     {
       "path": "SPT/user/mods/WTT-Armory/WTT-Armory.dll",
-      "sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+      "sha256": "f4e44f2b38339b1cfb6cbd6f1566902a5494764e6bf6400313154a85ff8c042a",
       "size": 77824,
       "mode": "server",
       "component": "WTT-Armory",
       "sanitized": false,
       "disabled": false,
       "version": "2.0.5.0",
+      "snapshot_sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+      "snapshot_size": 77824,
+      "locally_source_reproduced": true,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "source-build",
+        "project": "armory-server",
+        "sources": [
+          "armory-src-0503a12bd4871172",
+          "armory-src-194f49473b515910",
+          "armory-src-2c5c791cc3955bd9",
+          "armory-src-376fa58305b209d6",
+          "armory-src-4bc87aa1cdd681d2",
+          "armory-src-a57c28573af6c7f4",
+          "armory-src-b98ab025481125d9",
+          "armory-src-d597f05ee12561cc",
+          "dotnet-sdk-9.0.305-win-x64",
+          "fastcloner.3.3.16",
+          "jetbrains.annotations.2025.2.2",
+          "microsoft.extensions.dependencyinjection.abstractions.9.0.9",
+          "semanticversioning.3.0.0",
+          "sptarkov.common.4.0.3",
+          "sptarkov.di.4.0.3",
+          "sptarkov.server.core.4.0.3",
+          "system.io.hashing.9.0.9",
+          "wtt-servercommonlib.2.0.15"
+        ],
+        "description": "Locally compiled from pinned unmodified author source with a verified reproducible output. Build provenance differs from the unavailable original DLL; see SOURCE-BUILD-PROVENANCE.json."
       }
     },
     {
@@ -30519,8 +30615,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-834a69b2bcf30d05f2a8",
+        "member": null
       }
     },
     {
@@ -30532,8 +30629,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1d1fd7f02a3bef7b2b4a",
+        "member": null
       }
     },
     {
@@ -30615,8 +30713,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-cd09e238865657c71c32",
+        "member": null
       }
     },
     {
@@ -30628,8 +30727,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a12afa063efeb73d3a4f",
+        "member": null
       }
     },
     {
@@ -30641,8 +30741,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d0aa1a1642fc75e53ea3",
+        "member": null
       }
     },
     {
@@ -30934,8 +31035,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-0f73e9c019c7b79588c2",
+        "member": null
       }
     },
     {
@@ -30947,8 +31049,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-68f188efc761b4469041",
+        "member": null
       }
     },
     {
@@ -30960,8 +31063,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e7406af2246ab5b8fb76",
+        "member": null
       }
     },
     {
@@ -30973,8 +31077,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-872b0a8a588541135524",
+        "member": null
       }
     },
     {
@@ -30986,8 +31091,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d66cbb3094bcc387da46",
+        "member": null
       }
     },
     {
@@ -30999,8 +31105,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-937e4f78cc6846e8c69c",
+        "member": null
       }
     },
     {
@@ -31012,8 +31119,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-b5e657cf9a43c250ae10",
+        "member": null
       }
     },
     {
@@ -31025,8 +31133,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a52d23d4852ca1f96c1b",
+        "member": null
       }
     },
     {
@@ -31038,8 +31147,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f2d62a0ec48ce3544960",
+        "member": null
       }
     },
     {
@@ -31051,8 +31161,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c01114b56ab410a2e441",
+        "member": null
       }
     },
     {
@@ -31064,8 +31175,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ec5b6eb26c21a34153aa",
+        "member": null
       }
     },
     {
@@ -31161,8 +31273,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-829b36bc29b1105b3f14",
+        "member": null
       }
     },
     {
@@ -31174,8 +31287,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-30dd14acefc318a0ea01",
+        "member": null
       }
     },
     {
@@ -31439,8 +31553,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-20de2781130e8dc5821c",
+        "member": null
       }
     },
     {
@@ -31452,8 +31567,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5c7dee91c1340102e6c3",
+        "member": null
       }
     },
     {
@@ -31577,8 +31693,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c2088b88dca047d00c4f",
+        "member": null
       }
     },
     {
@@ -31590,8 +31707,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-15a8df1d023d481eadf7",
+        "member": null
       }
     },
     {
@@ -31603,8 +31721,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-db0b780e7e17de0b78d5",
+        "member": null
       }
     },
     {
@@ -31616,8 +31735,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-da72d776d9adacc4b2c7",
+        "member": null
       }
     },
     {
@@ -31629,8 +31749,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-985e909b56e338dcb237",
+        "member": null
       }
     },
     {
@@ -31642,8 +31763,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-3447881b1bf567217ae6",
+        "member": null
       }
     },
     {
@@ -31655,8 +31777,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bf9c45d6f3fdb24b25b2",
+        "member": null
       }
     },
     {
@@ -31668,8 +31791,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a89e5b0479103003b1c3",
+        "member": null
       }
     },
     {
@@ -31681,8 +31805,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a507e986a8f5840963d8",
+        "member": null
       }
     },
     {
@@ -31694,8 +31819,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2538638c546274efad6d",
+        "member": null
       }
     },
     {
@@ -31707,8 +31833,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-693fd95f12c6165dd0a6",
+        "member": null
       }
     },
     {
@@ -31748,8 +31875,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1914cc3d83dd21179e58",
+        "member": null
       }
     },
     {
@@ -31761,8 +31889,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e14ae6ea17b881d1f013",
+        "member": null
       }
     },
     {
@@ -31858,8 +31987,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-806cf1d216f34a54b2f6",
+        "member": null
       }
     },
     {
@@ -31871,8 +32001,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-57b713f073ce21374048",
+        "member": null
       }
     },
     {
@@ -32738,8 +32869,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-69bb64d5755f976f2823",
+        "member": null
       }
     },
     {
@@ -32751,8 +32883,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-17a79865192774faee70",
+        "member": null
       }
     },
     {
@@ -32820,8 +32953,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ed8c2b18094bc86eceb7",
+        "member": null
       }
     },
     {
@@ -32875,8 +33009,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-594bd630eadc7e1ee0fb",
+        "member": null
       }
     },
     {
@@ -33084,8 +33219,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-6cde5b86685b95c7cfd1",
+        "member": null
       }
     },
     {
@@ -33097,8 +33233,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ca77f338a1880fa078d2",
+        "member": null
       }
     },
     {
@@ -33110,8 +33247,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ae6b946f7ba197d08cc2",
+        "member": null
       }
     },
     {
@@ -33249,8 +33387,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-86d94d13bfc6bc07d974",
+        "member": null
       }
     },
     {
@@ -33262,8 +33401,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-350089511ed004f03cf2",
+        "member": null
       }
     },
     {
@@ -33289,8 +33429,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-efe7266e09f08952edfc",
+        "member": null
       }
     },
     {
@@ -33316,8 +33457,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-67e9bd5d9f26bd583f0b",
+        "member": null
       }
     },
     {
@@ -33329,8 +33471,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f84e266bfba266bfdab7",
+        "member": null
       }
     },
     {
@@ -33342,8 +33485,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d0a99b1466ffa2f1d87d",
+        "member": null
       }
     },
     {
@@ -33355,8 +33499,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bb4a1995d04037a12229",
+        "member": null
       }
     },
     {
@@ -33368,8 +33513,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e1282f713799e276ab9d",
+        "member": null
       }
     },
     {
@@ -33395,8 +33541,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-553d5b967644e6860c0f",
+        "member": null
       }
     },
     {
@@ -33408,8 +33555,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-640826ad2d8d9acc1e4c",
+        "member": null
       }
     },
     {
@@ -33421,8 +33569,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4d25bc788f69e322a180",
+        "member": null
       }
     },
     {
@@ -33434,8 +33583,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-49ee8dedd37fc2907abe",
+        "member": null
       }
     },
     {
@@ -33447,8 +33597,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-50d0b3284c3bd356e459",
+        "member": null
       }
     },
     {
@@ -33460,8 +33611,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d440ff73a208a9412c91",
+        "member": null
       }
     },
     {
@@ -33473,8 +33625,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-76e1364026bd0af120d3",
+        "member": null
       }
     },
     {
@@ -33542,8 +33695,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1ab47ff0b079f7f8a0d6",
+        "member": null
       }
     },
     {
@@ -33555,8 +33709,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d468743091a41038ae67",
+        "member": null
       }
     },
     {
@@ -33568,8 +33723,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-630fcec5e41133198663",
+        "member": null
       }
     },
     {
@@ -33581,8 +33737,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-292a6811f7b08d7af7ab",
+        "member": null
       }
     },
     {
@@ -33594,8 +33751,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-60885172aaef1bfa4e96",
+        "member": null
       }
     },
     {
@@ -33607,8 +33765,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4527b8c92425b1f28e61",
+        "member": null
       }
     },
     {
@@ -33620,8 +33779,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-36cca7e34155d64bf344",
+        "member": null
       }
     },
     {
@@ -33633,8 +33793,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-b370483486b2cf0c89a2",
+        "member": null
       }
     },
     {
@@ -33660,8 +33821,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-52f5bc378cfd4166fb9f",
+        "member": null
       }
     },
     {
@@ -33673,8 +33835,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-6f4872657f473e0ce5be",
+        "member": null
       }
     },
     {
@@ -33686,8 +33849,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-60a55c2416e9aaae1de6",
+        "member": null
       }
     },
     {
@@ -33699,8 +33863,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-39c3d168784cf5b17b69",
+        "member": null
       }
     },
     {
@@ -33712,8 +33877,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-0218173e10fd6c43e43e",
+        "member": null
       }
     },
     {
@@ -33725,8 +33891,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-26feda5e82276d02ea71",
+        "member": null
       }
     },
     {
@@ -33738,8 +33905,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-39b9e61d824892f10e87",
+        "member": null
       }
     },
     {
@@ -33751,8 +33919,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e5e41f353931ce70c1a1",
+        "member": null
       }
     },
     {
@@ -33764,8 +33933,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5c8e9eab455d8b9c5370",
+        "member": null
       }
     },
     {
@@ -33777,8 +33947,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-8bf65872257a535ae8b4",
+        "member": null
       }
     },
     {
@@ -33790,8 +33961,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-0a90091f6cab2b1b40db",
+        "member": null
       }
     },
     {
@@ -33817,8 +33989,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-b38ff812eb6f14d4daa2",
+        "member": null
       }
     },
     {
@@ -33830,8 +34003,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bb299070ba576281c4e2",
+        "member": null
       }
     },
     {
@@ -33913,8 +34087,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-b00421d0e0c15bb06505",
+        "member": null
       }
     },
     {
@@ -33926,8 +34101,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f6f8c8c583a953f5b624",
+        "member": null
       }
     },
     {
@@ -33981,8 +34157,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-748db17fa7f95f0aaa4a",
+        "member": null
       }
     },
     {
@@ -33994,8 +34171,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-81604954e99c97bf952b",
+        "member": null
       }
     },
     {
@@ -34021,8 +34199,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-58cd13bf1f4077e992d4",
+        "member": null
       }
     },
     {
@@ -34034,8 +34213,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e820637483d3eaec9440",
+        "member": null
       }
     },
     {
@@ -34061,8 +34241,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-b231cd0c5b38deac5db3",
+        "member": null
       }
     },
     {
@@ -34074,8 +34255,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-eb01de01c2c02ad79460",
+        "member": null
       }
     },
     {
@@ -34143,8 +34325,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-0617f95fbbcf103edee6",
+        "member": null
       }
     },
     {
@@ -34156,8 +34339,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bc80f3cf17db8d0b5307",
+        "member": null
       }
     },
     {
@@ -34169,8 +34353,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-abb8b68a65d9b5dc2339",
+        "member": null
       }
     },
     {
@@ -34182,8 +34367,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f97bd553f5ef34b68ccc",
+        "member": null
       }
     },
     {
@@ -34209,8 +34395,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-86fb73beb3d191401f15",
+        "member": null
       }
     },
     {
@@ -34222,8 +34409,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d1fade48eaee77a04c50",
+        "member": null
       }
     },
     {
@@ -34235,8 +34423,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-8d1b10ef880e95290041",
+        "member": null
       }
     },
     {
@@ -34248,8 +34437,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d5bc9fba950b6bfe6d33",
+        "member": null
       }
     },
     {
@@ -34261,8 +34451,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-46fd55a7e0b3a1d2d966",
+        "member": null
       }
     },
     {
@@ -34274,8 +34465,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4c2bdb0e0fbedfca5cba",
+        "member": null
       }
     },
     {
@@ -34287,8 +34479,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-19b2ee87fb9c6fdd31ab",
+        "member": null
       }
     },
     {
@@ -34300,8 +34493,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e7998e688c657627e774",
+        "member": null
       }
     },
     {
@@ -34313,8 +34507,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5b67be0bb868d6b9bb6b",
+        "member": null
       }
     },
     {
@@ -34354,8 +34549,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ed0849eff91fe1f8fed5",
+        "member": null
       }
     },
     {
@@ -34423,8 +34619,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-877cb20db3e077a290f3",
+        "member": null
       }
     },
     {
@@ -34520,8 +34717,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-3c1758a37b4db7df967d",
+        "member": null
       }
     },
     {
@@ -34533,8 +34731,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2d11ff9cea9cd6c5603c",
+        "member": null
       }
     },
     {
@@ -34546,8 +34745,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-8f03951fde6af53f9aa3",
+        "member": null
       }
     },
     {
@@ -34867,8 +35067,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ac0aedef43b2efb287df",
+        "member": null
       }
     },
     {
@@ -35356,8 +35557,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d2a62d60cc3fa5cb9900",
+        "member": null
       }
     },
     {
@@ -35369,8 +35571,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-964bdb2d41645d621393",
+        "member": null
       }
     },
     {
@@ -35382,8 +35585,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bdb4d98ccb5a484bc526",
+        "member": null
       }
     },
     {
@@ -35395,8 +35599,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-23fbb4c47e830c66d860",
+        "member": null
       }
     },
     {
@@ -35408,8 +35613,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f19a52fedccc9bef755e",
+        "member": null
       }
     },
     {
@@ -35421,8 +35627,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2b79cd9cebfe209e8ee7",
+        "member": null
       }
     },
     {
@@ -35434,8 +35641,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e4fc1df4445c433ecaf2",
+        "member": null
       }
     },
     {
@@ -35447,8 +35655,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-25186334c94ebcf86ea1",
+        "member": null
       }
     },
     {
@@ -36174,8 +36383,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bd850c826359c4c4effa",
+        "member": null
       }
     },
     {
@@ -36187,8 +36397,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c9af515eb321bc57a06b",
+        "member": null
       }
     },
     {
@@ -36200,8 +36411,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-33053c320e26d4e7febd",
+        "member": null
       }
     },
     {
@@ -36787,8 +36999,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c095fcced5d6091613b2",
+        "member": null
       }
     },
     {
@@ -36842,8 +37055,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-44df8d2e7d51f2c57c20",
+        "member": null
       }
     },
     {
@@ -36855,8 +37069,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c497544ab7584b5f4708",
+        "member": null
       }
     },
     {
@@ -36868,8 +37083,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5da38c01a12d4334cc70",
+        "member": null
       }
     },
     {
@@ -36881,8 +37097,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-6a2d135c062415e13343",
+        "member": null
       }
     },
     {
@@ -36894,8 +37111,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-59469ef7b578afaec312",
+        "member": null
       }
     },
     {
@@ -36907,8 +37125,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f4fd81587bf53ce58c22",
+        "member": null
       }
     },
     {
@@ -37522,8 +37741,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f8b0fe29c718bf945160",
+        "member": null
       }
     },
     {
@@ -37829,8 +38049,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-eb9955eaa921995e8258",
+        "member": null
       }
     },
     {
@@ -37842,8 +38063,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4f70e66c3609b9f12a43",
+        "member": null
       }
     },
     {
@@ -37855,8 +38077,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-168934a200c25278972f",
+        "member": null
       }
     },
     {
@@ -38148,8 +38371,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-dd53a712c874f4312e1b",
+        "member": null
       }
     },
     {
@@ -38301,8 +38525,9 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d3c549ff292ae93d04fa",
+        "member": null
       }
     },
     {
@@ -38580,8 +38805,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-9380809ca323c45e868e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "9380809ca323c45e868e2818fd914f2213f6f9e219672766bbd722b948bcbeaa",
+        "source_size": 175940
       }
     },
     {
@@ -38593,8 +38826,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-3a006d137e82fd65f2e8",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "3a006d137e82fd65f2e866291006c1b34334a3f0c4d1022c5b528f87f5062899",
+        "source_size": 71136
       }
     },
     {
@@ -38893,8 +39134,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-9460857bec0d800ba8af",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "9460857bec0d800ba8afa1ee42d7d19c647019bcb8ca332cc527c117188954c7",
+        "source_size": 5602
       }
     },
     {
@@ -38906,8 +39155,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-41c3758e90654070d6ee",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "41c3758e90654070d6ee66ea4153ea5e3400d79e40e8ad84edf29cad76beb269",
+        "source_size": 7239
       }
     },
     {
@@ -38919,8 +39176,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-993b7bcb018e33e7c1a1",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "993b7bcb018e33e7c1a17c1ecca6b5383f0bd10377851c61e60ea2d7e26fc2dc",
+        "source_size": 15002
       }
     },
     {
@@ -38932,8 +39197,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-56685200e020668dc8b2",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "56685200e020668dc8b2ba771a588f293cb9e6e9eab5541fb77a8d3dc78a0693",
+        "source_size": 48445
       }
     },
     {
@@ -38945,8 +39218,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-80dae65e199289f63ee2",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "80dae65e199289f63ee28112c2a8a1b830bbe1b8e221503799cc064ab38b7ec3",
+        "source_size": 48097
       }
     },
     {
@@ -38958,8 +39239,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-93c0aed42a2f4ca8a1b1",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "93c0aed42a2f4ca8a1b19675973abd9190743839f3e54a1c5f9cb136b913a2db",
+        "source_size": 26355
       }
     },
     {
@@ -38971,8 +39260,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1b2cfed133eefb91cc57",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "1b2cfed133eefb91cc57a8317b80dcf780b925deb56f0f32a73e4de80a7c9797",
+        "source_size": 4153
       }
     },
     {
@@ -38984,8 +39281,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4fa651d542faee0893f6",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "4fa651d542faee0893f6840bbf59c6007b176485bf18dfb16796b0d9458417c0",
+        "source_size": 699
       }
     },
     {
@@ -38997,8 +39302,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-16f064c06c66904fbde0",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "16f064c06c66904fbde07bad082156184bacd193ae8acdb7b6f5adb575c00018",
+        "source_size": 32200
       }
     },
     {
@@ -39115,8 +39428,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f1688a343f190548e135",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "f1688a343f190548e1353943883f4c32109a5c871924144029823f6e6fcde898",
+        "source_size": 35340
       }
     },
     {
@@ -39709,8 +40030,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-dbc85a063fd31712388e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "dbc85a063fd31712388ea0564154a1985f845e1bb4b4a8a4ee912d39e4a50487",
+        "source_size": 41769
       }
     },
     {
@@ -39722,8 +40051,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-02f632f67e8aaf124f4b",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "02f632f67e8aaf124f4b661dcf0dd473b3bdbff8737ad893b3e0b4157300b37c",
+        "source_size": 46924
       }
     },
     {
@@ -39735,8 +40072,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1f8b4ca33f1d6f894582",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "1f8b4ca33f1d6f89458251e4947c232b01dc2d5e6ba0a260e33c6be35b466574",
+        "source_size": 27384
       }
     },
     {
@@ -39748,8 +40093,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-dc2209f91bbd1ee6750e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "dc2209f91bbd1ee6750eb525b29be4614216efdf7ca7a2ae2da63dd70d8f8d67",
+        "source_size": 14262
       }
     },
     {
@@ -39761,8 +40114,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d2f3aa0637074f7ce701",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "d2f3aa0637074f7ce701950c9bed21c48a3d05c9da91c6731679be7049690d2c",
+        "source_size": 56068
       }
     },
     {
@@ -39774,8 +40135,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-7f3d977c94b2ebdaa329",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "7f3d977c94b2ebdaa3295772b2077eb9a80dc1d35ac38d2e3ec3ca51f73c236d",
+        "source_size": 28055
       }
     },
     {
@@ -39787,8 +40156,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-202f29735194784abf73",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "202f29735194784abf733ce204fe9ad2b9e3d471b47e4326aac4b58889ca1748",
+        "source_size": 9311
       }
     },
     {
@@ -39800,8 +40177,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a74c9ecacf9a2b19541e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "a74c9ecacf9a2b19541ed1ea61e868ced098c5d67b23c4393c429fe8d0afad7d",
+        "source_size": 4232
       }
     },
     {
@@ -39813,8 +40198,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-65cc58f0ff250bee03fc",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "65cc58f0ff250bee03fce3a5938fd62b0ba27d53cca5b9c0c6d9eee841f24c85",
+        "source_size": 4708
       }
     },
     {
@@ -39826,8 +40219,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-93ea89abe44d46ec34c8",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "93ea89abe44d46ec34c8768b7daa3f2f05cc9d88dbc3b77491c91327672dbb1c",
+        "source_size": 21247
       }
     },
     {
@@ -39839,8 +40240,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-88301eaad94e791b5277",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "88301eaad94e791b5277753ea2292594360019df22c1fa1fea85098130a05597",
+        "source_size": 138924
       }
     },
     {
@@ -39852,8 +40261,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-9e9368cca2282f11440a",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "9e9368cca2282f11440aa7b3f76abf599e17fb42c39dc9ca600254a0721cf30d",
+        "source_size": 36835
       }
     },
     {
@@ -39865,8 +40282,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-cd6282216a1135b706e3",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "cd6282216a1135b706e38444b53e62a766420eb44c46deb59c8cafb0c71b56de",
+        "source_size": 14977
       }
     },
     {
@@ -39878,8 +40303,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-80face049716f3e32c45",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "80face049716f3e32c4583d13864ab5d2f852ccc580ccc3db1e610e7c5ab2874",
+        "source_size": 122490
       }
     },
     {
@@ -39891,8 +40324,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-13f9601a70e6f586f20e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "13f9601a70e6f586f20ee62a09dff07db2a6b173330f69a4d6795fea626735a4",
+        "source_size": 9423
       }
     },
     {
@@ -39904,8 +40345,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-15eb2c37984d3523cf32",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "15eb2c37984d3523cf32e5a6e400111210f1327771964c6cc299e7b57f383636",
+        "source_size": 101705
       }
     },
     {
@@ -39917,8 +40366,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5418b02a613bb44dccbc",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "5418b02a613bb44dccbcfbb2ffeabdbb80bbf4646b2a350af63977f23c2d7f24",
+        "source_size": 26647
       }
     },
     {
@@ -39930,8 +40387,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-54abe6c6208d6641e6e3",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "54abe6c6208d6641e6e3f702769fa23b7264e983be0a68654f08804022157645",
+        "source_size": 3900
       }
     },
     {
@@ -39943,8 +40408,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-adc23ac4b629ea58a7f9",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "adc23ac4b629ea58a7f9ff3a4119708c415a3a2cf1ea3ee660ab40a305c1b2fc",
+        "source_size": 8735
       }
     },
     {
@@ -39956,8 +40429,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1c50e2faa2fdbcc59270",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "1c50e2faa2fdbcc59270681f87470e511076561ff0376837fe5b231f99a58f9e",
+        "source_size": 14935
       }
     },
     {
@@ -39969,8 +40450,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-262469123e349eb953f0",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "262469123e349eb953f0321019fc62962367e028a366cfd93c4ed10730f657be",
+        "source_size": 135887
       }
     },
     {
@@ -39982,8 +40471,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-abc346752a7d149e10ec",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "abc346752a7d149e10ec4c85d5465473738f355732789240a05bdfcfa6f98b2d",
+        "source_size": 21949
       }
     },
     {
@@ -39995,8 +40492,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-7cbfab9e0d0857ce780d",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "7cbfab9e0d0857ce780db5a648e7df266907c0c5ffc5c2336d79a94c37e4e51f",
+        "source_size": 42722
       }
     },
     {
@@ -40008,8 +40513,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d5a0a6df81d99ccef876",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "d5a0a6df81d99ccef876c3cd334575c6bf39f06317c2bb038b07d938845dd716",
+        "source_size": 4066
       }
     },
     {
@@ -40021,8 +40534,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-6cdfb48118d78bbad38a",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "6cdfb48118d78bbad38af90d0250a61e4d9330d3c11459fd2074b2199c000f3e",
+        "source_size": 4068
       }
     },
     {
@@ -40034,8 +40555,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d7b96da182c07f145bb0",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "d7b96da182c07f145bb0303e9e186f2292c4c4a093fd897a33f3e1a0a3a253af",
+        "source_size": 23892
       }
     },
     {
@@ -40047,8 +40576,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-41b017c4660fc172bd7c",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "41b017c4660fc172bd7c6f888c53fe918bc23a91300e3a49b368c3d4605525ed",
+        "source_size": 15978
       }
     },
     {
@@ -40060,8 +40597,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-6f9e99b1430068821363",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "6f9e99b1430068821363f7cb5451fd67327f4aa7910face80c77f7ad12e81d77",
+        "source_size": 3482
       }
     },
     {
@@ -40073,8 +40618,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-889a7d6baef7b6eff0a2",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "889a7d6baef7b6eff0a27d2baced98543823d9bc67849cb5eccb65c114a7cbb1",
+        "source_size": 22519
       }
     },
     {
@@ -40086,8 +40639,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a3bff84dce2df076d333",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "a3bff84dce2df076d33371e355f9b66242de31ca1413dbe5c6059a285726e5b4",
+        "source_size": 9686
       }
     },
     {
@@ -40099,8 +40660,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d109632c7a751c5de3c7",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "d109632c7a751c5de3c74f9f9da6e95f94a2eeb85d5d57e6a9ba69d3c2b68d18",
+        "source_size": 457486
       }
     },
     {
@@ -40112,8 +40681,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-d466b0f84123fce1255c",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "d466b0f84123fce1255cd44940d6623e058458f19e1af9fbe676913169ac7bc7",
+        "source_size": 49836
       }
     },
     {
@@ -40125,8 +40702,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-a2bb7974c50df296a2e9",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "a2bb7974c50df296a2e9f0198950b2accd7e1b9fa590994d51e9454847713fac",
+        "source_size": 6838
       }
     },
     {
@@ -40138,8 +40723,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-bfd83c1964435de8f077",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "bfd83c1964435de8f077433e64f57b661cbb7071c8c7d343e8d8d9a69fb34147",
+        "source_size": 11948
       }
     },
     {
@@ -40151,8 +40744,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-be83ee8ecc372aea3fd0",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "be83ee8ecc372aea3fd079292da3c749e5cffeaa2f29f6aa88a5498ba645b99a",
+        "source_size": 153905
       }
     },
     {
@@ -40164,8 +40765,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-35f7e42b8efdad894398",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "35f7e42b8efdad894398b0396c45a0a8cd0404fbe15d3a37f014cdee19f73936",
+        "source_size": 27090
       }
     },
     {
@@ -40177,8 +40786,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1e1c2b2b97000eab30fa",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "1e1c2b2b97000eab30fa513a1c68597bc08bce67ff709c609a8eae656fd076ae",
+        "source_size": 8769
       }
     },
     {
@@ -40190,8 +40807,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-ff38fce24813c8709cc7",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "ff38fce24813c8709cc73eb3d1d1b181e92b42e5b941942e796e0da2160d1167",
+        "source_size": 40950
       }
     },
     {
@@ -40203,8 +40828,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-fb2143d6db4c5d3e1738",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "fb2143d6db4c5d3e1738800b4762d5cefe5955cef168280b04e53492bb984dad",
+        "source_size": 65962
       }
     },
     {
@@ -40216,8 +40849,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-9f425a4be512dfbe73c7",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "9f425a4be512dfbe73c7abafbd721c61bed6b7100fc167b05d944ca8c8e10a46",
+        "source_size": 7056
       }
     },
     {
@@ -40229,8 +40870,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5ae596848b7f08f85a68",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "5ae596848b7f08f85a68233e694015267ad06ce9bf27cb81f245d5bbdccc7db6",
+        "source_size": 3537
       }
     },
     {
@@ -40242,8 +40891,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-46a53c01facad1d12264",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "46a53c01facad1d12264b7ce6732c960d5fe5ba87331175d12b59b9c462035a4",
+        "source_size": 8276
       }
     },
     {
@@ -40255,8 +40912,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-19e102f19c132aae4f31",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "19e102f19c132aae4f311df55d4e8ec2e8f1dd38bed2d69c0ef1dc2899a9c5f5",
+        "source_size": 39167
       }
     },
     {
@@ -40268,8 +40933,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4fc7dd3785bd86ae8c6a",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "4fc7dd3785bd86ae8c6a570ebb021031c0426d160ee525ac87efa58ee8ed5d20",
+        "source_size": 23027
       }
     },
     {
@@ -40281,8 +40954,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-54dff8997492543b6689",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "54dff8997492543b6689e760bc2230f9e75ca714578e24d907b4a096d932bdbf",
+        "source_size": 24794
       }
     },
     {
@@ -40294,8 +40975,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f8183c751e679b17230e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "f8183c751e679b17230e7616f7b437f2a267f862bd3b5b0ade9805c72e3c80ed",
+        "source_size": 4676
       }
     },
     {
@@ -40307,8 +40996,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-69f283539b614fd6f4e4",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "69f283539b614fd6f4e45cd8c92e276546a1beef62ddcf4a9d691cf6119f5e33",
+        "source_size": 30982
       }
     },
     {
@@ -40320,8 +41017,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-172754d97b267701f39b",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "172754d97b267701f39be69013178fde3e4fe0cb568eecbdb08ea64ee542dba4",
+        "source_size": 199118
       }
     },
     {
@@ -40333,8 +41038,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-476ad5169afd719c2acb",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "476ad5169afd719c2acb79a81a8a98cde7f1799f147cd43e4026e78c6c4f166a",
+        "source_size": 18963
       }
     },
     {
@@ -40346,8 +41059,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-1ff694941a5357bd951e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "1ff694941a5357bd951e799566ec835ee4b343d1d3a72da0411c04d409a74e1b",
+        "source_size": 5122
       }
     },
     {
@@ -40359,8 +41080,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2542f2b124b2e2c033a5",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "2542f2b124b2e2c033a5f8432e5d9eb3c6a4a54193876f8840b5104429288f42",
+        "source_size": 6003
       }
     },
     {
@@ -40372,8 +41101,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-0dd4c0c81d7ddde8664c",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "0dd4c0c81d7ddde8664cd9f40dac59680a928ebbb015eb6d49d0f4a7c4a7dbca",
+        "source_size": 68114
       }
     },
     {
@@ -40385,8 +41122,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-2c57363f6046ed293971",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "2c57363f6046ed2939711ca95338d698abbeeedda3aea01fc192e10db1825597",
+        "source_size": 26501
       }
     },
     {
@@ -40398,8 +41143,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-431e02353f5bf18f9412",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "431e02353f5bf18f9412fb5f4dc0d1d9a8a311f99e1f56deb56af40e273fa04c",
+        "source_size": 70523
       }
     },
     {
@@ -40411,8 +41164,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c2ae3fc8e52ffc7bf712",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "c2ae3fc8e52ffc7bf712b54acf6834610c682b9333f9063a139cea1be1f1cf60",
+        "source_size": 10274
       }
     },
     {
@@ -40424,8 +41185,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-087cdd0b4482ca7d7323",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "087cdd0b4482ca7d732399dad5d55e4eab0c4dbcf1a71a72533f06b7e48aa3a5",
+        "source_size": 14230
       }
     },
     {
@@ -40437,8 +41206,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-4d673faff17a81c0fd55",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "4d673faff17a81c0fd552f938f365462b26ca61310959650a342c6ab92ace3fa",
+        "source_size": 10328
       }
     },
     {
@@ -40450,8 +41227,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-e9bbaeb02bbdff835d11",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "e9bbaeb02bbdff835d1162a6d9d3441653beeac86636ec8c647b5c2d1efbb23b",
+        "source_size": 4170
       }
     },
     {
@@ -40463,8 +41248,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-717f3eaf4bb6b2141c16",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "717f3eaf4bb6b2141c164fe1c550850b0037578a9d65ec3a73cc8496eca11a4b",
+        "source_size": 18304
       }
     },
     {
@@ -40476,8 +41269,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-224c019992dbc00ee4f9",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "224c019992dbc00ee4f9603516ff55132ff90d5d5f61c879142da0b833db7768",
+        "source_size": 3864
       }
     },
     {
@@ -40489,8 +41290,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-c267f2fb1de2029e7361",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "c267f2fb1de2029e7361896979ec24819b7448b6e63f1a03698489b0d6d359ab",
+        "source_size": 18786
       }
     },
     {
@@ -40502,8 +41311,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5ededdf0f11f2ee7c7bb",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "5ededdf0f11f2ee7c7bb9401716304fad20b05bee1715bc95d7b8817050c1446",
+        "source_size": 3036
       }
     },
     {
@@ -40515,8 +41332,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-3f1c8fc1b2552d7f0bd8",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "3f1c8fc1b2552d7f0bd893d50b94e1847c86fa15ab19dec5fae0050c0c9e9bcd",
+        "source_size": 110546
       }
     },
     {
@@ -40528,8 +41353,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-468054570fb74a6629ad",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "468054570fb74a6629adeb673dbe537b3a280813ac8777ab407a2613d67eba6b",
+        "source_size": 4119
       }
     },
     {
@@ -40541,8 +41374,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-9eb64884eacae70a206b",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "9eb64884eacae70a206b7487a4d19e295ef16b4bf84427ba8cc32cb5c75ae207",
+        "source_size": 3939
       }
     },
     {
@@ -40554,8 +41395,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-7f781b1b62254674b69a",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "7f781b1b62254674b69a823668bdf92a9952258dcd8b92866c38c03e5e2080fa",
+        "source_size": 205047
       }
     },
     {
@@ -40567,8 +41416,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-7aaa9d9697bc1de3162e",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "7aaa9d9697bc1de3162e6c9f8b376f2c5847fd7146723e4d7e0fcb500b08d420",
+        "source_size": 59426
       }
     },
     {
@@ -40580,8 +41437,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-97bfb1910c802c2319c7",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "97bfb1910c802c2319c722969298f72c269a6cde7cec07524455bf37a35bebc7",
+        "source_size": 52320
       }
     },
     {
@@ -40593,8 +41458,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-f74efdb9304095e733b2",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": true,
+          "newline": "crlf"
+        },
+        "source_sha256": "f74efdb9304095e733b277669d3ff1c437934416a7a13361de3eb834276c2dff",
+        "source_size": 3991
       }
     },
     {
@@ -40606,8 +41479,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-be4d93524e83cb84d848",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "be4d93524e83cb84d8487fb07d1bae0be2f0136d2f8205a4fac948165fdcce4c",
+        "source_size": 156823
       }
     },
     {
@@ -40619,8 +41500,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-fa798fd52796fc422d32",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "fa798fd52796fc422d32c944b92b5cb62eb8e8816c05cfd365a1999365d1aaed",
+        "source_size": 158565
       }
     },
     {
@@ -40632,8 +41521,16 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-5e6cab26d4b6af0d651f",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "5e6cab26d4b6af0d651f445860466944622de4517f4fefafe562c0a292e4f8ed",
+        "source_size": 211800
       }
     },
     {
@@ -40673,22 +41570,69 @@
       "sanitized": false,
       "disabled": false,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "author",
+        "source": "backport-recovered-798ddb8d8a10062f7001",
+        "member": null,
+        "transform": {
+          "encoding": "utf-8",
+          "bom": false,
+          "newline": "crlf"
+        },
+        "source_sha256": "798ddb8d8a10062f700170d740c8598e589492fc808d0f3ee9d30f63969660f5",
+        "source_size": 2514
       }
     },
     {
       "path": "SPT/user/mods/WTT-ContentBackport/WTT-ContentBackport.dll",
-      "sha256": "81ef6164760235d7d589945822d097a9a71a9e1558b5dd4c46bd121d1d00cd37",
+      "sha256": "d3bba9bbc55733f3b6995252eba88c4ec42f4dde4fa1a2c9301054f2ee8c874e",
       "size": 51712,
       "mode": "server",
       "component": "WTT-ContentBackport",
       "sanitized": false,
       "disabled": false,
       "version": "1.0.7.0",
+      "snapshot_sha256": "81ef6164760235d7d589945822d097a9a71a9e1558b5dd4c46bd121d1d00cd37",
+      "snapshot_size": 51712,
+      "locally_source_reproduced": true,
       "provider": {
-        "kind": "manual",
-        "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+        "kind": "source-build",
+        "project": "backport-server",
+        "sources": [
+          "dotnet-sdk-9.0.305-win-x64",
+          "nuget-fastcloner-3.3.16",
+          "nuget-harmonyx-2.15.0",
+          "nuget-jetbrains.annotations-2025.2.2",
+          "nuget-microsoft.extensions.dependencyinjection.abstractions-9.0.9",
+          "nuget-mono.cecil-0.11.6",
+          "nuget-monomod.backports-1.1.2",
+          "nuget-monomod.core-1.3.0",
+          "nuget-monomod.ilhelpers-1.1.0",
+          "nuget-monomod.runtimedetour-25.3.0",
+          "nuget-monomod.utils-25.0.8",
+          "nuget-semanticversioning-3.0.0",
+          "nuget-sptarkov.common-4.0.13",
+          "nuget-sptarkov.di-4.0.13",
+          "nuget-sptarkov.reflection-4.0.13",
+          "nuget-sptarkov.server.core-4.0.13",
+          "nuget-system.io.hashing-9.0.9",
+          "nuget-system.reflection.emit-4.7.0",
+          "nuget-system.text.json-5.0.2",
+          "nuget-wtt-servercommonlib-2.0.20",
+          "source-backport-034d1db04c9bdfe1d0f5",
+          "source-backport-2a098c319f75053dbf09",
+          "source-backport-2b514ed592d3d0031c19",
+          "source-backport-74f7e546e76ffbaa11a5",
+          "source-backport-9f090ecdd4d1a2d39cb8",
+          "source-backport-ade910e8dc95bc0c6d20",
+          "source-backport-c19aec413125f4111eb8",
+          "source-backport-c41e54e8c9514f8141ab",
+          "source-backport-cdd9ba8c8a239632cec0",
+          "source-backport-dc641106c4fa779ac21b",
+          "source-backport-e056b1352cbfa59b9424",
+          "source-backport-eac6b6263d5b9139aa28",
+          "source-backport-fcf2dbe4c3eb87d3dff8"
+        ],
+        "description": "Locally compiled from pinned unmodified author source with a verified reproducible output. Build provenance differs from the unavailable original DLL; see SOURCE-BUILD-PROVENANCE.json."
       }
     },
     {

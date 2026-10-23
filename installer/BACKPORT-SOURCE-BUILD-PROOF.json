@@ -1,0 +1,70 @@
+{
+  "sdk": "9.0.305",
+  "scope": "Static metadata, IL, structural compiler temporary normalization, and reproducible output hashes. No gameplay or live DLL execution.",
+  "checks": [
+    {
+      "project": "backport-client",
+      "sha256": "35db8dd0609db696dd1e19dfdaf28e783eff7c993ce91cc9ca3783249e4a8919",
+      "size": 15360,
+      "raw_il_metadata_methods_identical": 45,
+      "total_methods": 45,
+      "differing_methods": [],
+      "tables": {
+        "assembly": true,
+        "refs": true,
+        "types": true,
+        "fields": true,
+        "methods": true,
+        "typeRefs": true,
+        "memberRefs": true,
+        "attrs": true,
+        "standalone": true,
+        "userStrings": true
+      },
+      "private_owner_data_in_report": false,
+      "source_code_modified": false,
+      "binary_patched": false,
+      "gameplay_test_performed": false,
+      "two_different_build_and_reference_paths_same_hash": true
+    },
+    {
+      "project": "backport-server",
+      "sha256": "d3bba9bbc55733f3b6995252eba88c4ec42f4dde4fa1a2c9301054f2ee8c874e",
+      "size": 51712,
+      "raw_il_metadata_methods_identical": 78,
+      "total_methods": 79,
+      "differing_methods": [
+        "EditFilters"
+      ],
+      "tables": {
+        "assembly": true,
+        "refs": true,
+        "types": true,
+        "fields": true,
+        "methods": false,
+        "typeRefs": true,
+        "memberRefs": true,
+        "attrs": true,
+        "standalone": false,
+        "userStrings": true
+      },
+      "private_owner_data_in_report": false,
+      "source_code_modified": false,
+      "binary_patched": false,
+      "gameplay_test_performed": false,
+      "two_different_build_and_reference_paths_same_hash": true,
+      "structural_collection_expression_proof_passed": true,
+      "structural_normalization_receipt": {
+        "integer_constant_stores_removed": 24,
+        "constant_index_updates_folded": 2,
+        "constant_reads_folded": 35,
+        "span_temporaries_with_same_block_definitions": 11,
+        "original_instruction_count": 902,
+        "normalized_instruction_count": 850,
+        "removed_integer_stores_not_live_out_of_block": true,
+        "folded_integer_locals_have_no_address_uses": true,
+        "all_span_reads_have_same_block_definitions": true
+      }
+    }
+  ]
+}

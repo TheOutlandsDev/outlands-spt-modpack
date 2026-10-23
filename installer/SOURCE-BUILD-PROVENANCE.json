@@ -1,0 +1,94 @@
+[
+  {
+    "id": "armory-client",
+    "snapshot_sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+    "proof": {
+      "canonical_methods_identical": 35,
+      "canonical_public_api_fields_constants_initialdata_identical": true,
+      "reference_difference": "SPT reflection reference builds against exact installed 4.0.13 prerequisite; original 4.0.11",
+      "source_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+      "original_informational_commit": "f62171148778da23dbe50d284f446bb183782e46",
+      "explanation": "The installed binary names the earlier source revision f62171148778da23dbe50d284f446bb183782e46. The following author release-metadata commit 0ea5411b392990b8ffc1161411824e865980e82d contains the source matching its runtime IL. The generated DLL truthfully records the selected author source revision.",
+      "final_canonical_method_match_count": 35,
+      "final_canonical_fields_types_constants_initialdata_identical": true,
+      "cross_path_sha256_identical": true,
+      "no_local_owner_path_in_dll_or_pdb": true,
+      "all_sdk_game_package_build_roots_relocated_sha256_identical": true,
+      "source_checkout": "Original author UTF-8 source with standard Windows CRLF checkout; BOM preserved; no source logic edits or IL patches."
+    },
+    "size": 11264,
+    "sha256": "360d928775413de511df2a1b04237bf3c15d1c809e3962c8c790258861601c0d",
+    "author_repo": "https://github.com/WelcomeToThursday/WTT-Armory",
+    "author_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+    "license": "CC-BY-NC-ND-4.0",
+    "target_path": "BepInEx/plugins/WTT-ArmoryClient/WTT-ArmoryClient.dll"
+  },
+  {
+    "id": "armory-server",
+    "snapshot_sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+    "proof": {
+      "canonical_methods_identical": 91,
+      "canonical_public_api_fields_constants_initialdata_identical": true,
+      "reference_difference": null,
+      "source_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+      "original_informational_commit": "f62171148778da23dbe50d284f446bb183782e46",
+      "explanation": "The installed binary names the earlier source revision f62171148778da23dbe50d284f446bb183782e46. The following author release-metadata commit 0ea5411b392990b8ffc1161411824e865980e82d contains the source matching its runtime IL. The generated DLL truthfully records the selected author source revision.",
+      "final_canonical_method_match_count": 91,
+      "final_canonical_fields_types_constants_initialdata_identical": true,
+      "cross_path_sha256_identical": true,
+      "no_local_owner_path_in_dll_or_pdb": true,
+      "all_sdk_game_package_build_roots_relocated_sha256_identical": true,
+      "source_checkout": "Original author UTF-8 source with standard Windows CRLF checkout; BOM preserved; no source logic edits or IL patches."
+    },
+    "size": 77824,
+    "sha256": "f4e44f2b38339b1cfb6cbd6f1566902a5494764e6bf6400313154a85ff8c042a",
+    "author_repo": "https://github.com/WelcomeToThursday/WTT-Armory",
+    "author_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+    "license": "CC-BY-NC-ND-4.0",
+    "target_path": "SPT/user/mods/WTT-Armory/WTT-Armory.dll"
+  },
+  {
+    "id": "backport-client",
+    "snapshot_sha256": "927279ae3005e066564360571ff4cc56c963819b3df02a038d2b5062536e779b",
+    "size": 15360,
+    "sha256": "35db8dd0609db696dd1e19dfdaf28e783eff7c993ce91cc9ca3783249e4a8919",
+    "proof": {
+      "method_count": 45,
+      "raw_il_equal_methods": 45,
+      "runtime_metadata_equal": true,
+      "structural_collection_temporary_proof": false,
+      "author_source_code_modified": false,
+      "binary_patched": false,
+      "two_different_build_and_reference_paths_same_sha256": true
+    },
+    "target_path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackportClient.dll",
+    "author_repo": "https://github.com/WelcomeToThursday/Tarkov-1.0-Backport",
+    "author_commits": [
+      "a463cf4543264951890cc79e948196509c6e3d38",
+      "1f711def4d45e4f4ab17c0c81115d48d3f8524d6"
+    ],
+    "license": "MIT"
+  },
+  {
+    "id": "backport-server",
+    "snapshot_sha256": "81ef6164760235d7d589945822d097a9a71a9e1558b5dd4c46bd121d1d00cd37",
+    "size": 51712,
+    "sha256": "d3bba9bbc55733f3b6995252eba88c4ec42f4dde4fa1a2c9301054f2ee8c874e",
+    "proof": {
+      "method_count": 79,
+      "raw_il_equal_methods": 78,
+      "runtime_metadata_equal": true,
+      "structural_collection_temporary_proof": true,
+      "author_source_code_modified": false,
+      "binary_patched": false,
+      "two_different_build_and_reference_paths_same_sha256": true
+    },
+    "target_path": "SPT/user/mods/WTT-ContentBackport/WTT-ContentBackport.dll",
+    "author_repo": "https://github.com/WelcomeToThursday/Tarkov-1.0-Backport",
+    "author_commits": [
+      "a463cf4543264951890cc79e948196509c6e3d38",
+      "1f711def4d45e4f4ab17c0c81115d48d3f8524d6"
+    ],
+    "license": "MIT"
+  }
+]

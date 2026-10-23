@@ -3,7 +3,7 @@ param(
     [ValidateSet('Plan','Download','Assemble','Install','Verify')][string]$Action = 'Plan',
     [ValidateSet('Client','SelfHost')][string]$Mode = 'Client',
     [string]$SptRoot,
-    [string]$CacheRoot = (Join-Path $env:LOCALAPPDATA 'OutlandsSPT\0.3.0'),
+    [string]$CacheRoot = (Join-Path $env:LOCALAPPDATA 'OutlandsSPT\0.4.0'),
     [string[]]$ImportRoot = @(),
     [string[]]$SourceId = @(),
     [switch]$NoDownload,
@@ -13,7 +13,11 @@ $ErrorActionPreference = 'Stop'
 $package = [IO.Path]::GetFullPath($PSScriptRoot)
 $plan = Get-Content -LiteralPath (Join-Path $package 'download-plan.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $rows = @($plan.files | Where-Object { $Mode -eq 'SelfHost' -or $_.mode -eq 'client' })
-$needed = @{}; foreach ($row in $rows) { if ($row.provider.kind -eq 'author') { $needed[$row.provider.source] = $true } }
+$needed = @{};$buildNeeded=@{}
+foreach ($row in $rows) {
+    if ($row.provider.kind -eq 'author') { $needed[$row.provider.source] = $true }
+    elseif ($row.provider.kind -eq 'source-build') { foreach ($id in $row.provider.sources) { $needed[$id]=$true;$buildNeeded[$id]=$true } }
+}
 $sources = @($plan.sources | Where-Object { $needed.ContainsKey($_.id) -and (-not $SourceId.Count -or $_.id -in $SourceId) })
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
@@ -54,7 +58,7 @@ if ($Action -eq 'Install') {
 }
 $manual = @($rows | Where-Object { $_.provider.kind -eq 'manual' })
 if ($Action -eq 'Plan') {
-    [ordered]@{mode=$Mode;required_files=$rows.Count;pinned_author_downloads=$sources.Count;download_bytes=($sources | Measure-Object bytes -Sum).Sum;manual_files=$manual.Count;manual_components=@($manual.component | Sort-Object -Unique);automatic_full_setup=($manual.Count -eq 0);note='Author binaries/assets are downloaded directly, never hosted in this installer. No game/SPT files or private account/network values are supplied. Missing or mismatched files block installation.'} | ConvertTo-Json -Depth 6
+    [ordered]@{mode=$Mode;required_files=$rows.Count;pinned_downloads=$sources.Count;download_bytes=($sources | Measure-Object bytes -Sum).Sum;source_built_files=@($rows | Where-Object { $_.provider.kind -eq 'source-build' }).Count;manual_files=$manual.Count;manual_components=@($manual.component | Sort-Object -Unique);automatic_full_setup=($manual.Count -eq 0);note='Downloads come from pinned authors, approved archived originals and Microsoft compiler/package sources. Four unavailable WTT DLLs are compiled locally from pinned author source. No game/SPT files or private account/network values are supplied. Missing or mismatched files block installation.'} | ConvertTo-Json -Depth 6
     exit 0
 }
 if ($Action -eq 'Verify') {
@@ -62,7 +66,8 @@ if ($Action -eq 'Verify') {
     & (Join-Path $package 'Outlands-Setup.ps1') -Action Audit -Mode $Mode -SptRoot $SptRoot
     exit $LASTEXITCODE
 }
-$cache = [IO.Path]::GetFullPath($CacheRoot)
+$cache = [IO.Path]::GetFullPath($CacheRoot).TrimEnd('\','/')
+if ($cache -eq [IO.Path]::GetPathRoot([IO.Path]::GetFullPath($CacheRoot)).TrimEnd('\','/')) { throw 'Choose a dedicated cache subfolder, not a drive root.' }
 $archives = Safe-Path $cache 'archives'; $stage = Safe-Path $cache ('stage-' + $Mode)
 if ($SptRoot) {
     $targetRoot = [IO.Path]::GetFullPath($SptRoot).TrimEnd('\','/')
@@ -83,7 +88,7 @@ function Download-Source($Source) {
             for ($redirect=0; $redirect -lt 10; $redirect++) {
                 if ($url.Scheme -ne 'https') { throw 'An author download redirected to insecure HTTP.' }
                 $request = [Net.HttpWebRequest]::Create($url)
-                $request.UserAgent = 'Outlands-SPT-Author-Installer/0.3.0'
+                $request.UserAgent = 'Outlands-SPT-Author-Installer/0.4.0'
                 $request.AllowAutoRedirect = $false
                 $request.Timeout = 60000; $request.ReadWriteTimeout = 60000
                 $response = $request.GetResponse()
@@ -241,6 +246,21 @@ function Copy-Member([string]$Archive,$Source,$Row,[string]$ImportMember) {
         if ($transform.encoding -ne 'utf-8' -or $transform.newline -notin @('lf','crlf') -or (File-Sha $temp) -ne $Row.provider.source_sha256) { throw 'Author text source or permitted normalization does not match.' }
         $utf8=New-Object Text.UTF8Encoding($false,$true)
         $text=[IO.File]::ReadAllText($temp,$utf8).Replace("`r`n","`n")
+        if ($transform.type -eq 'utf8-byte-edits') {
+            if ($Row.path -notmatch '\.(json|jsonc|cfg)$' -or $sourceSize -gt 64MB) { throw 'Text edit recipes are limited to pinned configuration/data text.' }
+            $bytes=$utf8.GetBytes($text);$edited=New-Object IO.MemoryStream;$position=0
+            try {
+                foreach ($edit in @($transform.edits | Sort-Object start_byte)) {
+                    $start=[long]$edit.start_byte;$delete=[long]$edit.delete_bytes
+                    if ($start -lt $position -or $delete -lt 0 -or $start+$delete -gt $bytes.Length) { throw 'Overlapping or out-of-bounds text edit recipe.' }
+                    $edited.Write($bytes,$position,($start-$position))
+                    $insert=$utf8.GetBytes([string]$edit.insert_utf8)
+                    $edited.Write($insert,0,$insert.Length);$position=$start+$delete
+                }
+                $edited.Write($bytes,$position,($bytes.Length-$position))
+                $text=$utf8.GetString($edited.ToArray())
+            } finally { $edited.Dispose() }
+        } elseif ($transform.type -and $transform.type -ne 'utf8-newlines') { throw 'Unknown text transform recipe.' }
         if ($transform.newline -eq 'crlf') { $text=$text.Replace("`n","`r`n") }
         [IO.File]::WriteAllText($temp,$text,(New-Object Text.UTF8Encoding([bool]$transform.bom)))
     }
@@ -292,8 +312,8 @@ foreach ($row in $rows) {
     $authorRows[$id].Add($row)
 }
 foreach ($source in $sources) {
-    $sourceRows=@($authorRows[$source.id] | Where-Object { -not (Matches (Safe-Path $stage ('payload/'+$_.path)) $_) })
-    if (-not $sourceRows.Count) { continue }
+    $sourceRows=@($authorRows[$source.id] | Where-Object { $_ -and -not (Matches (Safe-Path $stage ('payload/'+$_.path)) $_) })
+    if (-not $sourceRows.Count -and -not $buildNeeded.ContainsKey($source.id)) { continue }
     $archive=Safe-Path $archives ($source.id+'.download')
     try {
         if (-not (Test-Path -LiteralPath $archive)) {
@@ -314,13 +334,59 @@ foreach ($source in $sources) {
     } catch { $problems+=@{source=$source.id;problem=$_.Exception.Message};Write-Warning ('Could not complete author source '+$source.id+'. See report.json; no game installation has changed.') }
 }
 
+function Json-String([string]$Value) {
+    $builder=New-Object Text.StringBuilder;$null=$builder.Append('"')
+    foreach ($character in $Value.ToCharArray()) {
+        $code=[int]$character
+        if ($code -eq 34) { $null=$builder.Append('\"') }
+        elseif ($code -eq 92) { $null=$builder.Append('\\') }
+        elseif ($code -lt 32) { $null=$builder.Append(('\u'+$code.ToString('x4'))) }
+        else { $null=$builder.Append($character) }
+    }
+    $null=$builder.Append('"');return $builder.ToString()
+}
+$rowByPath=@{};foreach ($row in $rows) { $rowByPath[$row.path]=$row }
+foreach ($row in @($rows | Where-Object { $_.provider.kind -eq 'derived' })) {
+    $destination=Safe-Path $stage ('payload/'+$row.path)
+    if (Matches $destination $row) { continue }
+    try {
+        if ($row.provider.recipe -ne 'unique-bot-names') { throw 'Unknown local derivation recipe.' }
+        $names=New-Object 'Collections.Generic.List[string]'
+        $seen=New-Object 'Collections.Generic.HashSet[string]' ([StringComparer]::Ordinal)
+        foreach ($inputRelative in $row.provider.inputs) {
+            if (-not $rowByPath.ContainsKey($inputRelative)) { throw 'Derivation input is not a locked file.' }
+            $inputFile=Safe-Path $stage ('payload/'+$inputRelative)
+            if (-not (Matches $inputFile $rowByPath[$inputRelative])) { throw 'Derivation input is missing or has changed.' }
+            $data=Get-Content -LiteralPath $inputFile -Raw -Encoding UTF8 | ConvertFrom-Json
+            foreach ($name in $data.Names) {
+                if ($name -isnot [string]) { throw 'Invalid name data in locked input.' }
+                if ($seen.Add($name)) { $names.Add($name) }
+            }
+        }
+        $lines=New-Object 'Collections.Generic.List[string]';$lines.Add('{');$lines.Add('  "Names": [')
+        for ($index=0;$index -lt $names.Count;$index++) {
+            $comma=if ($index -lt $names.Count-1) { ',' } else { '' }
+            $lines.Add('    '+(Json-String $names[$index])+$comma)
+        }
+        $lines.Add('  ]');$lines.Add('}')
+        New-Item -ItemType Directory -Force -Path (Split-Path -Parent $destination) | Out-Null
+        [IO.File]::WriteAllText($destination,($lines -join "`r`n"),(New-Object Text.UTF8Encoding($false)))
+        if (-not (Matches $destination $row)) { throw 'Locally derived file checksum mismatch.' }
+    } catch { $problems+=@{source='local-derivation';problem=$_.Exception.Message} }
+}
+$buildRows=@($rows | Where-Object { $_.provider.kind -eq 'source-build' -and -not (Matches (Safe-Path $stage ('payload/'+$_.path)) $_) })
+if ($buildRows.Count -and -not $SourceId.Count) {
+    try {
+        & (Join-Path $package 'Build-Outlands-Sources.ps1') -BuildPlan $plan.builds -Rows $buildRows -ArchivesRoot $archives -StageRoot $stage -CacheRoot $cache -SptRoot $SptRoot -Sources @($plan.sources)
+    } catch { $problems+=@{source='local-source-build';problem=$_.Exception.Message};Write-Warning 'Local source build could not complete. See the cache report; no game installation has changed.' }
+}
 $missing=@()
 foreach ($row in $rows) { if (-not (Matches (Safe-Path $stage ('payload/'+$row.path)) $row)) { $missing+=@{path=$row.path;component=$row.component;provider=$row.provider.kind;sha256=$row.sha256;size=$row.size} } }
-$report=[ordered]@{version='0.3.0';mode=$Mode;required_files=$rows.Count;verified_files=($rows.Count-$missing.Count);ready=($missing.Count -eq 0);missing=$missing;source_problems=$problems;game_installation_changed=$false}
+$report=[ordered]@{version='0.4.0';mode=$Mode;required_files=$rows.Count;verified_files=($rows.Count-$missing.Count);ready=($missing.Count -eq 0);missing=$missing;source_problems=$problems;game_installation_changed=$false}
 [IO.File]::WriteAllText((Safe-Path $cache ('report-'+$Mode+'.json')),($report | ConvertTo-Json -Depth 10),(New-Object Text.UTF8Encoding($false)))
 Write-Host ('Verified '+($rows.Count-$missing.Count)+' / '+$rows.Count+' files. Missing: '+$missing.Count+'.')
 if ($missing.Count) {
-    Write-Host 'Incomplete: no installation was performed. Obtain the exact author files listed in the report, extract locally, then rerun with -ImportRoot. Do not substitute latest releases.'
+    Write-Host 'Incomplete: no installation was performed. See source_problems in the cache report. Rerun with your compatible -SptRoot for local compilation and allow pinned downloads. Exact local originals remain optional; latest releases are not substituted.'
     exit 2
 }
 foreach ($name in @('setup-lock.json','Outlands-Setup.ps1','README.md','PLAYING.md','mod-downloads.json','build.json')) {

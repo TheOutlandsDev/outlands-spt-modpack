@@ -1,0 +1,408 @@
+{
+  "schema": "outlands-source-build-proof/1",
+  "component": "WTT Armory 2.0.5",
+  "author_repo": "https://github.com/WelcomeToThursday/WTT-Armory",
+  "author_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+  "source_policy": "Download unmodified author sources. Apply standard Windows CRLF checkout preserving BOM so verbatim string literals match the installed build. No source logic or IL patches. Never run the author project or postbuild targets.",
+  "sdk": {
+    "id": "dotnet-sdk-9.0.305-win-x64",
+    "sdk_version": "9.0.305",
+    "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.305/dotnet-sdk-9.0.305-win-x64.zip",
+    "bytes": 298449616,
+    "sha256": "28d434598cead927f4b845a4b709f912aa0db151067d18c8db4d723727e5e6a9",
+    "sha512": "dba55e7566acf4f33bf0dc4f2378bca891a3320070c11a24ac27e22ffdd6d1ffb11aac670d4b5f2a056d0698c72db23a787749e054c828109b6554b4062bc31d",
+    "official_release_metadata_url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/9.0/releases.json"
+  },
+  "source_pins": [
+    {
+      "id": "armory-src-a57c28573af6c7f4",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Chatbot/Commands/WelcomeGiftCommand.cs",
+      "bytes": 9864,
+      "sha256": "f2d2e03f0e77e64bba398ed381b9ad90eb7c4b4c36c92543e17b51aca2bafc15",
+      "repo_path": "WTT-Armory/Chatbot/Commands/WelcomeGiftCommand.cs"
+    },
+    {
+      "id": "armory-src-194f49473b515910",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Chatbot/IWTTCommand.cs",
+      "bytes": 420,
+      "sha256": "8ba3bff4a3fdc50433ad5b1728a8045d09e46afba5d204902595fbfb536a2ef1",
+      "repo_path": "WTT-Armory/Chatbot/IWTTCommand.cs"
+    },
+    {
+      "id": "armory-src-376fa58305b209d6",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Chatbot/WTTBot.cs",
+      "bytes": 27370,
+      "sha256": "3fc7fab8a2fc38fb52d7cead6e1151e296876faac7c0f7d89a204a0bab0597ea",
+      "repo_path": "WTT-Armory/Chatbot/WTTBot.cs"
+    },
+    {
+      "id": "armory-src-b98ab025481125d9",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Chatbot/WTTChatbotCommands.cs",
+      "bytes": 1243,
+      "sha256": "669ac27a51de86d4efca14691cacdd75ca51c5220958e22e7adfe3878572082f",
+      "repo_path": "WTT-Armory/Chatbot/WTTChatbotCommands.cs"
+    },
+    {
+      "id": "armory-src-4bc87aa1cdd681d2",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Helpers/ArmoryQuestHelper.cs",
+      "bytes": 13909,
+      "sha256": "8b9100b1463b685813815595f6a7b567fa3c6698006601bc1a777d2abf4785ed",
+      "repo_path": "WTT-Armory/Helpers/ArmoryQuestHelper.cs"
+    },
+    {
+      "id": "armory-src-2c5c791cc3955bd9",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Models/WTTWelcomeGiftData.cs",
+      "bytes": 179,
+      "sha256": "f40b907074cc3f2bf1422e3d29c82feac9a41b304dc707839cadc443b5a1d092",
+      "repo_path": "WTT-Armory/Models/WTTWelcomeGiftData.cs"
+    },
+    {
+      "id": "armory-src-d597f05ee12561cc",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/Routes/WelcomeGiftRoute.cs",
+      "bytes": 3591,
+      "sha256": "e45ebea9a11c6af7a00e6451afd4fe9343da0ee59d2b07d480254be489a5c0c5",
+      "repo_path": "WTT-Armory/Routes/WelcomeGiftRoute.cs"
+    },
+    {
+      "id": "armory-src-0503a12bd4871172",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-Armory/WTTArmory.cs",
+      "bytes": 2685,
+      "sha256": "04b1b2c401b4237958513a1b9827caffc45cfaaedc9e792489c371fd6b1e68b5",
+      "repo_path": "WTT-Armory/WTTArmory.cs"
+    },
+    {
+      "id": "armory-src-954c2a3b9f7ed871",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-ArmoryClient/Patches/ShootPatch.cs",
+      "bytes": 2490,
+      "sha256": "5b77967e8d92bdf3bd7affbe3d23554095aacb803c687f94f8fb170c06da9687",
+      "repo_path": "WTT-ArmoryClient/Patches/ShootPatch.cs"
+    },
+    {
+      "id": "armory-src-0327e9be29ea1fb1",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-ArmoryClient/Patches/UpdateWeaponVariablesPatch.cs",
+      "bytes": 1502,
+      "sha256": "935f676949b7a5f6140949bdd0fa883447d3b4ae407aecf086e275f65748f471",
+      "repo_path": "WTT-ArmoryClient/Patches/UpdateWeaponVariablesPatch.cs"
+    },
+    {
+      "id": "armory-src-069e019b4ad8e54b",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-ArmoryClient/Plugin.cs",
+      "bytes": 4189,
+      "sha256": "942d577064ae0e4cbde9c1a8f494c949760f3756d1f7328aea547e8d7576ef2a",
+      "repo_path": "WTT-ArmoryClient/Plugin.cs"
+    },
+    {
+      "id": "armory-src-2d0ce2fcb73a0191",
+      "url": "https://raw.githubusercontent.com/WelcomeToThursday/WTT-Armory/0ea5411b392990b8ffc1161411824e865980e82d/WTT-ArmoryClient/Properties/ConfigurationManagerAttributes.cs",
+      "bytes": 621,
+      "sha256": "11dc137a1fe18990150b1e08551d6f6c49343b091723ea1bd10e458692e3e010",
+      "repo_path": "WTT-ArmoryClient/Properties/ConfigurationManagerAttributes.cs"
+    }
+  ],
+  "package_pins": [
+    {
+      "id": "fastcloner.3.3.16",
+      "url": "https://api.nuget.org/v3-flatcontainer/fastcloner/3.3.16/fastcloner.3.3.16.nupkg",
+      "bytes": 115865,
+      "sha256": "521f27e064e0a24623ec59271e5fae8fe37095300361256f8ddfcb70d82efd2f",
+      "package_id": "FastCloner",
+      "package_version": "3.3.16",
+      "filename": "fastcloner.3.3.16.nupkg"
+    },
+    {
+      "id": "jetbrains.annotations.2025.2.2",
+      "url": "https://api.nuget.org/v3-flatcontainer/jetbrains.annotations/2025.2.2/jetbrains.annotations.2025.2.2.nupkg",
+      "bytes": 196349,
+      "sha256": "05fee6d0fdc3401e3b1ab31b9cd9577778bdfc6312e4183a8082d6a5db2356f6",
+      "package_id": "JetBrains.Annotations",
+      "package_version": "2025.2.2",
+      "filename": "jetbrains.annotations.2025.2.2.nupkg"
+    },
+    {
+      "id": "microsoft.extensions.dependencyinjection.abstractions.9.0.9",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/9.0.9/microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg",
+      "bytes": 241415,
+      "sha256": "71f8dbc88ef5b6cc292024d5bd8a817427fca6c600d123180824a0d321b50476",
+      "package_id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "package_version": "9.0.9",
+      "filename": "microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg"
+    },
+    {
+      "id": "semanticversioning.3.0.0",
+      "url": "https://api.nuget.org/v3-flatcontainer/semanticversioning/3.0.0/semanticversioning.3.0.0.nupkg",
+      "bytes": 32447,
+      "sha256": "40152a64c5cd8adb21741a154286b7691b4cb18bcf08bea718b2b47d2889e5b6",
+      "package_id": "SemanticVersioning",
+      "package_version": "3.0.0",
+      "filename": "semanticversioning.3.0.0.nupkg"
+    },
+    {
+      "id": "sptarkov.common.4.0.3",
+      "url": "https://api.nuget.org/v3-flatcontainer/sptarkov.common/4.0.3/sptarkov.common.4.0.3.nupkg",
+      "bytes": 28238,
+      "sha256": "60920ce930390d281136b5f47841a415a72f445c10577a030e7cdb0facbd51a1",
+      "package_id": "SPTarkov.Common",
+      "package_version": "4.0.3",
+      "filename": "sptarkov.common.4.0.3.nupkg"
+    },
+    {
+      "id": "sptarkov.di.4.0.3",
+      "url": "https://api.nuget.org/v3-flatcontainer/sptarkov.di/4.0.3/sptarkov.di.4.0.3.nupkg",
+      "bytes": 29037,
+      "sha256": "da633035ea272d848211b9cdbe20dac6abf29f0ae9690ed26e739e2f55922eca",
+      "package_id": "SPTarkov.DI",
+      "package_version": "4.0.3",
+      "filename": "sptarkov.di.4.0.3.nupkg"
+    },
+    {
+      "id": "sptarkov.server.core.4.0.3",
+      "url": "https://api.nuget.org/v3-flatcontainer/sptarkov.server.core/4.0.3/sptarkov.server.core.4.0.3.nupkg",
+      "bytes": 1874925,
+      "sha256": "f605d652bfb9445a9773dca7bbeef29fac7ce053070b2232d7ef0469e8aa2812",
+      "package_id": "SPTarkov.Server.Core",
+      "package_version": "4.0.3",
+      "filename": "sptarkov.server.core.4.0.3.nupkg"
+    },
+    {
+      "id": "system.io.hashing.9.0.9",
+      "url": "https://api.nuget.org/v3-flatcontainer/system.io.hashing/9.0.9/system.io.hashing.9.0.9.nupkg",
+      "bytes": 171563,
+      "sha256": "dacf69fb3acddb50aed1b848715fd141c6eb7805b25b87bb91a747d13d01b8ab",
+      "package_id": "System.IO.Hashing",
+      "package_version": "9.0.9",
+      "filename": "system.io.hashing.9.0.9.nupkg"
+    },
+    {
+      "id": "wtt-servercommonlib.2.0.15",
+      "url": "https://api.nuget.org/v3-flatcontainer/wtt-servercommonlib/2.0.15/wtt-servercommonlib.2.0.15.nupkg",
+      "bytes": 138238,
+      "sha256": "9f3d889e59c0d3211500c9620b0c25cdf05225feeb12d92878325175c7868100",
+      "package_id": "WTT-ServerCommonLib",
+      "package_version": "2.0.15",
+      "filename": "wtt-servercommonlib.2.0.15.nupkg"
+    }
+  ],
+  "offline_restore": {
+    "all_transitive_packages_pinned": true,
+    "package_sources": "Verified local feed only",
+    "author_package_build_targets_and_analyzers_excluded": true
+  },
+  "projects": [
+    {
+      "id": "armory-client",
+      "mode": "client",
+      "author_repo": "https://github.com/WelcomeToThursday/WTT-Armory",
+      "author_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+      "version": "2.0.5",
+      "license": "CC-BY-NC-ND-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "license_evidence": "https://sp-mod.com/mod/2246/wtt-armory",
+      "snapshot": {
+        "bytes": 11264,
+        "sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+        "informational_source_revision": "f62171148778da23dbe50d284f446bb183782e46"
+      },
+      "generated": {
+        "bytes": 11264,
+        "sha256": "360d928775413de511df2a1b04237bf3c15d1c809e3962c8c790258861601c0d",
+        "informational_source_revision": "0ea5411b392990b8ffc1161411824e865980e82d"
+      },
+      "static_comparison": {
+        "canonical_method_bodies_and_signatures_matched": 35,
+        "total_methods": 35,
+        "types_and_layouts_matched": 7,
+        "fields_constants_and_initial_data_matched": 31,
+        "type_references_count": 59,
+        "member_references_count": 52,
+        "standalone_signature_count": 3,
+        "all_user_string_values_equal": true,
+        "user_string_count": 18,
+        "method_type_field_custom_attributes_equal": true,
+        "assembly_reference_changes": [
+          {
+            "assembly": "spt-reflection",
+            "snapshot_version": "4.0.11.0",
+            "generated_version": "4.0.13.0",
+            "reason": "The generated client explicitly targets the pinned SPT 4.0.13 prerequisite."
+          }
+        ],
+        "build_metadata_differences": [
+          "Source revision informational metadata",
+          "Deterministic module and PDB identifiers/checksums",
+          "Virtual source and symbol paths"
+        ]
+      },
+      "reproducibility": {
+        "run_A_B_different_build_paths": true,
+        "run_C_sdk_game_package_build_roots_all_relocated": true,
+        "paths_with_spaces_tested": true,
+        "output_sha256_equal_across_all_runs": true,
+        "no_local_owner_paths_in_dll_or_pdb": true
+      },
+      "source_files": [
+        {
+          "download_id": "armory-src-954c2a3b9f7ed871",
+          "repo_path": "WTT-ArmoryClient/Patches/ShootPatch.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 2549,
+            "sha256": "22da50efb536460d7ec36b0133524d9e84afe4471a689e9ffe4948a05b7d29d1"
+          }
+        },
+        {
+          "download_id": "armory-src-0327e9be29ea1fb1",
+          "repo_path": "WTT-ArmoryClient/Patches/UpdateWeaponVariablesPatch.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 1540,
+            "sha256": "6dcc9c3ef82704bf3a8b0948666aff67da036f28f50ae97b63dc1978745955a4"
+          }
+        },
+        {
+          "download_id": "armory-src-069e019b4ad8e54b",
+          "repo_path": "WTT-ArmoryClient/Plugin.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 4307,
+            "sha256": "c3c819cef0e8ca1515384eb30b11e705dd72dfe138da795327f69301a8f6fcec"
+          }
+        },
+        {
+          "download_id": "armory-src-2d0ce2fcb73a0191",
+          "repo_path": "WTT-ArmoryClient/Properties/ConfigurationManagerAttributes.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 655,
+            "sha256": "bee5b2d98d376eb2b186175ac012ed9f1c28107a328030b6f94bd3a372afa020"
+          }
+        }
+      ]
+    },
+    {
+      "id": "armory-server",
+      "mode": "server",
+      "author_repo": "https://github.com/WelcomeToThursday/WTT-Armory",
+      "author_commit": "0ea5411b392990b8ffc1161411824e865980e82d",
+      "version": "2.0.5",
+      "license": "CC-BY-NC-ND-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "license_evidence": "https://sp-mod.com/mod/2246/wtt-armory",
+      "snapshot": {
+        "bytes": 77824,
+        "sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+        "informational_source_revision": "f62171148778da23dbe50d284f446bb183782e46"
+      },
+      "generated": {
+        "bytes": 77824,
+        "sha256": "f4e44f2b38339b1cfb6cbd6f1566902a5494764e6bf6400313154a85ff8c042a",
+        "informational_source_revision": "0ea5411b392990b8ffc1161411824e865980e82d"
+      },
+      "static_comparison": {
+        "canonical_method_bodies_and_signatures_matched": 91,
+        "total_methods": 91,
+        "types_and_layouts_matched": 19,
+        "fields_constants_and_initial_data_matched": 166,
+        "type_references_count": 110,
+        "member_references_count": 240,
+        "standalone_signature_count": 23,
+        "all_user_string_values_equal": true,
+        "user_string_count": 340,
+        "method_type_field_custom_attributes_equal": true,
+        "assembly_reference_changes": [],
+        "build_metadata_differences": [
+          "Source revision informational metadata",
+          "Deterministic module and PDB identifiers/checksums",
+          "Virtual source and symbol paths"
+        ]
+      },
+      "reproducibility": {
+        "run_A_B_different_build_paths": true,
+        "run_C_sdk_game_package_build_roots_all_relocated": true,
+        "paths_with_spaces_tested": true,
+        "output_sha256_equal_across_all_runs": true,
+        "no_local_owner_paths_in_dll_or_pdb": true
+      },
+      "source_files": [
+        {
+          "download_id": "armory-src-a57c28573af6c7f4",
+          "repo_path": "WTT-Armory/Chatbot/Commands/WelcomeGiftCommand.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 10105,
+            "sha256": "b1882a642e3b4309f4c4d0bc7e4525d648d955a314d5f98dbcc2b31567be324c"
+          }
+        },
+        {
+          "download_id": "armory-src-194f49473b515910",
+          "repo_path": "WTT-Armory/Chatbot/IWTTCommand.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 432,
+            "sha256": "38e065bbc368ce3754854a40739904477f489dfb51c31e9e128e1c41a5f068b5"
+          }
+        },
+        {
+          "download_id": "armory-src-376fa58305b209d6",
+          "repo_path": "WTT-Armory/Chatbot/WTTBot.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 27717,
+            "sha256": "26c8b46a237ff29978df6ccafa9855291f2e8e04b1e83f34560ccb1fb1ba74dc"
+          }
+        },
+        {
+          "download_id": "armory-src-b98ab025481125d9",
+          "repo_path": "WTT-Armory/Chatbot/WTTChatbotCommands.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 1280,
+            "sha256": "789ec46d9faf990db2d1c3335bd423fde9a25fe7ccda829cde54295640cfa49d"
+          }
+        },
+        {
+          "download_id": "armory-src-4bc87aa1cdd681d2",
+          "repo_path": "WTT-Armory/Helpers/ArmoryQuestHelper.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 14141,
+            "sha256": "fdba6ec8adc087b79ff2996d884fececffbc7a5f1c627645395a810b39bcfed5"
+          }
+        },
+        {
+          "download_id": "armory-src-2c5c791cc3955bd9",
+          "repo_path": "WTT-Armory/Models/WTTWelcomeGiftData.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 185,
+            "sha256": "9abf8e543bb765c6f9fc5e9894d35bacb5c8e6f334423a57e2217068922f81e9"
+          }
+        },
+        {
+          "download_id": "armory-src-d597f05ee12561cc",
+          "repo_path": "WTT-Armory/Routes/WelcomeGiftRoute.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 3706,
+            "sha256": "a6d56a3be45dc40490052b306b7ba4598288dce13842ada0c079fe206b03f7a9"
+          }
+        },
+        {
+          "download_id": "armory-src-0503a12bd4871172",
+          "repo_path": "WTT-Armory/WTTArmory.cs",
+          "checkout_transform": {
+            "type": "git-windows-crlf",
+            "size": 2743,
+            "sha256": "95bc75b07845c311593b5644e6cf807553efbe425daf951ae2a3266069633f0a"
+          }
+        }
+      ]
+    }
+  ],
+  "validation_limits": {
+    "gameplay_or_multiplayer_test_performed": false,
+    "target_mod_code_executed": false,
+    "live_game_installation_changed": false,
+    "global_sdk_installed": false,
+    "third_party_dlls_rehosted": false
+  }
+}

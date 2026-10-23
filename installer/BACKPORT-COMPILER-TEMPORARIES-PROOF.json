@@ -1,0 +1,33 @@
+{
+  "method": "WTTContentBackport.Helpers.BaseGameItemEdits.EditFilters",
+  "normalizations": [
+    "Constant-fold integer temporaries only when no address uses and not live across basic-block exits, including exception edges",
+    "Name Span temporary definitions in instruction order; require every read to have a same-block definition",
+    "Renumber remaining local slots and branch/exception targets after removing proven temporary assignments"
+  ],
+  "original": {
+    "integer_constant_stores_removed": 11,
+    "constant_index_updates_folded": 0,
+    "constant_reads_folded": 22,
+    "span_temporaries_with_same_block_definitions": 11,
+    "original_instruction_count": 872,
+    "normalized_instruction_count": 850,
+    "removed_integer_stores_not_live_out_of_block": true,
+    "folded_integer_locals_have_no_address_uses": true,
+    "all_span_reads_have_same_block_definitions": true
+  },
+  "rebuilt": {
+    "integer_constant_stores_removed": 24,
+    "constant_index_updates_folded": 2,
+    "constant_reads_folded": 35,
+    "span_temporaries_with_same_block_definitions": 11,
+    "original_instruction_count": 902,
+    "normalized_instruction_count": 850,
+    "removed_integer_stores_not_live_out_of_block": true,
+    "folded_integer_locals_have_no_address_uses": true,
+    "all_span_reads_have_same_block_definitions": true
+  },
+  "normalized_il_locals_and_exception_regions_identical": true,
+  "raw_il_identical": false,
+  "source_code_or_binary_patched": false
+}

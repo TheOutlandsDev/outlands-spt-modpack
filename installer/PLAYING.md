@@ -1,27 +1,25 @@
-# Playing Outlands SPT
+# Playing The Outlands SPT
 
-This setup targets SPT **4.0.13**, EFT **0.16.9.40087**, Fika client **2.2.5.0** and Fika server **author release 2.2.4** (assembly file version 2.0.9). Obtain a legitimate EFT installation and compatible SPT separately. The package has no retail game or base SPT runtime. Do not replace a working install with latest mod releases: use the versions and file hashes in `setup-lock.json`.
+Target: **SPT 4.0.13 / EFT 0.16.9.40087 / Fika client 2.2.5 / Fika server author release 2.2.4**. Supply your own compatible legitimate EFT/SPT installation. Use this release's lock and downloader together.
 
-## Join the existing server over Tailscale
+## Join the Outlands server
 
-1. Use a separate compatible SPT installation. Get the **Client** files listed in the lock: client plugins, their assets and gameplay settings. The author installer fetches the pinned files directly and requires local imports for the source gaps in MANUAL-FILES.json.
-2. Install Tailscale from https://tailscale.com/download and have the server owner grant the intended device access privately. No invite link, auth key or private address is published here.
-3. Ask the server owner for their exact backend URL, including protocol and port. Put that URL in your launcher settings. Do not use `127.0.0.1` to connect to a different PC. This document does not generate or share accounts or passwords.
-4. If your PC **hosts a raid**, set Fika's F12 > Fika Core > Network > **Force IP** to **your own PC's Tailscale IPv4**, and **Force Bind IP** to your own Tailscale interface address (or its supported all-interface default). The backend server address and raid host address can be different. Do not put the backend's IP in another PC's Force IP. Tailscale normally avoids router port forwarding; verify the relevant application access in your own firewall/tailnet policy.
-5. Connect to the existing backend; create/use your own profile through its launcher. Your local SPT server need not run for this join mode. Wait for the server's mod bundles to synchronize if required, then join the same lobby/map and test spawning and extraction.
+1. Run **Start-Outlands.cmd**, choose **Client**, and install into a separate compatible SPT folder. This installs the client plugins, local assets and gameplay settings. No local backend is needed to join the existing server.
+2. Install [Tailscale](https://tailscale.com/download) and get device access privately from the server owner. This installer does not enroll your PC, change firewall rules or distribute access keys.
+3. Obtain the owner's private connection JSON. Choose **C** in the installer to preview it, then type **CONNECT** to apply the backend URL and create the webapp shortcut with verified backups. A private companion ZIP may already contain that JSON; a successful Client install then applies it automatically. Start the SPT launcher once and close it beforehand if its configuration file does not exist yet. The helper preserves existing launcher fields/account data and disables automatic login when changing servers.
+4. Connect using your own server profile. Private server addresses, invites and credentials stay outside the public repository. A webapp response is separate from a successful launcher connection or shared raid.
+5. If your PC **hosts a raid**, set Fika's F12 > Fika Core > Network > **Force IP** to **your own PC's Tailscale IPv4**. Use your own Tailscale interface address for **Force Bind IP**, or the supported all-interface default. The backend and raid host can be different PCs. Verify application access through your firewall/tailnet policy.
+6. Wait for required server bundles to synchronize, then test a shared lobby, spawning, mod asset loading and extraction. A first remote bundle transfer and fresh shared raid have not been verified by this packaging work.
 
-The snapshot preserves all observed client assets (including HollywoodFX and WTT client menu assets). Server bundle trees are in the **SelfHost** set. SPT has `/singleplayer/bundles` and `/files/bundle` endpoints; an actual remote first-connect bundle transfer has not been tested by this export. The client set's hashes cover the client plugin/config tree, not the generated bundle cache. If the server or a mod requires an additional local asset, resolve that before calling the setup playable. Do not claim a first-connect test from a successful file audit.
+The Client lock covers the local plugin/config/assets tree. Server bundle trees belong to SelfHost and can be transferred by SPT's bundle endpoints at first connection. A successful file audit does not prove remote asset delivery. Keep Client and server releases aligned, especially when comparing the locally source-built WTT DLLs with the older deployed originals.
 
-## Set up your own server
+## Host your own server
 
-1. Use a separate compatible SPT install with enough free space. Use **SelfHost**, which includes both client and server mod trees, all preserved assets and sanitized gameplay settings. Keep the same layout; do not flatten `SPT/user/mods` into `BepInEx/plugins`.
-2. The installer fetches SVM directly from its author with the other pinned downloads. The remaining source gaps are listed in `MANUAL-FILES.json`; supply those exact originals locally. `download-plan.json` is the authoritative list of author release/commit pins. `mod-downloads.json` records the observed assembly metadata and current provider coverage; those metadata versions can differ from release names.
-3. In `SPT/user/mods/fika-server/assets/configs/fika.jsonc`, replace sanitized loopback values under `server.SPT.http`: choose the local interface `ip`, and set `backendIp` to the address your players can reach. Set the listening/advertised ports consistently. For a Tailscale-only host, use that host's own Tailscale IPv4 as appropriate. Keep API keys, admin IDs, webhooks and account data private. The exported API key is empty; let the installed Fika server generate a new one. Generated profiles, certificates, relations and state are intentionally absent.
-4. Start your backend, check its mod load output and create fresh accounts. Connect the local client to your backend. Anyone hosting raids must also configure their own Fika network adapter as above.
-5. Back up saves before changes. Test a local launch, a remote Tailscale join, mod asset loading, a shared raid and extraction before advertising a verified playable download.
+1. Use **SelfHost** to install both client and server trees, the retained assets, the three deployed Outlands components and sanitized gameplay settings. SVM and other mods are fetched from their pinned sources automatically. Keep the observed directory layout.
+2. Configure the server for your own network in `SPT/user/mods/fika-server/assets/configs/fika.jsonc`. Sanitized `server.SPT.http` values use loopback: choose the appropriate local listening interface/IP, reachable backend address and ports. For a Tailscale host, use that host's own interface/address. Keep API keys, admin IDs and webhooks private; generate new local credentials. Profiles, certificates, relations and runtime state are intentionally absent.
+3. Point the local launcher and your players at your own backend. Do not apply the Outlands private connection profile to an independent self-host installation. Anyone hosting raids must configure their own Fika adapter as above.
+4. Check the backend's mod load output, create fresh accounts, then test local launch, remote join, bundle delivery, a shared raid and extraction. Keep profile backups before later mod changes.
 
-## Use the author installer
+The owner reported the original setup working. This installer preserves the documented setup and uses declared local author-source builds for four unavailable DLLs; those rebuilt DLLs have different hashes from the original release binaries. File/build validation is recorded in `VALIDATION.json` and `SOURCE-BUILD-PROVENANCE.json`. It does not establish a fresh multiplayer playtest.
 
-Use **Start-Outlands.cmd** or the commands in **README.md**. A complete verified stage is required before installation. The old 0.2.0 file tools and their commands are historical and are not the entrypoint for this installer.
-
-Original gameplay was owner-reported. This export was not launched or tested in a remote raid.
+References: [Fika client networking](https://wiki.project-fika.com/fika-configuration/client), [Fika server settings](https://wiki.project-fika.com/fika-configuration/server). Those pages can describe newer releases; this installer uses the locked versions above.

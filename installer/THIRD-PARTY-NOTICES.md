@@ -11,3 +11,11 @@ MIT permission terms for that configuration data: Permission is hereby granted, 
 SVM, Fika code/art, WTT assets and every other downloaded mod remain governed by their original terms. This downloader does not expand redistribution rights. Never republish the assembled stage/cache as a full pack without separate clearance.
 
 Forge API: https://sp-mod.com/docs/index.html . Fika author releases: https://github.com/project-fika/Fika-Plugin/releases and https://github.com/project-fika/Fika-Server-CSharp/releases .
+
+## Verified archived originals and local builds
+
+WelcomeToThursday / GrooveypenguinX and contributors created WTT Armory and WTT Content Backport. Retained original Backport commits in DetectiveSquirrel and 1azyfox repositories are archive provenance, not authorship claims. Each archive source records its original author, repository and commit. Backport declares MIT; Armory declares CC BY-NC-ND. Author source and license locations are recorded in the download/build plan. The installer does not distribute rebuilt WTT binaries; compilation and declared Windows checkout normalization take place locally.
+
+BetterBackpacks is by Refringe. Its original Forge listing declared MIT. The exact installed client/server files are fetched from the retained public git-metalheadtwink/spt-project-pandora commit identified in download-plan.json. That archive does not contain a separate BetterBackpacks license notice; it is not used as a new license grant. Outlands does not rehost those files.
+
+Microsoft supplies the pinned portable .NET SDK and compiler/runtime reference packages. Other NuGet dependencies keep their package licenses. Their downloads are direct and hash pinned; this ZIP does not redistribute those packages. No author project post-build/deploy commands, third-party package build tasks or analyzers are run.

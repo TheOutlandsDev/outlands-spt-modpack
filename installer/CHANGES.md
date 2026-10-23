@@ -1,10 +1,11 @@
-# Outlands author installer 0.3.0
+# The Outlands SPT 0.4.0 — SPT 4.0.13
 
-- Adds a Windows launcher with Client and SelfHost modes; exact author downloads, cache/resume, ZIP/7z/extracted local imports, hash checks, staging, install preview, verified backups and file audit.
-- Downloads all third-party binaries/assets from original author endpoints or requires exact local originals. The release ZIP contains only tools, manifests, owner outputs and declarative settings.
-- Pins SPT 4.0.13 / EFT 0.16.9.40087; uses Fika client release 2.2.5 and server release 2.2.4. The installed server's 2.0.9 assembly metadata was misleading: the bytes match the author's 2.2.4 package.
-- Regenerates 443 configuration files from sanitized INI/JSON facts, with semantic equality checks. Original and generated hashes are recorded in CONFIGURATION-PROVENANCE.json. Private Fika credentials/addresses remain empty or loopback for local configuration.
-- Preserves the snapshot's observed paths and three deployed original mod components. Omits the three already-disabled Revival artifacts. Does not activate earlier experimental projects or relocate the nested NarcoNet deployment.
-- Original WTT CDN links are unavailable. Identical files still present in author GitHub repositories are pinned by commit and verified against the snapshot; declared UTF-8 newline/BOM transformations are also checked against final hashes. Some exact old DLL/data files still require local imports.
+- Removes all required manual mod imports. Client reconstructs 592 files; SelfHost reconstructs 2,857 files, including the retained assets and Outlands gameplay settings.
+- Adds pinned verified archived originals with separate original-author/archive attribution. Recovers BetterBackpacks and old WTT Backport assets/data. Temporary Fixes now uses the matching author 4.0.0 download.
+- Builds four unavailable WTT DLLs locally from pinned author source with a portable Microsoft SDK and pinned offline NuGet packages. New reproducible output hashes are declared beside original snapshot hashes. Armory matches 35 client/91 server canonical methods; Backport matches 45 client methods and 78 server raw methods, with the final method structurally matching after proven compiler-temporary normalization. Armory client's SPT reflection reference changes from 4.0.11 to the installed 4.0.13. No source logic or DLL bytes are patched. Source checkout uses recorded Windows CRLF/BOM normalization.
+- Adds exact-hash WTT text reconstruction recipes and generates BotCallsigns' combined names from verified downloaded lists.
+- Adds private connection preview/apply with verified launcher backups and a webapp shortcut. Public downloads contain no server addresses or credentials. Private companion packages stay local/private.
+- Uses The Outlands SPT branding, preserves three deployed Outlands components, and retains the original observed directory layout. The already-disabled Revival artifacts remain omitted. No earlier optional experiments are activated.
+- Pins SPT 4.0.13 / EFT 0.16.9.40087, Fika client author release 2.2.5 and Fika server author release 2.2.4 (server assembly file version 2.0.9).
 
-This documents packaging and observed file changes. It does not establish the origin of undocumented historical tweaks or confirm a fresh remote raid. See the repository's existing docs/CHANGES.md and custom-tools source for earlier documented work.
+This records packaging, reproducible builds and documented configuration changes. It does not invent undocumented historical tweaks or establish a fresh shared raid. Existing custom source and earlier changes remain in custom-tools and docs/CHANGES.md.

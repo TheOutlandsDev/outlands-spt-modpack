@@ -2,48 +2,6 @@
   "all_passed": true,
   "tests": [
     {
-      "name": "read-only-plan",
-      "exit": 0,
-      "passed": true
-    },
-    {
-      "name": "live-author-download",
-      "exit": 2,
-      "passed": true
-    },
-    {
-      "name": "cached-7z-byte-safe-extraction",
-      "exit": 2,
-      "passed": true
-    },
-    {
-      "name": "complete-client-local-import",
-      "exit": 0,
-      "passed": true
-    },
-    {
-      "name": "assembled-client-full-file-audit",
-      "exit": 0,
-      "passed": true
-    },
-    {
-      "name": "corrupt-author-cache-rejected",
-      "exit": 2,
-      "passed": true
-    },
-    {
-      "name": "complete-selfhost-local-import",
-      "passed": true,
-      "exit": 0,
-      "previously_completed_import_audit_unchanged": true
-    },
-    {
-      "name": "assembled-selfhost-full-file-audit",
-      "passed": true,
-      "exit": 0,
-      "previously_completed_import_audit_unchanged": true
-    },
-    {
       "name": "raw-original-normalization-and-selected-zip-import",
       "passed": true,
       "exit": 0,
@@ -53,19 +11,25 @@
       "name": "cache-overlap-rejected",
       "passed": true,
       "exit": 1,
-      "seconds": 0.5
+      "seconds": 0.7
+    },
+    {
+      "name": "trailing-separator-cache-overlap-rejected",
+      "passed": true,
+      "exit": 1,
+      "seconds": 0.6
     },
     {
       "name": "manifest-traversal-rejected",
       "passed": true,
       "exit": 1,
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "install-preview-no-writes",
       "passed": true,
       "exit": 0,
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "name": "install-apply-with-verified-profile-and-overwrite-backups",
@@ -80,21 +44,111 @@
       "seconds": 0.7
     },
     {
-      "name": "all-686-author-sources-reconstructed-without-local-imports",
+      "name": "author-byte-edits-and-generated-name-list",
       "passed": true,
-      "exit": 2,
-      "seconds": 104.0,
-      "verified_files": 2631,
-      "only_missing_files": "226 declared manual imports",
+      "exit": 0
+    },
+    {
+      "name": "out-of-bounds-data-recipe-rejected",
+      "passed": true,
+      "exit": 2
+    },
+    {
+      "name": "private-connection-preview-preserves-settings",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "name": "private-connection-apply-and-verified-backup",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "name": "credential-bearing-connection-url-rejected",
+      "passed": true,
+      "exit": 1
+    },
+    {
+      "name": "fresh-selfhost-source-only-reconstruction",
+      "passed": true,
+      "exit": 0,
+      "seconds": 549.0,
+      "verified_files": 2857,
+      "manual_imports": 0,
+      "empty_initial_stage": true,
       "source_problems": 0
+    },
+    {
+      "name": "fresh-selfhost-complete-file-audit",
+      "passed": true,
+      "exit": 0,
+      "verified_files": 2857
+    },
+    {
+      "name": "fresh-client-source-only-reconstruction",
+      "passed": true,
+      "exit": 0,
+      "seconds": 120.5,
+      "verified_files": 592,
+      "manual_imports": 0,
+      "empty_initial_stage": true,
+      "source_problems": 0
+    },
+    {
+      "name": "fresh-client-complete-file-audit",
+      "passed": true,
+      "exit": 0,
+      "verified_files": 592
+    },
+    {
+      "name": "powershell-5.1-generated-compiler-control-flow-and-output-staging",
+      "passed": true
+    },
+    {
+      "name": "ambient-msbuild-dotnet-nuget-profiler-environment-cleared",
+      "passed": true
+    },
+    {
+      "name": "ancestor-import-and-response-suppression-arguments-forwarded",
+      "passed": true
+    },
+    {
+      "name": "unlisted-sdk-cache-file-rejected-before-execution",
+      "passed": true
+    },
+    {
+      "name": "changed-sdk-cache-file-repaired-from-pinned-archive",
+      "passed": true
+    },
+    {
+      "name": "sdk-archive-checksum-mismatch-rejected",
+      "passed": true
+    },
+    {
+      "name": "generated-output-pin-mismatch-rejected-before-staging",
+      "passed": true
+    },
+    {
+      "name": "source-input-path-traversal-rejected",
+      "passed": true
     }
   ],
   "required_files": 2857,
+  "client_files": 592,
+  "fresh_empty_stage_source_only_reconstruction": true,
+  "manual_mod_imports": 0,
+  "source_built_dlls": 4,
+  "source_build_comparisons": {
+    "armory": "35/35 client and 91/91 server canonical methods match; client SPT reflection reference 4.0.11 to installed 4.0.13 declared",
+    "backport": "45/45 client methods match; 78/79 server raw methods match; last method matches after proven compiler-temporary normalization"
+  },
+  "source_build_output_hashes_reproduced_across_paths": true,
   "generated_configuration_semantics_verified": true,
-  "owner_layer_entries": 448,
+  "owner_layer_entries": 449,
   "third_party_binaries_or_assets_bundled": false,
   "known_private_value_scan_hits": 0,
   "live_install_changed": false,
   "fresh_multiplayer_tested": false,
-  "limitations": "Complete assembly/audit used already available sanitized local originals. Source gaps still require local imports. Install apply/backup behavior tested only with synthetic file-version fixtures; no game executables were run."
+  "helper_negative_tests_scope": "Helper control-flow tests with generated fake compiler only",
+  "limitations": "Reconstruction used pinned cached original download bytes and read-only legitimate game/SPT reference assemblies, with no mod imports or prepopulated stage. Install apply/backup checks used generated file-version fixtures. No game/server was launched, no remote bundle delivery/shared raid tested. Source-built WTT DLL hashes differ from unavailable original release DLLs."
 }

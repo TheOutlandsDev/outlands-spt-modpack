@@ -2618,6 +2618,13 @@
     "installer_sha256": "e4ca1c3837bd0a49d4ca0f8cb53b3a82f5aa94417c0340b75da6d37d8aed831b"
   },
   {
+    "path": "SPT/user/mods/BotCallsigns/nameData/userDefinedNames.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b419f6828f5be527605d2c205b60e68a13e92dd4f4cf592420e2b511a9062c9f",
+    "installer_sha256": "916b229b9b8ff8cb3d58c210058150f2aa65e4a490ef93278d924011ef22717c"
+  },
+  {
     "path": "SPT/user/mods/BountyBoard-drb/config.json",
     "format": "json",
     "semantic_comparison_passed": true,
