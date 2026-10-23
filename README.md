@@ -1,3 +1,23 @@
+# Outlands SPT Modpack — SPT 4.0.13
+
+**The complete player/self-host modpack is not publicly available yet.** The original installation is reported working by its owner. Its full installed mod/asset/config trees have now been captured as a sanitized **0.2.0 local-only snapshot**. Full redistribution remains uncleared; no additional author permissions have been obtained.
+
+The earlier **0.1.0-dev.1 ZIP is an incomplete developer subset**. It does not reproduce the full Fika setup. The **0.2.0 setup kit** is also a partial payload plus a complete file inventory and local import/audit tools; it is not a ready-to-play download.
+
+- [Current setup, client vs self-host instructions](setup/PLAYING.md)
+- [Exact installed files and SHA-256](setup/setup-lock.json)
+- [Mod versions, author links and redistribution decisions](setup/mod-downloads.json)
+- [Publication blockers](setup/PUBLICATION-STATUS.md)
+- [Download/reference release](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases/tag/v0.2.0-setup-spt4.0.13)
+
+Target: **SPT 4.0.13 / EFT 0.16.9.40087 / Fika client 2.2.5.0 / Fika server 2.0.9**. Joining the existing server uses your own compatible client and a privately supplied Tailscale/backend connection. Self-hosting additionally needs the complete server mod trees/assets and fresh accounts/credentials. No retail game, personal saves or private server connection values are distributed.
+
+SVM's author requires redistribution permission. Fika handcrafted art and other installed asset/notice/provenance gaps also need resolution. No complete public pack is claimed until exact dependencies and settings are obtainable and a fresh multiplayer setup is tested. The existing source and its documented changes remain available below.
+
+---
+
+## Historical 0.1.0 developer export
+
 # Outlands SPT Modpack
 
 **Build 0.1.0-dev.1 · SPT 4.0.13 · EFT 0.16.9.40087 · Developer prerelease**
