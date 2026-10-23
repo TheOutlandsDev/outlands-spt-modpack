@@ -1,0 +1,24 @@
+name: Package integrity
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published file hashes
+        shell: pwsh
+        run: ./scripts/Verify-Package.ps1 -SourceOnly
+      - name: Parse PowerShell sources without running them
+        shell: pwsh
+        run: |
+          $failed = $false
+          Get-ChildItem -Recurse -File -Filter *.ps1 | ForEach-Object {
+            $tokens = $null; $errors = $null
+            $null = [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors)
+            if ($errors.Count) { $errors | Write-Error; $failed = $true }
+          }
+          if ($failed) { exit 1 }
