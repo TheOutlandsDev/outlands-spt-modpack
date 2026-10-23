@@ -1,0 +1,40 @@
+[
+  {
+    "Version": "1.0.2",
+    "ReleaseDate": "March 23, 2026",
+    "IsLatest": true,
+    "NewFeatures": [
+      "Webconfig is available",
+      "Webconfig toggle to enable/disable allowing scavs to infil to Labyrinth from the map screen",
+      "Webconfig toggle to enable/disable Access Keycard Requirement"
+    ],
+    "Changes": [],
+    "BugFixes": [],
+    "KnownIssues": []
+  },
+  {
+    "Version": "1.0.1",
+    "ReleaseDate": "November 5, 2025",
+    "IsLatest": false,
+    "NewFeatures": [
+      "Webconfig toggle to Guarantee Labyrinth Tagilla having Secret Exfil Key",
+      "Webconfig options to change the exfil time, and availability timer of the normal Pmc exfil"
+    ],
+    "Changes": [
+      "Gave the Scav Exfil an actual name"
+    ],
+    "BugFixes": [],
+    "KnownIssues": []
+  },
+  {
+    "Version": "1.0.0",
+    "ReleaseDate": "November 2, 2025",
+    "IsLatest": false,
+    "NewFeatures": [
+      "Initial Release"
+    ],
+    "Changes": [],
+    "BugFixes": [],
+    "KnownIssues": []
+  }
+]
