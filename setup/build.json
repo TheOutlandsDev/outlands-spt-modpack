@@ -1,0 +1,15 @@
+{
+  "name": "Outlands SPT Modpack",
+  "version": "0.2.0",
+  "spt": "4.0.13",
+  "spt_product_version": "4.0.13-RELEASE+2891fd4.20260302.2891fd41fd07b6150a2192ac0d24adb93eb72862",
+  "spt_commit": "2891fd41fd07b6150a2192ac0d24adb93eb72862",
+  "eft": "0.16.9.40087",
+  "fika_client": "2.2.5.0",
+  "fika_server": "2.0.9",
+  "publication_status": "setup-kit-only; complete redistribution not cleared",
+  "game_files_included": false,
+  "profiles_included": false,
+  "live_install_changed": false,
+  "runtime_tested": false
+}

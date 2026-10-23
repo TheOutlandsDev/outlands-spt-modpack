@@ -1,0 +1,1286 @@
+[
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "BepInEx/plugins/acidphantasm-enablelabyrinth",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 12864,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "BepInEx/plugins/acidphantasm-simpleworkoutqte",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 9280,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "acidphantasm-temporaryfixes",
+    "location": "BepInEx/plugins/acidphantasm-temporaryfixes",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 10307,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "BepInEx/plugins/archangelwtf-contentbackportprestiges",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 6380174,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BackdoorBanditClient",
+    "location": "BepInEx/plugins/BackdoorBanditClient",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 3,
+    "bytes": 66916,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BetterBackpacks.dll",
+    "location": "BepInEx/plugins/BetterBackpacks.dll",
+    "versions": [
+      "1.7.0"
+    ],
+    "files": 1,
+    "bytes": 10240,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BetterNightSkies",
+    "location": "BepInEx/plugins/BetterNightSkies",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 71000530,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BetterThermalNightVision",
+    "location": "BepInEx/plugins/BetterThermalNightVision",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 21363,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BountyBoard.Client.dll",
+    "location": "BepInEx/plugins/BountyBoard.Client.dll",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 27136,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "CodexDiagnostics",
+    "location": "BepInEx/plugins/CodexDiagnostics",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 62464,
+    "bundled_files": 1,
+    "status": "bundled",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Source included; source/binary rebuild checks recorded separately."
+  },
+  {
+    "name": "DrakiaXYZ-BigBrain.dll",
+    "location": "BepInEx/plugins/DrakiaXYZ-BigBrain.dll",
+    "versions": [
+      "1.4.0"
+    ],
+    "files": 1,
+    "bytes": 43008,
+    "bundled_files": 1,
+    "status": "bundled",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/DrakiaXYZ/SPT-BigBrain",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "DrakiaXYZ-Waypoints",
+    "location": "BepInEx/plugins/DrakiaXYZ-Waypoints",
+    "versions": [
+      "1.8.2"
+    ],
+    "files": 13,
+    "bytes": 50359179,
+    "bundled_files": 13,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": "https://github.com/DrakiaXYZ/SPT-Waypoints",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "Fika",
+    "location": "BepInEx/plugins/Fika",
+    "versions": [
+      "2.2.5.0"
+    ],
+    "files": 7,
+    "bytes": 1835406,
+    "bundled_files": 4,
+    "status": "partially-bundled",
+    "license": "CC-BY-NC-SA-4.0",
+    "author_url": "https://github.com/project-fika/Fika-Plugin",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "FikaDynamicAI",
+    "location": "BepInEx/plugins/FikaDynamicAI",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 32336,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": "https://forge.sp-tarkov.com",
+    "review_note": "Unchanged noncommercial sharing may be permitted with attribution; exact upstream identity and exceptions are not established. Use original author downloads for now."
+  },
+  {
+    "name": "HollywoodFX",
+    "location": "BepInEx/plugins/HollywoodFX",
+    "versions": [
+      "1.8.4.39897"
+    ],
+    "files": 2,
+    "bytes": 1243530648,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2003/hollywoodfx",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "HollywoodGraphics",
+    "location": "BepInEx/plugins/HollywoodGraphics",
+    "versions": [
+      "1.1.4.39901"
+    ],
+    "files": 11,
+    "bytes": 20550087,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/SleepingPills/HollywoodGraphics",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "Kat.FastSellInFlea.dll",
+    "location": "BepInEx/plugins/Kat.FastSellInFlea.dll",
+    "versions": [
+      "1.2.0"
+    ],
+    "files": 1,
+    "bytes": 26624,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "MergeConsumables",
+    "location": "BepInEx/plugins/MergeConsumables",
+    "versions": [
+      "1.1.0.0"
+    ],
+    "files": 2,
+    "bytes": 38480,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": null,
+    "review_note": "Unchanged noncommercial sharing may be permitted with attribution; exact upstream identity and exceptions are not established. Use original author downloads for now."
+  },
+  {
+    "name": "MoreBotsAPI",
+    "location": "BepInEx/plugins/MoreBotsAPI",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 46080,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "MortarStrikes",
+    "location": "BepInEx/plugins/MortarStrikes",
+    "versions": [],
+    "files": 1,
+    "bytes": 2313,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "MortarStrikes.dll",
+    "location": "BepInEx/plugins/MortarStrikes.dll",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 54784,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "OldTarkovMovement.dll",
+    "location": "BepInEx/plugins/OldTarkovMovement.dll",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 32768,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "OrionsMods",
+    "location": "BepInEx/plugins/OrionsMods",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 19513,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "BepInEx/plugins/ozen-Foldables",
+    "versions": [
+      "1.0.3.0"
+    ],
+    "files": 1,
+    "bytes": 40960,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RaidPad",
+    "location": "BepInEx/plugins/RaidPad",
+    "versions": [],
+    "files": 46,
+    "bytes": 580321,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RaidPad.dll",
+    "location": "BepInEx/plugins/RaidPad.dll",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 136704,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RaiRai.ColorConverterAPI.dll",
+    "location": "BepInEx/plugins/RaiRai.ColorConverterAPI.dll",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 9728,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "redlaser42-HideBetaRework.dll",
+    "location": "BepInEx/plugins/redlaser42-HideBetaRework.dll",
+    "versions": [
+      "0.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 5632,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "ReduceFakeInteriorShadow.dll",
+    "location": "BepInEx/plugins/ReduceFakeInteriorShadow.dll",
+    "versions": [
+      "1.0.1"
+    ],
+    "files": 1,
+    "bytes": 9216,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RevivalMod.dll.disabled",
+    "location": "BepInEx/plugins/RevivalMod.dll.disabled",
+    "versions": [],
+    "files": 1,
+    "bytes": 54784,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RZEssentialsClient.dll",
+    "location": "BepInEx/plugins/RZEssentialsClient.dll",
+    "versions": [
+      "1.1.0.0"
+    ],
+    "files": 1,
+    "bytes": 12800,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "s8_SPT_PatchCRC32",
+    "location": "BepInEx/plugins/s8_SPT_PatchCRC32",
+    "versions": [
+      "1.7.0"
+    ],
+    "files": 2,
+    "bytes": 59617,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "SAIN",
+    "location": "BepInEx/plugins/SAIN",
+    "versions": [
+      "4.4.3"
+    ],
+    "files": 333,
+    "bytes": 11469870,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "SharpDX.dll",
+    "location": "BepInEx/plugins/SharpDX.dll",
+    "versions": [
+      "4.2.0"
+    ],
+    "files": 1,
+    "bytes": 274944,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "SharpDX.XInput.dll",
+    "location": "BepInEx/plugins/SharpDX.XInput.dll",
+    "versions": [
+      "4.2.0"
+    ],
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "skwizzy.LootingBots.dll",
+    "location": "BepInEx/plugins/skwizzy.LootingBots.dll",
+    "versions": [
+      "1.7.0.0"
+    ],
+    "files": 1,
+    "bytes": 118784,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/Skwizzy/SPT-LootingBots/releases/tag/v1.7.0-spt-4.0",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "SmajlecStamina.dll",
+    "location": "BepInEx/plugins/SmajlecStamina.dll",
+    "versions": [
+      "1.3.0"
+    ],
+    "files": 1,
+    "bytes": 10752,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Softwyx.CareerLog",
+    "location": "BepInEx/plugins/Softwyx.CareerLog",
+    "versions": [
+      "1.0.526"
+    ],
+    "files": 55,
+    "bytes": 3339644,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "SPTMapProgression",
+    "location": "BepInEx/plugins/SPTMapProgression",
+    "versions": [
+      "1.5.2"
+    ],
+    "files": 1,
+    "bytes": 39424,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "tarkin-ladders",
+    "location": "BepInEx/plugins/tarkin-ladders",
+    "versions": [
+      "1.0.0.0",
+      "1.0.2.0"
+    ],
+    "files": 11,
+    "bytes": 2546256,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Terkoiz.FlareEventNotifier.dll",
+    "location": "BepInEx/plugins/Terkoiz.FlareEventNotifier.dll",
+    "versions": [
+      "1.0.5.0"
+    ],
+    "files": 1,
+    "bytes": 7168,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.dll",
+    "location": "BepInEx/plugins/Tyfon.HideoutInProgress.dll",
+    "versions": [
+      "2.0.2.0"
+    ],
+    "files": 1,
+    "bytes": 20480,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Tyfon.UIFixes.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.dll",
+    "versions": [
+      "5.3.8.0"
+    ],
+    "files": 1,
+    "bytes": 446976,
+    "bundled_files": 1,
+    "status": "bundled",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "Tyfon.UIFixes.Net.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.Net.dll",
+    "versions": [
+      "5.3.8.0"
+    ],
+    "files": 1,
+    "bytes": 4608,
+    "bundled_files": 1,
+    "status": "bundled",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "UnityToolkit",
+    "location": "BepInEx/plugins/UnityToolkit",
+    "versions": [
+      "0.0.0.0",
+      "1.5.3.0",
+      "2.0.1"
+    ],
+    "files": 13,
+    "bytes": 2296618,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "UseItemsFromAnywhere.dll",
+    "location": "BepInEx/plugins/UseItemsFromAnywhere.dll",
+    "versions": [
+      "1.3.2.0"
+    ],
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "WTT-ArmoryClient",
+    "location": "BepInEx/plugins/WTT-ArmoryClient",
+    "versions": [
+      "2.0.5.0"
+    ],
+    "files": 1,
+    "bytes": 11264,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "CC-BY-NC-ND-4.0 listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+    "review_note": "Unchanged noncommercial redistribution may be allowed with attribution. Exact upstream byte identity and asset exceptions remain unverified; use author download for now."
+  },
+  {
+    "name": "WTT-ClientCommonLib",
+    "location": "BepInEx/plugins/WTT-ClientCommonLib",
+    "versions": [
+      "2.0.20.0"
+    ],
+    "files": 2,
+    "bytes": 152064,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+    "review_note": "Upstream lists MIT; this audit has not established rights for every installed asset. Fetch exact author version; do not substitute latest."
+  },
+  {
+    "name": "WTT-ContentBackportClient",
+    "location": "BepInEx/plugins/WTT-ContentBackportClient",
+    "versions": [
+      "0.0.0.0",
+      "1.0.7.0"
+    ],
+    "files": 18,
+    "bytes": 126282763,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+    "review_note": "Upstream lists MIT; this audit has not established rights for every installed asset. Fetch exact author version; do not substitute latest."
+  },
+  {
+    "name": "[SVM] Server Value Modifier",
+    "location": "SPT/user/mods/[SVM] Server Value Modifier",
+    "versions": [
+      "2.1.1.0"
+    ],
+    "files": 20,
+    "bytes": 1783182,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "PUSL; separate permission required",
+    "author_url": "https://github.com/GhostFenixx/svm-csharp",
+    "review_note": "Author license explicitly requires permission for original or modified redistribution; owner confirmed no additional permissions."
+  },
+  {
+    "name": "acidphantasm-addsecretexfilnotestocaches",
+    "location": "SPT/user/mods/acidphantasm-addsecretexfilnotestocaches",
+    "versions": [
+      "2.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 16406,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "acidphantasm-bosseshavegpcoins",
+    "location": "SPT/user/mods/acidphantasm-bosseshavegpcoins",
+    "versions": [
+      "2.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 11831,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "SPT/user/mods/acidphantasm-enablelabyrinth",
+    "versions": [
+      "1.0.2.0"
+    ],
+    "files": 5,
+    "bytes": 222242,
+    "bundled_files": 2,
+    "status": "partially-bundled",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "acidphantasm-itemlimitsbegone",
+    "location": "SPT/user/mods/acidphantasm-itemlimitsbegone",
+    "versions": [
+      "2.0.0.0"
+    ],
+    "files": 1,
+    "bytes": 10240,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "SPT/user/mods/acidphantasm-simpleworkoutqte",
+    "versions": [
+      "2.0.1.0"
+    ],
+    "files": 3,
+    "bytes": 27534,
+    "bundled_files": 2,
+    "status": "partially-bundled",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "acidphantasm-stattrack",
+    "location": "SPT/user/mods/acidphantasm-stattrack",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 22594,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "SPT/user/mods/archangelwtf-contentbackportprestiges",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 63,
+    "bytes": 16040070,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "ArmorGreatAgain",
+    "location": "SPT/user/mods/ArmorGreatAgain",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 17471,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BackdoorBanditServer",
+    "location": "SPT/user/mods/BackdoorBanditServer",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 6,
+    "bytes": 2171629,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "bodycam",
+    "location": "SPT/user/mods/bodycam",
+    "versions": [],
+    "files": 124,
+    "bytes": 19702509,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BotCallsigns",
+    "location": "SPT/user/mods/BotCallsigns",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 6,
+    "bytes": 83999,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "BountyBoard-drb",
+    "location": "SPT/user/mods/BountyBoard-drb",
+    "versions": [
+      "1.2.0.0"
+    ],
+    "files": 2,
+    "bytes": 37439,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "bushtail-CantedAiming",
+    "location": "SPT/user/mods/bushtail-CantedAiming",
+    "versions": [
+      "1.0.7.0"
+    ],
+    "files": 3,
+    "bytes": 23974,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "bushtail-CratesInAirdrop",
+    "location": "SPT/user/mods/bushtail-CratesInAirdrop",
+    "versions": [
+      "1.0.1.0"
+    ],
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "DickMarcinkoVoicePack",
+    "location": "SPT/user/mods/DickMarcinkoVoicePack",
+    "versions": [
+      "1.0.6.0"
+    ],
+    "files": 6,
+    "bytes": 4561435,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Epic_Shaders",
+    "location": "SPT/user/mods/Epic_Shaders",
+    "versions": [
+      "1.0.1.0"
+    ],
+    "files": 3,
+    "bytes": 91474,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "fika-server",
+    "location": "SPT/user/mods/fika-server",
+    "versions": [
+      "1.0.0.0",
+      "2.0.9.0"
+    ],
+    "files": 51,
+    "bytes": 2270676,
+    "bundled_files": 50,
+    "status": "partially-bundled",
+    "license": "CC-BY-NC-SA-4.0",
+    "author_url": "https://github.com/project-fika/Fika-Server-CSharp",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "fleasimulator",
+    "location": "SPT/user/mods/fleasimulator",
+    "versions": [
+      "1.2.2.0"
+    ],
+    "files": 3,
+    "bytes": 86786,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "HoodsEnergyDrinks",
+    "location": "SPT/user/mods/HoodsEnergyDrinks",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 66,
+    "bytes": 320738016,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "JellyVoices",
+    "location": "SPT/user/mods/JellyVoices",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 15,
+    "bytes": 20331700,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "MergeConsumablesServer",
+    "location": "SPT/user/mods/MergeConsumablesServer",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 38992,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": null,
+    "review_note": "Unchanged noncommercial sharing may be permitted with attribution; exact upstream identity and exceptions are not established. Use original author downloads for now."
+  },
+  {
+    "name": "MoreBotsServer",
+    "location": "SPT/user/mods/MoreBotsServer",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 80958,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "NarcoNet-v1.0.16",
+    "location": "SPT/user/mods/NarcoNet-v1.0.16",
+    "versions": [
+      "1.0.0.0",
+      "16.2.1.0"
+    ],
+    "files": 7,
+    "bytes": 529569,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "OldTarkovMovementServer",
+    "location": "SPT/user/mods/OldTarkovMovementServer",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 4,
+    "bytes": 26061,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "SPT/user/mods/ozen-Foldables",
+    "versions": [
+      "1.0.3.0"
+    ],
+    "files": 4,
+    "bytes": 39928,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "PenaltiesRemoved",
+    "location": "SPT/user/mods/PenaltiesRemoved",
+    "versions": [
+      "1.3.0.0"
+    ],
+    "files": 2,
+    "bytes": 28766,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "platinum-theblacklist",
+    "location": "SPT/user/mods/platinum-theblacklist",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 3,
+    "bytes": 54525,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Refringe-BetterBackpacks",
+    "location": "SPT/user/mods/Refringe-BetterBackpacks",
+    "versions": [
+      "1.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 60796,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RevivalModServer",
+    "location": "SPT/user/mods/RevivalModServer",
+    "versions": [],
+    "files": 2,
+    "bytes": 17987,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "RZEssentials",
+    "location": "SPT/user/mods/RZEssentials",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 65,
+    "bytes": 14794543,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Scavs4All",
+    "location": "SPT/user/mods/Scavs4All",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 19085,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Skwizzy-LootingBots-ServerMod",
+    "location": "SPT/user/mods/Skwizzy-LootingBots-ServerMod",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 14912,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/Skwizzy/SPT-LootingBots/releases/tag/v1.7.0-spt-4.0",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "Solarint-SAIN-ServerMod",
+    "location": "SPT/user/mods/Solarint-SAIN-ServerMod",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 19239,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+    "review_note": "Official page lists MIT; installed release copyright notice and binary/asset provenance need completion before adding to public payload."
+  },
+  {
+    "name": "TwitchPlayers",
+    "location": "SPT/user/mods/TwitchPlayers",
+    "versions": [
+      "0.0.1.0"
+    ],
+    "files": 2,
+    "bytes": 23304,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.Server",
+    "location": "SPT/user/mods/Tyfon.HideoutInProgress.Server",
+    "versions": [
+      "2.0.2.0"
+    ],
+    "files": 1,
+    "bytes": 27136,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "Tyfon.UIFixes.Server",
+    "location": "SPT/user/mods/Tyfon.UIFixes.Server",
+    "versions": [
+      "5.3.8.0"
+    ],
+    "files": 1,
+    "bytes": 38400,
+    "bundled_files": 1,
+    "status": "bundled",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "License retained; local state removed; see third-party notices for file exclusions."
+  },
+  {
+    "name": "WTT-Armory",
+    "location": "SPT/user/mods/WTT-Armory",
+    "versions": [
+      "2.0.5.0"
+    ],
+    "files": 931,
+    "bytes": 4758585634,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "CC-BY-NC-ND-4.0 listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+    "review_note": "Unchanged noncommercial redistribution may be allowed with attribution. Exact upstream byte identity and asset exceptions remain unverified; use author download for now."
+  },
+  {
+    "name": "WTT-ContentBackport",
+    "location": "SPT/user/mods/WTT-ContentBackport",
+    "versions": [
+      "1.0.7.0"
+    ],
+    "files": 816,
+    "bytes": 3718639396,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+    "review_note": "Upstream lists MIT; this audit has not established rights for every installed asset. Fetch exact author version; do not substitute latest."
+  },
+  {
+    "name": "WTT-ServerCommonLib",
+    "location": "SPT/user/mods/WTT-ServerCommonLib",
+    "versions": [
+      "2.0.20.0"
+    ],
+    "files": 2,
+    "bytes": 283351,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+    "review_note": "Upstream lists MIT; this audit has not established rights for every installed asset. Fetch exact author version; do not substitute latest."
+  },
+  {
+    "name": "WTT-TheLongLostHeadsOfYojenkz",
+    "location": "SPT/user/mods/WTT-TheLongLostHeadsOfYojenkz",
+    "versions": [
+      "2.0.1.0"
+    ],
+    "files": 25,
+    "bytes": 200142103,
+    "bundled_files": 0,
+    "status": "author-download-required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability."
+  },
+  {
+    "name": "zzz-CodexAiPopulationTuning",
+    "location": "SPT/user/mods/zzz-CodexAiPopulationTuning",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 29425,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Source included; source/binary rebuild checks recorded separately."
+  },
+  {
+    "name": "zzz-CodexOpenScavTransits",
+    "location": "SPT/user/mods/zzz-CodexOpenScavTransits",
+    "versions": [
+      "1.0.0.0"
+    ],
+    "files": 2,
+    "bytes": 39397,
+    "bundled_files": 2,
+    "status": "bundled",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Source included; source/binary rebuild checks recorded separately."
+  }
+]

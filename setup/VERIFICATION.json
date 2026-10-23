@@ -1,0 +1,19 @@
+{
+  "files": 2860,
+  "bytes": 10624222479,
+  "client_files": 593,
+  "client_bytes": 1542423949,
+  "server_files": 2267,
+  "server_bytes": 9081798530,
+  "byte_identical_live_files": 2858,
+  "sanitized_files": 2,
+  "privacy_known_term_hits": 0,
+  "live_install_changed": false,
+  "runtime_tested": false,
+  "file_tool_fixture_tests": 6,
+  "file_tool_fixture_tests_passed": true,
+  "full_snapshot_file_audit_passed": true,
+  "public_bundled_files": 90,
+  "public_missing_client_files": 564,
+  "public_missing_total_files": 2770
+}

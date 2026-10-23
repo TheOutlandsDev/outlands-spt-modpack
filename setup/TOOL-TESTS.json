@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "name": "client assemble: nested donor folders and duplicate basenames selected by hash",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "name": "client assembled payload audit",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "name": "extra plugin rejected",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "same-length tampering rejected",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "incomplete selfhost assembly rejected without creating destination",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "manifest traversal rejected",
+      "exit": 1,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

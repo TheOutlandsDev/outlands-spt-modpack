@@ -1,0 +1,47 @@
+{
+  "sanitized_files": [
+    {
+      "path": "BepInEx/config/com.fika.core.cfg",
+      "reason": "private connection/account/path values cleared; fresh identities required"
+    },
+    {
+      "path": "SPT/user/mods/fika-server/assets/configs/fika.jsonc",
+      "reason": "private connection/account/path values cleared; fresh identities required"
+    }
+  ],
+  "runtime_test": "Original installation reported working by owner; export not launched or multiplayer tested",
+  "layout_notes": [
+    "NarcoNet-v1.0.16 contains a nested download layout in server mods; preserved exactly, not relocated or asserted active.",
+    "RevivalMod client/server .disabled files remain disabled.",
+    "Loose and folder copies of MortarStrikes/RaidPad are preserved; loaded plugin selection has not been changed.",
+    "Old experimental source projects are not enabled by this snapshot."
+  ],
+  "exclusions_by_reason": {
+    "debug symbols, logs, backups, or key material": 2,
+    "personal career and raid records": 19,
+    "SPT prerequisite client core": 8,
+    "personal progression": 1,
+    "orphan headless-machine configuration": 1,
+    "per-player statistics": 1,
+    "per-player bounty state": 1,
+    "per-player hunter state": 1,
+    "player relations and requests": 2,
+    "generated market state": 1,
+    "generated trader rotation state": 1
+  },
+  "excluded_roots": [
+    "Retail game/runtime files",
+    "Base SPT/BepInEx runtime",
+    "profiles/certificates/logs/cache/backups",
+    "CareerLog/data",
+    "SPTMapProgression/Data",
+    "StatTrack/Data",
+    "Fika database and generated scripts",
+    "BountyBoard player state",
+    "OpenScavTransits generated state",
+    "TwitchPlayers/Temp",
+    "FleaSimulator generated state",
+    "orphan headless-machine config",
+    "debug symbols"
+  ]
+}
