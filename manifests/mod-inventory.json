@@ -1,0 +1,1743 @@
+[
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "BepInEx/plugins/acidphantasm-enablelabyrinth",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "license_evidence": [
+      "BepInEx/plugins/acidphantasm-enablelabyrinth/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/acidphantasm-enablelabyrinth/acidphantasm-enablelabyrinth.dll",
+        "sha256": "31e3dd073e8f664047e06012501096e8d12da600297d9848bf0cc1605872ffa1",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "BepInEx/plugins/acidphantasm-simpleworkoutqte",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "license_evidence": [
+      "BepInEx/plugins/acidphantasm-simpleworkoutqte/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/acidphantasm-simpleworkoutqte/acidphantasm-simpleworkoutqte.dll",
+        "sha256": "0b7ad6ca28e74abc324354186096d68679d7f73c6eb0cf9ab65165efa6bcdd72",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-temporaryfixes",
+    "location": "BepInEx/plugins/acidphantasm-temporaryfixes",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": null,
+    "license_evidence": [
+      "BepInEx/plugins/acidphantasm-temporaryfixes/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/acidphantasm-temporaryfixes/acidphantasm-temporaryfixes.dll",
+        "sha256": "550db696539aea0ce2e064a8f63b7d56f71ecd5caac7c655ffd5f0a37406b90d",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "BepInEx/plugins/archangelwtf-contentbackportprestiges",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/archangelwtf-contentbackportprestiges/ContentBackportPrestigesClient.dll",
+        "sha256": "447ed57664e42069e4a078f50b953d57c7a61eda0ee48bf01fb32d62faeed804",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+cad72e2deb325a8975db110f8ccef5689f39a0fc"
+      }
+    ]
+  },
+  {
+    "name": "BackdoorBanditClient",
+    "location": "BepInEx/plugins/BackdoorBanditClient",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/BackdoorBanditClient/DoorBreach.dll",
+        "sha256": "ac47c445be34d4cc389a8b3aaaf537a19055e264795e0d91fbb9b7b7c27b6c90",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "BetterBackpacks.dll",
+    "location": "BepInEx/plugins/BetterBackpacks.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/BetterBackpacks.dll",
+        "sha256": "6ce71079ae7784708df9865227eea8054367cae6a9c36198dc632103b71385a7",
+        "file_version": "1.7.0",
+        "product_version": "1.7.0+8629b41ddec1e77ea0e7ca2124a313fe8ee0bc43"
+      }
+    ]
+  },
+  {
+    "name": "BetterNightSkies",
+    "location": "BepInEx/plugins/BetterNightSkies",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/BetterNightSkies/BetterNightSkies.dll",
+        "sha256": "857eb729d43b1e95a6400664a5107e3b245b470f95f2dd5b54067ba23a308f48",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+f135cd961b36bda04f54f7ab65becd943bc3506a"
+      }
+    ]
+  },
+  {
+    "name": "BetterThermalNightVision",
+    "location": "BepInEx/plugins/BetterThermalNightVision",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/BetterThermalNightVision/BetterThermalNightVision.dll",
+        "sha256": "fab82dc3b79927e742fe9941ae2d7108598422ea158dad085e07b26b2410e1cf",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "BountyBoard.Client.dll",
+    "location": "BepInEx/plugins/BountyBoard.Client.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/BountyBoard.Client.dll",
+        "sha256": "2565d7ff80ec3d9cebb2d0fe4cb44606bcc3f9a86b61f0fa9ad6c8fa004fd11a",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "CodexDiagnostics",
+    "location": "BepInEx/plugins/CodexDiagnostics",
+    "status": "bundled-owned",
+    "license": "not-established",
+    "reason": "Source included; source/binary rebuild checks recorded separately.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/CodexDiagnostics/Codex.Diagnostics.Client.dll",
+        "sha256": "a837ae5e4602a09d076fec38d5be1a5fdc4006c9e78a207c2555ff5fd677a340",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "DrakiaXYZ-BigBrain.dll",
+    "location": "BepInEx/plugins/DrakiaXYZ-BigBrain.dll",
+    "status": "bundled-licensed",
+    "license": "MIT (installed source commit)",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/DrakiaXYZ/SPT-BigBrain",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/DrakiaXYZ-BigBrain.dll",
+        "sha256": "958b6e228e23cdcb5654731df2504e5c1982371e087fe25ce875e29ad864e58e",
+        "file_version": "1.4.0",
+        "product_version": "1.4.0+9a44f045bc6775cf7584984ada1df12b86d2c039"
+      }
+    ]
+  },
+  {
+    "name": "DrakiaXYZ-Waypoints",
+    "location": "BepInEx/plugins/DrakiaXYZ-Waypoints",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/DrakiaXYZ/SPT-Waypoints",
+    "license_evidence": [
+      "BepInEx/plugins/DrakiaXYZ-Waypoints/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/DrakiaXYZ-Waypoints/DrakiaXYZ-Waypoints.dll",
+        "sha256": "7a600d2e1b54496b4f244b4a96f2c0ef243d76abe93bc7bc33f47f0b60a8c060",
+        "file_version": "1.8.2",
+        "product_version": "1.8.2+bee7930fa493d47031d066281dca7765edd3d736"
+      }
+    ]
+  },
+  {
+    "name": "Fika",
+    "location": "BepInEx/plugins/Fika",
+    "status": "bundled-licensed",
+    "license": "CC-BY-NC-SA-4.0",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/project-fika/Fika-Plugin",
+    "license_evidence": [
+      "BepInEx/plugins/Fika/LICENSE-K40s-LZ4.md",
+      "BepInEx/plugins/Fika/LICENSE-LiteNetLib.md",
+      "BepInEx/plugins/Fika/LICENSE-Mirror.md",
+      "BepInEx/plugins/Fika/LICENSE-Open.NAT.md",
+      "BepInEx/plugins/Fika/LICENSE-SIT.md",
+      "BepInEx/plugins/Fika/LICENSE.md"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Fika/Fika.Core.dll",
+        "sha256": "6b56f43ac9fe6296537be8fbfe2f78da36da73842540602687ba9baba51f938b",
+        "file_version": "2.2.5.0",
+        "product_version": "2.2.5.0"
+      }
+    ]
+  },
+  {
+    "name": "FikaDynamicAI",
+    "location": "BepInEx/plugins/FikaDynamicAI",
+    "status": "external-permission-needed-for-modifications",
+    "license": "CC-BY-NC-ND-4.0",
+    "reason": "NoDerivatives license: modified builds are not included; upstream identity not established.",
+    "source_url": "https://forge.sp-tarkov.com",
+    "license_evidence": [
+      "BepInEx/plugins/FikaDynamicAI/LICENSE.md"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/FikaDynamicAI/FikaDynamicAI.dll",
+        "sha256": "58c4e117609a677e1095dfe0cea29ef9253c416f95722634c5942ab01d7e6236",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+46ef3752a5c2780c61e5224c5010a5a9ce81486f"
+      }
+    ]
+  },
+  {
+    "name": "HollywoodFX",
+    "location": "BepInEx/plugins/HollywoodFX",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/HollywoodFX/HollywoodFX.dll",
+        "sha256": "d6cac5100cd4ee56588f0f620492d68bd55449614187366b980c924a3758ce5e",
+        "file_version": "1.8.4.39897",
+        "product_version": "1.8.4.39897"
+      }
+    ]
+  },
+  {
+    "name": "HollywoodGraphics",
+    "location": "BepInEx/plugins/HollywoodGraphics",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/HollywoodGraphics/HollywoodGraphics.dll",
+        "sha256": "88133b05794f4d78cc508dce33833d95f4da77f21c085da0d70be780489ac01c",
+        "file_version": "1.1.4.39901",
+        "product_version": "1.1.4.39901"
+      }
+    ]
+  },
+  {
+    "name": "Kat.FastSellInFlea.dll",
+    "location": "BepInEx/plugins/Kat.FastSellInFlea.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Kat.FastSellInFlea.dll",
+        "sha256": "a8529e14fbaba5b80b67f29372d3eed68fbb5ec14037e8b6de781be02f2cc0dc",
+        "file_version": "1.2.0",
+        "product_version": "1.2.0"
+      }
+    ]
+  },
+  {
+    "name": "MergeConsumables",
+    "location": "BepInEx/plugins/MergeConsumables",
+    "status": "external-permission-needed-for-modifications",
+    "license": "CC-BY-NC-ND-4.0",
+    "reason": "NoDerivatives license: modified builds are not included; upstream identity not established.",
+    "source_url": null,
+    "license_evidence": [
+      "BepInEx/plugins/MergeConsumables/LICENSE.md"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/MergeConsumables/MergeConsumables.dll",
+        "sha256": "46bfbe28311112d670d4ce15b0bf15ccec5164be2508c19afb76e177064a0b4e",
+        "file_version": "1.1.0.0",
+        "product_version": "1.1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "MoreBotsAPI",
+    "location": "BepInEx/plugins/MoreBotsAPI",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/MoreBotsAPI/MoreBotsPlugin.dll",
+        "sha256": "6f8792812b745f1c3ee0b216059e934c7987c136940d89887774ed64df192ee6",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+fc5fcaf84fd4eec2da8196ac586b247b7a15e25c"
+      }
+    ]
+  },
+  {
+    "name": "MortarStrikes",
+    "location": "BepInEx/plugins/MortarStrikes",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": []
+  },
+  {
+    "name": "MortarStrikes.dll",
+    "location": "BepInEx/plugins/MortarStrikes.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/MortarStrikes.dll",
+        "sha256": "e595700de7a4c072b90eed7428410f09432bbaba56581fc48fc3767a508a8ea2",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "OldTarkovMovement.dll",
+    "location": "BepInEx/plugins/OldTarkovMovement.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/OldTarkovMovement.dll",
+        "sha256": "1d6aab9e247dd95a2c424d9599ebb0eb0f98356a508f73d8a242ba3df712ce7b",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "OrionsMods",
+    "location": "BepInEx/plugins/OrionsMods",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": null,
+    "license_evidence": [
+      "BepInEx/plugins/OrionsMods/LevelEnduranceAndStrength/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/OrionsMods/LevelEnduranceAndStrength/LevelEnduranceAndStrength.dll",
+        "sha256": "9ee0c3e93276d15868e6499199c2d1eeca770ab463f0df771498a27e3f57efdb",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "BepInEx/plugins/ozen-Foldables",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/ozen-Foldables/Foldables.dll",
+        "sha256": "46b2ddfa920ef5899089db490ad43ac841cea022422fccec1568b262258d6d84",
+        "file_version": "1.0.3.0",
+        "product_version": "1.0.3+6a954353f396eee8830a5112181b1bbc5a20d609"
+      }
+    ]
+  },
+  {
+    "name": "RaidPad",
+    "location": "BepInEx/plugins/RaidPad",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": []
+  },
+  {
+    "name": "RaidPad.dll",
+    "location": "BepInEx/plugins/RaidPad.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/RaidPad.dll",
+        "sha256": "d8f980471df83d12b4e0c6074dce90e3c39ce96412a962dd2bc0af0e622b6146",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "RaiRai.ColorConverterAPI.dll",
+    "location": "BepInEx/plugins/RaiRai.ColorConverterAPI.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/RaiRai.ColorConverterAPI.dll",
+        "sha256": "915a9f8a1baab3f13a51f3d1cc6f0bf6a3a40241e39245a00e4cb48994563afb",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+59ecff73a225ce39cfd4853be8020508998a2999"
+      }
+    ]
+  },
+  {
+    "name": "redlaser42-HideBetaRework.dll",
+    "location": "BepInEx/plugins/redlaser42-HideBetaRework.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/redlaser42-HideBetaRework.dll",
+        "sha256": "1d50d91432b411b944d33c336ada6eae630e4c3fc6dd1ed497a308bf2701c916",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "ReduceFakeInteriorShadow.dll",
+    "location": "BepInEx/plugins/ReduceFakeInteriorShadow.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/ReduceFakeInteriorShadow.dll",
+        "sha256": "e9c647e3fbb38e8af7a5750eec82cab0da6e7308e419928471354dea5d31b460",
+        "file_version": "1.0.1",
+        "product_version": "1.0.1+de36b40658fa3cd34eaf1d6cee3f4ded63f32e7c"
+      }
+    ]
+  },
+  {
+    "name": "RevivalMod.dll.disabled",
+    "location": "BepInEx/plugins/RevivalMod.dll.disabled",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": []
+  },
+  {
+    "name": "RZEssentialsClient.dll",
+    "location": "BepInEx/plugins/RZEssentialsClient.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/RZEssentialsClient.dll",
+        "sha256": "9fa1de745b8e1fdcc36b0b6b9f2d919f7f045f44059c129e70ce6760573e18d9",
+        "file_version": "1.1.0.0",
+        "product_version": "1.1.0+fefb9f1d61e483291cf80d115cd8d5572257997a"
+      }
+    ]
+  },
+  {
+    "name": "s8_SPT_PatchCRC32",
+    "location": "BepInEx/plugins/s8_SPT_PatchCRC32",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/s8_SPT_PatchCRC32/libcrc32_pclmulqdq.dll",
+        "sha256": "beb4e4d47192e5ca2f95ab2d14a7f32e56b8a1579e3666df563c0465d61544ac",
+        "file_version": null,
+        "product_version": null
+      },
+      {
+        "path": "BepInEx/plugins/s8_SPT_PatchCRC32/SPT_PatchCRC32.Plugin.dll",
+        "sha256": "296ffbe76e69a690aef0b507ade7e0645f2003398d790e1748c6d3de70fce207",
+        "file_version": "1.7.0",
+        "product_version": "1.7.0+e4b0f942a37ab5cd1241c04e01aa74f4ba581f72"
+      }
+    ]
+  },
+  {
+    "name": "SAIN",
+    "location": "BepInEx/plugins/SAIN",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": "https://github.com/Solarint/SAIN",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/SAIN/SAIN.dll",
+        "sha256": "5935ce75a5f8056796f8ba34096fb3e1b0ef44122fe5487f9cece2a3e7d1f2a1",
+        "file_version": "4.4.3",
+        "product_version": "1.0.0+2b7ff8d19c2946a0b411023e432e3d0a8be2825f"
+      }
+    ]
+  },
+  {
+    "name": "SharpDX.dll",
+    "location": "BepInEx/plugins/SharpDX.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/SharpDX.dll",
+        "sha256": "a0af255ea4b09a8cdb995b8c6fd1075e46f098e23c2351c974e6ded9b8b620cf",
+        "file_version": "4.2.0",
+        "product_version": "4.2.0+8e5df9f17b1d328c595a9df5851dbb2537b55621"
+      }
+    ]
+  },
+  {
+    "name": "SharpDX.XInput.dll",
+    "location": "BepInEx/plugins/SharpDX.XInput.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/SharpDX.XInput.dll",
+        "sha256": "b4808043d91f93f31369ade5e40b5d1016c527956c7868602d00e51482e34e33",
+        "file_version": "4.2.0",
+        "product_version": "4.2.0+8e5df9f17b1d328c595a9df5851dbb2537b55621"
+      }
+    ]
+  },
+  {
+    "name": "skwizzy.LootingBots.dll",
+    "location": "BepInEx/plugins/skwizzy.LootingBots.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": "https://github.com/Skwizzy/SPT-LootingBots",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/skwizzy.LootingBots.dll",
+        "sha256": "a7f49563071e654822ce1e36f2780eec4bea2e87f2b70507b2caab65a6816155",
+        "file_version": "1.7.0.0",
+        "product_version": "1.7.0+42608dfee177d4de313122046e152f4f97feb2b8"
+      }
+    ]
+  },
+  {
+    "name": "SmajlecStamina.dll",
+    "location": "BepInEx/plugins/SmajlecStamina.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/SmajlecStamina.dll",
+        "sha256": "1b538e3f0e23caaa49e660df4cff3539a3973ee946bbdfdaf36eee02f25720d1",
+        "file_version": "1.3.0",
+        "product_version": "1.3.0+3b90a6f020ad0822ddfbaa192bf393286701ad5b"
+      }
+    ]
+  },
+  {
+    "name": "Softwyx.CareerLog",
+    "location": "BepInEx/plugins/Softwyx.CareerLog",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Softwyx.CareerLog/Softwyx.CareerLog.dll",
+        "sha256": "8980afa479ee65bd3339b63621c1eeeb66f799226aa839088f44f8cb5ece5029",
+        "file_version": "1.0.526",
+        "product_version": "1.0.526+9c69a0932a397e990981b031168580f05bff94a6"
+      }
+    ]
+  },
+  {
+    "name": "spt",
+    "location": "BepInEx/plugins/spt",
+    "status": "external-base-SPT",
+    "license": "not-established",
+    "reason": "SPT 4.0.13 prerequisite; core client plugins are not rebundled.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/spt/spt-common.dll",
+        "sha256": "c37586af07801bbd3445bc5691bc1299d391005959cac8ec2a6f171758cc7b42",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/spt-core.dll",
+        "sha256": "2b223747ec8e6b84947d96aac4ff3875cbdf6e130f0d1932399cfff8d382c4f3",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/spt-custom.dll",
+        "sha256": "f08e8b6d4d23bd473f94bbe2519325e6c00de43988a54d7391b0e46873eaf7d4",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/spt-debugging.dll",
+        "sha256": "f3c3147ad6089571c722b9564d2383f80661e0e7dbe0ae206182d82070d2408b",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/spt-reflection.dll",
+        "sha256": "50b6b6b2ffc3110734ff890c6dd08daf7814f6e37d1edb5119f15cb87382ab5b",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/spt-singleplayer.dll",
+        "sha256": "4d5aaedb358665f315030cfb32eb33de2225314b3bd826f956abea1ab64d939c",
+        "file_version": "4.0.13.0",
+        "product_version": "4.0.13+5ca4ccff6ca1853f7d36f28562941bd069c67b6b"
+      },
+      {
+        "path": "BepInEx/plugins/spt/ConfigurationManager/ConfigurationManager.dll",
+        "sha256": "3520382cc54827b7c48d5a3a7d02f6083842b1baa83d49ce614e8a5d8c8f925d",
+        "file_version": "18.4.0.0",
+        "product_version": "18.4+6946000dfa9c1b2db503fb39fe496e5624437158"
+      }
+    ]
+  },
+  {
+    "name": "SPTMapProgression",
+    "location": "BepInEx/plugins/SPTMapProgression",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/SPTMapProgression/SPTMapProgression.dll",
+        "sha256": "320c7777c9d11d89798002b7e3a452356e4b9269599e3097dbf02ea03a15fb45",
+        "file_version": "1.5.2",
+        "product_version": "1.5.2+70b1c79b912b8ef671c2f19355a08de6459f8089"
+      }
+    ]
+  },
+  {
+    "name": "tarkin-ladders",
+    "location": "BepInEx/plugins/tarkin-ladders",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/tarkin-ladders/tarkin.ladders.bep.dll",
+        "sha256": "fc686546c0df7338f58c3f1de650b635f57cbfe55cf5d10b3ca6998f5d9e18fd",
+        "file_version": "1.0.2.0",
+        "product_version": "1.0.2+042e99050481704a6b4883c0377f8fa5b626cc97"
+      },
+      {
+        "path": "BepInEx/plugins/tarkin-ladders/tarkin.ladders.shared.dll",
+        "sha256": "87bc881ddcdd4c0324a76ed63925caf5dc63443588fd0d5a0c791c0271cf5eac",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+042e99050481704a6b4883c0377f8fa5b626cc97"
+      }
+    ]
+  },
+  {
+    "name": "Terkoiz.FlareEventNotifier.dll",
+    "location": "BepInEx/plugins/Terkoiz.FlareEventNotifier.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Terkoiz.FlareEventNotifier.dll",
+        "sha256": "75bf11cc62b5584af15ebceedec3d0d46425d1f93719d1cf56f2ddd7c4d80b9c",
+        "file_version": "1.0.5.0",
+        "product_version": "1.0.5+79316cae0fc67696cc367a3ae619d16ed8967a62"
+      }
+    ]
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.dll",
+    "location": "BepInEx/plugins/Tyfon.HideoutInProgress.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Tyfon.HideoutInProgress.dll",
+        "sha256": "7dc2b3a204729fbc49bc04c34b4bbb662a3c7e0d00812ad36cb4a8cf58049b05",
+        "file_version": "2.0.2.0",
+        "product_version": "2.0.2+aeb4d8ed9f98f6eb803e49a0a5dced20282ab2ac"
+      }
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.dll",
+    "status": "bundled-licensed",
+    "license": "MIT (installed source commit)",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/tyfon7/UIFixes",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Tyfon.UIFixes.dll",
+        "sha256": "de833e143f30d817a1fbbcef05e6af0c75614f9386ce6e62750ab48d8e5c1fcf",
+        "file_version": "5.3.8.0",
+        "product_version": "5.3.8+278d0a8c72abbe7f2f5e3126426cd8d3e0d2b4f2"
+      }
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.Net.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.Net.dll",
+    "status": "bundled-licensed",
+    "license": "MIT (installed source commit)",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/tyfon7/UIFixes",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/Tyfon.UIFixes.Net.dll",
+        "sha256": "91671491581fe377bb46fd8dcb78cff39f2583168250307a25ad63d3460935a0",
+        "file_version": "5.3.8.0",
+        "product_version": "5.3.8+278d0a8c72abbe7f2f5e3126426cd8d3e0d2b4f2"
+      }
+    ]
+  },
+  {
+    "name": "UnityToolkit",
+    "location": "BepInEx/plugins/UnityToolkit",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UniTask.Addressables.dll",
+        "sha256": "913b8efd93a996a463bceb777968fc3c1f69a751b2ba3a6139876a172a28b939",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UniTask.dll",
+        "sha256": "ecf2f94e53f217cfb2d941f874b0d4db4b4966b4677ab628044b9e416a5c7531",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UniTask.DOTween.dll",
+        "sha256": "82c500d2c1d985f0a91b6cbdba1b8c0f625702a22c4691d40a4d85a80029fa02",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UniTask.Linq.dll",
+        "sha256": "2f16cfa0d91a66a980a98eeea51e31c17e68998ac91795d2f9023cfef13082ad",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UniTask.TextMeshPro.dll",
+        "sha256": "a8eab5dd1313628f6dcd90bc0715bad14815ee3aec1f9bdcb7e869654e02ae30",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/Unity.Collections.dll",
+        "sha256": "87bf6e681fb0c8a508caa823c499d20c3b7da7a7b6f5ed6c7f46e0425862dc1d",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/UnityToolkit.dll",
+        "sha256": "a2ec73858992a6e573a1c53e2c1f7af142e339adbdfbc087faeee6a8ea1b6575",
+        "file_version": "2.0.1",
+        "product_version": "2.0.1"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/VContainer.dll",
+        "sha256": "921f6c91479fee2dbf0106527672eb1422274a76576aa0a310283fca6bc94365",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/ZLinq.dll",
+        "sha256": "d82d892059e9b2b15ebb26dd095cca25be30b6106221f66d59bec044230b9649",
+        "file_version": "1.5.3.0",
+        "product_version": "1.5.3+1555337622d9d36fc3094768e063339ea022e0f8"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/ZLinq.Unity.dll",
+        "sha256": "84eee9f9468911cba75d53a9f776eca4989d5e395606a4ddee4bdf94db67a227",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/ZLinq.Unity.UnityCollectoins.dll",
+        "sha256": "2fc7c8ad0e3b8b6c97cb6b838413c20bd0f95dae2d1ff31f6d456025cc416894",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/UnityToolkit/ZString.dll",
+        "sha256": "12f4b553c49ae250cf17aa5885e895cbd798e1825d4822ea7dacf5f0763ead6b",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      }
+    ]
+  },
+  {
+    "name": "UseItemsFromAnywhere.dll",
+    "location": "BepInEx/plugins/UseItemsFromAnywhere.dll",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/UseItemsFromAnywhere.dll",
+        "sha256": "e8787da7712a57c21960b41bf823b0bd783e6bd52544b608243c547977348461",
+        "file_version": "1.3.2.0",
+        "product_version": "1.3.2+06f9fa88"
+      }
+    ]
+  },
+  {
+    "name": "WTT-ArmoryClient",
+    "location": "BepInEx/plugins/WTT-ArmoryClient",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/WTT-ArmoryClient/WTT-ArmoryClient.dll",
+        "sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+        "file_version": "2.0.5.0",
+        "product_version": "2.0.5+f62171148778da23dbe50d284f446bb183782e46"
+      }
+    ]
+  },
+  {
+    "name": "WTT-ClientCommonLib",
+    "location": "BepInEx/plugins/WTT-ClientCommonLib",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/WTT-ClientCommonLib/WTT-ClientCommonLib.dll",
+        "sha256": "affc3646a162e244900bb36b820cfcba696f69ca99d4dc658f17ef83da1c87b1",
+        "file_version": "2.0.20.0",
+        "product_version": "2.0.20+962bb851a717a5adc1735fc88457122734537fab"
+      },
+      {
+        "path": "BepInEx/plugins/WTT-ClientCommonLib/WTT-ClientCommonLibFika.dll",
+        "sha256": "34808fb3abd862f634f8cefdab4f99018fe6384f24d4298a8fa001aa07cf0740",
+        "file_version": "2.0.20.0",
+        "product_version": "2.0.20+962bb851a717a5adc1735fc88457122734537fab"
+      }
+    ]
+  },
+  {
+    "name": "WTT-ContentBackportClient",
+    "location": "BepInEx/plugins/WTT-ContentBackportClient",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackport-MainMenu.dll",
+        "sha256": "2b249319f44e672cb0b53137ef5fe6d4b8672b3495eeb5874ed5b00108b474e6",
+        "file_version": "0.0.0.0",
+        "product_version": "0.0.0.0"
+      },
+      {
+        "path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackportClient.dll",
+        "sha256": "927279ae3005e066564360571ff4cc56c963819b3df02a038d2b5062536e779b",
+        "file_version": "1.0.7.0",
+        "product_version": "1.0.7+a463cf4543264951890cc79e948196509c6e3d38"
+      }
+    ]
+  },
+  {
+    "name": "[SVM] Server Value Modifier",
+    "location": "SPT/user/mods/[SVM] Server Value Modifier",
+    "status": "external-redistribution-prohibited",
+    "license": "PUSL; separate permission required",
+    "reason": "PUSL prohibits original and modified redistribution without permission.",
+    "source_url": "https://github.com/GhostFenixx/svm-csharp",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/[SVM] Server Value Modifier/ServerValueModifier.dll",
+        "sha256": "fe4bb6eb83f8cfb1914ae5eaec9c94d29bd2a0b2974c41367c3599cb0bcb0c45",
+        "file_version": "2.1.1.0",
+        "product_version": "2.1.1+4c207a4276a7facac6bd6078ff062722f9e4f7e8"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-addsecretexfilnotestocaches",
+    "location": "SPT/user/mods/acidphantasm-addsecretexfilnotestocaches",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-addsecretexfilnotestocaches/acidphantasm-addsecretexfilnotestocaches.dll",
+        "sha256": "92fda253181beb7ffd03d2780cb6786f1787b77fa9281b06e6f8873fc4b1d3ba",
+        "file_version": "2.0.0.0",
+        "product_version": "2.0.0+cb40d663b4faddf6056a8a88dbce84c400999c00"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-bosseshavegpcoins",
+    "location": "SPT/user/mods/acidphantasm-bosseshavegpcoins",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-bosseshavegpcoins/acidphantasm-bosseshavegpcoins.dll",
+        "sha256": "474d245427b07945b5d054b61e476935221443530e4ae789b583b5e8df2ad56f",
+        "file_version": "2.0.0.0",
+        "product_version": "2.0.0+29d8522c803d3e2bf280b1d29dacc7a37f8e9389"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "SPT/user/mods/acidphantasm-enablelabyrinth",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "license_evidence": [
+      "SPT/user/mods/acidphantasm-enablelabyrinth/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-enablelabyrinth/acidphantasm-enablelabyrinth.dll",
+        "sha256": "6f21c385a9e71ebd652e8b29922909975de84bcf3074dd69b73ef626f7057782",
+        "file_version": "1.0.2.0",
+        "product_version": "1.0.2+010d11579993781591177d7610ac47da65b9fb2f"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-itemlimitsbegone",
+    "location": "SPT/user/mods/acidphantasm-itemlimitsbegone",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-itemlimitsbegone/acidphantasm-itemlimitsbegone.dll",
+        "sha256": "7d59814121f3b4e1d23020e04b8fbc141e071828575ed54138da5cf1c083a5e3",
+        "file_version": "2.0.0.0",
+        "product_version": "2.0.0+7898c92c049f39701684bc686877468b8e0742fc"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "SPT/user/mods/acidphantasm-simpleworkoutqte",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "license_evidence": [
+      "SPT/user/mods/acidphantasm-simpleworkoutqte/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-simpleworkoutqte/acidphantasm-simpleworkoutqte.dll",
+        "sha256": "68511da88face2e1cb168a5941d4d447bff2edab498d71ca21993e6f3ef13d86",
+        "file_version": "2.0.1.0",
+        "product_version": "2.0.1+20629e0e49ea0342828df71ef69cae12330b8b41"
+      }
+    ]
+  },
+  {
+    "name": "acidphantasm-stattrack",
+    "location": "SPT/user/mods/acidphantasm-stattrack",
+    "status": "bundled-licensed",
+    "license": "MIT",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": null,
+    "license_evidence": [
+      "SPT/user/mods/acidphantasm-stattrack/LICENSE"
+    ],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/acidphantasm-stattrack/acidphantasm-stattrack.dll",
+        "sha256": "eeefe551cc6ea17f68e870a0ea91b0302000b84d479f70f99d3e9cb42fb5cf1a",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+9d7eb42832cfaa3f7bdd22d4f86132492b3d956f"
+      }
+    ]
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "SPT/user/mods/archangelwtf-contentbackportprestiges",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/archangelwtf-contentbackportprestiges/ContentBackportPrestigesServer.dll",
+        "sha256": "4275264fd9951211635201f5085efb96a82fe3d5e826f8ab9d571afb55405383",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+cad72e2deb325a8975db110f8ccef5689f39a0fc"
+      }
+    ]
+  },
+  {
+    "name": "ArmorGreatAgain",
+    "location": "SPT/user/mods/ArmorGreatAgain",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/ArmorGreatAgain/try4ckme-ArmorGreatAgain.dll",
+        "sha256": "a1b93102f40a69e4e08f7c0622d76e2830a157c2d8edcc9109db3d7abcb92af7",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+c584043e3f3c9fbd92a02bc9f66ade4a051d9a09"
+      }
+    ]
+  },
+  {
+    "name": "BackdoorBanditServer",
+    "location": "SPT/user/mods/BackdoorBanditServer",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/BackdoorBanditServer/BackdoorBanditServer.dll",
+        "sha256": "f3b078634d1d05fc17fd64123844b179e828b2bfd78379805880fe3f736faa08",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+76be169115eedb41dbae4a1fd08256769b399db0"
+      }
+    ]
+  },
+  {
+    "name": "bodycam",
+    "location": "SPT/user/mods/bodycam",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": []
+  },
+  {
+    "name": "BotCallsigns",
+    "location": "SPT/user/mods/BotCallsigns",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/BotCallsigns/BotCallsigns.dll",
+        "sha256": "53ee49ba7d7b000652b17ad8b1cc5823930ac1eaa80e2e380738f259093980f4",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+2e890e06ab3d3620cfcd68cd89cd81335c433a94"
+      }
+    ]
+  },
+  {
+    "name": "BountyBoard-drb",
+    "location": "SPT/user/mods/BountyBoard-drb",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/BountyBoard-drb/BountyBoard.dll",
+        "sha256": "20594f6f90f424be73fe2e4591d97ddded02319f329349a13451f60d2e1d7b1f",
+        "file_version": "1.2.0.0",
+        "product_version": "1.2.0+92069ed181ad7b42830346991f9fa49467da877f"
+      }
+    ]
+  },
+  {
+    "name": "bushtail-CantedAiming",
+    "location": "SPT/user/mods/bushtail-CantedAiming",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/bushtail-CantedAiming/CantedAiming.dll",
+        "sha256": "5cc80cd2a494f8a9ec862ddb9b8f06b3265e02133eef46f0965fcf5c528a045e",
+        "file_version": "1.0.7.0",
+        "product_version": "1.0.7+0780429e3c4e4fe72509a13a931317b98ee409f8"
+      }
+    ]
+  },
+  {
+    "name": "bushtail-CratesInAirdrop",
+    "location": "SPT/user/mods/bushtail-CratesInAirdrop",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/bushtail-CratesInAirdrop/CratesInAirdrop.dll",
+        "sha256": "431570f2b655243190471b8ba60f09046bcc34a990b468c6035ec0ace39d421c",
+        "file_version": "1.0.1.0",
+        "product_version": "1.0.1+b0d084c9e8137530fc30955364b545a9f0966981"
+      }
+    ]
+  },
+  {
+    "name": "DickMarcinkoVoicePack",
+    "location": "SPT/user/mods/DickMarcinkoVoicePack",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/DickMarcinkoVoicePack/DickMarcinkoVoicePack.dll",
+        "sha256": "496cf6b38c9ae5430ee62b2bcacfd42aa9c267235547b305e10ad7b1b9d6a61c",
+        "file_version": "1.0.6.0",
+        "product_version": "1.0.6"
+      }
+    ]
+  },
+  {
+    "name": "Epic_Shaders",
+    "location": "SPT/user/mods/Epic_Shaders",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Epic_Shaders/Epic_Shaders.dll",
+        "sha256": "397a985e84089b94fbe85d697cdbcb1e8819f2a81de512ced3425017e7218749",
+        "file_version": "1.0.1.0",
+        "product_version": "1.0.1+8a301958b8456986e1a7c1599612ddea3caaa1c4"
+      }
+    ]
+  },
+  {
+    "name": "fika-server",
+    "location": "SPT/user/mods/fika-server",
+    "status": "bundled-licensed",
+    "license": "CC-BY-NC-SA-4.0",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/project-fika/Fika-Server-CSharp",
+    "license_evidence": [
+      "SPT/user/mods/fika-server/LICENSE-Fika.md",
+      "SPT/user/mods/fika-server/LICENSE-LiteNetLib.md",
+      "SPT/user/mods/fika-server/LICENSE-SPT.md"
+    ],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/fika-server/FikaServer.dll",
+        "sha256": "64e01f21f0a460406d8ea24eb9fbedfbe2e10a973767ec6cbdda04626896e1d0",
+        "file_version": "2.0.9.0",
+        "product_version": "2.0.9+d45ca0fd67ce98abea4f6e687fc8164087d46e50"
+      },
+      {
+        "path": "SPT/user/mods/fika-server/FikaShared.dll",
+        "sha256": "3b24e1a458ab7d9855c1cc2be5ca4865ee8d8be12e3ce30d448e3821581269ca",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+d45ca0fd67ce98abea4f6e687fc8164087d46e50"
+      }
+    ]
+  },
+  {
+    "name": "fleasimulator",
+    "location": "SPT/user/mods/fleasimulator",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/fleasimulator/fleasimulator.dll",
+        "sha256": "8f137125bb74a9a9020dfbf06e2170797c5bcd516ca354f024d554156d3b46d9",
+        "file_version": "1.2.2.0",
+        "product_version": "1.2.2+854dd602e10701f193bb538d1b93d8d7225b4b60"
+      }
+    ]
+  },
+  {
+    "name": "HoodsEnergyDrinks",
+    "location": "SPT/user/mods/HoodsEnergyDrinks",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/HoodsEnergyDrinks/HoodsEnergyDrinks-CSharp.dll",
+        "sha256": "e9375120128671fdca9dfcaf1bf05c60ae6ca46bf7099c28cf8f43aabd013fbf",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+3a840571f05cd79804bcc57fa5c04ba93d7bf618"
+      }
+    ]
+  },
+  {
+    "name": "JellyVoices",
+    "location": "SPT/user/mods/JellyVoices",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/JellyVoices/Jelly.dll",
+        "sha256": "9f3369408c2ad7a8f0ebf88b95d08937e651fb28bd82f5c740d3ee1781f54223",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+0a53174c9eb5d8f490bb1f65ca33335dcb580dc2"
+      }
+    ]
+  },
+  {
+    "name": "MergeConsumablesServer",
+    "location": "SPT/user/mods/MergeConsumablesServer",
+    "status": "external-permission-needed-for-modifications",
+    "license": "CC-BY-NC-ND-4.0",
+    "reason": "NoDerivatives license: modified builds are not included; upstream identity not established.",
+    "source_url": null,
+    "license_evidence": [
+      "SPT/user/mods/MergeConsumablesServer/LICENSE.md"
+    ],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/MergeConsumablesServer/MergeConsumablesServer.dll",
+        "sha256": "0b37345eced07b1ed73c5d040d981e1be8e5c4a717da94d1048b44330bcdda61",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+77173c2204c52584db950768c48c401b7d1bdac6"
+      }
+    ]
+  },
+  {
+    "name": "MoreBotsServer",
+    "location": "SPT/user/mods/MoreBotsServer",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/MoreBotsServer/MoreBotsServer.dll",
+        "sha256": "d58c93aabae317ba26891bd8883f9e5a1d595db3f451142fc656f4ce10f565cb",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+fbc561f633a03c3f1502dba21ef6bfee388b1aed"
+      }
+    ]
+  },
+  {
+    "name": "NarcoNet-v1.0.16",
+    "location": "SPT/user/mods/NarcoNet-v1.0.16",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/BepInEx/plugins/MadManBeavis-NarcoNet/NarcoNet.dll",
+        "sha256": "2704da21cc9945804ee9b974e0140bf021204b9afe054a96efa39cf3f9d2ed17",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.16+bfcbf59b3da93f6cbd8ad8604639face09109da6"
+      },
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/BepInEx/plugins/MadManBeavis-NarcoNet/NarcoNet.UI.dll",
+        "sha256": "af6849277230dfc4c703a65346c1e1805132d0ac979711d281e916b1a4a29c73",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.16+bfcbf59b3da93f6cbd8ad8604639face09109da6"
+      },
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/BepInEx/plugins/MadManBeavis-NarcoNet/NarcoNet.Utilities.dll",
+        "sha256": "c091f21d08c3a47f00d04a7c87c0cc98de3f6f76352583ba890cd7a38b2ee463",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.16+bfcbf59b3da93f6cbd8ad8604639face09109da6"
+      },
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/SPT/user/mods/NarcoNet-Server/NarcoNet.Server.dll",
+        "sha256": "ef58989d0bb27c5822762f0d92ab1a391f808eede80bf8b5d817956941510dbf",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.16+bfcbf59b3da93f6cbd8ad8604639face09109da6"
+      },
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/SPT/user/mods/NarcoNet-Server/NarcoNet.Utilities.dll",
+        "sha256": "286cd3ecf07a8d51a574ac442d4660237fe8594771051932ea6163e60d834b4f",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.16+bfcbf59b3da93f6cbd8ad8604639face09109da6"
+      },
+      {
+        "path": "SPT/user/mods/NarcoNet-v1.0.16/SPT/user/mods/NarcoNet-Server/YamlDotNet.dll",
+        "sha256": "25c59e8e4e636471b2d648230e0c934fa597e8768e52686fb00d5d417df4dc90",
+        "file_version": "16.2.1.0",
+        "product_version": "16.2.1"
+      }
+    ]
+  },
+  {
+    "name": "OldTarkovMovementServer",
+    "location": "SPT/user/mods/OldTarkovMovementServer",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/OldTarkovMovementServer/OldTarkovMovementServer.dll",
+        "sha256": "af3d0d33e14cfe2718cd4913407770ae49f9c0aa25ae2bdaef02d8b740346534",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+57b6f913a4564cce4a11e52b4d5d1eb470a421d7"
+      }
+    ]
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "SPT/user/mods/ozen-Foldables",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/ozen-Foldables/Foldables.Server.dll",
+        "sha256": "1b9617f68d059a6e0882bf444b20169e5b030790bc00e27341ba8b2a2c0c3251",
+        "file_version": "1.0.3.0",
+        "product_version": "1.0.3+6a954353f396eee8830a5112181b1bbc5a20d609"
+      }
+    ]
+  },
+  {
+    "name": "PenaltiesRemoved",
+    "location": "SPT/user/mods/PenaltiesRemoved",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/PenaltiesRemoved/PenaltiesRemoved.dll",
+        "sha256": "911a50b8c5db34fc71737ec197a2b4537ed4e0a291796bbb1a5cbc7478b24623",
+        "file_version": "1.3.0.0",
+        "product_version": "1.3.0+d5c0c385112fc901caaae24b1476239013ed54cc"
+      }
+    ]
+  },
+  {
+    "name": "platinum-theblacklist",
+    "location": "SPT/user/mods/platinum-theblacklist",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/platinum-theblacklist/TheBlacklist.dll",
+        "sha256": "e4711d571daa838fbc1e019ef55879bf560bb92a819d953995ceb6930084f10c",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+26791185400386c1db8c0f5e676832825f82657d"
+      }
+    ]
+  },
+  {
+    "name": "Refringe-BetterBackpacks",
+    "location": "SPT/user/mods/Refringe-BetterBackpacks",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Refringe-BetterBackpacks/BetterBackpacks.dll",
+        "sha256": "938bb9aa7feae20e3ecdfd719d2d37fcd23b69893478e415ac2fe389a6e72c8f",
+        "file_version": "1.0.1.0",
+        "product_version": "1.0.1+8629b41ddec1e77ea0e7ca2124a313fe8ee0bc43"
+      }
+    ]
+  },
+  {
+    "name": "RevivalModServer",
+    "location": "SPT/user/mods/RevivalModServer",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": []
+  },
+  {
+    "name": "RZEssentials",
+    "location": "SPT/user/mods/RZEssentials",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/RZEssentials/RZEssentials.dll",
+        "sha256": "08bc98b0feee0cfb48f6fdefc5a4f0885febf77e88b8e2f30b7c4f852e9166bc",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+f30b52adf88ddd2f91a358d85bf86cdd156b082a"
+      }
+    ]
+  },
+  {
+    "name": "Scavs4All",
+    "location": "SPT/user/mods/Scavs4All",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Scavs4All/Scavs4All.dll",
+        "sha256": "70066afe6951bf49d913994c3605b80d2ade681cf4605e4a05aa20899f6c2c38",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+9483cdc25ca40d43e71a2a5f030ad7eefe14e485"
+      }
+    ]
+  },
+  {
+    "name": "Skwizzy-LootingBots-ServerMod",
+    "location": "SPT/user/mods/Skwizzy-LootingBots-ServerMod",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": "https://github.com/Skwizzy/SPT-LootingBots",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Skwizzy-LootingBots-ServerMod/LootingBotsServerMod.dll",
+        "sha256": "5f18c8e9c3f7fa7fb872904f0b5350a675c654f5915edeca5616fd57cc800893",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+42608dfee177d4de313122046e152f4f97feb2b8"
+      }
+    ]
+  },
+  {
+    "name": "Solarint-SAIN-ServerMod",
+    "location": "SPT/user/mods/Solarint-SAIN-ServerMod",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": "https://github.com/Solarint/SAIN",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Solarint-SAIN-ServerMod/SAINServerMod.dll",
+        "sha256": "59940b9a23600286b74012b7078d41f73a5c3ef7894ceace90b066b9678b3e34",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0+2b7ff8d19c2946a0b411023e432e3d0a8be2825f"
+      }
+    ]
+  },
+  {
+    "name": "TwitchPlayers",
+    "location": "SPT/user/mods/TwitchPlayers",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/TwitchPlayers/TwitchPlayers.dll",
+        "sha256": "4ac842a064125221473b0d1206226ac75fd2efa8d10629a2b826753e5c655a9e",
+        "file_version": "0.0.1.0",
+        "product_version": "0.0.1+bde54b7c7645747a069c68e39cec7cbe13d15032"
+      }
+    ]
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.Server",
+    "location": "SPT/user/mods/Tyfon.HideoutInProgress.Server",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Tyfon.HideoutInProgress.Server/Tyfon.HideoutInProgress.Server.dll",
+        "sha256": "6d0735aca44e87203af1f904e5bda7035623fb290be75dcc8814a99c0271dc76",
+        "file_version": "2.0.2.0",
+        "product_version": "2.0.2+aeb4d8ed9f98f6eb803e49a0a5dced20282ab2ac"
+      }
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.Server",
+    "location": "SPT/user/mods/Tyfon.UIFixes.Server",
+    "status": "bundled-licensed",
+    "license": "MIT (installed source commit)",
+    "reason": "License retained; local state removed; see third-party notices for file exclusions.",
+    "source_url": "https://github.com/tyfon7/UIFixes",
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/Tyfon.UIFixes.Server/Tyfon.UIFixes.Server.dll",
+        "sha256": "076cd54483695f0f0cdbd927badc7f082d427a8648eef49d77373dacbbfdacda",
+        "file_version": "5.3.8.0",
+        "product_version": "5.3.8+278d0a8c72abbe7f2f5e3126426cd8d3e0d2b4f2"
+      }
+    ]
+  },
+  {
+    "name": "WTT-Armory",
+    "location": "SPT/user/mods/WTT-Armory",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/WTT-Armory/WTT-Armory.dll",
+        "sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+        "file_version": "2.0.5.0",
+        "product_version": "2.0.5+f62171148778da23dbe50d284f446bb183782e46"
+      }
+    ]
+  },
+  {
+    "name": "WTT-ContentBackport",
+    "location": "SPT/user/mods/WTT-ContentBackport",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/WTT-ContentBackport/WTT-ContentBackport.dll",
+        "sha256": "81ef6164760235d7d589945822d097a9a71a9e1558b5dd4c46bd121d1d00cd37",
+        "file_version": "1.0.7.0",
+        "product_version": "1.0.7+a463cf4543264951890cc79e948196509c6e3d38"
+      }
+    ]
+  },
+  {
+    "name": "WTT-ServerCommonLib",
+    "location": "SPT/user/mods/WTT-ServerCommonLib",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/WTT-ServerCommonLib/WTT-ServerCommonLib.dll",
+        "sha256": "210a7d5bd7b436a78483d3a05a7478f3afdb0801b120ec2e0f7911539a6a3d05",
+        "file_version": "2.0.20.0",
+        "product_version": "2.0.20+962bb851a717a5adc1735fc88457122734537fab"
+      }
+    ]
+  },
+  {
+    "name": "WTT-TheLongLostHeadsOfYojenkz",
+    "location": "SPT/user/mods/WTT-TheLongLostHeadsOfYojenkz",
+    "status": "external-license-unresolved",
+    "license": "not-established",
+    "reason": "Redistribution permission not established for this installed copy; no blanket permission inferred from public availability.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/WTT-TheLongLostHeadsOfYojenkz/WTT-TheLongLostHeadsOfYojenkz.dll",
+        "sha256": "924787a65e2a70765d2ac749a63f80c527b340d2cfd89d85169cee3976860a76",
+        "file_version": "2.0.1.0",
+        "product_version": "2.0.1+e3b0dec9c0d30e4139a6c1f4927a8f3de3bcf882"
+      }
+    ]
+  },
+  {
+    "name": "zzz-CodexAiPopulationTuning",
+    "location": "SPT/user/mods/zzz-CodexAiPopulationTuning",
+    "status": "bundled-owned",
+    "license": "not-established",
+    "reason": "Source included; source/binary rebuild checks recorded separately.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/zzz-CodexAiPopulationTuning/Codex.AiPopulationTuning.dll",
+        "sha256": "471a56d256c2c6a9e10145bb54eaa29eb208a129ff5f968b15684b721d4d9276",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "zzz-CodexOpenScavTransits",
+    "location": "SPT/user/mods/zzz-CodexOpenScavTransits",
+    "status": "bundled-owned",
+    "license": "not-established",
+    "reason": "Source included; source/binary rebuild checks recorded separately.",
+    "source_url": null,
+    "license_evidence": [],
+    "binaries": [
+      {
+        "path": "SPT/user/mods/zzz-CodexOpenScavTransits/Codex.OpenScavTransits.dll",
+        "sha256": "b9d2315c4919d859f1d020714bd6ba99ed92c4bcf84e9007ab5a27599d438529",
+        "file_version": "1.0.0.0",
+        "product_version": "1.0.0"
+      }
+    ]
+  }
+]

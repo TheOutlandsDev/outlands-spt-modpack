@@ -1,0 +1,52 @@
+{
+  "name": "Outlands SPT Modpack",
+  "version": "0.1.0-dev.1",
+  "tag": "v0.1.0-dev.1-spt4.0.13",
+  "date": "2026-10-23",
+  "status": "developer-prerelease",
+  "spt_version": "4.0.13",
+  "spt_product_version": "4.0.13-RELEASE+2891fd4.20260302.2891fd41fd07b6150a2192ac0d24adb93eb72862",
+  "spt_commit": "2891fd41fd07b6150a2192ac0d24adb93eb72862",
+  "eft_version": "0.16.9.40087",
+  "spt_prerequisite_included": false,
+  "game_files_included": false,
+  "live_install_modified": false,
+  "runtime_tested": false,
+  "known_core_dependencies": [
+    {
+      "name": "Fika client",
+      "version": "2.2.5.0",
+      "bundled_layer": "coop"
+    },
+    {
+      "name": "Fika server",
+      "version": "2.0.9",
+      "bundled_layer": "coop"
+    },
+    {
+      "name": "SAIN",
+      "version": "4.4.3",
+      "bundled": false
+    },
+    {
+      "name": "BigBrain",
+      "version": "1.4.0",
+      "bundled_layer": "third-party"
+    },
+    {
+      "name": "Waypoints",
+      "version": "1.8.2",
+      "bundled_layer": "third-party"
+    },
+    {
+      "name": "Looting Bots",
+      "version": "1.7.0",
+      "bundled": false
+    },
+    {
+      "name": "UI Fixes",
+      "version": "5.3.8",
+      "bundled_layer": "third-party"
+    }
+  ]
+}

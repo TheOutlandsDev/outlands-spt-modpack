@@ -1,0 +1,148 @@
+{
+  "checked_on": "2026-10-23",
+  "tests": {
+    "privacy_and_file_allowlist": {
+      "passed": true,
+      "findings": []
+    },
+    "source_builds": {
+      "passed": true,
+      "projects": [
+        {
+          "project": "AiPopulationTuning",
+          "success": true,
+          "assembly": "Codex.AiPopulationTuning.dll",
+          "sha256": "340036349599a65161513a75b4219aea073af1a2d53b89d9545ce3408639f616"
+        },
+        {
+          "project": "OpenScavTransits",
+          "success": true,
+          "assembly": "Codex.OpenScavTransits.dll",
+          "sha256": "5cc9472402d4442d5ac5ac0e1e05b7a3ffa51998b050d7cc8043e735cf7f677d"
+        },
+        {
+          "project": "CodexDiagnostics",
+          "success": true,
+          "assembly": "Codex.Diagnostics.Client.dll",
+          "sha256": "419bdb245dd12c0a83e32762f4621d80ba2decc5326de59c2db9aafd790b25ba"
+        },
+        {
+          "project": "ScavLifeFramework",
+          "success": true,
+          "assembly": "Codex.ScavLifeFramework.dll",
+          "sha256": "b4c921d9e24bb38405aa9891c1e3491d45b4d5a7100bcb623c9512921237f7ba"
+        },
+        {
+          "project": "ScavLifeClient",
+          "success": true,
+          "assembly": "Codex.ScavLife.Client.dll",
+          "sha256": "365f2e0350620aaf0a68127a883fae27907ac4904635c340210b36ff1120e1a9"
+        },
+        {
+          "project": "QuakeBrain",
+          "success": true,
+          "assembly": "QuakeBrain.Telemetry.dll",
+          "sha256": "9bf73a4a324f7afc7123fc2b9afa8b4b97f14d17eb02f40ce2b3c3b5e1fbb49d"
+        },
+        {
+          "project": "VagabondScavAccess",
+          "success": true,
+          "assembly": "Codex.VagabondScavAccess.dll",
+          "sha256": "b74e54a4f5ae6e4b8b91e4add5fd619b57de809b2db4d1a100ad17508f72c222"
+        },
+        {
+          "project": "FpvDroneParentCachePreload",
+          "success": true,
+          "assembly": "Codex.FpvDroneParentCachePreload.dll",
+          "sha256": "a498445d05035dd52567b83f84131b18de8dc18c39ea546da3893c35023c4194"
+        },
+        {
+          "project": "EscapeFromConnorBranding",
+          "success": true,
+          "assembly": "Codex.EscapeFromConnorBranding.dll",
+          "sha256": "53c538f68c52f28edd3a53103564cda9bae8a8def4f35ed63012e2787970f47e"
+        }
+      ],
+      "warning_count": 0,
+      "error_count": 0
+    },
+    "third_party_binary_identity": {
+      "passed": true,
+      "files_checked": 15
+    },
+    "checksum_generation": {
+      "passed": true
+    },
+    "package_checksums": {
+      "passed": true,
+      "result": "Verified 202 package files."
+    },
+    "installer_preview_no_writes": {
+      "passed": true,
+      "exit_code": 0
+    },
+    "installer_fixture_copy_backup_preserve": {
+      "passed": true,
+      "exit_code": 0,
+      "profile_unchanged": true,
+      "existing_config_preserved": true,
+      "overwritten_binary_and_profile_backups_verified": true
+    },
+    "installed_file_receipt": {
+      "passed": true,
+      "files_checked": 108
+    },
+    "checksum_rejects_tampering": {
+      "passed": true
+    },
+    "checksum_rejects_missing_files": {
+      "passed": true
+    },
+    "checksum_rejects_path_escape": {
+      "passed": true
+    },
+    "powershell_parse": {
+      "passed": true,
+      "errors": 0
+    },
+    "final_package_checksums": {
+      "passed": true,
+      "result": "Verified 207 package files."
+    },
+    "source_only_checksums": {
+      "passed": true,
+      "result": "Verified 171 package files."
+    },
+    "checksum_rejects_unlisted_payload": {
+      "passed": true
+    },
+    "final_preview_no_writes": {
+      "passed": true
+    },
+    "final_installer_backup_profile_preservation": {
+      "passed": true
+    },
+    "final_installed_hashes": {
+      "passed": true,
+      "files_checked": 111
+    },
+    "explicit_config_replacement": {
+      "passed": true
+    },
+    "rejects_incompatible_eft_target": {
+      "passed": true
+    },
+    "fika_configuration_sanitized": {
+      "passed": true
+    },
+    "final_privacy_scan": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  "limitations": [
+    "No gameplay, live server, multiplayer or headless runtime test was performed.",
+    "Public payload is a curated subset; external mod permissions and exact reproduction remain unresolved."
+  ],
+  "passed": true
+}

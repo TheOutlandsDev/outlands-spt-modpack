@@ -1,0 +1,16 @@
+{
+  "excluded_categories": [
+    "EFT executables/assemblies/retail assets",
+    "SPT core runtime/database/images (prerequisite only)",
+    "profiles and per-player mod Data directories",
+    "certificates/private keys",
+    "logs/telemetry/backup/cache directories",
+    "Fika database playerRelations/friendRequests and generated scripts",
+    "original machine paths, VPN addresses and profile identifiers",
+    "SVM redistribution prohibited; ND modified binaries; unresolved licenses"
+  ],
+  "selected_bundled_file_exclusions": [
+    "SPT/user/mods/acidphantasm-enablelabyrinth/wwwroot/images/background.jpg",
+    "SPT/user/mods/acidphantasm-stattrack/Data/local-test.json"
+  ]
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "path": "custom-tools/AiPopulationTuning/Build-AiPopulationTuning.ps1",
+    "original_sha256": "fc9fc0ba0489ba29694c39ed31e6665447611581c291f2607b7e585069ea35fc",
+    "packaged_sha256": "e844742f9d3490bfd60f4e1bb5bc4d55e58918d1eaad1c65d4d26ec09cf5e0c2",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/config/config.json",
+    "original_sha256": "c8eb905b44544dfb2c3275a6d8f18035f94fcbb68a0b339865087cb2f4850c3f",
+    "packaged_sha256": "c8eb905b44544dfb2c3275a6d8f18035f94fcbb68a0b339865087cb2f4850c3f",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/AiPopulationTuningConfig.cs",
+    "original_sha256": "cbc932bb0b521fe1780d0038fb04a089af69e2cc9a4359eb192af8e172b9f220",
+    "packaged_sha256": "cbc932bb0b521fe1780d0038fb04a089af69e2cc9a4359eb192af8e172b9f220",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/AiPopulationTuningMod.cs",
+    "original_sha256": "77d3e5791466cb46349fb072734e086eef1cdb0a3ee5f017b77e7950a530a4ac",
+    "packaged_sha256": "77d3e5791466cb46349fb072734e086eef1cdb0a3ee5f017b77e7950a530a4ac",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/AiPopulationTuningService.cs",
+    "original_sha256": "1e30b3f88ef3a055aeb431f0c71010438ae38c2ac9c73cf2ace6b89ddfba0672",
+    "packaged_sha256": "1e30b3f88ef3a055aeb431f0c71010438ae38c2ac9c73cf2ace6b89ddfba0672",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/Codex.AiPopulationTuning.csproj",
+    "original_sha256": "760b25a9daa6eeed9e8bab202b3a4ea6546e43fa5071105ba3332efef6415992",
+    "packaged_sha256": "a06a09408c590d1c6076c8b99edc0f489ffbaeb0d2039a5e45aa760404c3d697",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/ModMetadata.cs",
+    "original_sha256": "8eee47e512ab234f64acf6eeb2daf97c234b2198406288414b75ccdd5584f116",
+    "packaged_sha256": "8eee47e512ab234f64acf6eeb2daf97c234b2198406288414b75ccdd5584f116",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/Build-CodexDiagnostics.ps1",
+    "original_sha256": "30ca8a833c990cb92ffa628e7f054ea1b9384dcaeffcc53ddbf98a47a1f8a165",
+    "packaged_sha256": "604f63b8b2ea81aba179a5d53bc8e2b71ad521b85ae2d5989ff2c83f30856fb7",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/README.md",
+    "original_sha256": "0fdc58c6b22d8026479017d5655526efc8e2d406981019aaf38e4de79c401268",
+    "packaged_sha256": "a4ab3927e47931132ed07d4aa0f77424595f71b5b08ce0600d9be8c70921f09e",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/src/Codex.Diagnostics.Client/Codex.Diagnostics.Client.csproj",
+    "original_sha256": "dff4438c4741c4ca04f0f1b9d9c5bf565c7cc407444b98047d28c3f3558abc03",
+    "packaged_sha256": "39d90e571f876edb2ed5ecef4c31c815fb063044c35c2ac0e46ff796b639ce81",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/src/Codex.Diagnostics.Client/DiagnosticsJsonlWriter.cs",
+    "original_sha256": "c242b4ebe1698729e821ddde4ce0284808bc73516de0637daf5f0d9ed04c936b",
+    "packaged_sha256": "c242b4ebe1698729e821ddde4ce0284808bc73516de0637daf5f0d9ed04c936b",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/src/Codex.Diagnostics.Client/Plugin.cs",
+    "original_sha256": "5e343a13b1f4d5dd4d45fd0098038dffc4bafc82f3466c537486ce51f4496e03",
+    "packaged_sha256": "5e343a13b1f4d5dd4d45fd0098038dffc4bafc82f3466c537486ce51f4496e03",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/CodexDiagnostics/Summarize-CodexDiagnostics.ps1",
+    "original_sha256": "99990c95c214e422eb8cfc8a138829b41a7308da1073e8a533a9eb013d034938",
+    "packaged_sha256": "4c9cf8e50163b980e25dcda014bc80092571a15a3f13624ff04e360ce21c147c",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/EscapeFromConnorBranding/Build-EscapeFromConnorBranding.ps1",
+    "original_sha256": "d56a5842d3f3b62c11771b964f8c1bf5e1c83c57d767b655f376f4387b2d523a",
+    "packaged_sha256": "6178156f9e8b81465e0e1f1b1318b96519cf7b22890b863942b82d12e9dc0d5f",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/EscapeFromConnorBranding/README.md",
+    "original_sha256": "23dbf1cb290a69b133eaa0a8e1caf0b42d9ee3e27ec2a817fe888c929be8d63a",
+    "packaged_sha256": "6fca0f8663d521419f93b4600fcf4a5ad912ac0fa861c598cc13bf4c1b20863b",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/EscapeFromConnorBranding/src/Codex.EscapeFromConnorBranding/Codex.EscapeFromConnorBranding.csproj",
+    "original_sha256": "0db87b58a5b064cf8511bc8af5bb247cb404227d05dd8b3bf5900a9537c03a7b",
+    "packaged_sha256": "d8656d078baaaae324a81205d1751a43b3f0b054d0a9d6aed06c44b967dd83b8",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/EscapeFromConnorBranding/src/Codex.EscapeFromConnorBranding/EscapeFromConnorBranding.cs",
+    "original_sha256": "5a44f988394094f3b838988fbb7ab710fa9fd9afe0f3acf46cc73503f08c0fe5",
+    "packaged_sha256": "2e2820c50e9707a8f5deddec3a213ec7d34c52c6d76f308666f5b3ab751abc37",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/EscapeFromConnorBranding/src/Codex.EscapeFromConnorBranding/ModMetadata.cs",
+    "original_sha256": "bdc718873c853aabe657f8336985bc2e21e2146c1fd2d96bd7877d1bcfea06a3",
+    "packaged_sha256": "f32c93a5d3969c8e7b43d1fcc912c5fe585e83203db379b40e99de0228ab49d7",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FikaHeadless/Install-FikaHeadless-ServerPC.ps1",
+    "original_sha256": "a5357241c3b993b5650f15468040c30694966bcefa72fe60257437dc8795c663",
+    "packaged_sha256": "5d64a8853d2673a40b95242d0ccb1ae14a63eb74e775a9baf25e3de96c4c4a38",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FikaHeadless/Prune-FikaHeadlessClient-ServerPC.ps1",
+    "original_sha256": "9a65083274aee2036026770a23112f6f97d2fa80543cf33fa4344557a3351db6",
+    "packaged_sha256": "59c19b7a9fad2786a890e3caad07a2cee264efeaa38b680fda7fc20db26b4d5c",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FikaHeadless/Repair-FikaHeadlessConfig-ServerPC.ps1",
+    "original_sha256": "e44e5486dda5bf46abefd7fed55be7c7e3ce7b6620bbd4882435e5737eea84a9",
+    "packaged_sha256": "7fb2243543cec6e012e762450ea9af49921281f7548c687d052acb641c364f0f",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FikaHeadless/SERVER-PC-FIKA-HEADLESS-SETUP.md",
+    "original_sha256": "51ccd0e7af0e1aedc82301a34674cb83e14d76020cd1dc46a1a1308483c0acc4",
+    "packaged_sha256": "01f507af3e63c6a28baeb7da7e8d46cc987fa7536f07b1abd076dc662877bf38",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FpvDroneParentCachePreload/Build-FpvDroneParentCachePreload.ps1",
+    "original_sha256": "220b7369a057346292f3ecf346b2edc2cbf391c83728d79609d9990729592bb7",
+    "packaged_sha256": "0d227daf728e753297e18748a7b773b35c971fe592204e7e71a63f24a2937f34",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FpvDroneParentCachePreload/README.md",
+    "original_sha256": "3383a77355623812c0f7de5f79ceaacf1083bbdb3450ae2716f17ea6dfa9caf9",
+    "packaged_sha256": "cc5f3401ff362e01d51f9165ca4bcb2233da4d44fdc8fc167cb20490b6240218",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FpvDroneParentCachePreload/src/Codex.FpvDroneParentCachePreload/Codex.FpvDroneParentCachePreload.csproj",
+    "original_sha256": "7547ecf5326a72af1f19471a40edf31e4f201f1cca2f6785a04b06a3428a3fe6",
+    "packaged_sha256": "431320860bec82ee1d86897d65973e4fd296b465d4e6c8a68043b93f378b69f6",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/FpvDroneParentCachePreload/src/Codex.FpvDroneParentCachePreload/FpvDroneParentCachePreload.cs",
+    "original_sha256": "c0f032811e27e644341b66a4e21603f67cae8d1f4c1b45bdd6b78750754fcc45",
+    "packaged_sha256": "c0f032811e27e644341b66a4e21603f67cae8d1f4c1b45bdd6b78750754fcc45",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/FpvDroneParentCachePreload/src/Codex.FpvDroneParentCachePreload/ModMetadata.cs",
+    "original_sha256": "837e087d02a791f07484e6f63a31e45afdfc52e76d411263109c29ea2c3e4ce1",
+    "packaged_sha256": "837e087d02a791f07484e6f63a31e45afdfc52e76d411263109c29ea2c3e4ce1",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/Build-OpenScavTransits.ps1",
+    "original_sha256": "bf09de205c33c0b9ce2b217ecc79804714e27220288e41c809c05ef81de6f4bd",
+    "packaged_sha256": "c0f45f2bfba2df955f42ba5c786a30a3753504bc06ecafed5b064b821fed3a86",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/config/config.json",
+    "original_sha256": "877099456568e9f2912e28a1683919bf233357465a540e8980bc967c6f381481",
+    "packaged_sha256": "877099456568e9f2912e28a1683919bf233357465a540e8980bc967c6f381481",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/Codex.OpenScavTransits.csproj",
+    "original_sha256": "ec4037bc2f3415c90bdf9212927c43294bdc38e1daa229f12e6a5db09071b326",
+    "packaged_sha256": "bb87b1218ad68689516f9d13bf5e3a723a5e13ab2c935f9aab17081b9ed3e79d",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/ModMetadata.cs",
+    "original_sha256": "3e226587d1585288bda61213f456cc6c54742b2c8277f872f7089a99ed94796d",
+    "packaged_sha256": "3e226587d1585288bda61213f456cc6c54742b2c8277f872f7089a99ed94796d",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/OpenScavTransitsConfig.cs",
+    "original_sha256": "af5103d576b954c7c7975f7a59504c7f24343e6b176bf888f74852b084f72f1d",
+    "packaged_sha256": "af5103d576b954c7c7975f7a59504c7f24343e6b176bf888f74852b084f72f1d",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/OpenScavTransitsMod.cs",
+    "original_sha256": "9aa16dd2fe97ffde71b77fc8c7a98e1316d94bdbf34d85ce1c87fc6a65082446",
+    "packaged_sha256": "9aa16dd2fe97ffde71b77fc8c7a98e1316d94bdbf34d85ce1c87fc6a65082446",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/OpenScavTransitsService.cs",
+    "original_sha256": "abe733574d44a4ce44f888b4a4a6938d88fa02468a76c12625294ae1e0ab3603",
+    "packaged_sha256": "abe733574d44a4ce44f888b4a4a6938d88fa02468a76c12625294ae1e0ab3603",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/TraderAvailabilityPatches.cs",
+    "original_sha256": "81ab2673a4f9d804428af086568506547f2137a356ad47aedae065ea8bcd9529",
+    "packaged_sha256": "81ab2673a4f9d804428af086568506547f2137a356ad47aedae065ea8bcd9529",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/TraderAvailabilityService.cs",
+    "original_sha256": "9bb2db730719143defe3286efab094a7cedca84e38cbe6f03d09008ac5dc974b",
+    "packaged_sha256": "9bb2db730719143defe3286efab094a7cedca84e38cbe6f03d09008ac5dc974b",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/Build-QuakeBrainTelemetry.ps1",
+    "original_sha256": "cd5d8e5c9caf8db52cba94879d7786f56c44e8becddaf96e62bfd4f02c41d577",
+    "packaged_sha256": "08761b1b2180f2927f4681e331ebf1d13db53b0ec2f6a009369c452bc4b08400",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/QuakeBrain/README.md",
+    "original_sha256": "664b9d9d8426a5dfa80a9e52dbfe3ac4f9be151485c57296208bf711f811bacf",
+    "packaged_sha256": "b7000647bc8cb016f09a36cfd3b664d550bfa0f6119a238a0c4265e7b503b7a9",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/HarmonyPatches.cs",
+    "original_sha256": "1304ba16cdc986c7669fdf03056b060d1e405e9f96b0f9eafb42a66f5ff551a7",
+    "packaged_sha256": "1304ba16cdc986c7669fdf03056b060d1e405e9f96b0f9eafb42a66f5ff551a7",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/LineOfSightSampler.cs",
+    "original_sha256": "12566f9a10e1176cd98f7d37ee0e806e1a2fc1a78caffa42ed20871abf8a9b53",
+    "packaged_sha256": "12566f9a10e1176cd98f7d37ee0e806e1a2fc1a78caffa42ed20871abf8a9b53",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/Plugin.cs",
+    "original_sha256": "85dbfc34bdb95c8e0f31e05f84637a5f72b47a6ffb2d84d03ffd2eaeb1ff76f2",
+    "packaged_sha256": "85dbfc34bdb95c8e0f31e05f84637a5f72b47a6ffb2d84d03ffd2eaeb1ff76f2",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/QuakeBrain.Telemetry.csproj",
+    "original_sha256": "52d3b932c6e1b059730bebcf12799cf6de59b385f930eb6ea5f395fff1af13cb",
+    "packaged_sha256": "4ff57af5be3aa02fa0568a2787dc1f8f7449f68d856e1d47e26caf8753c8ab96",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/TelemetryModels.cs",
+    "original_sha256": "1413c8b3298e4b2c441a4b1fa758ec1087f715a1aa5210d120c20d34f6d1f18b",
+    "packaged_sha256": "1413c8b3298e4b2c441a4b1fa758ec1087f715a1aa5210d120c20d34f6d1f18b",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/TelemetryWriter.cs",
+    "original_sha256": "fbc5dd31578e01da1b85142718b469a1ac851259aaced70dfa0a5ff7fe972cbc",
+    "packaged_sha256": "fbc5dd31578e01da1b85142718b469a1ac851259aaced70dfa0a5ff7fe972cbc",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/UtilityBrain.cs",
+    "original_sha256": "553fc4c550b9acd0b4fdeb047b65c0ebcc6cde04d9a40e882867a2018087004d",
+    "packaged_sha256": "553fc4c550b9acd0b4fdeb047b65c0ebcc6cde04d9a40e882867a2018087004d",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/QuakeBrain/Summarize-QuakeBrainTelemetry.ps1",
+    "original_sha256": "ea75f516a8f106df092efc05fec6731a4ea0a49c7c131ef9756447220190761d",
+    "packaged_sha256": "4f193699e177e660c1a18e2242c6ad79547cc2c296ab31c0435193dbb80fc0ff",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeClient/Build-ScavLifeClient.ps1",
+    "original_sha256": "f203564b6dd2df6f3fec3267efe28d9e5e90c643aa6dff7e59f4f09399ec2bb4",
+    "packaged_sha256": "49459150980878065d786f51d4f3eeb1c06230ce83e64f56a3eebef51f41b758",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeClient/README.md",
+    "original_sha256": "1a06d227441a1d274ff3dc97f7d811f6457aed41abbd7c65677f4e4e9193f353",
+    "packaged_sha256": "a0565b8a6c04d622187f6e2d4be825ae146216a6bc18455c772a80db599ecfed",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeClient/src/Codex.ScavLife.Client/Codex.ScavLife.Client.csproj",
+    "original_sha256": "d9f9cb18c1bca844e417cc09cd1a125c4e172d076b5def26171b7aceb9ad60d4",
+    "packaged_sha256": "37dee7dc5d1c6d66c9fa0605c1732e9fa84c4e6b6b241748346d7d1c8c4910e6",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeClient/src/Codex.ScavLife.Client/Plugin.cs",
+    "original_sha256": "213a97ad0254bc74e5722846c52b4e29147c37616e00832bb841f9b8412ef11c",
+    "packaged_sha256": "213a97ad0254bc74e5722846c52b4e29147c37616e00832bb841f9b8412ef11c",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeConsole/README.md",
+    "original_sha256": "e05251df6a6ac704e3569589c3ab0b9cd2c0c6c2de791341a3b3d5c6ebe577b8",
+    "packaged_sha256": "587edd0dfe98ae734bdd78ba9667aba52cd8700f4c65b89f002ccfcddaa50d60",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeConsole/Start-ScavLifeConsole.ps1",
+    "original_sha256": "35ec24872b33468674acaf8e829031d77ee47067aa2578eda0edeb0592f805d9",
+    "packaged_sha256": "49f92a0f3b9103f3ccf869f6fc42b9b57587c4e77de550ae2c2ed048c8100588",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeConsole/www/app.js",
+    "original_sha256": "a843196d7ad0ce8d83daac245ba397f15558b01c48ac3782034e00cc73708f06",
+    "packaged_sha256": "a843196d7ad0ce8d83daac245ba397f15558b01c48ac3782034e00cc73708f06",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeConsole/www/index.html",
+    "original_sha256": "8258c5efcf7f74c3698ef923bfc8589470807a29a30a00485b58b39fd31b0a36",
+    "packaged_sha256": "8258c5efcf7f74c3698ef923bfc8589470807a29a30a00485b58b39fd31b0a36",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeConsole/www/styles.css",
+    "original_sha256": "e23887eaadc04e66e87e8e79dd1b81b68f80339867e0adc831826d6f5bb8a4ee",
+    "packaged_sha256": "e23887eaadc04e66e87e8e79dd1b81b68f80339867e0adc831826d6f5bb8a4ee",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/Build-ScavLifeFramework.ps1",
+    "original_sha256": "ef5f9f0e62e56ba7dfef686259eb800c124eea2fddb61d42c8fc351b2c7e174d",
+    "packaged_sha256": "f3e7e9380ac86db15db551f9204c3612ba69b7e5a79d2421999fb46055483e60",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/config/config.json",
+    "original_sha256": "8372e76be68bf1641f2cd965706e57e3fbd114f9ea7ad3882ef53f95b0fe0821",
+    "packaged_sha256": "686a0bbc326128edd9e8c43065c664eec6819d2b81e5be86d55f5ddab191c171",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/README.md",
+    "original_sha256": "dc86e9b94d6dea3d2870fdd2604605d6bef54305b69de8605a15c0f9df16e9b7",
+    "packaged_sha256": "8c0d2ff20f27591096e46ba9e34bf09723f0eb136877a61db829a7aadcd9c11a",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/Set-ScavLifeCustomization.ps1",
+    "original_sha256": "a74a31a1ddb7692e04c277c94bd1dd3692bc78b8553850497e1dbb776aa5074e",
+    "packaged_sha256": "96a705be9df59a103cd73c24b7b1b49194d63a11cf12aad6f683cebe0bec4fb4",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/Codex.ScavLifeFramework.csproj",
+    "original_sha256": "0c4792ce42b83abff1a9d0a25eb0e63d9882dbfb4e35ce3d33f3fa76523c7577",
+    "packaged_sha256": "69019da1d6a32d84ff65043e6f042b295eb515d60e2be24814d302cbaddb5920",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ModMetadata.cs",
+    "original_sha256": "346284b4f996d01bf45a66367fd70c894571714e55a303c029a84f8d8cae8cc2",
+    "packaged_sha256": "346284b4f996d01bf45a66367fd70c894571714e55a303c029a84f8d8cae8cc2",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeFrameworkMod.cs",
+    "original_sha256": "9bd6968a2df1154e4ea74704fdf5066e6bdc06c921cb01e138c5f77af768b8fe",
+    "packaged_sha256": "9bd6968a2df1154e4ea74704fdf5066e6bdc06c921cb01e138c5f77af768b8fe",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeModels.cs",
+    "original_sha256": "d6565db0cc9b0b7b79439d2ee0e387b9aa2349b490449259a4b9f1e395493b61",
+    "packaged_sha256": "9a46792cfa089aa28b50842c17277b619d521ec8a560d82752f1e4997426f267",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeProfileSyncPatch.cs",
+    "original_sha256": "726b9050b4690db8ef28c2dfce4b7513b569912061292bec00a0b911e7dffb25",
+    "packaged_sha256": "726b9050b4690db8ef28c2dfce4b7513b569912061292bec00a0b911e7dffb25",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeRaidPatches.cs",
+    "original_sha256": "6570ff3db32b0584074c759037a624a75dae75c432314cd32e16a38ffbc2a692",
+    "packaged_sha256": "6570ff3db32b0584074c759037a624a75dae75c432314cd32e16a38ffbc2a692",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeService.cs",
+    "original_sha256": "ae21785d452336cf4b3a226538e526c9bee0dd948a018070cc5b2b92546fb5cb",
+    "packaged_sha256": "ae21785d452336cf4b3a226538e526c9bee0dd948a018070cc5b2b92546fb5cb",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/ScavLifeStaticRouter.cs",
+    "original_sha256": "eb1fd71f20d70b8f878e1aa1bd77c14e0533e44f3f669ffd559a600b121530fe",
+    "packaged_sha256": "eb1fd71f20d70b8f878e1aa1bd77c14e0533e44f3f669ffd559a600b121530fe",
+    "changed_for_public_package": false
+  },
+  {
+    "path": "custom-tools/ScavLifeFramework/Test-ScavLifeFramework.ps1",
+    "original_sha256": "45f5f4720d963dbdd5fe936e998b11d5cd49a9923c7e6dc1c65f290f28bac739",
+    "packaged_sha256": "90161ab829fe12ef72c5df79c7544c5be8e7726e72b0807f0d2475d5d52541ca",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/VagabondScavAccess/Build-VagabondScavAccess.ps1",
+    "original_sha256": "402b5a2e8bf1d68aa150d577eb16e9422d19796608b83b38e6c7617592feed50",
+    "packaged_sha256": "372a56661ee38c15fc4dacfbf3c158920d2a43e798fd81c17f468c5697b8c331",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/VagabondScavAccess/src/Codex.VagabondScavAccess/Codex.VagabondScavAccess.csproj",
+    "original_sha256": "7c4a66771ffefb23a24803fbcc13afaa5aecad18aa4860027df00a3731ec961e",
+    "packaged_sha256": "a7f605ba7e2cf9e5958187e06df5cd56089b08139ffc3508f64b0cd5dd02a397",
+    "changed_for_public_package": true
+  },
+  {
+    "path": "custom-tools/VagabondScavAccess/src/Codex.VagabondScavAccess/Plugin.cs",
+    "original_sha256": "d01fb82dc11d78ccbcc46053ce2ddcd0e79d74a74f8726142ae7ecd13136c023",
+    "packaged_sha256": "d01fb82dc11d78ccbcc46053ce2ddcd0e79d74a74f8726142ae7ecd13136c023",
+    "changed_for_public_package": false
+  }
+]

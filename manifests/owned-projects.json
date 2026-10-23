@@ -1,0 +1,83 @@
+[
+  {
+    "name": "AiPopulationTuning",
+    "project": "custom-tools/AiPopulationTuning/src/Codex.AiPopulationTuning/Codex.AiPopulationTuning.csproj",
+    "component_version": "0.1.0",
+    "layer": "baseline",
+    "install_directory": "SPT/user/mods/zzz-CodexAiPopulationTuning",
+    "assembly": "Codex.AiPopulationTuning.dll",
+    "observed_installed": true
+  },
+  {
+    "name": "OpenScavTransits",
+    "project": "custom-tools/OpenScavTransits/src/Codex.OpenScavTransits/Codex.OpenScavTransits.csproj",
+    "component_version": "0.2.1",
+    "layer": "baseline",
+    "install_directory": "SPT/user/mods/zzz-CodexOpenScavTransits",
+    "assembly": "Codex.OpenScavTransits.dll",
+    "observed_installed": true
+  },
+  {
+    "name": "CodexDiagnostics",
+    "project": "custom-tools/CodexDiagnostics/src/Codex.Diagnostics.Client/Codex.Diagnostics.Client.csproj",
+    "component_version": "0.2.1",
+    "layer": "baseline",
+    "install_directory": "BepInEx/plugins/CodexDiagnostics",
+    "assembly": "Codex.Diagnostics.Client.dll",
+    "observed_installed": true
+  },
+  {
+    "name": "ScavLifeFramework",
+    "project": "custom-tools/ScavLifeFramework/src/Codex.ScavLifeFramework/Codex.ScavLifeFramework.csproj",
+    "component_version": "0.5.1",
+    "layer": "experimental",
+    "install_directory": "SPT/user/mods/000-ScavLifeFramework",
+    "assembly": "Codex.ScavLifeFramework.dll",
+    "observed_installed": false
+  },
+  {
+    "name": "ScavLifeClient",
+    "project": "custom-tools/ScavLifeClient/src/Codex.ScavLife.Client/Codex.ScavLife.Client.csproj",
+    "component_version": "0.1.0",
+    "layer": "experimental",
+    "install_directory": "BepInEx/plugins/ScavLifeClient",
+    "assembly": "Codex.ScavLife.Client.dll",
+    "observed_installed": false
+  },
+  {
+    "name": "QuakeBrain",
+    "project": "custom-tools/QuakeBrain/src/QuakeBrain.Telemetry/QuakeBrain.Telemetry.csproj",
+    "component_version": "0.3.0",
+    "layer": "experimental",
+    "install_directory": "BepInEx/plugins/QuakeBrain",
+    "assembly": "QuakeBrain.Telemetry.dll",
+    "observed_installed": false
+  },
+  {
+    "name": "VagabondScavAccess",
+    "project": "custom-tools/VagabondScavAccess/src/Codex.VagabondScavAccess/Codex.VagabondScavAccess.csproj",
+    "component_version": "0.1.1",
+    "layer": "experimental",
+    "install_directory": "BepInEx/plugins/Codex.VagabondScavAccess",
+    "assembly": "Codex.VagabondScavAccess.dll",
+    "observed_installed": false
+  },
+  {
+    "name": "FpvDroneParentCachePreload",
+    "project": "custom-tools/FpvDroneParentCachePreload/src/Codex.FpvDroneParentCachePreload/Codex.FpvDroneParentCachePreload.csproj",
+    "component_version": "1.0.0",
+    "layer": "experimental",
+    "install_directory": "SPT/user/mods/000-FPVDroneParentCachePreload",
+    "assembly": "Codex.FpvDroneParentCachePreload.dll",
+    "observed_installed": false
+  },
+  {
+    "name": "EscapeFromConnorBranding",
+    "project": "custom-tools/EscapeFromConnorBranding/src/Codex.EscapeFromConnorBranding/Codex.EscapeFromConnorBranding.csproj",
+    "component_version": "1.0.0",
+    "layer": "experimental",
+    "install_directory": "SPT/user/mods/000-OutlandsBranding",
+    "assembly": "Codex.EscapeFromConnorBranding.dll",
+    "observed_installed": false
+  }
+]
