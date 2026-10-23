@@ -1,0 +1,3103 @@
+[
+  {
+    "path": "BepInEx/plugins/MortarStrikes/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "963ee57b8bbca9040980611622f7ab3ba082da98742655b6f5e3871239c55107",
+    "installer_sha256": "ddd427eaf6a84e058584d5f31127b9c7d0ba94223fd621ec733d4a161d5bf927"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/BotTypes.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6cdf16090bbf91de4b621e30d1ebe70933899211448ee5d2209e3ee4c1669941",
+    "installer_sha256": "b23ea1d91949aa36bfbb8dcda3985c82e897b9ddefa9ca921d573c73dea80e31"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/CoreOverrides.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "250b187a41df901ecf4a87e34aa4a2813fdb68fb5391447ca67df794058eee04",
+    "installer_sha256": "6df5dcbab2d113b70ba76a169ddfc5c7036a35591b968565d44f6acb600f9086"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Basmach.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7eb17b56080b2239b83c9ad57d32878b0776ccb5a09fc7e03b209305787825db",
+    "installer_sha256": "cd611256500f161466bacfb050a2f4331bfad36cc7638cc52d804f80e45defaa"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Bear.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c7d162f2c1cea963ba7328eb50d6a263a409fe8ea795d9abe1e4db4fe996e256",
+    "installer_sha256": "3586be922e5ae708ae5acdee5af71729cb47ed98ae3e287a8b020c01a693877b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/BigPipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0cc9317b6ae167c92d50e8396ad1ec0b608e73022c622a2bb8394f6bbdc9247c",
+    "installer_sha256": "b4d217cc19e3b6376f08457224f965114fafb4161c31c74c9bb78d30385c7bc0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/BirdEye.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e0f5d351252a69bf1d22bed13060b0471d02d86669ac5d05d4537c2337a3be05",
+    "installer_sha256": "d044a9fb04510a3a4ebd6e7a5aebb68c8d96f53878a650bdd43874c60cfbd332"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Bloodhound.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0dc1dac168227716d00cb333ed09a01b148f7479c9bc2251dcdd05fe29b07412",
+    "installer_sha256": "7ba44ec573566f680ca35b3510bd87439874c83c1a19143eec49f15266256f5f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Crazy Scav Event.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1cf984ea06171345ddcf14c77a9bf99ba1c58a78e05a3f1c3a8200de913dc5d4",
+    "installer_sha256": "653748a3317860d93227b92702fead31ea71061c3e50f91d9023330b9a2ff29e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Cultist Priest.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "676b195b75fd084f6d0ae5daf1a903d8ca23f2600949198ed25525c20f533920",
+    "installer_sha256": "9d45aa89e62b6a2e39f243b1cc13835eed0fe6f7ffe02dc06d9d601bf72d464b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Cultist.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "75f14f684519c01787fa84d3f0684b6c4040a36f8a435dbbde127e88af1a1fa4",
+    "installer_sha256": "d6ea0ee0259eb0d096a99043371beae068c7448f0dd8f9a19bd52147d7108aa2"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gluhar Guard Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2814e67da112150c7441d994e6c4efa676024ff74cdb74b54ebcfaa7c089d550",
+    "installer_sha256": "354a6a59a659b66b9d672663c6c1b105278f76e9b56d9071aa31eec1d3c11787"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gluhar Guard Scout.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "095ca7089283f796a546321ac3a17fef21b3ee7a32299ad3e1831707280cdd60",
+    "installer_sha256": "7bc2c9d4c29ff6007a980e0ae37ab273f4a282827e572ca5626e743765814e1e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gluhar Guard Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bd14cc124032e5685ba8eec8f98146ecf93024584140ef804194b78ca3104a79",
+    "installer_sha256": "2fe4c9966912d7e648ccfec6abc97fa221f693fc27438be3f9df952212286646"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gluhar Guard Snipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fcda853f8e4476705bb77faf43784c238949c46eb1864894737099cddee97be0",
+    "installer_sha256": "44877b26732ccae69f5c8bd5574fba542e1787a3941cf5cc400d271fde8cceda"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gluhar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "39c8fc08058f8af1146879ee00cafd547c5e0b946341fbe0f06e16f936620481",
+    "installer_sha256": "ae2c2c7499415091f83ab700a006868657923b6d4783676f3505726bf443fdbd"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Gus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9b5d55c95365e8c8733fd14ed350dda712ef32ea915547ebe018d95c092f4119",
+    "installer_sha256": "2c1171c2e7292cbdcafa495fed26e40a6292f6eada88e24f680f4d6b97927fd0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kaban Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5170bf2d2c420be578b19f76bd26047e307c853880f8dc26de3c0d579ba33158",
+    "installer_sha256": "628574aa9e1d15464803c9db384d76116b976a6018141109f2e4ac33f583446d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kaban Sniper.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b5c029ac83e91dd0abb0f512d83e46476eeb5b626f3a24e1e779fd76394f792a",
+    "installer_sha256": "8ad663c2c96c802953806b444454574ff16f11d69d46aacc263ba85f6795c945"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kaban.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "da2a8e601abb2b0276e5a8a80b20e5a6f8b3d7824f03111fb336cf6c4837c815",
+    "installer_sha256": "eb28cb220cb512b16fba2a1a6c48892cedf52ab1dfe91f35e700ce7911509b87"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d3b7d22353dfe2a6a6a6def095e6b12683643272d7409eaf47b67b0189e2ebc2",
+    "installer_sha256": "ec7b12496b18890ea3869c25fe3aa5a256b1bec0b84d32bcc12fd69555d1e64b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Knight.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "80c4874e4e64c5b3f3d191cea353dbae9c6a5753dde9be1be4d4ead2d7c6b77e",
+    "installer_sha256": "24a12c984f15dd7da4b3fd4d3c71862fc837fd0d163b8388e7bf955365991fa1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kollantay Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3e4c8c30a805d74d49c7ba7f904893871530214eefaa3d8c6f4445c5ac31bff2",
+    "installer_sha256": "e114ac958f2c1e8f44c24310a3284a576ba321e05473d4bc637220cc524a64c8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kollantay Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4b32a850c20aa122adeac38624790ba34c556c13ca97b0316d1eaace7369a075",
+    "installer_sha256": "94d5b9fde146ced2b00a98663003bc89334e38ff01b736c27b95616f7f7fbd60"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Kollontay.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5d2147deb8ad12a02a5fcd7f6ae64779de288ccc38fabffec22ebd681ea5e91a",
+    "installer_sha256": "67b0c4dba5ede69c8145cd22e6c5bf69bb800c360e7bd0508d0a6365587d9ad6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Partisan.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a0ed78e43631dd0129cb656c5751e34dee0f44c1f3542dc22d84a403225917aa",
+    "installer_sha256": "032a23928edf147839c18b48f2ebf8d85675a71fcdb13f1f0aa2973633453ac8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Raider.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b05873262bb40b972618c1cd85f6b766c115cab1e7b3c608f4b07cd155ba706e",
+    "installer_sha256": "11852f9562f505ae7a2e5ec5d5a4f4e44488325593eeb9395463ca83591847e6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Rashala Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "be90ec81fb6b0c83908c277daa03998799a4a4bac9890d927ccaab124171c4aa",
+    "installer_sha256": "94c494642624cf7c1c88d8ee108237dd35b1e16c0d2fc60de7a31e6b4082ae75"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Rashala.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "460587c43ddcbc7608959e0335b33cd87a4e73fdde5aa46b18a61892b119d283",
+    "installer_sha256": "f7ba50d4525cfab2f896a5f0950a57581c73595bf527f68b07318a1bda2ec063"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Remnant Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d6a1d72019273a3c8c2fcf81ef92b97a6c5f0a68eff8b6d0303f658ce136e83b",
+    "installer_sha256": "36d73cd82924d2eb04798b73a4b4d8396f37185837b18ebf356254c555597e6a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Rogue.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ef797bc34b06775db49882cca35089422e70f1d612588231d3b35c4ba6702bd8",
+    "installer_sha256": "aba5d65941dd02baaa89d81b339a1ac7006b98b81280ad991c9478ab77201f46"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Autorifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6c35d5eae47fe660145ffe1a63b082954dc729d439ab98b3211b2c52ee94b5df",
+    "installer_sha256": "5f3a13e31b51c7832779b6d9e78a48d2139b1b8ee2e602b3555f30ce8b03f026"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Grenadier.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a672aebfd06f2f8b01ea1db62ca63fad87dcf6fae4b8f565b276e08360d9bc49",
+    "installer_sha256": "4569af907868f65237bb9279e038194cfe3f077f37388b8b69cd33f6de017a71"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Machinegunner.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0fddba95da4608c09767781fe737a41a5f9bcd8fe9ab9b315c2b8f2d1a82451f",
+    "installer_sha256": "36a300af7f3166623f7c3c7bb711b1f0f4f2a943352afdc5ce026972534ddc30"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "eb998934a5a6562ddaa397905d8e14fc23651b48a2067bd5480a79c20d0edefc",
+    "installer_sha256": "a3dc57db2303c064bae607acfd42d8aae9c1d1dcaf5ac0fc176a2f64a651ac0f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e3514d3880764c8c4cf500b309200d4f8746c04561a0def160059757838a7a83",
+    "installer_sha256": "3cef9e39985ce65bde33ced1d62398339b8e317045db835aa6def3ef211d26d4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/RUAF Senior Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6d9ce70a3677b7f274341f923eda33aa27dad547d1bbd85c99511227e6826a4a",
+    "installer_sha256": "8f1d45acf23a8275dd74165776bba8a3ec8f6fd334ee3a51a146e23e4eb9df9f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Sanitar Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c6aca88d9ddf21f17015efbb8200f9477fd449c1bb62240ebf4aa7b1952876c0",
+    "installer_sha256": "36caec25812bbc83317bae2c684df06cd2221825987d15c6ac1473011bc80a38"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Sanitar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d4020a1992f32b7da748685af997192ad542afce6a1c5cb929fd0a7168694450",
+    "installer_sha256": "1a8f4590bd655b4a8ee5c5d73bf35d74541a7b10528b864ab0d23e52eb50cc86"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Santa Claus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "60ecaa908458d818cebdb0482e5dfa934002c17ddb7ca1993737cb9949ec405f",
+    "installer_sha256": "de3a75b1c20bb7cb42a15985364ef23bbc7607ce87b0a7cfcf4456a679b28afc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Scav Group.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7c657cd00392e4a51631d3399a30ca60fcbf2df549744cf5aa201bce5a2f192a",
+    "installer_sha256": "5a230bdd38bcdb668abf59818673ed6fffac388ad2eeaa9b827bc4f670b5d03a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "130b168ab7fc0adcf433223447ff0d58748c83677e64416b3030cec7190f381c",
+    "installer_sha256": "c8c08e97fadc013f26c2e50fe18a22277464c3b31f2579f91e107ab7cd56b380"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Shadow of Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3c9cbc2a5ea89d1557adabd771bb326c4496000c6eee41ca246671cc3e1f5ca3",
+    "installer_sha256": "a6f914b7ae60f3d1c737bdab9bbb8f38719c79ed8aef84dab9e28183ec2f1ded"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Shadow of Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cce6070fa6f07b0208fcd727b0ef3312c83ff541578ab089d5a26d56a14f9f66",
+    "installer_sha256": "ec1c8eae07965ae2f13af756f3e40640a82fe98cca0793b86ef88b49c69ec785"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Shturman Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "44006a92e788b053a99295fd7d2899eaef7bf5359eec5c82738de3800e905efc",
+    "installer_sha256": "ad276d4bdc89539c48b8fcf910cf076bf2947c8ec5842f851b84cfb1bf7fbab7"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Shturman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2f4b47bd4153a41653ca16f3e365092725ad260274758ffbdb88b093ab1b9ff3",
+    "installer_sha256": "91231157203ee381f0b8e81050e0f749424a99de5dd74fc7ce0f6944b181043f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Tagged and Cursed Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "add5fcfaf3961e20151a3d07753c816c52cc3cb3fc0082077100d18e407dafad",
+    "installer_sha256": "afbc9dd63f1e6a3be9acded87330540a6031019b83ac98483dac6ecbedf79827"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c684ea9c3ead5f986985bf5ca745a1647980ed56ee658a8f48a752a66beb6fab",
+    "installer_sha256": "29b5940a478d4959de6003802e16cbd254cf670e0d30c5d3b56888532e419522"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e51b4628b16163b0b5031d7c4e0e4ad55afd9ba1441ae759da08be4cbbc5770f",
+    "installer_sha256": "1bc814830a0f6eb129a88b4cdf83a8b7d5bdcf9aeaf9601978d787f55f40cec4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/UNTAR Follower.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9217883f01b2925f97087a4a47a8bd41e1f19c4b3bb756469782c9185a9dbf75",
+    "installer_sha256": "cc6c79c36f8b8ba01159322d2857a4767e1aa9f4a36ea78f4120fffe294183c0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/UNTAR Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9344e7efe43494a33685e74c547a53c28ca3dd9e76ce3cf7b8d110ff336d8a73",
+    "installer_sha256": "d9d3599e7a6444152fb02270bf5db522d96c1db9147a59991aeb2c9bd557fe87"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/UNTAR Officer.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1aef89734a6fff42abeedd5fbf8dc937792e4c41c8fd924e8551bb17483cff72",
+    "installer_sha256": "6c13fb6c896790a4dc56582f37f6fa52831e5d7fd45b1259aa63597dcb70aed8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/UNTAR Squad Leader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1e68242fdfe3132dea568ea642bfbfa39dfcc47f9ed2097a1e82f05325443ed2",
+    "installer_sha256": "d69164ec755e31a20f8f28f3248adb42ac4258576890860035fce9740c218074"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Usec.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "19251aef3de6574d0be65548516e7001fbf786c5888d3d7fd4487d637378b6a5",
+    "installer_sha256": "3956a6e72f4be694315eea606ff75c48e92c46e962c2b1f7c1b942556a84c902"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Default Bot Config Values/Vengeful Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9fb732d3f2f639415b126684dd9bd0779c4d27cf463071afce64f28d456a2f87",
+    "installer_sha256": "41a075ff2b0c1ad8f17849bf41e904aabf6b31795bf3b9c603fa8fb34bff00e4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/ConfigSettings.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bb2a3bf0504e9793840d72a6b2b2e08b783e1e0cd1c25fb23e2d9e24376b332a",
+    "installer_sha256": "a7c354dff1d83a3fe79a9d217f8eb1af55b7ff11dd677d67f253340b9203372a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Basmach.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f682b92aa264d8d02d40060491fc92181ae1020e9c110d982da2b8ce4200ee8e",
+    "installer_sha256": "44b4fd6a627b4587b2825cc975e7ece36345fa807c2f6ccfb36ff7ea8a8e4457"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Bear.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2c3c2ebc028dd1ecc2442eef4a65506775639571ab9344cd1578c5510f126be3",
+    "installer_sha256": "a429c89cd913556aba01026514516c0a100df09cf45d872456fc206099a87d13"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/BigPipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed168e3a066733171edddadd12641e4dfc075b8ce4a8bc02db5a5fb08ed947b9",
+    "installer_sha256": "d15652089a7d8b7eaec1492113781f1386744da671b86f0fc3e453229beed503"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/BirdEye.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8a6b0cbe09ffb5a2d2ea5d6ebcfcc646c80ede431e0b108c945d6bd2aaf280a2",
+    "installer_sha256": "7dd369668dfdeaa9ba709f104fa77b37e34a00e5348c07c7ec576e43a6676a6f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Black Division Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f6efe56c9881a9fc6b9c319be1e6acf0313c85c49adf6efe52921c9561c27bda",
+    "installer_sha256": "d9e77ccf2c425ce46f650f26d41d187e0011439399e6dec0308a2562631c4089"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Black Division Breacher.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c047bf1b80fc90b329b65909051d3a2bb7c259912718b4d9afb697024b1cf011",
+    "installer_sha256": "4b132c815f55c6caa3e5ac29bc91f3bef7a2bde05322287cbf05870af459c3fa"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Black Division Lead.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9bc7cc00d41e63899d001cf03efb1ad0acf1b2099eae1bcb4ef8d7a838ae3bd2",
+    "installer_sha256": "4842e578137ef38a843c21a267b0f6b9b2f03364bad5d617dc2684496ee7f4dd"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Black Division Support.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "975de400790cf4eea9716bf12f8b1a64f4f4a2125901cb1a9d657bf1da650e6e",
+    "installer_sha256": "e96eb7b198465a3c9b775327104dfac86c6a3829f8dd76babd4810c20cc79843"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Bloodhound.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d276578f44d68c499f4eff2a965a74d4f47464ca0b99e33a5a6a57ae732324e1",
+    "installer_sha256": "308663401abb8f5b998ab16cd633059c49138c8161e76a9c01ed6d13acaa232c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Crazy Scav Event.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1b81c07deb12f57c483c1d1466b5cbe41c7ff58c7aa4703be404a568398e5d54",
+    "installer_sha256": "4861398915f18b52a45a37363cac366bbacecc10ec287d37c9c4536615de0e62"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Cultist Priest.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9b1501933433a5d84e910fdd298c0a786049236d0ea259c3ae0bda73da02a71f",
+    "installer_sha256": "8235a1d5b5b7509f526fd855d311cc1e5a138bfe59f2b08796732672ee1158a7"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Cultist.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8508fa9edb74620b318e986d6e372bb42cd84af968db6e71b77ba596c468d649",
+    "installer_sha256": "a6550c862186eedc966c814c1a1eb2c66d42d1f0f925382cc27502b88f67ff53"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gluhar Guard Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "965b909000f1c697aede67fe5330736af4de75d65176201ac135f16d46858d07",
+    "installer_sha256": "a240309730a8be5a53fee8256d1a7b435c8f058d2af4dac86aaa935ee50954fc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gluhar Guard Scout.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "313af378d727a226072a33fb9121c1a8f66af40eb8d9dfc58c73a6052aac094e",
+    "installer_sha256": "038abfe36037519a44842a034adbf7f773fb812e50055ff1c3fe4667d9bfaeab"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gluhar Guard Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7a9e407d762684341716a06d0c8e9f3504db7b1d5252b2a057c938b10c882d26",
+    "installer_sha256": "186e431e7cdc89c8c52b99c1024d31a328f8158c0b573a9b2f6252f73f517d99"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gluhar Guard Snipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "163f66fad82a9c6c59944e67db4300970579b1c69f5e85858667ce28359b5eb7",
+    "installer_sha256": "514670cfa6bf614f88ef81a83bd77652b9f6220edf9a0b93de3aa306c1c2546d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gluhar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "18d8f00acdcc01a277a5dbceb03e2f64f515f1a62c93ee662387ea6de9fa7e65",
+    "installer_sha256": "ceeed31bea69028b13ce2e2903a15913d5c30d722bc91342a905317c691ee722"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Gus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cbc82baafb062fee557220ee7a20a56243b232bf5352c37a3b200bd812679065",
+    "installer_sha256": "36f1bb183dade3548e44a5834ea13ffe06fa7824f44af6dc1fc1134e97d5e15f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kaban Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "65bd87d36bc9c729b4ff03b4e7d43b0eaef11145b143b14e5bdeca555d7aad8a",
+    "installer_sha256": "8ba3285d754c26aa0d594ed46b0b3cdf992a24a458d2d04e09285a4cc289c004"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kaban Sniper.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8cb124b5a87ed72edc4918f0fd8d083e2bdededb8fc7f2049a8f93292412eb17",
+    "installer_sha256": "c5d99d51559d83c24be562906c99eafdce28c996bb941164d50ff69e6a861b86"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kaban.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1ec992513e661e27f64f8856b70721c32ea9b8df1986268630ed6a16a9664dd4",
+    "installer_sha256": "fb670d8e5e401a4bb90fd6bbc2c242e287788a1ee87604825395c52de0dc4d7e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cfa4bbdbd02e2693baf8f30691851850ef7c4092f82300a0bc4f0eb05c7b1f0c",
+    "installer_sha256": "12bb551a1d8374bb6a802c61bbcfe0b70012846ec15c04994e3926d08c706194"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Knight.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "45b65920624e22a2ad47f4d63fbce9016a5b16f588225398b9255409698b0af3",
+    "installer_sha256": "411a2fc82e8e7f8e776050b08481eae494f53dade62b07a680a1bded621c4f43"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kollantay Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0683257035a65741aa151a89f9d8fd679bc8f51d713fe0a9b568ee5edb8c5314",
+    "installer_sha256": "daf6ca2d80208ad49e62f0e32d239f337c6e6f79626315950d46e35fe2f8d60d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kollantay Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "47d9c14d69363918fd34af01c790d8406068524317abe1c7949957e3908af807",
+    "installer_sha256": "15cf6eafab7399c8e24ee2c27285ef7c876640c21cec436ad4e487f119b585a6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Kollontay.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "abd2c80b83df66ade31865e2bc85ba8a5ff8a989a2d66a80dfde085fd93dbb95",
+    "installer_sha256": "d76f3835a27ace5f020106d191797b0ccb45877097f903d1e7346e1aec886674"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Partisan.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cd024c7980a1fcba043bfcfe4b03acca0605684850f5f28db6b53b1504dab83b",
+    "installer_sha256": "1ae46e7606b6289e3f03721458ba2dcbedeb1a433f3a6cee750992c94ff7c412"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Raider.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c60169abf08c7e01bc6dc9e60a3a6f378c6649c49481bed27b6533b57ea71594",
+    "installer_sha256": "e34a5d8fd976ca19fe719948d966bfea05c0230217016120467f04e425a48a51"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Rashala Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9e99f64347a3f2a7f00c904e354f18f83c29a3a7dd6014fec37cd6a75daf7eb5",
+    "installer_sha256": "e693809c99e6ad87369aa9e7c1b822d09bb01de1976804f192e42df25f4236d5"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Rashala.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "511af899877568c29f810b045e0641034eea0e82422532fa160572e33c4cafea",
+    "installer_sha256": "47c72c055ed039a2f8c3ba2f65c39c361de34ee9d5ddb34f1b4545441413ae1c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Rogue.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "efbf50e8445d0a4bfa8f79cfb8cd096687440a1fe35b3d0a34f9c4d0a241363d",
+    "installer_sha256": "c0ef6645460acbd1b8680067bf9b2d802d4d267ad3463306fb0aff7aa6434a57"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Sanitar Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "97f6b347169997c94cea279f8f357088ec9de79afcdfc65b31c76f460e3ae393",
+    "installer_sha256": "9d48ace0e6ab6110c45dbb2ad6214e5473fd8ebb6302052096a9dc4cc8f29ec7"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Sanitar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bd066fdf1f0cbf7f0e71ddfe1533b6db5c1e50260f106800d1acded312ab0338",
+    "installer_sha256": "166cde25084d2b3d2d6785b0e2b42a2bdd8fbfee185a9892c1a704afa987b9ac"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Santa Claus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b800412793a8571c2c5b26ca0cff317238064bb15042eea24d6397ac94a7ed85",
+    "installer_sha256": "f8254f792eed64a383a2bb0b76f081b8dbeb918d458ab751eea76bfd221ce481"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Scav Group.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c90b0cf6022f054ac1d751fc89e245975781324dc0df0d472526b473067304d8",
+    "installer_sha256": "04ec26609a5a45593b32dfae7869a4ba0a4bc7c41ae0503d7a914e2906fb719d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6f92cd79e7ac0332b0da80d53aa0e4c753a87a152e135c408a009dd9df85abc8",
+    "installer_sha256": "4d4f6b39814cefd0b3f697af2f288e0699073be053ba38427d513a254b163ea8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Shadow of Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4b06c2cfd940511e4218fb9fa1c8bc81e09d52c8471e8ea773b5e3fd2c2137a1",
+    "installer_sha256": "2b6d3d93afd712040ea77589c46e6b72933b7f9845f5dd3e19cb52a72991ae95"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Shadow of Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2089729499593b2778649580ccff46f8d6e921a43d19a605053daac281c6a65e",
+    "installer_sha256": "81b03476534fc00a6d327f9879e5027a6ab87a89fe865c1ee33f286dc831f8d3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Shturman Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ca68abed8dc2a8c6d96ca360f8ebfa3d2eb64a4d86b39d988ba6e8a936a570ba",
+    "installer_sha256": "a198c790e79a8fa6b1aee088c771513f0830b6a2411c41ea549468765e7ed24b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Shturman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "87427d13c3a360e76aece3afebadc828a9d7a349829bda37e64eec7ed712ae8e",
+    "installer_sha256": "e9e4073fa77d9beea013a4fd60225eff7e77a41f522c288b3d24643cf8565765"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Tagged and Cursed Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "11600bec0d80ec86575c472d1e9d620a8c01962f4e005acf14ab2bf28fc557c7",
+    "installer_sha256": "dd6fbc91a4807d3b5ac43a0479d7e645591bc6b1c720e4918e663097898f803b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "72d4e33a2601c4146750d87b69e3283924db77a4aa94d188cde670ad515b2914",
+    "installer_sha256": "c186664d2ae6f7de3fa3e75f60d87b42bb0ff926d22d6e4e3168bd263bc28fdf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cca780955407f3370d984b12be42416d89a19e1e236f7153ee40a28dce4efb4a",
+    "installer_sha256": "ac7627e1e6b930a4c7adc4ccd3d8535f9fb1276c949b7fd02c7f67fe5afd6472"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Usec.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bd3638d911a5b40d19321a0314712b131bcc20e84a20dc55da4611cfbb10c799",
+    "installer_sha256": "264c27499553d727fe2ba4e497d899b08c69c3804a80b44d4a1ea59f02e1e57b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/BotSettings/Vengeful Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e715bc8c89c830b510262c441d65bfa1b3302b9d4a4a8ed520eb735d970d6552",
+    "installer_sha256": "4b018301f5f3e612f9a7a0a3a54aa37a644831ca74ae0090236d22712c1340d2"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/GlobalSettings.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e53ad4585f5ce81136d5296be7c9f99937433f596e6e87f1543468ff4df8bdcf",
+    "installer_sha256": "171b7ac70992fdb98d5dfaa0f72acd87997f69a90e349edbf28953813a1b5443"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Info.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8fb4a7a87dc9a216af5a6c4caae209de0b8b3aac941acbe71005068918172741",
+    "installer_sha256": "c0b2607cb4ee98168b2161faf9118b93f7cf1a970ceaa2115855129cfb2427e0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/CHIMERA.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c70be80717ea0dc2fc9d4f1f08e47ae10acbdea5df76393a35d6fbbf22d89bf5",
+    "installer_sha256": "dacf6c075980c2d6b81cd7ddd078edc59065afa7ab3628548aa1441b59dada41"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/DOORKICKER.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d6fd9f7bf72a6962fa22e79dac39e8a84850637da2823e11d7b3a58cf2f52aa",
+    "installer_sha256": "3bf5ad2ed99bceffb7005d32852d30c4b89ed2eafb74be82796e9de205f27591"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/JACK_PYKE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b557beb2177f014bc879f2ae8cbf7fad8296a90fdd7b23cf43aadb4207d8868e",
+    "installer_sha256": "d418437ec6c76caadfe10ae124a2e6ddf5777621a97aa1327a1b221f863f22b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/MILTEC.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3627fd28d5c3aef66363a1e6f76abff22874cbf895e0f0384bca8c2afb526c9e",
+    "installer_sha256": "c4b8e18c4da087accad3d24d5cf78cb3b68ae33e7d64cf396252a6d4a1eda766"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/Pilgrim.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "08f313b5adaa41983ceed052396ed996cbe424ef13e2a31ac9e328dd95d8e5a8",
+    "installer_sha256": "f91309f9d5115a1ecbf133ac488619233377043201904b4dce7a6ccde1e382bc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/Raid.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d6c909f6334faa6698c4b17f55f24d539e1e439b98b9c60ec2dccadb1ec59c09",
+    "installer_sha256": "50f26b1745fb7df200523be5659c7849dbc3f5f1745f9fcef6c69f1979aed451"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/TAN_ULACH.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed0ec2fc8cda78a660941df3e1f2131d7bc748f5358345e471dd65e5a18f3ce6",
+    "installer_sha256": "2a354f52b4aade1eca668e94383ad960aed67aca4bc6e04b05188fbb45cd4bbf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/ItemStealthValues/UNTAR_BLUE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1a5bb7f03785a6c8360b75d944d939ce1295faa44a1481792f762bf6e99d97d0",
+    "installer_sha256": "e4a55504be777ffc210fc75362badb41e129ad4eda82e26f7154173cfb216ae0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Chad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0928f55deb75120dc22231b6b1cb53a48f10d5a01aa43ec587e91a19486e2d51",
+    "installer_sha256": "aca0ea817f4b8e215475399d775937a00de893dc7cc1c722878416914673b4f0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Coward.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "74ec36eb7623de4f5fac662689746af173da9985c666180c4d40476fed5a5ea8",
+    "installer_sha256": "f4371d483d1774ff96d3d1ddb4d87ee61038e8963f4f03dffac77c1497a86d46"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/GigaChad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7d3c4dc9920d83f9daa07c40e04851f15aa4b8d0e4b337ab924f589926e97088",
+    "installer_sha256": "c4b4b6e5fc3e67305bca67b1a009eff49b6b3f4c69171f3250dc021c8643f1d4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Normal.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "30822afdef40ddb4e717f39bb7240760c46bd43682e129745e88f4089fce1ab7",
+    "installer_sha256": "354da2e5de57293ffbfdcf09fd08ba02690cf2b189f0c2a4a1a8b6d3a3e8fa9d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Rat.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a9fb50755c88e8f09da89da81f436be16f5c4c1cdf4054946bc0992221e109e6",
+    "installer_sha256": "e8df79af239c07c97c4782d08dd5508b64ba69db04b4dcb8a246979287c49395"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/SnappingTurtle.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e4ef529736cb0f685d0e8b88668d3f358fa676307e6cfc1e9a1bc95b65cd779c",
+    "installer_sha256": "18c5732953fcd4c5b93e4a4ad3fa8cda398e4124274516637cf3b4c7ffd006c2"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Timmy.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bacf34661db85f5aa9374f09e0dc97f1b5c863050408708e751be990bb68323e",
+    "installer_sha256": "f4037def5c80063fe13494a67db1ee684a538e45debaf0bdbd412296099e70f5"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Personalities/Wreckless.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7cfca8e05d54f3b55afb6b15f6b1a900b01f24bfdc52bf420a01d4d18546182b",
+    "installer_sha256": "4481f4150ef1cf41cca30717c6d6bf0799fe825453e522498418b7450b573f2e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Death Wish [Twitch Players]/Possible Item Types For Stealth Modifiers.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ad80257bdc674915113d8128fb07083eeaf6ab94caa829ac0c28eeb00116601",
+    "installer_sha256": "79dc039149eed6dada1d2fede663d41c62ce10b691deec33eabbb81cfc199600"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Basmach.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "637a3d252b075ded891cd12f8c2a2f02f48c4c6ce7c1bb405c70384e08294faf",
+    "installer_sha256": "6594e057f822ef3105c40f6e9b060fc9397c7585871ac294aa435aadea22e4b5"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Bear.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "448ca035714f209df660c3a29e4229bc33051c1a17dda7fa1576d702abee5fae",
+    "installer_sha256": "424f3fb74e7efd351c0b5c7570854928d1a59810ada0f0aa4e54c6023f9dc362"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/BigPipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7716e271dfb19b3c7bbff0ef70feb09f88a2940354fc31dc4523bf973e391d80",
+    "installer_sha256": "9e64af4c3ec88daf9d48996eee3f1f18d14f0ee3f30979c99c1afcfc49962c3c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/BirdEye.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "662b89aec29d8cd9d312bc55da972cac0dd3104704a381833635061d233b3d62",
+    "installer_sha256": "328f53b14c561001a96dddfd29767a599c68b2d9fd425c900beb0283fde3fd3f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Bloodhound.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "440e98750dbbcc0605c110105a41ea05ad67307585ab652db75cef028cb9e2ac",
+    "installer_sha256": "b57fe2a8afbb647766d22f0900dcc9ee899cdc499479ed87a5602c9d77c102a9"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Crazy Scav Event.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "49ce1de589bc6492fe03f002dabe85600796b732dd0ca81748915d1024fa0df9",
+    "installer_sha256": "4a831a700348017e8d3439f35983eacd980415d649754e6514d5129251fd2d0f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Cultist Priest.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e167b2a72a1d9414da6544fb485fab1a268a9c47117323cb4f12e3b0e1261c15",
+    "installer_sha256": "5ddc4568633028c839921153204d49c46de9113014ba94fe568c08e9266d48da"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Cultist.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c54c71b72302b65fa9e1e13ec1483d70afa3ec1fd2615f31b9dbbcfd5b197fad",
+    "installer_sha256": "c8f48b86c6583458dda1b4370099e45c7b71e506c2483e04d3f38aa924603ddd"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gluhar Guard Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "977f51edaf16a366e5d7b0cf201b7eeb815bf418eece7bb43978d3ea86bec47d",
+    "installer_sha256": "ef48801df9496f162c4e9adabb31f3bc7bfdafb2dd63714a8a10d937e16bd88d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gluhar Guard Scout.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0706e318fe49fe6ba1454a9cf6c537c93f0306ae3d5d2ceaf99b9b483ba08e8c",
+    "installer_sha256": "1553cbf26792d8dad3343e3da9c19dcb83f022e24a20ee34e6b0a0e5f8f3d260"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gluhar Guard Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3bb717be6c13cf4b0e978eb4246857f5f30a07d21d2b8b131eba1818da39be78",
+    "installer_sha256": "c9c4cbc0ac0501969fadd693aa6e8e1231afd9e2de64db027130a74139417336"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gluhar Guard Snipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d9333e98cfba07778eaf1680fe34af74e868bc1a6d738abec14bdf104626e681",
+    "installer_sha256": "c5ba09c4e5ceb05dec7e119facc295127faad5d50312287dd8b31c9feec1b67a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gluhar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "82e374e24eb6f221bea25caf44cf91673f3968e70b6d9852e40abf226b90b298",
+    "installer_sha256": "2935f4280619c3e377e9b6eee9b4ce0a26f2d9ccc8d6d20a6f6d755610e0829a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Gus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f153e1065b8173bbfb40f1b212774ae8c8dceae9a4c54e2fb9413e475520f4f5",
+    "installer_sha256": "4eb8832ad97c3693323e5ed5059d6f047d45e611447318653d6ac5853f632b51"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kaban Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4bceea8af68a7a79595379d0cb1b503757735cbf854484303a79a708a5c72c11",
+    "installer_sha256": "9b0de989dc56b01c1c93491d9b7cd6f92c9fa0032bb3198b1e76e84b9b5731e2"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kaban Sniper.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f46d94dcb97bc04a7a6420284b781b8ee3cf59cea1871dfc58f5888e56aa33ee",
+    "installer_sha256": "cd525037e0d3c9926036eba29a1be2eaebbd38856b295b4ffc0d6e0a1c7af57d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kaban.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8645a71e193d5eef08fcab78a115a2174090cd08eca70d61174cfaa8e89a532e",
+    "installer_sha256": "cf81ae46a59d3c7eab3e5cd1dc7bf165234e5508f171ef6f07a1e5eabc097d4e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "23802798a732ec47a52070d21989951186013fd32cb84c25fb47832be6d708fe",
+    "installer_sha256": "eb0aca276e8f3a349588efff4545ab3159fd63135dd94030a2d1fd7f4e35fbcc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Knight.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c4c53b21302c5d6820a5e12a6872e9bed93e402e7bc4669c5f7fd04927706d55",
+    "installer_sha256": "fae001cbcc5323cd82f5914e17b30b1e5fe42a8e7f2941b6142481bb41e969d4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kollantay Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "55b82cdf02eab4c1339848edf95567615867d328cb4ad7867540859467ff7095",
+    "installer_sha256": "02316701ed3f8872f0ae81026459e1a734846db7c640bb280948368bb2821ef1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kollantay Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "31a3617bc7570336b1d48452aaa9cc850e3ea4e50330910126668a77ac636d2b",
+    "installer_sha256": "db5b378b50a2b53cc75a5afe9d3bf05b4e28277067c732ba47a60e3f9b6c93eb"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Kollontay.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "26d34967eecdae400acebdd0cf9b174c42e58a28a1dfc13004dbfff3b1ba68b0",
+    "installer_sha256": "3153cbf64dbebf44e5d76e34379a51894cb63df6d05f98c50344f6656c29515c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Partisan.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d562479ae102b62a4ed08efe81f5e21494e2b36bb5860c92fb16846378761968",
+    "installer_sha256": "a6609dd85a8c1ad91c806d3548190e9c774bbba022f4dff76d052de1e06ea262"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Raider.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d773d142fd7447a5dfb30c88e3e7819b928dc1420cb57c5b696a334299a08407",
+    "installer_sha256": "a9e45c65da4bb24fd5ad164da48f5dec08df1fe877feb22f2fc390df7ef246c3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Rashala Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e1055332dd20eee968f869cddbb40d5200b07d1493d66b001b6c847443ee4529",
+    "installer_sha256": "65a41ef9cccd904797a951d09842c315b69538c2383bcbaef01df62bb2eb0ee4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Rashala.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e66fe1836ea7163bd1c39efaf218a10f55bb964ae20caf777b4c11da7bd05028",
+    "installer_sha256": "d455ea2158bb5aaeb68240e2569557b91f281d4ab9bc6fa156aec4a10bffbd63"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Remnant Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1323a805b40fa7d779f4fe61e7491b27f534ea6213e04759b1a42c126e9a2c7c",
+    "installer_sha256": "f1f2b688ae2126b139c9c13602836da0d3700ebea0567c3f195743baa528a53f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Rogue.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "122abb8119f70422231e62d7b144b4af10e5f828735a87a210027d3bb56b3c4e",
+    "installer_sha256": "dc0c026662a2cc9ad41e2b7135ce71e8e52a7ac67e0df46c3d875aca07b7e8e6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Autorifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "dbe3602ff7cf0d6a4ae90ad0fec27655d824b4573043ed8bc63e9807cb14d57d",
+    "installer_sha256": "ee6c553d4be145ef40b2a4fb3d77fd5c404dd68033fae7e59830a5abe3d69a8e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Grenadier.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bf4a7a34dc7109e9836491940ee36d6ea7642c673c0c3c7a9f9b334f027b59f3",
+    "installer_sha256": "38dc130afb3f062bfe63386ad5e3884a92c2e488728d63e97ca15b9566b464c3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Machinegunner.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cd64d69511663a6923e0b908b350d6c3ba5116218ebe28833cbac59a14101ece",
+    "installer_sha256": "80031a7c2e27dcf1f7a2b944a29ea2de8cb5ff861877e7a78625a9cb88c69d09"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7bdfc773d364e03acc7e16ea0d42db52639ce9c6da2e24214aefda8821117ca9",
+    "installer_sha256": "56b3d702fa009deba99903aa6588d632a35668fafd0acccaba4e554c806ceb61"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "57114a3d96027701d3509e0f70cf6d522d9f02eca0597a1c4031122fa452ebf6",
+    "installer_sha256": "74aa099b81e4b6e29399a398bda9c8ecf734a5337d55fd2d4ae8ca684fca9fe9"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/RUAF Senior Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "59c1771ce2dd1f4ab9f76aad1fc66a3a5d7426bf998eb64f65ce31595c2f0f99",
+    "installer_sha256": "594b3e2c229a614a87e0ef7ed4e1e7f416011d37712f1f749689c472e4d2081e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Sanitar Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "948c8d0d4068f7e3e0d6ea3ed9b0ec6208bbfa3774116dcb03f2a51fc9084eb0",
+    "installer_sha256": "f6465b741263ba39d84149aa1092a830e769be1d3365ee5c617f1fbbd436558f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Sanitar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c2568d55c83d3e99dfe4f3253429853c0e351b279e56c2ea6545a8d942c1dc2b",
+    "installer_sha256": "4b622fc9d3e5603fd0d01b9761c98cebcc0eb5ecffa8ef746e70ccb6867b3c6e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Santa Claus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "53ea2e8825602106fa8f66f75a6b1dcfb85db092a274a87e0388e5c5c0a5ab85",
+    "installer_sha256": "124376ff44a95772a94dc0f3ec788d8520f9926419e91c4cadbd93272143f60e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Scav Group.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "483df091a174b022d752970924c84d5ba4b190db20e6a05f87791ecb180f218a",
+    "installer_sha256": "c7ced0620619d7bd909720e00eac76ed5323a251818325c48e24b324f3661bc6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7efa559e7a0032909d56730d82632db4cbed3cd7019effd0b8a0794b00894272",
+    "installer_sha256": "a7bd5026edfcc05ba0203ac8fadbb98bfc2e53905f35da68b7264a4d26e6f3b7"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Shadow of Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c9c17520e4f10c3d99d75ef9f3e4700aaf4ba50d48d61ec98c1720473e19558a",
+    "installer_sha256": "c37160f02fe50efb4d3ae25357332a18b6c2d1287d5f0f5bf2def55ef2dd8153"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Shadow of Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2e759db80b85efbadd41d812b75bab780c1a22a4df9f76290ad3ef6c30d02400",
+    "installer_sha256": "fa772e6cf700b19505bfe498188c90a3230aa2cdfa45c18d2b15bfc1b8aa8164"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Shturman Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d2e6460abcf9b768ff7f760554b7f4c9ed3683a51e10e559943e9353e6b8397",
+    "installer_sha256": "3eb11572b3ba9e1449f78f950142bb329827b925f19b0960c09c5ab9c05dfa74"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Shturman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5e2385125a5a01061ce20333d51e4de7300070b1bff6ea3b3eb75bfc3b118de1",
+    "installer_sha256": "f2059adb8939496e0633407169ff37b42ccb4915612fa0f3b75a37cef81eb186"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Tagged and Cursed Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fd1f4268158e9b6d9ec9bda7c00908d6e53419495c103f71120ce41260bd0de0",
+    "installer_sha256": "76a8d94e2e590ecb97192169326253ec4786f98086f0d82fd2be50e0c6deca54"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0af608ba4c4d3a0313bc84aae474d7757bded58d6afeba7650b431b9c7178f6f",
+    "installer_sha256": "88f5589d5c72b6f238f005e56bfc6a16ad73f73167e9b8ac49a4d657dcb56977"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a6b45f06866b98c3d7836e6d46cae8c8aae46495efb9cb18c03633e689dbbbbf",
+    "installer_sha256": "da75b1537a9dc1a45f6a1f316013e34daaed0997956b5b7ed817057996b69256"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/UNTAR Follower.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6986ae359ae503a0e4f15565427f12e1597a83b9528debcf19909fcdd52a0ed4",
+    "installer_sha256": "88e35a30239c620efa6a4f30c4cba5531fd9a581224084138ee8365025b92b11"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/UNTAR Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1e2193770a10ca5f7bf76403a047319046b59ebaa562cd311b1494c8b0257636",
+    "installer_sha256": "e84c6e8a5fcd15fcc42e801dfa1e49383172ddd4508c0e62e17dcdde358fc495"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/UNTAR Officer.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c4c1863ccc5972588272c6eb6404a8973675677686e677a9be9989f4a279288b",
+    "installer_sha256": "5fce1ffbd53b20f96a8b999805fd988c09086637463b9551260ed9631c0ba9cb"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/UNTAR Squad Leader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "40396225908cd09a1c81a3e3b8f9744f4fcc54fec6bee316c17b01a8073ec5ae",
+    "installer_sha256": "2ee6c3d3bb36d3f66da8216cd2ca276b0cb030c65001c3e01559feff4fa2df93"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Usec.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "03308156eb71e72b8ec46c3cb0a0109d823eb5c2cc86c53a8c78469ac1f68652",
+    "installer_sha256": "f45d935845b9eab9e3c624abffcc939a6063c9449a6b10fd992dc35e8996b7d8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/BotSettings/Vengeful Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8c1bc6348c6489acdb3c644f4d178d8b8708567bed2cdfec1e1e9912bba450e2",
+    "installer_sha256": "547a6871a7df0ce1f69c28cbc0c4f8bfbde3cad08b267bbb9afd143d161df732"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/GlobalSettings.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3e2bbdfcc13507c61f450b0d495000820f944c34941a1cf46a7249f05e7f1e84",
+    "installer_sha256": "340e92b4f48b9618c68abc1e256a6d835fcd4ec0f6775de8accb815a4a31317d"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Info.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3af943ad34430d7c822c889de4f863d8777832159f7116f04618a5cdd43fccb2",
+    "installer_sha256": "c9aa5ace4f9cbfa0dfa56d80fe771c8d983e230cee73f461a158e4c3ee6ce1a0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/CHIMERA.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c70be80717ea0dc2fc9d4f1f08e47ae10acbdea5df76393a35d6fbbf22d89bf5",
+    "installer_sha256": "dacf6c075980c2d6b81cd7ddd078edc59065afa7ab3628548aa1441b59dada41"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/DOORKICKER.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d6fd9f7bf72a6962fa22e79dac39e8a84850637da2823e11d7b3a58cf2f52aa",
+    "installer_sha256": "3bf5ad2ed99bceffb7005d32852d30c4b89ed2eafb74be82796e9de205f27591"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/JACK_PYKE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b557beb2177f014bc879f2ae8cbf7fad8296a90fdd7b23cf43aadb4207d8868e",
+    "installer_sha256": "d418437ec6c76caadfe10ae124a2e6ddf5777621a97aa1327a1b221f863f22b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/MILTEC.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3627fd28d5c3aef66363a1e6f76abff22874cbf895e0f0384bca8c2afb526c9e",
+    "installer_sha256": "c4b8e18c4da087accad3d24d5cf78cb3b68ae33e7d64cf396252a6d4a1eda766"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/Pilgrim.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "08f313b5adaa41983ceed052396ed996cbe424ef13e2a31ac9e328dd95d8e5a8",
+    "installer_sha256": "f91309f9d5115a1ecbf133ac488619233377043201904b4dce7a6ccde1e382bc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/Raid.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d6c909f6334faa6698c4b17f55f24d539e1e439b98b9c60ec2dccadb1ec59c09",
+    "installer_sha256": "50f26b1745fb7df200523be5659c7849dbc3f5f1745f9fcef6c69f1979aed451"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/TAN_ULACH.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed0ec2fc8cda78a660941df3e1f2131d7bc748f5358345e471dd65e5a18f3ce6",
+    "installer_sha256": "2a354f52b4aade1eca668e94383ad960aed67aca4bc6e04b05188fbb45cd4bbf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/ItemStealthValues/UNTAR_BLUE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1a5bb7f03785a6c8360b75d944d939ce1295faa44a1481792f762bf6e99d97d0",
+    "installer_sha256": "e4a55504be777ffc210fc75362badb41e129ad4eda82e26f7154173cfb216ae0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Chad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "40d6fa7993614278a50f0eb33bd56a83416dfe1f7fceae149ae07c4365da6325",
+    "installer_sha256": "520216f7a8c16ab7b49b1e38f96ad8d9cbfa6979e170619feb84730213721be1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Coward.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d5177a3d61888e1cce856ad96b53e0db07a30dc129e5967ae9ae207aaf3bf8e6",
+    "installer_sha256": "625be12c11e87cb998251da927d9109aa7fa3416ecbccafcf845d90fce663e36"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/GigaChad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0e7b5b1afd6c5a66958bba61fb1230b64ed69c4c60ad4671661c4bd081dafc66",
+    "installer_sha256": "4558f1ec5447a13c804ea1807f7e9aba7772f977c2159086f4bc0db10eeafc0c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Normal.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ff7964c01357d74ffedd4b8c20d5bbca0dd9a0368e12032ed6ab85b3eba209e2",
+    "installer_sha256": "81cdb3262e9b28f4ff5beabeb1060345c2911de5496cb3f3b42c19c9640edf96"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Rat.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "75e2aef9960c3ce5df14b7035585b2ade2018e653b69541f352bcf0f5c92e343",
+    "installer_sha256": "8eaca11dcdcdeeae5f5c60eac6aedb48c509131371851afd28eb05dbb0da5f8f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/SnappingTurtle.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1becbd76bcac1a3c1e2b08ed029714ec562da6e9d981465338f5114b5c5e33f3",
+    "installer_sha256": "8bd05ee889605ffe0cba3763f8f1e99e4e5a64fec98be46d045acec1842d5bd6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Timmy.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "64b7e7b68386fed24f301bc66c99ce17384b13cc7ac8f2ca044889b7b24870be",
+    "installer_sha256": "7e45c06a99e48e55657026954b70ba00cd64f8b502c35171c8ae11a24ca6f3f9"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Personalities/Wreckless.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b6f2980ef3db1845a8d85f3cb9ed9a5f5e460fc6530b1788e49991090eaad4b5",
+    "installer_sha256": "3bec2acbbfa34178f9f4a329926c41705a65082c5cf3efa8cb9a072acf78da04"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Default [Modified]/Possible Item Types For Stealth Modifiers.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ad80257bdc674915113d8128fb07083eeaf6ab94caa829ac0c28eeb00116601",
+    "installer_sha256": "79dc039149eed6dada1d2fede663d41c62ce10b691deec33eabbb81cfc199600"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Basmach.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "eb74ae0a42ca40dfafd88119737550de9c8ebe46319dcb33307056d9984420b9",
+    "installer_sha256": "f06980f281dd2e21fd51e87226a5a8a9b1c4b2d31778d531445f40bae448e41a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Bear.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "85a238e2ee75d8554a289c8ab42ca8add7a4f029f578c03cfc350d298c818585",
+    "installer_sha256": "b81b8ffea71526b4ffe192b4e02b0868362366c17a9e2849aba182e3c7749363"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/BigPipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b84ff2258de0e966d614e0abc81c34db81909eedeaf5bfaffe39324c00973fd5",
+    "installer_sha256": "c71d41721ea9a4c0a0a2dd4acb5eba21f0a5f65e9b121e4271fcb3c9c9eb4097"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/BirdEye.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9f860ef83681eaf03938c012e58207370c5df3c4649ac41863a588c629300f43",
+    "installer_sha256": "303d3f9d0e3614a421a4892506b5cf80e3c04d2fdfdfa873e0aaeafaf64938f8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Bloodhound.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "03f0e2e364f9e69ccbbafc10cf9c30642d6a89939e504ad7b46f80853a4908af",
+    "installer_sha256": "c5f07b8de6e7b02286cd78947d70c972449f11f8ac32313c669570a7dfd2caa6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Crazy Scav Event.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "90edaf0cbd3563fc7783e6162340cad770013de445b2b0be7251d85b6a3168b5",
+    "installer_sha256": "a111589e9ad94296a393d4a451df3decfa353b793a3b9195fabb9588f1a1a740"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Cultist Priest.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0b95e9ce9a888751d3b538862268223060a04f107ebdc86b116c0a2990aae5cc",
+    "installer_sha256": "4d37e0d8eff1d426038fa89455f71a484fb683951cf7d916a5e7d30340bc6317"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Cultist.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d835bd44cb8990f9ba0ea8f74c54df3f9f898718abfeb9da1bfaa01c683cd58",
+    "installer_sha256": "112b301c352b9bc863fc6b9dbc98aaeb9deb389899ffe169e8f12ba3311db043"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gluhar Guard Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5a45cb999bf168c047a591a3a89efbd09e48e6a93fb71f9283f7b125208e5fed",
+    "installer_sha256": "fcae690be8228e49e8e015e6157e171a104a07688f70b1a58e025e5c0f644209"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gluhar Guard Scout.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4651cc8da4a66363027369bcf18065c72b80c3e4a56b1b0a2d0515ce320c4e49",
+    "installer_sha256": "0a0e44edfaa197685cd38680e2ac3c370672e44b209db3e6b971cf7d2fd761b0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gluhar Guard Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2a7d86d80383096ce5972f39c798028db761eb40556c9aeffbbc7cf9c09f6739",
+    "installer_sha256": "73df22a68a9be6a1b21291a3e2c79898a1a9c78173d9b443834a34b86d26bd18"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gluhar Guard Snipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "234b707c9e8a07a7930d4f67e50035a17cf7f4912056f903ce743ce7db459ce2",
+    "installer_sha256": "dea686014389efbf8c7b74ac7f90eeac67eae1493a25cbaf1d097a2363b49471"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gluhar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cc9fb3e83bc1b09c004a2a14dbcc3c519fb84f5a06b934cdefaa2d8bbce9c0c6",
+    "installer_sha256": "6866c23caac989bc0efe9f45e2d8458965eef06663067b2a4a961e5ab6544f4b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Gus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e1d93711ad59807186842f2c38f9efa6aedb23d256645a7bd7338aa677e8e687",
+    "installer_sha256": "cfacd0a834475ecbbe8865edc12a27ca5c393f3f4bde2299d4d685d9e16608d3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kaban Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "02e68ea141b3f12bd95128b7f2b7eb6a6741166eb87d564503d724a89122fbff",
+    "installer_sha256": "fd0c9da64346748e820a9600d52b90de37dad0a464e7124e4d853e9398f7d7f0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kaban Sniper.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6bb9dd6ea5d55034e70f8fe0643a20578daf0156cd8eed637da6696dc4090583",
+    "installer_sha256": "596465e05be868592d7ce6f2a96677f811fb5f825924d93ab9161eb0df39f927"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kaban.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6032a5f1cd44f41c92ac2198ca8c305f6933560259a0eddea721745808014f07",
+    "installer_sha256": "76dfde417f1ba224e7616cbde5f4625f49c059ca51f58de36e44d6b95652ecf6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f2cc62c3aaaac2e5ad662abd5310196f7f65e836b0d8edd26bc92e971b06d5bc",
+    "installer_sha256": "50075a69b7be67dd1fd382dd9465adbee61c0adfa3fc04547010aa581330bba3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Knight.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c401b779b01cd458fac7ce79da12e2a6fcd043f3910184138296d7bd38dc392e",
+    "installer_sha256": "fdf7ed83dc308d8e1e630410b4e8b1b02df08207f7698fd2e0ab2dd4935daca6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kollantay Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "70190a1449f96362bbc08c71a879bd68746e9e6d7ce9815a9eda03a245b32499",
+    "installer_sha256": "ce6c9c3433d5af5b9f5c8c954fe3dcca4141b085fb6c00badd5b1a7876d50216"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kollantay Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c6347ab802fe59eea92d222b821d5c209a2fc1fb74b60467cccce0713e5e2e36",
+    "installer_sha256": "60bba6b9b3f479f37f5e6aa46d988903ae324d55bf6050d6a1999637b1d43e89"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Kollontay.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e05197d985f48dafc7ee3d1fc5204fb77c5e7b8882453f6f3c5396abe1778eab",
+    "installer_sha256": "14109c37eea2f9f3349aa50e31f5faf9847d90e0adc5f1586df1d9f0ad7d7773"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Partisan.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2c31fe16ed4c1729c8b6d0b4bbbd965e10ee08bfdfa7253d845be0d3794e48ab",
+    "installer_sha256": "f70aad32b62d8224d9cd413c11668134f4fc17b9ba7f447de9bf2c070c1aa191"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Raider.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9a647fca5cc842815229ded9ea84a921f5081f893c13bc32c07999e9286a14db",
+    "installer_sha256": "10310b15dff42437877cddc627798b152b850f9e6513651fbd0de2848b05acc1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Rashala Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "577fc95ad7452b64db2278cceede14f1a7e68ce4d5e19c16be83e4e3fb9f2d62",
+    "installer_sha256": "9b9b1183c273f7148bdc9bebe4dc3009cedeeed3371a1a8c31c3aad335e618dd"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Rashala.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ecd055105a6c043b084dc88201f79b315f9a18f50aec3956481abf72eca39808",
+    "installer_sha256": "97bbd85d0c6fe3cca7f650b3a25326c1ee4823c10236922049ebe4fe995fed4b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Remnant Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f516c7f133c53a9b240bd03f21cbdefdfc895ba44f4b0a6d9a3355a12c0242d3",
+    "installer_sha256": "1fd51edfedd84f2350fe04a7e9e8032460ca4d9e5c1b24cbfb8ac91de5ecd3b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Rogue.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2a84f44502dd57b8524c988887cdb13391eb0044e8d1201bec73fa2ff1cdc519",
+    "installer_sha256": "665d09d27ef0ecdd16531cf66e81c4a3e33b795476118e66714fc3d8cabc5ee4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Autorifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f0fcc23472516e51a3a5d4a65657bd9b9dcac02c200b843e1a6f6d24a23d9ead",
+    "installer_sha256": "cbb7a4c3c7915ec5e9bcaa58c56afcf78f60e57d16e55d37df11457a1c9f0214"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Grenadier.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "68c764a24d6e897d1157ebf0b4360ece3aa78e1a240101edecc14531a121e043",
+    "installer_sha256": "e522c9f48063e3fb8f2338c16ea74293618ae9c4e30dd81e6e7adaf625b9c6b3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Machinegunner.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2c1c178fe76308b61da45980efa9891bde2597704c1d1feab3092bc2351b18c0",
+    "installer_sha256": "1648f8026b511089b6334e666703e075dc87f0d24e4ca64c85e7557bb811365a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0c2cd900f49e06b50d817861c9f0c17f45e5a0ea7a028e2b7cc3aa8152b11305",
+    "installer_sha256": "5890ff670d8d4fe8205eba17c8863bf264e750ac2011ad1c268ee98d82d3aa92"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9000be50ca61adf3ffae88b6aa75692dc8a59dc8638794329e0411db590e1bf4",
+    "installer_sha256": "e0d21ce9fe8613aa7858bc4eb7aef3cf94e73fd89045ef758db4c87012b7e640"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/RUAF Senior Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fcc518d71d16acf758206361a4f92450e0d72f37f42d3f5e5e912740a5fa375c",
+    "installer_sha256": "54278fcd5b72323138eee4897d694749d2c0dee666468acfc8f9f1c540ada92e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Sanitar Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9e1a19d23ae96ca5f71725df366e49d66a82cea788bac80549d81a6dacba1e23",
+    "installer_sha256": "189e7e52ea03b3d3229b0645157130ffb36fe6c3c1d670e20c2cdb00cd152a10"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Sanitar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c5eb91aaf801c3bd88a1f7db0c37d2a56b7f1158537ac65c63b4e6512e436276",
+    "installer_sha256": "c252190dc7a64012be13278d43fdfdd5b0229a8735f787a7d21b17e9dc135049"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Santa Claus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "21feac30829d6feeeeaaa21472ac4ea8629f9330bf647d49a6237d171301595a",
+    "installer_sha256": "e6c8d4d9bb12f5c2a876c1ad26704b8d195ee7c65a7bfd36536c752be0e44c02"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Scav Group.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "09231bb83abaea5be2061b1c411f23a4738fc2e412034ee63adf8fbbaf593a50",
+    "installer_sha256": "2c57d0fef60a787a9ece44551af91de5bf52445197966d449568d085ccc75233"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "746d4a23e0db64cc6a1571a91af508c17a8764cbb930ff8401c27e89718411bd",
+    "installer_sha256": "c97dc1ac91c1c75c4a6cf6c42d2c8e0f4e220e6d17669a3af919d0355b3cb625"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Shadow of Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c0731a6de51e74bc20ef6f18362b7e6b5af5bbe3302e04844907a959421cbef9",
+    "installer_sha256": "c9bacd1a70e60627077f2e367261183fb124eb7c88082f1c36663902bd2d91ec"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Shadow of Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e4012d445c0b992f6f962311a683805c545cfb251f8e9411e322b9d77a5c6d12",
+    "installer_sha256": "e85cf6885e30ee11aba69cb7d730d20e2f318afdd2432757401a1489a53b0a22"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Shturman Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4a186c816ecaf78697bda391467b41533dce8dd7693fc6141df19b69c3e9fc68",
+    "installer_sha256": "61f7403daf395d295a580775acd5d536bc1e481c717bca12b7770dad867d3a94"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Shturman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9a48a7eab46333fbe7484ff2208512c7f05ba8707189c12bfcf8c24c129d6476",
+    "installer_sha256": "214286a0f019ae8085b730844838251928c7fb0267c1569796d55b42c88a603f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Tagged and Cursed Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "32be0ce94f96a5a96f7bf15aaa4a12fa5e7dbdd7c3bc2ce2c45d1725ac22791c",
+    "installer_sha256": "12371ec51160de9f2ab25def9cf7c330dd14b8ab3dc69f2365595fab90937656"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9f7826e9346ce0ef562e7eb1f188fa2c9aff308d97139257fe499b68fb77b575",
+    "installer_sha256": "129eed556a22cfa73e4576bd08f2d0cc503a0b536897ac59ad120113806fd029"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "24a607e7218dbcf54b354e7972a29f6f379719091579a798cff4cefc3e9a7a6a",
+    "installer_sha256": "4635cb78afc5bbc345196fefbaaff62326a84a0f814279cc3230b3fda548ddf3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/UNTAR Follower.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fb01c96b2f3026813be1431c59f8a1ebb623aed25443f9fe4f826b98a84c423f",
+    "installer_sha256": "4791946b17393a45d1da5be1d0387ea99d6cb1d2afc750d9ffb9df2afc70da99"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/UNTAR Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8948744b6dcf6581c3024ac7caf81de99be1f9daad37b6030b59fd62c8a479e5",
+    "installer_sha256": "f4012391bbb13bf17440500cae85ea6e51327909e5c8c331a6c191a638c953d0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/UNTAR Officer.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d36b8eed1ac68f04b674330af14433029f9d1497381ad6e23856e425a1e10f71",
+    "installer_sha256": "34f715c4352ce3c004a81765a931bfc111c67dca4bf64ea1485d6c9f3ef4df8b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/UNTAR Squad Leader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "460fc70288a3df3ea4a167c4a5724580dbafb12845c3c26cc725b9b62d417503",
+    "installer_sha256": "38b0a378d07a62fc72ef9d90fc8718b102312733c53ac5620765a5c12e851fc4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Usec.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a22015a99d4f55d2451a4fbcef1e2e1c54afb5fc20eb713d0bc5db64b301d41d",
+    "installer_sha256": "5ef2e25da4bef643a52f8906b2b1ec6801afbbef83004ecf74cd31f89960137a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/BotSettings/Vengeful Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "59803c99c1592baffbca18b6f1bde4efb58fafd2d32f2c02364e7a82b05513f9",
+    "installer_sha256": "49b1424c7205c3ab87fe2d7815ba78ca2c4aa09a260100a5d1d5eaca2bdf6dc6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/GlobalSettings.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0a60729501b9a072b41557bea47434bbb1e23a78dddc236c5760efdf1738e46e",
+    "installer_sha256": "a7d718756bead09d5180bf00750fddb6c6a30740be294a05e2beb87226ef0565"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Info.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "13e0c535e15c6be7e2f4bec71ee1e580f21c055260bb77e346d04d655631b1c3",
+    "installer_sha256": "a08b40f6c733d3946cc80ca68376ec900d5a40528c81a81291839bf232d8f056"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/CHIMERA.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c70be80717ea0dc2fc9d4f1f08e47ae10acbdea5df76393a35d6fbbf22d89bf5",
+    "installer_sha256": "dacf6c075980c2d6b81cd7ddd078edc59065afa7ab3628548aa1441b59dada41"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/DOORKICKER.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d6fd9f7bf72a6962fa22e79dac39e8a84850637da2823e11d7b3a58cf2f52aa",
+    "installer_sha256": "3bf5ad2ed99bceffb7005d32852d30c4b89ed2eafb74be82796e9de205f27591"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/JACK_PYKE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b557beb2177f014bc879f2ae8cbf7fad8296a90fdd7b23cf43aadb4207d8868e",
+    "installer_sha256": "d418437ec6c76caadfe10ae124a2e6ddf5777621a97aa1327a1b221f863f22b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/MILTEC.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3627fd28d5c3aef66363a1e6f76abff22874cbf895e0f0384bca8c2afb526c9e",
+    "installer_sha256": "c4b8e18c4da087accad3d24d5cf78cb3b68ae33e7d64cf396252a6d4a1eda766"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/Pilgrim.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "08f313b5adaa41983ceed052396ed996cbe424ef13e2a31ac9e328dd95d8e5a8",
+    "installer_sha256": "f91309f9d5115a1ecbf133ac488619233377043201904b4dce7a6ccde1e382bc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/Raid.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d6c909f6334faa6698c4b17f55f24d539e1e439b98b9c60ec2dccadb1ec59c09",
+    "installer_sha256": "50f26b1745fb7df200523be5659c7849dbc3f5f1745f9fcef6c69f1979aed451"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/TAN_ULACH.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed0ec2fc8cda78a660941df3e1f2131d7bc748f5358345e471dd65e5a18f3ce6",
+    "installer_sha256": "2a354f52b4aade1eca668e94383ad960aed67aca4bc6e04b05188fbb45cd4bbf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/ItemStealthValues/UNTAR_BLUE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1a5bb7f03785a6c8360b75d944d939ce1295faa44a1481792f762bf6e99d97d0",
+    "installer_sha256": "e4a55504be777ffc210fc75362badb41e129ad4eda82e26f7154173cfb216ae0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Chad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "40d6fa7993614278a50f0eb33bd56a83416dfe1f7fceae149ae07c4365da6325",
+    "installer_sha256": "520216f7a8c16ab7b49b1e38f96ad8d9cbfa6979e170619feb84730213721be1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Coward.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d5177a3d61888e1cce856ad96b53e0db07a30dc129e5967ae9ae207aaf3bf8e6",
+    "installer_sha256": "625be12c11e87cb998251da927d9109aa7fa3416ecbccafcf845d90fce663e36"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/GigaChad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0e7b5b1afd6c5a66958bba61fb1230b64ed69c4c60ad4671661c4bd081dafc66",
+    "installer_sha256": "4558f1ec5447a13c804ea1807f7e9aba7772f977c2159086f4bc0db10eeafc0c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Normal.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ff7964c01357d74ffedd4b8c20d5bbca0dd9a0368e12032ed6ab85b3eba209e2",
+    "installer_sha256": "81cdb3262e9b28f4ff5beabeb1060345c2911de5496cb3f3b42c19c9640edf96"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Rat.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "75e2aef9960c3ce5df14b7035585b2ade2018e653b69541f352bcf0f5c92e343",
+    "installer_sha256": "8eaca11dcdcdeeae5f5c60eac6aedb48c509131371851afd28eb05dbb0da5f8f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/SnappingTurtle.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1becbd76bcac1a3c1e2b08ed029714ec562da6e9d981465338f5114b5c5e33f3",
+    "installer_sha256": "8bd05ee889605ffe0cba3763f8f1e99e4e5a64fec98be46d045acec1842d5bd6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Timmy.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "64b7e7b68386fed24f301bc66c99ce17384b13cc7ac8f2ca044889b7b24870be",
+    "installer_sha256": "7e45c06a99e48e55657026954b70ba00cd64f8b502c35171c8ae11a24ca6f3f9"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Personalities/Wreckless.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b6f2980ef3db1845a8d85f3cb9ed9a5f5e460fc6530b1788e49991090eaad4b5",
+    "installer_sha256": "3bec2acbbfa34178f9f4a329926c41705a65082c5cf3efa8cb9a072acf78da04"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified]/Possible Item Types For Stealth Modifiers.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ad80257bdc674915113d8128fb07083eeaf6ab94caa829ac0c28eeb00116601",
+    "installer_sha256": "79dc039149eed6dada1d2fede663d41c62ce10b691deec33eabbb81cfc199600"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Basmach.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "eb74ae0a42ca40dfafd88119737550de9c8ebe46319dcb33307056d9984420b9",
+    "installer_sha256": "f06980f281dd2e21fd51e87226a5a8a9b1c4b2d31778d531445f40bae448e41a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Bear.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "85a238e2ee75d8554a289c8ab42ca8add7a4f029f578c03cfc350d298c818585",
+    "installer_sha256": "b81b8ffea71526b4ffe192b4e02b0868362366c17a9e2849aba182e3c7749363"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/BigPipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b84ff2258de0e966d614e0abc81c34db81909eedeaf5bfaffe39324c00973fd5",
+    "installer_sha256": "c71d41721ea9a4c0a0a2dd4acb5eba21f0a5f65e9b121e4271fcb3c9c9eb4097"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/BirdEye.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9f860ef83681eaf03938c012e58207370c5df3c4649ac41863a588c629300f43",
+    "installer_sha256": "303d3f9d0e3614a421a4892506b5cf80e3c04d2fdfdfa873e0aaeafaf64938f8"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Bloodhound.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "03f0e2e364f9e69ccbbafc10cf9c30642d6a89939e504ad7b46f80853a4908af",
+    "installer_sha256": "c5f07b8de6e7b02286cd78947d70c972449f11f8ac32313c669570a7dfd2caa6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Crazy Scav Event.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "90edaf0cbd3563fc7783e6162340cad770013de445b2b0be7251d85b6a3168b5",
+    "installer_sha256": "a111589e9ad94296a393d4a451df3decfa353b793a3b9195fabb9588f1a1a740"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Cultist Priest.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0b95e9ce9a888751d3b538862268223060a04f107ebdc86b116c0a2990aae5cc",
+    "installer_sha256": "4d37e0d8eff1d426038fa89455f71a484fb683951cf7d916a5e7d30340bc6317"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Cultist.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d835bd44cb8990f9ba0ea8f74c54df3f9f898718abfeb9da1bfaa01c683cd58",
+    "installer_sha256": "112b301c352b9bc863fc6b9dbc98aaeb9deb389899ffe169e8f12ba3311db043"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gluhar Guard Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5a45cb999bf168c047a591a3a89efbd09e48e6a93fb71f9283f7b125208e5fed",
+    "installer_sha256": "fcae690be8228e49e8e015e6157e171a104a07688f70b1a58e025e5c0f644209"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gluhar Guard Scout.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4651cc8da4a66363027369bcf18065c72b80c3e4a56b1b0a2d0515ce320c4e49",
+    "installer_sha256": "0a0e44edfaa197685cd38680e2ac3c370672e44b209db3e6b971cf7d2fd761b0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gluhar Guard Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2a7d86d80383096ce5972f39c798028db761eb40556c9aeffbbc7cf9c09f6739",
+    "installer_sha256": "73df22a68a9be6a1b21291a3e2c79898a1a9c78173d9b443834a34b86d26bd18"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gluhar Guard Snipe.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "234b707c9e8a07a7930d4f67e50035a17cf7f4912056f903ce743ce7db459ce2",
+    "installer_sha256": "dea686014389efbf8c7b74ac7f90eeac67eae1493a25cbaf1d097a2363b49471"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gluhar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cc9fb3e83bc1b09c004a2a14dbcc3c519fb84f5a06b934cdefaa2d8bbce9c0c6",
+    "installer_sha256": "6866c23caac989bc0efe9f45e2d8458965eef06663067b2a4a961e5ab6544f4b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Gus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e1d93711ad59807186842f2c38f9efa6aedb23d256645a7bd7338aa677e8e687",
+    "installer_sha256": "cfacd0a834475ecbbe8865edc12a27ca5c393f3f4bde2299d4d685d9e16608d3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kaban Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "02e68ea141b3f12bd95128b7f2b7eb6a6741166eb87d564503d724a89122fbff",
+    "installer_sha256": "fd0c9da64346748e820a9600d52b90de37dad0a464e7124e4d853e9398f7d7f0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kaban Sniper.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6bb9dd6ea5d55034e70f8fe0643a20578daf0156cd8eed637da6696dc4090583",
+    "installer_sha256": "596465e05be868592d7ce6f2a96677f811fb5f825924d93ab9161eb0df39f927"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kaban.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "6032a5f1cd44f41c92ac2198ca8c305f6933560259a0eddea721745808014f07",
+    "installer_sha256": "76dfde417f1ba224e7616cbde5f4625f49c059ca51f58de36e44d6b95652ecf6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f2cc62c3aaaac2e5ad662abd5310196f7f65e836b0d8edd26bc92e971b06d5bc",
+    "installer_sha256": "50075a69b7be67dd1fd382dd9465adbee61c0adfa3fc04547010aa581330bba3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Knight.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c401b779b01cd458fac7ce79da12e2a6fcd043f3910184138296d7bd38dc392e",
+    "installer_sha256": "fdf7ed83dc308d8e1e630410b4e8b1b02df08207f7698fd2e0ab2dd4935daca6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kollantay Assault.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "70190a1449f96362bbc08c71a879bd68746e9e6d7ce9815a9eda03a245b32499",
+    "installer_sha256": "ce6c9c3433d5af5b9f5c8c954fe3dcca4141b085fb6c00badd5b1a7876d50216"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kollantay Security.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c6347ab802fe59eea92d222b821d5c209a2fc1fb74b60467cccce0713e5e2e36",
+    "installer_sha256": "60bba6b9b3f479f37f5e6aa46d988903ae324d55bf6050d6a1999637b1d43e89"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Kollontay.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e05197d985f48dafc7ee3d1fc5204fb77c5e7b8882453f6f3c5396abe1778eab",
+    "installer_sha256": "14109c37eea2f9f3349aa50e31f5faf9847d90e0adc5f1586df1d9f0ad7d7773"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Partisan.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2c31fe16ed4c1729c8b6d0b4bbbd965e10ee08bfdfa7253d845be0d3794e48ab",
+    "installer_sha256": "f70aad32b62d8224d9cd413c11668134f4fc17b9ba7f447de9bf2c070c1aa191"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Raider.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9a647fca5cc842815229ded9ea84a921f5081f893c13bc32c07999e9286a14db",
+    "installer_sha256": "10310b15dff42437877cddc627798b152b850f9e6513651fbd0de2848b05acc1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Rashala Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "577fc95ad7452b64db2278cceede14f1a7e68ce4d5e19c16be83e4e3fb9f2d62",
+    "installer_sha256": "9b9b1183c273f7148bdc9bebe4dc3009cedeeed3371a1a8c31c3aad335e618dd"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Rashala.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ecd055105a6c043b084dc88201f79b315f9a18f50aec3956481abf72eca39808",
+    "installer_sha256": "97bbd85d0c6fe3cca7f650b3a25326c1ee4823c10236922049ebe4fe995fed4b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Remnant Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f516c7f133c53a9b240bd03f21cbdefdfc895ba44f4b0a6d9a3355a12c0242d3",
+    "installer_sha256": "1fd51edfedd84f2350fe04a7e9e8032460ca4d9e5c1b24cbfb8ac91de5ecd3b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Rogue.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2a84f44502dd57b8524c988887cdb13391eb0044e8d1201bec73fa2ff1cdc519",
+    "installer_sha256": "665d09d27ef0ecdd16531cf66e81c4a3e33b795476118e66714fc3d8cabc5ee4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Autorifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f0fcc23472516e51a3a5d4a65657bd9b9dcac02c200b843e1a6f6d24a23d9ead",
+    "installer_sha256": "cbb7a4c3c7915ec5e9bcaa58c56afcf78f60e57d16e55d37df11457a1c9f0214"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Grenadier.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "68c764a24d6e897d1157ebf0b4360ece3aa78e1a240101edecc14531a121e043",
+    "installer_sha256": "e522c9f48063e3fb8f2338c16ea74293618ae9c4e30dd81e6e7adaf625b9c6b3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Machinegunner.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2c1c178fe76308b61da45980efa9891bde2597704c1d1feab3092bc2351b18c0",
+    "installer_sha256": "1648f8026b511089b6334e666703e075dc87f0d24e4ca64c85e7557bb811365a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0c2cd900f49e06b50d817861c9f0c17f45e5a0ea7a028e2b7cc3aa8152b11305",
+    "installer_sha256": "5890ff670d8d4fe8205eba17c8863bf264e750ac2011ad1c268ee98d82d3aa92"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9000be50ca61adf3ffae88b6aa75692dc8a59dc8638794329e0411db590e1bf4",
+    "installer_sha256": "e0d21ce9fe8613aa7858bc4eb7aef3cf94e73fd89045ef758db4c87012b7e640"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/RUAF Senior Rifleman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fcc518d71d16acf758206361a4f92450e0d72f37f42d3f5e5e912740a5fa375c",
+    "installer_sha256": "54278fcd5b72323138eee4897d694749d2c0dee666468acfc8f9f1c540ada92e"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Sanitar Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9e1a19d23ae96ca5f71725df366e49d66a82cea788bac80549d81a6dacba1e23",
+    "installer_sha256": "189e7e52ea03b3d3229b0645157130ffb36fe6c3c1d670e20c2cdb00cd152a10"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Sanitar.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c5eb91aaf801c3bd88a1f7db0c37d2a56b7f1158537ac65c63b4e6512e436276",
+    "installer_sha256": "c252190dc7a64012be13278d43fdfdd5b0229a8735f787a7d21b17e9dc135049"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Santa Claus.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "21feac30829d6feeeeaaa21472ac4ea8629f9330bf647d49a6237d171301595a",
+    "installer_sha256": "e6c8d4d9bb12f5c2a876c1ad26704b8d195ee7c65a7bfd36536c752be0e44c02"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Scav Group.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "09231bb83abaea5be2061b1c411f23a4738fc2e412034ee63adf8fbbaf593a50",
+    "installer_sha256": "2c57d0fef60a787a9ece44551af91de5bf52445197966d449568d085ccc75233"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "746d4a23e0db64cc6a1571a91af508c17a8764cbb930ff8401c27e89718411bd",
+    "installer_sha256": "c97dc1ac91c1c75c4a6cf6c42d2c8e0f4e220e6d17669a3af919d0355b3cb625"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Shadow of Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c0731a6de51e74bc20ef6f18362b7e6b5af5bbe3302e04844907a959421cbef9",
+    "installer_sha256": "c9bacd1a70e60627077f2e367261183fb124eb7c88082f1c36663902bd2d91ec"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Shadow of Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e4012d445c0b992f6f962311a683805c545cfb251f8e9411e322b9d77a5c6d12",
+    "installer_sha256": "e85cf6885e30ee11aba69cb7d730d20e2f318afdd2432757401a1489a53b0a22"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Shturman Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4a186c816ecaf78697bda391467b41533dce8dd7693fc6141df19b69c3e9fc68",
+    "installer_sha256": "61f7403daf395d295a580775acd5d536bc1e481c717bca12b7770dad867d3a94"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Shturman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9a48a7eab46333fbe7484ff2208512c7f05ba8707189c12bfcf8c24c129d6476",
+    "installer_sha256": "214286a0f019ae8085b730844838251928c7fb0267c1569796d55b42c88a603f"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Tagged and Cursed Scav.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "32be0ce94f96a5a96f7bf15aaa4a12fa5e7dbdd7c3bc2ce2c45d1725ac22791c",
+    "installer_sha256": "12371ec51160de9f2ab25def9cf7c330dd14b8ab3dc69f2365595fab90937656"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Tagilla Guard.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9f7826e9346ce0ef562e7eb1f188fa2c9aff308d97139257fe499b68fb77b575",
+    "installer_sha256": "129eed556a22cfa73e4576bd08f2d0cc503a0b536897ac59ad120113806fd029"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Tagilla.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "24a607e7218dbcf54b354e7972a29f6f379719091579a798cff4cefc3e9a7a6a",
+    "installer_sha256": "4635cb78afc5bbc345196fefbaaff62326a84a0f814279cc3230b3fda548ddf3"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/UNTAR Follower.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fb01c96b2f3026813be1431c59f8a1ebb623aed25443f9fe4f826b98a84c423f",
+    "installer_sha256": "4791946b17393a45d1da5be1d0387ea99d6cb1d2afc750d9ffb9df2afc70da99"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/UNTAR Marksman.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8948744b6dcf6581c3024ac7caf81de99be1f9daad37b6030b59fd62c8a479e5",
+    "installer_sha256": "f4012391bbb13bf17440500cae85ea6e51327909e5c8c331a6c191a638c953d0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/UNTAR Officer.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d36b8eed1ac68f04b674330af14433029f9d1497381ad6e23856e425a1e10f71",
+    "installer_sha256": "34f715c4352ce3c004a81765a931bfc111c67dca4bf64ea1485d6c9f3ef4df8b"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/UNTAR Squad Leader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "460fc70288a3df3ea4a167c4a5724580dbafb12845c3c26cc725b9b62d417503",
+    "installer_sha256": "38b0a378d07a62fc72ef9d90fc8718b102312733c53ac5620765a5c12e851fc4"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Usec.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a22015a99d4f55d2451a4fbcef1e2e1c54afb5fc20eb713d0bc5db64b301d41d",
+    "installer_sha256": "5ef2e25da4bef643a52f8906b2b1ec6801afbbef83004ecf74cd31f89960137a"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/BotSettings/Vengeful Killa.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "59803c99c1592baffbca18b6f1bde4efb58fafd2d32f2c02364e7a82b05513f9",
+    "installer_sha256": "49b1424c7205c3ab87fe2d7815ba78ca2c4aa09a260100a5d1d5eaca2bdf6dc6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/GlobalSettings.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0a60729501b9a072b41557bea47434bbb1e23a78dddc236c5760efdf1738e46e",
+    "installer_sha256": "a7d718756bead09d5180bf00750fddb6c6a30740be294a05e2beb87226ef0565"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Info.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f5ad2bc2e65a376626f4c08493487be787f5ad23f88fc90a2014c0898ec0519d",
+    "installer_sha256": "14dc2d92151c2e7aec68eb9607fff042a62d81eba6003725e23ef28653c7d9bf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/CHIMERA.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c70be80717ea0dc2fc9d4f1f08e47ae10acbdea5df76393a35d6fbbf22d89bf5",
+    "installer_sha256": "dacf6c075980c2d6b81cd7ddd078edc59065afa7ab3628548aa1441b59dada41"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/DOORKICKER.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4d6fd9f7bf72a6962fa22e79dac39e8a84850637da2823e11d7b3a58cf2f52aa",
+    "installer_sha256": "3bf5ad2ed99bceffb7005d32852d30c4b89ed2eafb74be82796e9de205f27591"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/JACK_PYKE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b557beb2177f014bc879f2ae8cbf7fad8296a90fdd7b23cf43aadb4207d8868e",
+    "installer_sha256": "d418437ec6c76caadfe10ae124a2e6ddf5777621a97aa1327a1b221f863f22b6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/MILTEC.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3627fd28d5c3aef66363a1e6f76abff22874cbf895e0f0384bca8c2afb526c9e",
+    "installer_sha256": "c4b8e18c4da087accad3d24d5cf78cb3b68ae33e7d64cf396252a6d4a1eda766"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/Pilgrim.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "08f313b5adaa41983ceed052396ed996cbe424ef13e2a31ac9e328dd95d8e5a8",
+    "installer_sha256": "f91309f9d5115a1ecbf133ac488619233377043201904b4dce7a6ccde1e382bc"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/Raid.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d6c909f6334faa6698c4b17f55f24d539e1e439b98b9c60ec2dccadb1ec59c09",
+    "installer_sha256": "50f26b1745fb7df200523be5659c7849dbc3f5f1745f9fcef6c69f1979aed451"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/TAN_ULACH.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed0ec2fc8cda78a660941df3e1f2131d7bc748f5358345e471dd65e5a18f3ce6",
+    "installer_sha256": "2a354f52b4aade1eca668e94383ad960aed67aca4bc6e04b05188fbb45cd4bbf"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/ItemStealthValues/UNTAR_BLUE.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1a5bb7f03785a6c8360b75d944d939ce1295faa44a1481792f762bf6e99d97d0",
+    "installer_sha256": "e4a55504be777ffc210fc75362badb41e129ad4eda82e26f7154173cfb216ae0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Chad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "40d6fa7993614278a50f0eb33bd56a83416dfe1f7fceae149ae07c4365da6325",
+    "installer_sha256": "520216f7a8c16ab7b49b1e38f96ad8d9cbfa6979e170619feb84730213721be1"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Coward.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e128039d68a1afc8ce41faf68fb70002d73add2d95493f1e2e3b9382b08c0bbf",
+    "installer_sha256": "d1b692850f26680574f75d6a2df2e95c02a6135ad3cba552e571093b8cbd3457"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/GigaChad.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0e7b5b1afd6c5a66958bba61fb1230b64ed69c4c60ad4671661c4bd081dafc66",
+    "installer_sha256": "4558f1ec5447a13c804ea1807f7e9aba7772f977c2159086f4bc0db10eeafc0c"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Normal.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a1dacb8f46fb77e23b93d2a61147e50b0a431b2d38a4310b63089129f9be7bb4",
+    "installer_sha256": "41b5ac2276c8033f8cb8ad1395bc0f1e71e4c8d6b58f5374f3a4ea437d4c46d0"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Rat.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0cf8cb2cf2bedda13e4b27629dacf1b13f248564314b071aa505be73b38a1f2a",
+    "installer_sha256": "2f7f799337769fc8199ffa3a4cbd133f3e47b0b852f69c833f7d43d94ecce636"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/SnappingTurtle.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1becbd76bcac1a3c1e2b08ed029714ec562da6e9d981465338f5114b5c5e33f3",
+    "installer_sha256": "8bd05ee889605ffe0cba3763f8f1e99e4e5a64fec98be46d045acec1842d5bd6"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Timmy.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "90fe8f051c3b871a3d8ccf2cb6969ed9dba1d04cb0c8725d6c873524d74d51cd",
+    "installer_sha256": "709e0c1bf994ececc6134302d112aa1f22c51db93fa6a45804d457ba232aa0ca"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Personalities/Wreckless.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a255df563b0187ed8d9b83d884f4ca9afada411373be2d99bf39f6e75e2dccba",
+    "installer_sha256": "525f918fe93d867bf27f68165d3a2c1e442b4caca7828493acda63e01821c639"
+  },
+  {
+    "path": "BepInEx/plugins/SAIN/Presets/Less Difficult [Modified] Copy(0)/Possible Item Types For Stealth Modifiers.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ad80257bdc674915113d8128fb07083eeaf6ab94caa829ac0c28eeb00116601",
+    "installer_sha256": "79dc039149eed6dada1d2fede663d41c62ce10b691deec33eabbb81cfc199600"
+  },
+  {
+    "path": "BepInEx/config/7Bpencil.ReduceFakeInteriorShadow.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0c3acb56ea2fb26a63f1fe83411ed0170167916930c6a0f91e0d006b0b51ddb7",
+    "installer_sha256": "38eaf209da84cedea24e302cd7192649cc76ddc804c0a3293f76540b4bff15cc"
+  },
+  {
+    "path": "BepInEx/config/BepInEx.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3242f51c5393320a62629921512da863e47bfd837528b635c253f390c9a01c96",
+    "installer_sha256": "72d3035cc84fc582b5d7982b1405cf9930c27f52b32ba345668c73c9fb641ae3"
+  },
+  {
+    "path": "BepInEx/config/ciallo.BetterThermalNightVision.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fc59fa75ac1696fe1789b3cf624e07441600a0df67fa27f9eb5c9b65de3db33c",
+    "installer_sha256": "27bc1e69210ead92870f146cbae8bdf294ba99bd956cff93c97e5707ed2991ad"
+  },
+  {
+    "path": "BepInEx/config/codex.diagnostics.client.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "be8f49310c8e22d2389e8fbbea6cdd979b990723cf4541299c3c3ec8f63a8f2b",
+    "installer_sha256": "daadf5d34ab5ec6279edeb0f2069fd30de95b23e898a139890a2c5466802f25d"
+  },
+  {
+    "path": "BepInEx/config/codex.vagabond.scavaccess.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "62d112b262a287038cda16b0dde3f8170da6d5d0aeae239df06c43a0b4f9c744",
+    "installer_sha256": "99f7593dc8863993631143b3a4d39ce81e944c32b8c7312409afb4835071db81"
+  },
+  {
+    "path": "BepInEx/config/com.bepis.bepinex.configurationmanager.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cbd4de9326fdb5b4c27ab2fbbfd59b47e5dc5d5dc4d5215cebdbd32866f0b440",
+    "installer_sha256": "a5b4cd4533282ca8fa697c4645b67f6449b8139b506cf13cb36cbbefe39cb63a"
+  },
+  {
+    "path": "BepInEx/config/com.fika.core.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c9ca14a7b4bdacebecae72aca29e14e65c95e1468fe9914d4d10ca004110fa65",
+    "installer_sha256": "ebdfd283e04bbded091b3095eea712a2cce6fc941c4aa395db05c23e2b2ec1f6"
+  },
+  {
+    "path": "BepInEx/config/com.fiodor.betternightskies.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ad3e18555d7794d17644b41a924cd336cd36c2643ed60c78b0565eaadcf8774b",
+    "installer_sha256": "03582d4e085e8324c2404384887a538511af1b9bd7cef5eabb2a723b062d89d8"
+  },
+  {
+    "path": "BepInEx/config/com.janky.hollywoodfx.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "47b39a47d18299b84193357563c58bbaa39bde273ea0bd9c4b60334c8dfcdbbe",
+    "installer_sha256": "eb12569f24353fb46b8e416b1d84c3229a0b5f517c5d499b0012c13de6c1d3e6"
+  },
+  {
+    "path": "BepInEx/config/com.janky.hollywoodgraphics.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "be17c94e19fcdbfc522514a2e39bebd0404acb31b47d52659b832ce313eec50c",
+    "installer_sha256": "7c16d6df78aff342086437ad6b335f588bf1abdb50b43f0af3f197013aa5cf97"
+  },
+  {
+    "path": "BepInEx/config/com.kobethuy.BringMeToLifeMod.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9658b5fc9c5a55ec58e8ebeca5afe1e157db933aaa85909ac07e0018c7f74178",
+    "installer_sha256": "9d05d72e9b77136b655e50e047eb2926cca2ac96d723c081f437e9f882875773"
+  },
+  {
+    "path": "BepInEx/config/com.lacyway.fda.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fa39aaac1bfe1a6ae2c720ab988822ea02514b502ad0a758aeb2b2a25922c16c",
+    "installer_sha256": "8b96cf16815b23b409a02978fca4e09ef68b41fd7b4200492d7632b39cf4eb67"
+  },
+  {
+    "path": "BepInEx/config/com.morebotsapi.tacticaltoaster.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "77179fee3a8c1f17106470758088eb15af7815932702642a79dc71fe6e8d24bd",
+    "installer_sha256": "9a2f3aee2ef9601da582b717c12c3b27f6fac291e15ab2c6e41068c048e3c0dc"
+  },
+  {
+    "path": "BepInEx/config/com.necoval.mortarstrikes.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8695ee69ce7b8197caa09887eaa27dda756e4edcd915bfb4265aa40e34fbd087",
+    "installer_sha256": "7b6b162465363c01dc991bfd872022fbc9a4ba78c14210ad3a58c38ae529d658"
+  },
+  {
+    "path": "BepInEx/config/com.ozen.foldables.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f34785a54a8b0f57df3c0d59a9f12e176719dd7eff881baedfdc57faa56d8d1f",
+    "installer_sha256": "ed6504f21bfc69ec2f1ee45f72ef5225d75e1215c183429b0f86362def98e0e7"
+  },
+  {
+    "path": "BepInEx/config/com.pein.battleambience.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4e3c9ed1aa9afa0f1207b9ccc0ac9285b833def548d7e9f8feeb9b4055076281",
+    "installer_sha256": "200906f0651c2bb87e8fe5ef4e5f116443d2496e5df08299e31ab93ea6b14d78"
+  },
+  {
+    "path": "BepInEx/config/com.pein.fpvdronemod.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4b9b43c3e32c41643e07b45c49334376c23e00753336ffe1a088249713bdf4fe",
+    "installer_sha256": "72662a53340e32d30ba17612d9b18ccae772d84c35537c01a72e1f984f8fe62e"
+  },
+  {
+    "path": "BepInEx/config/com.s8.sptpatchcrc32.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d18df16151f1f74a593a54ad91696448784f83d0b3bc657f70cbdd529ffcd451",
+    "installer_sha256": "05ce4b3cebe9c38d814feda2373da072cd2e5ee5eef4ee54a402464c6a9efac8"
+  },
+  {
+    "path": "BepInEx/config/com.smajlec.stamina.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "359653344bff261d58ae2fe31a39cfcfc6dcf4b8ab72d5a93c1ae94a699b7678",
+    "installer_sha256": "7b7ed2740ac8a48ce67b5ea51eefd912b58419b15a85a3a65a1471c9b711f1d6"
+  },
+  {
+    "path": "BepInEx/config/com.softwyx.careerlog.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b6d37e46d57164375fb980489cd583fbc3085dd15084ce65b97864349cec183f",
+    "installer_sha256": "dcb8b3cbac1c87643ed9effd3b380ee45d0e4f81798db627ea7f7d52a8f6a933"
+  },
+  {
+    "path": "BepInEx/config/com.sorenbyte.SPTMapProgression.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "8edde7ff3e8dcc01bdad0008877fc4c615d7c422be8dbc85cbf499ff35da5491",
+    "installer_sha256": "4ab9caeec640aa61e9d26dfa9ef4cf1e523b634bc903df0f554d91ade9d7f377"
+  },
+  {
+    "path": "BepInEx/config/com.thablackunicorn.raidpad.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "357585ce9929d8be7d0f0301ab3be39f87af52ca15ef8e974b430e43f30768d4",
+    "installer_sha256": "1881e03d68c9c039525c0adebc9ee608faa9f114c3298984c1387182f82f7899"
+  },
+  {
+    "path": "BepInEx/config/com.vonbraunz.bountyboard.client.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "457ed36eb74c4b0f5c212260aedeac5ed2f4680d9ddd4253f1a9e41745673d7b",
+    "installer_sha256": "2231f99357450c3f7e99d5a696310cdc9467ec34fe7f75d6b533892b8584e562"
+  },
+  {
+    "path": "BepInEx/config/com.wtt.armory.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e94b2a2dc4d4bcec8920db3afad785efaea5709355658cb5a9cf0a7d76738ee4",
+    "installer_sha256": "cd93e4594526814ef64100a8ef1bc16d7f776ebfea79877efc3ec1988f49f794"
+  },
+  {
+    "path": "BepInEx/config/com.wtt.commonlib.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "fd8dbbd898dc3768eda86783b68d7d268d9ca23920b44511e73bab1aca47cb98",
+    "installer_sha256": "d34334698ff72ed6766fcde730ef873900560ce9bd154a0a05bf10edb369ba82"
+  },
+  {
+    "path": "BepInEx/config/dev.oogabooga.spt-vagabond.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "af0bed873fa36aad03469daec38a841f9b7c06a3dad720bb2bc10c18a19c71c5",
+    "installer_sha256": "41c919084c2775fb34f83ab0c9c172ddec8b7620ce7fd0dbea4cf5d07e1dba71"
+  },
+  {
+    "path": "BepInEx/config/katrin0522.FastSellInFlea.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f6b5dfb1409d666aa4ce334263eea7b9f8a4c2a29ff2233cb3fd75d81725bd81",
+    "installer_sha256": "b757d852021607e5701542051c3b44aac3e5bb885a95b37f133eb6a185e545e4"
+  },
+  {
+    "path": "BepInEx/config/me.skwizzy.lootingbots.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2a3c583db67c1e7016f0acdf8ec0d6f029a7bcafff4d10dfaed3ca3273c669a7",
+    "installer_sha256": "dc35a0f52be09b186c9a06676402e4e9a4fe9de81edb628848174a471cc38e3a"
+  },
+  {
+    "path": "BepInEx/config/me.sol.sain.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7c666d5b0564c9f61075523a26974bca189698a11e03c04b4366349f6bcb1495",
+    "installer_sha256": "ea1a1edb1509e4f87b2204282424f02d1a1311576e306ce20e45c120eca7fde9"
+  },
+  {
+    "path": "BepInEx/config/Tyfon.UIFixes.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3fde6f7862191878c1767cf296a0a00943fe6244217b977b3e77d6599f60413d",
+    "installer_sha256": "836a8985e339d744ecebc5550e5e43ea969f35813965032908efbcc90bb16b28"
+  },
+  {
+    "path": "BepInEx/config/xyz.drakia.waypoints.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9627f9d2c516c5c28b461b11903d4ceb754ddf6bdb0bf86aa7a27c4d4aa5e13f",
+    "installer_sha256": "20d19bf072c86b9ed833d618e267270b38ce1ba0ebe18391a5f60d450c2c08aa"
+  },
+  {
+    "path": "BepInEx/config/xyz.nekogaming.orion.tarkov.levelenduranceandstrength.cfg",
+    "format": "ini",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3eb2400297f4b338147dd6c51b02527ac58a344829bd44e544dcefb9e8d2f28d",
+    "installer_sha256": "4f1122393b5468125c6f7510054c08091de03c0f3cb213b8c26f70f28ad80dae"
+  },
+  {
+    "path": "SPT/user/mods/[SVM] Server Value Modifier/Loader/loader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0aa078a63779d66ea96047b52dae9bb9ec82650d6bd97aada463db920e02319e",
+    "installer_sha256": "b6d235fff4a80b521b9d1ed01ff638b7fe577abaca0af826ee669d4c663c1153"
+  },
+  {
+    "path": "SPT/user/mods/[SVM] Server Value Modifier/Presets/Noname.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "adda101d2611f684c1f55bdd1b6a66d29a87896510e309b3fc1c3596fa0dc87d",
+    "installer_sha256": "06534d4fc31a415435ec924572881e8fbb099a0c119d3a8b0eb3fceb4ac8fa24"
+  },
+  {
+    "path": "SPT/user/mods/acidphantasm-addsecretexfilnotestocaches/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cd762fbacfc6149b423c76e3c152c3af7d1ac41ac14c96390be68c6bd6980fca",
+    "installer_sha256": "add8f33f859a8d43dde62c9bce076198bcf8ce0db6b15cfec61cc1ac5b3d1760"
+  },
+  {
+    "path": "SPT/user/mods/acidphantasm-bosseshavegpcoins/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2bd85d7a3f1cf5be06f1fdcfff629c353acb89f1f1e517e1a050ccb8ae971dc0",
+    "installer_sha256": "c4a5603b23a652912c69a23a34de5ffc3fefa5080b2cf8357b5bf512b956fcf6"
+  },
+  {
+    "path": "SPT/user/mods/acidphantasm-enablelabyrinth/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bcc8e52bcd57f331564cdd3bbcbd6735cf787fe15e7b9327b09ff2d3fcbc6de2",
+    "installer_sha256": "bc0b16e982a2f087000cfeee2cbb89a21ec7f0288f620708931b6d0b8ce934b5"
+  },
+  {
+    "path": "SPT/user/mods/acidphantasm-simpleworkoutqte/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "db4db4a2232849d63614f55d2e4bde2975924e7f413c3c7dc483fbde69f44be0",
+    "installer_sha256": "1b7d8c6dad143ea0485473ae6f46758bb97722ec2db1a05208589d69da576500"
+  },
+  {
+    "path": "SPT/user/mods/ArmorGreatAgain/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c6775a99fd2588f1cfde33fb1e01e5b8b172da99f109848b74625bb17f625ddb",
+    "installer_sha256": "6e518bc80903e139dd5e6dbbf24c1351f65505f11db791e64b932241d713875c"
+  },
+  {
+    "path": "SPT/user/mods/BackdoorBanditServer/config/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f6ab43af27bb2c32779e507df3bcf6d76a8d8af98be270de315859b90c0a22ad",
+    "installer_sha256": "3ff0c95192e79b9e4ea7282b76a7e1c27df428e8c01682119aad62cd4dd1840d"
+  },
+  {
+    "path": "SPT/user/mods/BotCallsigns/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c4e582d3b69665a985478b871198b3bf4989f197ee0fda0a218ac3ee16bcab3b",
+    "installer_sha256": "e4ca1c3837bd0a49d4ca0f8cb53b3a82f5aa94417c0340b75da6d37d8aed831b"
+  },
+  {
+    "path": "SPT/user/mods/BountyBoard-drb/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "008997de54aa451b3d67d81c9d85d1a69afd773181e4d44b691ba30d790b653c",
+    "installer_sha256": "9e9c1c5a8b9c39dd0623c3866c82ef8ff0b16963224e3f6958e27a3198874b74"
+  },
+  {
+    "path": "SPT/user/mods/fika-server/assets/configs/fika.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "63736db6fead5ca2d8c4f0323a8be718bb36be38e4fa648216daa3c801e390f2",
+    "installer_sha256": "63736db6fead5ca2d8c4f0323a8be718bb36be38e4fa648216daa3c801e390f2"
+  },
+  {
+    "path": "SPT/user/mods/fleasimulator/loader.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "89e694850d099a1510de2386dd1bce92dd1babb92c45c904bc63be66ea8e06cb",
+    "installer_sha256": "0ccba6c0b1941788e864af35d150871b686c13677ae3075b684e0fda4e941418"
+  },
+  {
+    "path": "SPT/user/mods/fleasimulator/Presets/default.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bb9fa543242a7218bf0ba8fbcc92a0e58c01876f0366ff4cfa901690a9697f88",
+    "installer_sha256": "a39a1a761d2713e3cb56b8d0a6981a15f9e6084f58df6e08904e782ed8dbbc66"
+  },
+  {
+    "path": "SPT/user/mods/HoodsEnergyDrinks/config/config.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "48477720f250c71e0b18cd63212fd49c900ce3634e624927644becf389c9810a",
+    "installer_sha256": "27d430610372d63eaee06a03f7aecacc4dffaf911485ac835e7fcef99048e8c6"
+  },
+  {
+    "path": "SPT/user/mods/MoreBotsServer/config.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "66af6f2d717b34c580cab9aee44df7fb312341e87b39dc0cff5bb90a8fa03e1e",
+    "installer_sha256": "d92022a06f219406dd48bbe63bd41c6a8383f27a3678c6233762aa544de16a47"
+  },
+  {
+    "path": "SPT/user/mods/OldTarkovMovementServer/Config/settings.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "73f06c9d36fd6fc9e9d2fcc038e8ce51b977e2c96accb075fb6ba619863e7ec1",
+    "installer_sha256": "340f2da219beb21439762e5836f12aa6f0c6ba1496c605a866e9709e8ab0b47f"
+  },
+  {
+    "path": "SPT/user/mods/ozen-Foldables/config/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "733569e46675982bee668a250d779f8cf2e12000530af07797e38d67185dd5e4",
+    "installer_sha256": "820f31e98a025965548f4268786ae8bb7cd9776ee92348876fadfd897d20e78b"
+  },
+  {
+    "path": "SPT/user/mods/ozen-Foldables/config/locales/en.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2b08608febc64b2317bcffda390639fd179392fefb4d3c9f95c7df141af37555",
+    "installer_sha256": "2fb2e35cd211098f82892ba8e9ea97de4a365804a1807715dbfbf8b36491c83a"
+  },
+  {
+    "path": "SPT/user/mods/ozen-Foldables/config/locales/ru.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "413e9f17d62ae9721d4a81c55c335c881f1c8839bb8ffce546b1e5f3eaa4e9e2",
+    "installer_sha256": "471b3fa3a983b70f201db19d01de5ab02ba55a5b617dbee0f7ca1cb9d7ea78c0"
+  },
+  {
+    "path": "SPT/user/mods/PenaltiesRemoved/config.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5006b528b4254c006d2e0ef853378e202842921284c13db1dbfe8cecf29f98e9",
+    "installer_sha256": "5c6e328bb21382427eb8971b6b6fe7ffe6bb973cdd5cfb23fee1f88b4241b913"
+  },
+  {
+    "path": "SPT/user/mods/platinum-theblacklist/Config/advancedConfig.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d72bcb83a9eb99cc950b626cf151e2bb2d5acd44241d222e4015636d6bea98dc",
+    "installer_sha256": "4d866f002c1a92a37a60460d7e22d4879facbb6f0398b03d913cec4e07fba12a"
+  },
+  {
+    "path": "SPT/user/mods/platinum-theblacklist/Config/config.jsonc",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "97f5c5e5c93bbc38e295a2d227d2f813d7bdd305c0cc18e2e73ca2678e287c56",
+    "installer_sha256": "1f8fc8f7136daa17f119e7216e7e31dce872414239400dd7b98374d60d5f77ac"
+  },
+  {
+    "path": "SPT/user/mods/Refringe-BetterBackpacks/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9cbfb0ce9d91be0e31377a2a8f8f734e928d72abe6a1c4a0d82ac6e80e300295",
+    "installer_sha256": "9cbfb0ce9d91be0e31377a2a8f8f734e928d72abe6a1c4a0d82ac6e80e300295"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/equipmentConflictsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ae52b090d0169c51626352a497e5987293e5e610519656d2737470fbb9d2c1e",
+    "installer_sha256": "2e63b6f704729389d74c4bd5b6367add59047c8258e19bd8e61e4981862b0dc2"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/healthConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "48c9ea758bc16bc7896540267323ead4a357809476d3a75fccc9cff04245b1ec",
+    "installer_sha256": "3cebb1c113186a53ea65393292dd09dfa5d26a9138b3f1c6f2cddc097bec592e"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/holsterSlotConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "34d6b83beaad0147e28b3f439a9fbb7157638e2c6fa41672389df2616ffe6cf0",
+    "installer_sha256": "b60ac09e997898acca8d02fd0b465e4c02080e9d700862ce8aeb7136fbadf2d2"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/skillsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2455c555abed283476a3ab249abd5471235ff590407dfbe6af45ff8b595fe623",
+    "installer_sha256": "72dcbc7f52140981f93b0063ffa228d2eb221236c1d026643fc23ec974ee8b0c"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/specialSlotsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "18d9e905eaf294676ef7f69a0c147b194e802f854211d9fc8b58e7f446fb7190",
+    "installer_sha256": "2f302436277be053b3ae74d52fb3268e12bf45f000dd25c456b2eff7e721277e"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/character/weightLimitsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "ed2eb41ec6d3190a91da6ddca9fb6787f18faf4b1c8e670b8456a661d91bef57",
+    "installer_sha256": "980d32c333dce62f8e7f6cf56657541e5cdf90206e1f34f532ad4e5c47bb0b5a"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/clientConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d36d4e2bb3edea0803af9a493153773778900bb4d56443fc5a4db1938eba36fe",
+    "installer_sha256": "0daed32db98def6d3d8f2034357552e171d29501e9ea76d0626d13b58bbcd464"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/economy/fleaMarketConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1dbd637abe75e5892ea1dcf3f0c7d0c95f646e0066663829d1d37c4cb1c28f38",
+    "installer_sha256": "e466915cd625e2c86433d8b6e3196fc2541ddc3d20492ebdb650b0ffa5a20f70"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/economy/handbookPricesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a082e186ba8eec2f8af52e42cd0c13ae8cc613d1bd2f53f9c8ca5fa6b4901c3f",
+    "installer_sha256": "3172806811775b7dd9b37b7c45709731729ab708fc8d2ac08d60b9f720f5745d"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/economy/insuranceConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0a15dc874058674e415f6f0e5faef938fd7d13c0387679b138747e681297b044",
+    "installer_sha256": "492aa38e12c051922b65086ace42aa9c7d1edf84b256d5fae50babe42580a3cd"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/hideout/craftingConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "f32d2f1194ca8745302598d87401690c5e4a4d46d76b6bcf2a9bf9c6a5a37515",
+    "installer_sha256": "3d068d89105ccbd5a86adb9cb038d5e8ede60e6f79b4c51b7619f713862e99d2"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/hideout/hideoutAreasConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b02ce151365a998615a9fdb6f44b3fdf56eb8823b15a54db7e4b269417b3e317",
+    "installer_sha256": "63b0e13a0393e0cd6f4c19cb61e1f9a09e1caf25b91c938a645eab8dcc490724"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/hideout/hideoutBonusesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9fc3090acae47aac56eed5fcc49c905475bf1060bb1329752b8cec8c01bb3b2c",
+    "installer_sha256": "b0e161dcf74395b2eb90793282e26c719801a38664aa67c012f16adb05593f42"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/hideout/hideoutMiscConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9ca7236d430b359af6aac08d29debf69c46f79552e594b48d30896cd3a6a2f0f",
+    "installer_sha256": "29debd08e9f38d8b7cdf2585c32b68439db555db96f103b86b4324b918388640"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemContext/itemContextConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2530d414f7d0fbdf9caac2eba57b1cbb8d615f5eefaeb1bc581c73e42dc1046c",
+    "installer_sha256": "0302c36a3576616665a26d88439cc8e25df5388ed10cfd99ee4a98b06297772a"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/containerSizes.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "1baba4c1438e4e5814b729d556828f9eef6c2d9f1688792b2abeb298d0627456",
+    "installer_sha256": "cb424e87174e2a32b4f48841a8e88c4154c3ba3c0d8a1825f3e2949b645a87ec"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/faceCovers.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5858ff6ccaa5ef68d47c7ee299b324e121612b0d2913adfc5faf5a87b5c3a915",
+    "installer_sha256": "67949e62b2365c4819a2ec228054d8f096eb3e55f5faabd384bde027e64999b3"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/gearPenalties.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "abf43dc548d738efff361ead781da0b8352005cd64ac081f429d0d544b4e768b",
+    "installer_sha256": "aadac58117c916a1e4af826a3ae8222f6e6f635bfc860f2ef398f0bd61843ea2"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/keys.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "bc0b72040924ea060a956e0ffcd40c0590586eb8a9d257ce65df051bdb18cf48",
+    "installer_sha256": "e8328d4e7a9820362e630e6477ca0ef30d73aa2cef0252fe7076d13d35d89612"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/medical.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e5e83be4a8463850608ca3e05a7976143c546928b83c3855561f4b3db5e1044a",
+    "installer_sha256": "c93cf699b8e9ae71cefb65e195f7a3e50b65d8ff2ee38f3579f4d3c1e8751af9"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/stackSizes.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "221e4146f271388030ed6d5b9693ef515186434b584890a1f10bf36d1fcd2e31",
+    "installer_sha256": "a9f86db1cfc964ca9df9bb41aa071eb83e14b7b26e618851dead455bb7faddf0"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemStats/weights.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e82ceeb0e10bcbc69b8bb8ea1cacdc87d665fe4146e1d460d5700248f17b5c1c",
+    "installer_sha256": "347080b833857fcbae3065bf6bdc73b3539565cad31636c4524d180d3b703c84"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/ammo.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "21f8d458ea675e7d30c9407d32d13cc9de9c517bfa2fe13ffb60f8032e8ae304",
+    "installer_sha256": "c9818f19cad739f9c246d66425fed768a50be1cf648383d3a3e7a7aaab756457"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/armorPlates.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "5ec8cd93ed63191e4114ee32ce2c9b4599d84015b94f7e7ec59c61ac5c9ff1aa",
+    "installer_sha256": "04e76507e65351ae56003c9ae5f4af7aa4b56ab5358adce5a34f189dc09da69d"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/categoryRules.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4c126d0d88a007a9b6ca7d933727170f7e3a63f62a25519feee75c5d87324daa",
+    "installer_sha256": "d98af4b75b237fef5b984cfbdd74adb05d64bb23ee0b80f0ecd668f0459be0d9"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/headphones.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "aecd122e76526151aa59d0926a803ed03300e2d4a5d6b00d26e554808bbba5b1",
+    "installer_sha256": "f5a39d45d1f06045fdae44dc9d66734012390c4fcbe29c788cca68c774971c92"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/injectors.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "4dda1d41a22a04585e07899df945cee98f2d5b4e6f5e88aa64170754cbc37f91",
+    "installer_sha256": "ae5c4dadd2eb9c22a88020b1cb501cbca60b5c29098eb57724a24ffd833844e3"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/itemTiersConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b8dfd81e7dcd19f6d88465d08e49dbe12c8df7d24f5c5f6c3777d163b2fd7a13",
+    "installer_sha256": "bd3bafce40769183c9c67fb0efd796c901abbc608fc4305512fc3b20201f56dd"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/keys.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d855fa7f7cc079a1206c0c8cc0d15c51e4920bbd9751d62321a2c5a1b1728e50",
+    "installer_sha256": "b9d8ac966be7415f89b0477a6c898ab4816c1ad55a7280be842b2c2ec4fc3259"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/priceRules.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "100072b8f68a34a63aa14b4736392ea67b505193d674c13d8e0782cb545ee38b",
+    "installer_sha256": "3552f1438b5125954672a37877979471f198567a95c6a701ea3916fdb5924039"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/itemTiers/weapons.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "46835d7d1566d10df1d25200ade5c49a974a051637eb4d3a5152275d9526d717",
+    "installer_sha256": "b08614d902deb44974ca1b18dcda581cba82baa5ddad0a942a074ca0e65811df"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/locales/localesMainConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "72cc856dc92c8604afbfbfbddd4c98d7209f7d38335f4c01fca1fec16d5c598e",
+    "installer_sha256": "e1dd501deaa1bb10c32562b48b30e3681d3d238f8c1865e4b9c727e1266e7a74"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/loot/lootConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "11806f6883180a974b753ee0c6df274b02d940245792a7f0988681c4611763e1",
+    "installer_sha256": "46ca7bb7d86b4473e310f7c22bb2e80eb4ef1fbffc70fbd8df2b933d3faec83d"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/miscSettings/logConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "cbd879d7486b8a62aacedf25f3df966c10b27895d0c214f3587e4fd3c882afd2",
+    "installer_sha256": "ebc84dee39b79b4a213b7300c3ce85bbfb1e01a5f1497d33490613b69c41ea3a"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/miscSettings/miscSettingsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "9e70b6a92e7dbb5c99647cc559eea2372a5e4352ef158e3586e960cca614b70a",
+    "installer_sha256": "e5dc6ea524673a9a50ca77ddc388a5839ada221ce456faf979f0dcac258dae98"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/miscSettings/repairConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "7b93bc4b85981e0279b38870c15d61c6b6195c6444a83e4c290dd2f6ec2488bb",
+    "installer_sha256": "c709bd104edfc023be5954e496976aee07341ee0df57d368d7d8d97b24352742"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/profiles/profilesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "34194247416cf98cc43c2953647d805df6dedd7e438ae44ceed7fcc04fa2099a",
+    "installer_sha256": "a0ec3daaf926e2155854721bff199fc3d2e9fafb1acba8276bb2853fef8dfb1c"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/profiles/templates/exampleProfile.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "aac51b2baf1b6a21add611f4bd617828a4b4f2c3abdbd6e20221d6c301e7e89f",
+    "installer_sha256": "3b2f1c2792ea29cd32c8cbd76357c0730bbce78d2fa2e90c438962fb4bd58dac"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/quests/questsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e61afa44116517bf8126387f01eb400cd67b54bdb1fbe03f34635dab7bf9f7f0",
+    "installer_sha256": "34cffb5c75901165428874db545e5a29470beb236d5ff85c0c9a0f8a1d9bac3b"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/raids/raidsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3b5a3dd894830bc59493e3620aca41c45aab716f677c0917f2755d6b6c06f5e5",
+    "installer_sha256": "042d8b8bb43069194f06dd42d091638c08ee1f4bf0e8b850d08828d131f7f4dc"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/raids/weatherConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2d7c6809053a6c6fa0f56414aebfc2c751e5485e91eda616bf300b4baf3d99f3",
+    "installer_sha256": "54f0cd01f853697d7c30d94f114290a8b7c2694c3f663e6e63b1315f2c72ffb3"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/buybackConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "450cc50eaaffd9b1cdebf821662b0827d6017ad6d379e5d99744460e319efdaa",
+    "installer_sha256": "6b68e6aebb84c7c39602268f41febeb55a8bc1b9f6e78df6f85f26d84a897bd0"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/customTraderConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "df2ddb29fc60a5a35ccc97563eb038c56258d0f74b3f30b8f31ef1a3675dfec9",
+    "installer_sha256": "46edf9f45453a198b809632704b8adc1dd794ed97231b152d7d50fdea0538c8b"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/defaultTradesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "3a56d9a82e5222e3658e97c4a3461e7de336cc5c84c5fd2a3b6341967f1af293",
+    "installer_sha256": "cef891ea00f5ab95a0e4ff0bb93162269d336ad469f7da72cfa56110bde8200d"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/fenceConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "0ebda410ed6bdc6db3e660e048fa93906e6a8f2dac7dfccf6bd2c1c6517aedc7",
+    "installer_sha256": "391e6b1924a3013d4ec8a4dd90885433fadd01f2cbcf5a0e1e9488a5f02005b2"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/manualTradesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "a7fb113031d778714aa7081e55a2a0382d408d6b905c1e8cd1087e49baf12e7d",
+    "installer_sha256": "30246b80cba9b8045452e7a133089ff36fffdabca7db854b7b85b9989f47d25e"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/routedTradesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "968657d69a37c324eb975d9f5189abffed9f2766f2b945a796c71399330f2b56",
+    "installer_sha256": "06a45f4c40fa0bba74a3458e12d9aa2e86f07a7a9e90c9aaa09f895f8af90127"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/supplyConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "c3a81b4a6c7abb7b94c5eb431f2e8110e6865e3c5cd320c837134422117a6ac5",
+    "installer_sha256": "568fac2e847d36638e24132b21401a5aabe7daf42402520081f4570d3a03a0e6"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/traders/traderMiscSettingsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "e99efef0857690e4e5235d331bc34ee3a8a3e0a7d045735b9938ddaa6f38b989",
+    "installer_sha256": "df15458ee3307eff9aaf978371cfcdb6a51bbd23d6db41b11ee9d188009690c6"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/ui/avatarsConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "15b3f7e67670e9ea6bdbbb03f9fd35d911d1bb037409eb112cbd8911ddae1cdf",
+    "installer_sha256": "574597ffee7fc866d669dceb367fc47730c664774350cfbe6f718179b219058d"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/ui/clientConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "d36d4e2bb3edea0803af9a493153773778900bb4d56443fc5a4db1938eba36fe",
+    "installer_sha256": "0daed32db98def6d3d8f2034357552e171d29501e9ea76d0626d13b58bbcd464"
+  },
+  {
+    "path": "SPT/user/mods/RZEssentials/config/ui/localesConfig.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "dc11237801d6f4c5887fe500faebb266ebf2c69ee803f64e1641091eeb2afbcd",
+    "installer_sha256": "629619c998af9050f6d5375bf8f0f51718295f2af435ba3513aa3ed02a73bcc7"
+  },
+  {
+    "path": "SPT/user/mods/Scavs4All/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "b908a9a60fb1961d5be074a3e883df6a7a903c43e48865a4cbe3c127b1e866fb",
+    "installer_sha256": "99d026b9e797204131d2b6e9d5f19f55904b6a2aa076a8229f0e4d5a82cc65af"
+  },
+  {
+    "path": "SPT/user/mods/Skwizzy-LootingBots-ServerMod/Config/config.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "2addcb8ab13f2993c5b0a1f5f363d769cadd462864c2d3f18f5910875ab9d1b7",
+    "installer_sha256": "65c8342402b71223b80fac7ea0765e0be2728c79da4acadcb835bd879a1a9c92"
+  },
+  {
+    "path": "SPT/user/mods/Solarint-SAIN-ServerMod/Data/NicknamePersonalities.json",
+    "format": "json",
+    "semantic_comparison_passed": true,
+    "original_snapshot_sha256": "630ff77ee989643352f8f33c27a808416a115ecbfb3ade7f41ae0dca94f43ca6",
+    "installer_sha256": "9dd116605cee047c21ed7c25e60dadc02dc52bbacd07c1d17899df5619c39711"
+  }
+]

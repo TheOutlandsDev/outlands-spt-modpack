@@ -1,0 +1,19 @@
+{
+  "required_files": 2857,
+  "client_files": 592,
+  "selfhost_files": 2857,
+  "pinned_author_downloads": 686,
+  "author_archive_sources": 69,
+  "author_raw_file_sources": 617,
+  "author_matched_files": 2183,
+  "owner_files": 5,
+  "settings_files": 443,
+  "manual_client_files": 5,
+  "manual_selfhost_files": 226,
+  "automatic_full_setup": false,
+  "third_party_binaries_or_assets_bundled": false,
+  "semantic_settings_checks_passed": true,
+  "fika_server_author_release": "2.2.4",
+  "fika_server_assembly_metadata": "2.0.9",
+  "live_install_changed": false
+}

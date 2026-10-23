@@ -1,0 +1,1844 @@
+[
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "BepInEx/plugins/acidphantasm-enablelabyrinth",
+    "files": 2,
+    "bytes": 12864,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2416/enable-labyrinth"
+    ]
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "BepInEx/plugins/acidphantasm-simpleworkoutqte",
+    "files": 2,
+    "bytes": 9280,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1437/simple-workout-qte"
+    ]
+  },
+  {
+    "name": "acidphantasm-temporaryfixes",
+    "location": "BepInEx/plugins/acidphantasm-temporaryfixes",
+    "files": 2,
+    "bytes": 10307,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "manual": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1525/temporary-fixes"
+    ]
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "BepInEx/plugins/archangelwtf-contentbackportprestiges",
+    "files": 2,
+    "bytes": 6380174,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2540/content-backport-prestiges"
+    ]
+  },
+  {
+    "name": "BackdoorBanditClient",
+    "location": "BepInEx/plugins/BackdoorBanditClient",
+    "files": 3,
+    "bytes": 66916,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 3
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2443/backdoor-bandit-ng"
+    ]
+  },
+  {
+    "name": "BetterBackpacks.dll",
+    "location": "BepInEx/plugins/BetterBackpacks.dll",
+    "files": 1,
+    "bytes": 10240,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.7.0"
+    ],
+    "installer_providers": {
+      "manual": 1
+    },
+    "author_sources": []
+  },
+  {
+    "name": "BetterNightSkies",
+    "location": "BepInEx/plugins/BetterNightSkies",
+    "files": 2,
+    "bytes": 71000530,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2734/better-night-skies"
+    ]
+  },
+  {
+    "name": "BetterThermalNightVision",
+    "location": "BepInEx/plugins/BetterThermalNightVision",
+    "files": 2,
+    "bytes": 21363,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2531/better-thermal-night-vision"
+    ]
+  },
+  {
+    "name": "BountyBoard.Client.dll",
+    "location": "BepInEx/plugins/BountyBoard.Client.dll",
+    "files": 1,
+    "bytes": 27136,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2627/bounty-board-dynamic-pmc-contracts"
+    ]
+  },
+  {
+    "name": "CodexDiagnostics",
+    "location": "BepInEx/plugins/CodexDiagnostics",
+    "files": 1,
+    "bytes": 62464,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "bundled-owned": 1
+    },
+    "author_sources": []
+  },
+  {
+    "name": "DrakiaXYZ-BigBrain.dll",
+    "location": "BepInEx/plugins/DrakiaXYZ-BigBrain.dll",
+    "files": 1,
+    "bytes": 43008,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/DrakiaXYZ/SPT-BigBrain",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.4.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/902/bigbrain"
+    ]
+  },
+  {
+    "name": "DrakiaXYZ-Waypoints",
+    "location": "BepInEx/plugins/DrakiaXYZ-Waypoints",
+    "files": 13,
+    "bytes": 50359179,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": "https://github.com/DrakiaXYZ/SPT-Waypoints",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.8.2"
+    ],
+    "installer_providers": {
+      "author": 13
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/827/waypoints-expanded-navmesh"
+    ]
+  },
+  {
+    "name": "Fika",
+    "location": "BepInEx/plugins/Fika",
+    "files": 7,
+    "bytes": 1835406,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "CC-BY-NC-SA-4.0",
+    "author_url": "https://github.com/project-fika/Fika-Plugin",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.2.5.0"
+    ],
+    "installer_providers": {
+      "author": 7
+    },
+    "author_sources": [
+      "https://github.com/project-fika/Fika-Plugin/releases/tag/v2.2.5"
+    ]
+  },
+  {
+    "name": "FikaDynamicAI",
+    "location": "BepInEx/plugins/FikaDynamicAI",
+    "files": 2,
+    "bytes": 32336,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": "https://forge.sp-tarkov.com",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2393/fikadynamicai"
+    ]
+  },
+  {
+    "name": "HollywoodFX",
+    "location": "BepInEx/plugins/HollywoodFX",
+    "files": 2,
+    "bytes": 1243530648,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2003/hollywoodfx",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.8.4.39897"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2003/hollywoodfx"
+    ]
+  },
+  {
+    "name": "HollywoodGraphics",
+    "location": "BepInEx/plugins/HollywoodGraphics",
+    "files": 11,
+    "bytes": 20550087,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/SleepingPills/HollywoodGraphics",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.1.4.39901"
+    ],
+    "installer_providers": {
+      "author": 11
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2003/hollywoodfx"
+    ]
+  },
+  {
+    "name": "Kat.FastSellInFlea.dll",
+    "location": "BepInEx/plugins/Kat.FastSellInFlea.dll",
+    "files": 1,
+    "bytes": 26624,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2207/fast-sell-in-flea"
+    ]
+  },
+  {
+    "name": "MergeConsumables",
+    "location": "BepInEx/plugins/MergeConsumables",
+    "files": 2,
+    "bytes": 38480,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.1.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1657/mergeconsumables"
+    ]
+  },
+  {
+    "name": "MoreBotsAPI",
+    "location": "BepInEx/plugins/MoreBotsAPI",
+    "files": 1,
+    "bytes": 46080,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2426/morebotsapi"
+    ]
+  },
+  {
+    "name": "MortarStrikes",
+    "location": "BepInEx/plugins/MortarStrikes",
+    "files": 1,
+    "bytes": 2269,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [],
+    "installer_providers": {
+      "settings": 1
+    },
+    "author_sources": []
+  },
+  {
+    "name": "MortarStrikes.dll",
+    "location": "BepInEx/plugins/MortarStrikes.dll",
+    "files": 1,
+    "bytes": 54784,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2584/mortar-strikes"
+    ]
+  },
+  {
+    "name": "OldTarkovMovement.dll",
+    "location": "BepInEx/plugins/OldTarkovMovement.dll",
+    "files": 1,
+    "bytes": 32768,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1860/classic-movement"
+    ]
+  },
+  {
+    "name": "OrionsMods",
+    "location": "BepInEx/plugins/OrionsMods",
+    "files": 2,
+    "bytes": 19513,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2438/level-endurance-and-strength"
+    ]
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "BepInEx/plugins/ozen-Foldables",
+    "files": 1,
+    "bytes": 40960,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.3.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2422/foldables"
+    ]
+  },
+  {
+    "name": "RaidPad",
+    "location": "BepInEx/plugins/RaidPad",
+    "files": 46,
+    "bytes": 580321,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [],
+    "installer_providers": {
+      "author": 46
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2753/raidpad"
+    ]
+  },
+  {
+    "name": "RaidPad.dll",
+    "location": "BepInEx/plugins/RaidPad.dll",
+    "files": 1,
+    "bytes": 136704,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2753/raidpad"
+    ]
+  },
+  {
+    "name": "RaiRai.ColorConverterAPI.dll",
+    "location": "BepInEx/plugins/RaiRai.ColorConverterAPI.dll",
+    "files": 1,
+    "bytes": 9728,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1090/color-converter-api"
+    ]
+  },
+  {
+    "name": "redlaser42-HideBetaRework.dll",
+    "location": "BepInEx/plugins/redlaser42-HideBetaRework.dll",
+    "files": 1,
+    "bytes": 5632,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1618/hide-beta-rework"
+    ]
+  },
+  {
+    "name": "ReduceFakeInteriorShadow.dll",
+    "location": "BepInEx/plugins/ReduceFakeInteriorShadow.dll",
+    "files": 1,
+    "bytes": 9216,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.1"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2613/brighter-interiors"
+    ]
+  },
+  {
+    "name": "RevivalMod.dll.disabled",
+    "location": "BepInEx/plugins/RevivalMod.dll.disabled",
+    "files": 0,
+    "bytes": 0,
+    "bundled_files": 0,
+    "status": "inactive artifacts omitted",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [],
+    "installer_providers": {},
+    "author_sources": []
+  },
+  {
+    "name": "RZEssentialsClient.dll",
+    "location": "BepInEx/plugins/RZEssentialsClient.dll",
+    "files": 1,
+    "bytes": 12800,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.1.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2637/rzessentials"
+    ]
+  },
+  {
+    "name": "s8_SPT_PatchCRC32",
+    "location": "BepInEx/plugins/s8_SPT_PatchCRC32",
+    "files": 2,
+    "bytes": 59617,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.7.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2563/loadbundlefaster-crc32-patch"
+    ]
+  },
+  {
+    "name": "SAIN",
+    "location": "BepInEx/plugins/SAIN",
+    "files": 333,
+    "bytes": 11184507,
+    "bundled_files": 332,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "4.4.3"
+    ],
+    "installer_providers": {
+      "settings": 332,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement"
+    ]
+  },
+  {
+    "name": "SharpDX.dll",
+    "location": "BepInEx/plugins/SharpDX.dll",
+    "files": 1,
+    "bytes": 274944,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "4.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2753/raidpad"
+    ]
+  },
+  {
+    "name": "SharpDX.XInput.dll",
+    "location": "BepInEx/plugins/SharpDX.XInput.dll",
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "4.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2753/raidpad"
+    ]
+  },
+  {
+    "name": "skwizzy.LootingBots.dll",
+    "location": "BepInEx/plugins/skwizzy.LootingBots.dll",
+    "files": 1,
+    "bytes": 118784,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/Skwizzy/SPT-LootingBots/releases/tag/v1.7.0-spt-4.0",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.7.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/812/looting-bots"
+    ]
+  },
+  {
+    "name": "SmajlecStamina.dll",
+    "location": "BepInEx/plugins/SmajlecStamina.dll",
+    "files": 1,
+    "bytes": 10752,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.3.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2608/smajlecs-stamina"
+    ]
+  },
+  {
+    "name": "Softwyx.CareerLog",
+    "location": "BepInEx/plugins/Softwyx.CareerLog",
+    "files": 55,
+    "bytes": 3339644,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.526"
+    ],
+    "installer_providers": {
+      "author": 55
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2713/career-log"
+    ]
+  },
+  {
+    "name": "SPTMapProgression",
+    "location": "BepInEx/plugins/SPTMapProgression",
+    "files": 1,
+    "bytes": 39424,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.5.2"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2808/map-progression"
+    ]
+  },
+  {
+    "name": "tarkin-ladders",
+    "location": "BepInEx/plugins/tarkin-ladders",
+    "files": 11,
+    "bytes": 2546256,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0",
+      "1.0.2.0"
+    ],
+    "installer_providers": {
+      "author": 11
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2649/climbable-ladders"
+    ]
+  },
+  {
+    "name": "Terkoiz.FlareEventNotifier.dll",
+    "location": "BepInEx/plugins/Terkoiz.FlareEventNotifier.dll",
+    "files": 1,
+    "bytes": 7168,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.5.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1249/exfil-flare-notification"
+    ]
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.dll",
+    "location": "BepInEx/plugins/Tyfon.HideoutInProgress.dll",
+    "files": 1,
+    "bytes": 20480,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2076/hideout-in-progress"
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.dll",
+    "files": 1,
+    "bytes": 446976,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "5.3.8.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1342/ui-fixes"
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.Net.dll",
+    "location": "BepInEx/plugins/Tyfon.UIFixes.Net.dll",
+    "files": 1,
+    "bytes": 4608,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "5.3.8.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1342/ui-fixes"
+    ]
+  },
+  {
+    "name": "UnityToolkit",
+    "location": "BepInEx/plugins/UnityToolkit",
+    "files": 13,
+    "bytes": 2296618,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0",
+      "1.5.3.0",
+      "2.0.1"
+    ],
+    "installer_providers": {
+      "author": 13
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1426/unitytoolkit"
+    ]
+  },
+  {
+    "name": "UseItemsFromAnywhere.dll",
+    "location": "BepInEx/plugins/UseItemsFromAnywhere.dll",
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.3.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2386/use-items-anywhere"
+    ]
+  },
+  {
+    "name": "WTT-ArmoryClient",
+    "location": "BepInEx/plugins/WTT-ArmoryClient",
+    "files": 1,
+    "bytes": 11264,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "CC-BY-NC-ND-4.0 listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.5.0"
+    ],
+    "installer_providers": {
+      "manual": 1
+    },
+    "author_sources": []
+  },
+  {
+    "name": "WTT-ClientCommonLib",
+    "location": "BepInEx/plugins/WTT-ClientCommonLib",
+    "files": 2,
+    "bytes": 152064,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.20.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2310/wtt-commonlib"
+    ]
+  },
+  {
+    "name": "WTT-ContentBackportClient",
+    "location": "BepInEx/plugins/WTT-ContentBackportClient",
+    "files": 18,
+    "bytes": 126282763,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.0.0",
+      "1.0.7.0"
+    ],
+    "installer_providers": {
+      "author": 16,
+      "manual": 2
+    },
+    "author_sources": [
+      "https://github.com/WelcomeToThursday/WTT-Backport/tree/a7e75b29522ac1618994596c99e8af7e6189c03f"
+    ]
+  },
+  {
+    "name": "[SVM] Server Value Modifier",
+    "location": "SPT/user/mods/[SVM] Server Value Modifier",
+    "files": 20,
+    "bytes": 1782133,
+    "bundled_files": 2,
+    "status": "author sources and/or owner settings available",
+    "license": "PUSL; separate permission required",
+    "author_url": "https://github.com/GhostFenixx/svm-csharp",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.1.1.0"
+    ],
+    "installer_providers": {
+      "author": 18,
+      "settings": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/236/server-value-modifier-svm"
+    ]
+  },
+  {
+    "name": "acidphantasm-addsecretexfilnotestocaches",
+    "location": "SPT/user/mods/acidphantasm-addsecretexfilnotestocaches",
+    "files": 2,
+    "bytes": 16402,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2049/add-secret-exfil-notes-to-caches"
+    ]
+  },
+  {
+    "name": "acidphantasm-bosseshavegpcoins",
+    "location": "SPT/user/mods/acidphantasm-bosseshavegpcoins",
+    "files": 2,
+    "bytes": 11829,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2523/bosses-have-gp-coins"
+    ]
+  },
+  {
+    "name": "acidphantasm-enablelabyrinth",
+    "location": "SPT/user/mods/acidphantasm-enablelabyrinth",
+    "files": 5,
+    "bytes": 222224,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/enablelabyrinth-csharp",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.2.0"
+    ],
+    "installer_providers": {
+      "author": 4,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2416/enable-labyrinth"
+    ]
+  },
+  {
+    "name": "acidphantasm-itemlimitsbegone",
+    "location": "SPT/user/mods/acidphantasm-itemlimitsbegone",
+    "files": 1,
+    "bytes": 10240,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2524/item-limits-begone"
+    ]
+  },
+  {
+    "name": "acidphantasm-simpleworkoutqte",
+    "location": "SPT/user/mods/acidphantasm-simpleworkoutqte",
+    "files": 3,
+    "bytes": 27337,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": "https://github.com/acidphantasm/acidphantasm-simpleworkoutqte",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 2,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1437/simple-workout-qte"
+    ]
+  },
+  {
+    "name": "acidphantasm-stattrack",
+    "location": "SPT/user/mods/acidphantasm-stattrack",
+    "files": 2,
+    "bytes": 22594,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1853/stattrack"
+    ]
+  },
+  {
+    "name": "archangelwtf-contentbackportprestiges",
+    "location": "SPT/user/mods/archangelwtf-contentbackportprestiges",
+    "files": 63,
+    "bytes": 16040070,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 63
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2540/content-backport-prestiges"
+    ]
+  },
+  {
+    "name": "ArmorGreatAgain",
+    "location": "SPT/user/mods/ArmorGreatAgain",
+    "files": 2,
+    "bytes": 17446,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2573/armorgreatagain"
+    ]
+  },
+  {
+    "name": "BackdoorBanditServer",
+    "location": "SPT/user/mods/BackdoorBanditServer",
+    "files": 6,
+    "bytes": 2171019,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 5,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2443/backdoor-bandit-ng"
+    ]
+  },
+  {
+    "name": "bodycam",
+    "location": "SPT/user/mods/bodycam",
+    "files": 124,
+    "bytes": 19702509,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [],
+    "installer_providers": {
+      "author": 124
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2328/zegas-bodycam-reshade"
+    ]
+  },
+  {
+    "name": "BotCallsigns",
+    "location": "SPT/user/mods/BotCallsigns",
+    "files": 6,
+    "bytes": 83996,
+    "bundled_files": 1,
+    "status": "local import required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 3,
+      "settings": 1,
+      "manual": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1873/bot-callsigns-reloaded"
+    ]
+  },
+  {
+    "name": "BountyBoard-drb",
+    "location": "SPT/user/mods/BountyBoard-drb",
+    "files": 2,
+    "bytes": 37414,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.2.0.0"
+    ],
+    "installer_providers": {
+      "author": 1,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2627/bounty-board-dynamic-pmc-contracts"
+    ]
+  },
+  {
+    "name": "bushtail-CantedAiming",
+    "location": "SPT/user/mods/bushtail-CantedAiming",
+    "files": 3,
+    "bytes": 23974,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.7.0"
+    ],
+    "installer_providers": {
+      "author": 3
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2415/canted-aiming"
+    ]
+  },
+  {
+    "name": "bushtail-CratesInAirdrop",
+    "location": "SPT/user/mods/bushtail-CratesInAirdrop",
+    "files": 1,
+    "bytes": 13824,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2481/crates-in-airdrop"
+    ]
+  },
+  {
+    "name": "DickMarcinkoVoicePack",
+    "location": "SPT/user/mods/DickMarcinkoVoicePack",
+    "files": 6,
+    "bytes": 4561435,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.6.0"
+    ],
+    "installer_providers": {
+      "author": 6
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1406/dick-marcinko-rogue-warrior-voice-pack"
+    ]
+  },
+  {
+    "name": "Epic_Shaders",
+    "location": "SPT/user/mods/Epic_Shaders",
+    "files": 3,
+    "bytes": 91474,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 3
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2522/epicshadertime"
+    ]
+  },
+  {
+    "name": "fika-server",
+    "location": "SPT/user/mods/fika-server",
+    "files": 51,
+    "bytes": 2270676,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "CC-BY-NC-SA-4.0",
+    "author_url": "https://github.com/project-fika/Fika-Server-CSharp",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0",
+      "2.0.9.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 50
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2357/project-fika-server"
+    ]
+  },
+  {
+    "name": "fleasimulator",
+    "location": "SPT/user/mods/fleasimulator",
+    "files": 3,
+    "bytes": 81029,
+    "bundled_files": 2,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.2.2.0"
+    ],
+    "installer_providers": {
+      "author": 1,
+      "settings": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2526/advanced-flea-simulator"
+    ]
+  },
+  {
+    "name": "HoodsEnergyDrinks",
+    "location": "SPT/user/mods/HoodsEnergyDrinks",
+    "files": 66,
+    "bytes": 320732812,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 65,
+      "settings": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1688/more-energy-drinks"
+    ]
+  },
+  {
+    "name": "JellyVoices",
+    "location": "SPT/user/mods/JellyVoices",
+    "files": 15,
+    "bytes": 20331700,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "author": 15
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2640/jelly-voices"
+    ]
+  },
+  {
+    "name": "MergeConsumablesServer",
+    "location": "SPT/user/mods/MergeConsumablesServer",
+    "files": 2,
+    "bytes": 38992,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "CC-BY-NC-ND-4.0",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1657/mergeconsumables"
+    ]
+  },
+  {
+    "name": "MoreBotsServer",
+    "location": "SPT/user/mods/MoreBotsServer",
+    "files": 2,
+    "bytes": 80956,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2426/morebotsapi"
+    ]
+  },
+  {
+    "name": "NarcoNet-v1.0.16",
+    "location": "SPT/user/mods/NarcoNet-v1.0.16",
+    "files": 7,
+    "bytes": 529569,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0",
+      "16.2.1.0"
+    ],
+    "installer_providers": {
+      "author": 7
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2441/narconet-mod-sync"
+    ]
+  },
+  {
+    "name": "OldTarkovMovementServer",
+    "location": "SPT/user/mods/OldTarkovMovementServer",
+    "files": 4,
+    "bytes": 25324,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 3
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1860/classic-movement"
+    ]
+  },
+  {
+    "name": "ozen-Foldables",
+    "location": "SPT/user/mods/ozen-Foldables",
+    "files": 4,
+    "bytes": 38798,
+    "bundled_files": 3,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.3.0"
+    ],
+    "installer_providers": {
+      "settings": 3,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2422/foldables"
+    ]
+  },
+  {
+    "name": "PenaltiesRemoved",
+    "location": "SPT/user/mods/PenaltiesRemoved",
+    "files": 2,
+    "bytes": 27882,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.3.0.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1568/penalties-removed"
+    ]
+  },
+  {
+    "name": "platinum-theblacklist",
+    "location": "SPT/user/mods/platinum-theblacklist",
+    "files": 3,
+    "bytes": 48048,
+    "bundled_files": 2,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "settings": 2,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/755/the-blacklist-flea-market-enhancements"
+    ]
+  },
+  {
+    "name": "Refringe-BetterBackpacks",
+    "location": "SPT/user/mods/Refringe-BetterBackpacks",
+    "files": 2,
+    "bytes": 60796,
+    "bundled_files": 1,
+    "status": "local import required",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.1.0"
+    ],
+    "installer_providers": {
+      "manual": 1,
+      "settings": 1
+    },
+    "author_sources": []
+  },
+  {
+    "name": "RevivalModServer",
+    "location": "SPT/user/mods/RevivalModServer",
+    "files": 0,
+    "bytes": 0,
+    "bundled_files": 0,
+    "status": "inactive artifacts omitted",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [],
+    "installer_providers": {},
+    "author_sources": []
+  },
+  {
+    "name": "RZEssentials",
+    "location": "SPT/user/mods/RZEssentials",
+    "files": 65,
+    "bytes": 14662948,
+    "bundled_files": 52,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "settings": 52,
+      "author": 13
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2637/rzessentials"
+    ]
+  },
+  {
+    "name": "Scavs4All",
+    "location": "SPT/user/mods/Scavs4All",
+    "files": 2,
+    "bytes": 19086,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1755/scavs-4-all"
+    ]
+  },
+  {
+    "name": "Skwizzy-LootingBots-ServerMod",
+    "location": "SPT/user/mods/Skwizzy-LootingBots-ServerMod",
+    "files": 2,
+    "bytes": 14908,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://github.com/Skwizzy/SPT-LootingBots/releases/tag/v1.7.0-spt-4.0",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/812/looting-bots"
+    ]
+  },
+  {
+    "name": "Solarint-SAIN-ServerMod",
+    "location": "SPT/user/mods/Solarint-SAIN-ServerMod",
+    "files": 2,
+    "bytes": 19225,
+    "bundled_files": 1,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "settings": 1,
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement"
+    ]
+  },
+  {
+    "name": "TwitchPlayers",
+    "location": "SPT/user/mods/TwitchPlayers",
+    "files": 2,
+    "bytes": 23304,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "0.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1895/sain-twitch-players"
+    ]
+  },
+  {
+    "name": "Tyfon.HideoutInProgress.Server",
+    "location": "SPT/user/mods/Tyfon.HideoutInProgress.Server",
+    "files": 1,
+    "bytes": 27136,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.2.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2076/hideout-in-progress"
+    ]
+  },
+  {
+    "name": "Tyfon.UIFixes.Server",
+    "location": "SPT/user/mods/Tyfon.UIFixes.Server",
+    "files": 1,
+    "bytes": 38400,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT (installed source commit)",
+    "author_url": "https://github.com/tyfon7/UIFixes",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "5.3.8.0"
+    ],
+    "installer_providers": {
+      "author": 1
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1342/ui-fixes"
+    ]
+  },
+  {
+    "name": "WTT-Armory",
+    "location": "SPT/user/mods/WTT-Armory",
+    "files": 931,
+    "bytes": 4758585634,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "CC-BY-NC-ND-4.0 listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.5.0"
+    ],
+    "installer_providers": {
+      "author": 928,
+      "manual": 3
+    },
+    "author_sources": [
+      "https://github.com/WelcomeToThursday/WTT-Armory/tree/f62171148778da23dbe50d284f446bb183782e46"
+    ]
+  },
+  {
+    "name": "WTT-ContentBackport",
+    "location": "SPT/user/mods/WTT-ContentBackport",
+    "files": 816,
+    "bytes": 3718639396,
+    "bundled_files": 0,
+    "status": "local import required",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.7.0"
+    ],
+    "installer_providers": {
+      "author": 601,
+      "manual": 215
+    },
+    "author_sources": [
+      "https://github.com/WelcomeToThursday/WTT-Backport/tree/a7e75b29522ac1618994596c99e8af7e6189c03f"
+    ]
+  },
+  {
+    "name": "WTT-ServerCommonLib",
+    "location": "SPT/user/mods/WTT-ServerCommonLib",
+    "files": 2,
+    "bytes": 283351,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "MIT listed upstream",
+    "author_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.20.0"
+    ],
+    "installer_providers": {
+      "author": 2
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/2310/wtt-commonlib"
+    ]
+  },
+  {
+    "name": "WTT-TheLongLostHeadsOfYojenkz",
+    "location": "SPT/user/mods/WTT-TheLongLostHeadsOfYojenkz",
+    "files": 25,
+    "bytes": 200142103,
+    "bundled_files": 0,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "2.0.1.0"
+    ],
+    "installer_providers": {
+      "author": 25
+    },
+    "author_sources": [
+      "https://sp-mod.com/mod/1340/wtt-the-long-lost-heads-of-yojenkz"
+    ]
+  },
+  {
+    "name": "zzz-CodexAiPopulationTuning",
+    "location": "SPT/user/mods/zzz-CodexAiPopulationTuning",
+    "files": 2,
+    "bytes": 29425,
+    "bundled_files": 2,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "bundled-owned": 2
+    },
+    "author_sources": []
+  },
+  {
+    "name": "zzz-CodexOpenScavTransits",
+    "location": "SPT/user/mods/zzz-CodexOpenScavTransits",
+    "files": 2,
+    "bytes": 39397,
+    "bundled_files": 2,
+    "status": "author sources and/or owner settings available",
+    "license": "not-established",
+    "author_url": null,
+    "review_note": "Installer bundles owner outputs and declarative settings only. All third-party binary/asset files are fetched from author sources or imported locally; assembly metadata is not the author package version. Consult download-plan.json for exact pins.",
+    "observed_assembly_versions": [
+      "1.0.0.0"
+    ],
+    "installer_providers": {
+      "bundled-owned": 2
+    },
+    "author_sources": []
+  }
+]

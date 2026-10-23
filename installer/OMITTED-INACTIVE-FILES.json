@@ -1,0 +1,14 @@
+[
+  {
+    "path": "BepInEx/plugins/RevivalMod.dll.disabled",
+    "reason": "Disabled Revival deployment is not enabled or required by this installer."
+  },
+  {
+    "path": "SPT/user/mods/RevivalModServer/config/config.json",
+    "reason": "Disabled Revival deployment is not enabled or required by this installer."
+  },
+  {
+    "path": "SPT/user/mods/RevivalModServer/RevivalMod-Server.dll.disabled",
+    "reason": "Disabled Revival deployment is not enabled or required by this installer."
+  }
+]

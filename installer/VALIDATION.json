@@ -1,0 +1,91 @@
+{
+  "all_passed": true,
+  "tests": [
+    {
+      "name": "read-only-plan",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "name": "live-author-download",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "cached-7z-byte-safe-extraction",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "complete-client-local-import",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "name": "assembled-client-full-file-audit",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "name": "corrupt-author-cache-rejected",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "name": "complete-selfhost-local-import",
+      "passed": true,
+      "exit": 0,
+      "previously_completed_same_scripts": true
+    },
+    {
+      "name": "assembled-selfhost-full-file-audit",
+      "passed": true,
+      "exit": 0,
+      "previously_completed_same_scripts": true
+    },
+    {
+      "name": "raw-original-normalization-and-selected-zip-import",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.7
+    },
+    {
+      "name": "cache-overlap-rejected",
+      "passed": true,
+      "exit": 1,
+      "seconds": 0.5
+    },
+    {
+      "name": "manifest-traversal-rejected",
+      "passed": true,
+      "exit": 1,
+      "seconds": 0.5
+    },
+    {
+      "name": "install-preview-no-writes",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.9
+    },
+    {
+      "name": "install-apply-with-verified-profile-and-overwrite-backups",
+      "passed": true,
+      "exit": 0,
+      "seconds": 1.1
+    },
+    {
+      "name": "installed-fixture-full-file-audit",
+      "passed": true,
+      "exit": 0,
+      "seconds": 0.7
+    }
+  ],
+  "required_files": 2857,
+  "generated_configuration_semantics_verified": true,
+  "owner_layer_entries": 448,
+  "third_party_binaries_or_assets_bundled": false,
+  "known_private_value_scan_hits": 0,
+  "live_install_changed": false,
+  "fresh_multiplayer_tested": false,
+  "limitations": "Complete assembly/audit used already available sanitized local originals. Source gaps still require local imports. Install apply/backup behavior tested only with synthetic file-version fixtures; no game executables were run."
+}

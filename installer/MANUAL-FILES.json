@@ -1,0 +1,1810 @@
+[
+  {
+    "path": "BepInEx/plugins/acidphantasm-temporaryfixes/acidphantasm-temporaryfixes.dll",
+    "component": "acidphantasm-temporaryfixes",
+    "mode": "client",
+    "size": 9216,
+    "sha256": "550db696539aea0ce2e064a8f63b7d56f71ecd5caac7c655ffd5f0a37406b90d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "BepInEx/plugins/BetterBackpacks.dll",
+    "component": "BetterBackpacks.dll",
+    "mode": "client",
+    "size": 10240,
+    "sha256": "6ce71079ae7784708df9865227eea8054367cae6a9c36198dc632103b71385a7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "BepInEx/plugins/WTT-ArmoryClient/WTT-ArmoryClient.dll",
+    "component": "WTT-ArmoryClient",
+    "mode": "client",
+    "size": 11264,
+    "sha256": "a4713be22b68b9b4dbbf53d20b06e9573eb1137b33823eb8c8b23501cd1c4a09",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackport-MainMenu.dll",
+    "component": "WTT-ContentBackportClient",
+    "mode": "client",
+    "size": 8704,
+    "sha256": "2b249319f44e672cb0b53137ef5fe6d4b8672b3495eeb5874ed5b00108b474e6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "BepInEx/plugins/WTT-ContentBackportClient/WTT-ContentBackportClient.dll",
+    "component": "WTT-ContentBackportClient",
+    "mode": "client",
+    "size": 15360,
+    "sha256": "927279ae3005e066564360571ff4cc56c963819b3df02a038d2b5062536e779b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/BotCallsigns/nameData/allNames.json",
+    "component": "BotCallsigns",
+    "mode": "server",
+    "size": 32883,
+    "sha256": "ba6bb40e735aa2a85c148e87a367bde5dd01a0b544bbfb45e0e26a4898fb19fb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/BotCallsigns/nameData/userDefinedNames.json",
+    "component": "BotCallsigns",
+    "mode": "server",
+    "size": 43,
+    "sha256": "b419f6828f5be527605d2c205b60e68a13e92dd4f4cf592420e2b511a9062c9f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/Refringe-BetterBackpacks/BetterBackpacks.dll",
+    "component": "Refringe-BetterBackpacks",
+    "mode": "server",
+    "size": 49664,
+    "sha256": "938bb9aa7feae20e3ecdfd719d2d37fcd23b69893478e415ac2fe389a6e72c8f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-Armory/bundles.json",
+    "component": "WTT-Armory",
+    "mode": "server",
+    "size": 209148,
+    "sha256": "82477e446bc8b84f9c5cf39441fd49b15db81ce7de9f78d123626ad69231fdc3",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-Armory/db/CustomLocales/en.json",
+    "component": "WTT-Armory",
+    "mode": "server",
+    "size": 239245,
+    "sha256": "fe05113e02a8c982c1394acab852dcb3f602bcc2d361dc32181728517d6bde51",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-Armory/WTT-Armory.dll",
+    "component": "WTT-Armory",
+    "mode": "server",
+    "size": 77824,
+    "sha256": "550ad42fd2816f32800edd5b90036cbcccda594a905a878137555f6ae185cc8a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/audio/phrases/vsrf_02_voice.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 102316270,
+    "sha256": "834a69b2bcf30d05f2a8ec4801060cb990ac365c2855915bdcbcabade7882aad",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/armband.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 37376,
+    "sha256": "1d1fd7f02a3bef7b2b4a9b138e95da78c864a994f40ac0f4dbbce4e59daccd73",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/pants_arena_champion.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3206634,
+    "sha256": "cd09e238865657c71c32b5ec8d301657e5d87d3f1ea7f90af0a973c130ac6a3a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/pants_arena_intermediate_bear.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3151858,
+    "sha256": "a12afa063efeb73d3a4fd7061da2ec01c65bb0d172e2a1fabddb00383e838346",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/pants_arena_intermediate_usec.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3084382,
+    "sha256": "d0aa1a1642fc75e53ea38907d585d6e984aa0a575ea46c193faa32b94211933a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_champion.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3143815,
+    "sha256": "0f73e9c019c7b79588c28257e05716eb9ce2f2135c831b9fc5e7e8f426cdec50",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_intermediate_bear.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3685540,
+    "sha256": "68f188efc761b44690410f21b484481d786ee540f9189cdf00a2938ee9ce1703",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_intermediate_usec.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3330085,
+    "sha256": "e7406af2246ab5b8fb7656e4e4a4212db5cd5072303a72cc85e0a91ce215a20f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_1_tatau.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2907180,
+    "sha256": "872b0a8a588541135524fc819a057e76a668e8b7c43cadf2dcd541ffba8df1a4",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_1_whitevoron.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2914549,
+    "sha256": "d66cbb3094bcc387da46e2322d0280258c9c83005236b13900d366d40b8f9ea4",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_3_cuirass.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3020092,
+    "sha256": "937e4f78cc6846e8c69c50e92546c9adc6b7631108fc9df643d9c6b81fb22415",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_3_icedragon.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3040509,
+    "sha256": "b5e657cf9a43c250ae10f239ad0607f4713ab0853885e4b27e3426b1a96ec5db",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_4_bear.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3177382,
+    "sha256": "a52d23d4852ca1f96c1b77e88cb66bfba2e902a3606e1503914d6b2162ce08de",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_4_usec.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3147204,
+    "sha256": "f2d62a0ec48ce35449606ca5d81aa6938317b608911988500d63157b37b35770",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_5_black.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3031522,
+    "sha256": "c01114b56ab410a2e44174e4c19d72d4277199b32804ac60dc08a6e0fc83cf8c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_arena_rusguard_5_green.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3000566,
+    "sha256": "ec5b6eb26c21a34153aa49a8c2edff2a940158fd52019cb4e6233c9c1a785b36",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_bear_hawaii_02.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3296167,
+    "sha256": "829b36bc29b1105b3f14ddf39ad79438ac63d719003b08e8d2a05d640d187f42",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_bear_kit_upper_hawaii_miami.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3310353,
+    "sha256": "30dd14acefc318a0ea0169855c4288097410573b0bbfaaf11275692cad1ff900",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_usec_hawaii_02.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3515462,
+    "sha256": "20de2781130e8dc5821cb1453e3f874e26ff8f71e0cf6d038410ac190750c7be",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/characters/character/prefabs/top_usec_kit_upper_hawaii_miami.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3515217,
+    "sha256": "5c7dee91c1340102e6c329303c5436ead8f744a54c412e4abaaf73cc7314f89b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_champion/hands_arena_champion.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 11042787,
+    "sha256": "c2088b88dca047d00c4f347a38b33d3a31b1885d1466aaf0030121b602861b5c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_intermediate/hands_arena_intermediate_bear.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13893042,
+    "sha256": "15a8df1d023d481eadf7af15cfdf1682c7d69176853cb702bed996f2c19be853",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_intermediate/hands_arena_intermediate_usec.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13309872,
+    "sha256": "db0b780e7e17de0b78d58ab80b6ad21729109bbb5a86eeb3dba6265b897d52c9",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_1/hands_arena_rusguard_1_tatau.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10869867,
+    "sha256": "da72d776d9adacc4b2c7ab35724d24397351714a4f3f533b4e9f9753e6270b64",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_1/hands_arena_rusguard_1_whitevoron.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10776862,
+    "sha256": "985e909b56e338dcb237cf8c3a3ed63b102f256bdf772734849a99f290574976",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_3/hands_arena_rusguard_3_cuirass.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 11396027,
+    "sha256": "3447881b1bf567217ae6b7d359e6ff6e943c09613e5b4cafa78d3c1c45b912b5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_3/hands_arena_rusguard_3_icedragon.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 11319379,
+    "sha256": "bf9c45d6f3fdb24b25b2ff0384efd8babc2851fa13472550ac152d3d74d6131c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_4/hands_arena_rusguard_4_bear.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13651618,
+    "sha256": "a89e5b0479103003b1c373351b50303454812ab6765a236673f9e55c9c3539c1",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_4/hands_arena_rusguard_4_usec.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13268116,
+    "sha256": "a507e986a8f5840963d82653c6bf766105cef996aff2da880bc1af88015c5523",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_5/hands_arena_rusguard_5_black.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10788380,
+    "sha256": "2538638c546274efad6d467f1c9f0346aed6696321b86ad77ec212657a32d8b3",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_arena_rusguard_5/hands_arena_rusguard_5_green.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10918905,
+    "sha256": "693fd95f12c6165dd0a622db7459cf44434bb6507ca5376b3452b2d90c04a6a6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_bear_hawaii_02/hands_bear_hawaii_02.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13978538,
+    "sha256": "1914cc3d83dd21179e580a9e73fe3c04efb31c5b0defac6d4ddf1458fb8b0aa7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_bear_kit_upper_hawaii_miami/hands_bear_kit_upper_hawaii_miami.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13979219,
+    "sha256": "e14ae6ea17b881d1f01355b8b3b4d608f7f9f861b54371c9acacb90dcd6fc045",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_usec_hawaii_02/hands_usec_hawaii_02.skin.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13660523,
+    "sha256": "806cf1d216f34a54b2f6fe9ae8a8f8bbdfb4fce0ae65701fc0d3d50686d5752b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/hands/hands_usec_kit_upper_hawaii_miami/hands_usec_kit_upper_hawaii_miami.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 13661970,
+    "sha256": "57b713f073ce21374048b3415b45b0625a258f15a58a53bea49d6b929fc4af17",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/containers/item_container_arena_battlepass_s1/item_container_arena_battlepass_s1_01.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10474794,
+    "sha256": "69bb64d5755f976f282357ba95c867efb130fded8d10dda08c2f8e5cfe4a8cde",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/containers/item_container_arena_battlepass_s1/item_container_arena_battlepass_s1_02.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10516206,
+    "sha256": "17a79865192774faee70506c973daa3181c0bcac31ec274f33b5641ea024bb92",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/containers/item_container_moderator_toolbox/item_container_moderator_toolbox.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2575340,
+    "sha256": "ed8c2b18094bc86eceb7f932bba29a9ab638c712f92acbd5498b864543fbeada",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/armband/item_equipment_armband_discord.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3097351,
+    "sha256": "594bd630eadc7e1ee0fb93057acfc43dc7f2c63e94303af347ab9cf32ecb5c73",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/armor_custom_thorcrv/item_equipment_armor_custom_thorcrv_skull_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2744685,
+    "sha256": "6cde5b86685b95c7cfd1b2a2973db20d7a5b7a3948dbb0c5713d54eff0db40a1",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/armor_korundvm/item_equipment_armor_korundvm_reed_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2743548,
+    "sha256": "ca77f338a1880fa078d2be9627177d09cee3dfa5d0608aa5211ee1743598c7c1",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/armor_otv_ucp/item_equipment_armor_otv_woodland_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2785357,
+    "sha256": "ae6b946f7ba197d08cc2ad67f2572cdaa4de79264978927b8729202d9cd3e9ad",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_balaclava/item_equipment_facecover_balaclava_pink_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1383894,
+    "sha256": "86d94d13bfc6bc07d974f118bfbb07908930b46288da69e45193fe8e9c684d16",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_balaclava/item_equipment_facecover_balaclava_zaebtsa_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1377917,
+    "sha256": "350089511ed004f03cf27ba85c6babc7d3e026010ded07112b655c6a0d3c67fb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_ballistic_mask/item_equipment_facecover_ballistic_mask_ping.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2659803,
+    "sha256": "efe7266e09f08952edfc70f5d84a902af0b0357bb77b6af60cfe98e137fb9d11",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_ballistic_mask/item_equipment_facecover_strikeball_mask_g_demon_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1509270,
+    "sha256": "67e9bd5d9f26bd583f0b91c33acd16571abc744d3e6d93952b87112a13c2fcce",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_ballistic_mask/item_equipment_facecover_strikeball_mask_lp_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2339866,
+    "sha256": "f84e266bfba266bfdab7ee6aca99903ee9de15ff8733c9d2d4c854b5b5a01e15",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_ballistic_mask/item_equipment_facecover_strikeball_mask_maneken_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1553796,
+    "sha256": "d0a99b1466ffa2f1d87d8d12d7b5d549ef2c1b0e3761215c98fcd67dd03bad37",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_ballistic_mask/item_equipment_facecover_strikeball_mask_rad_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2348644,
+    "sha256": "bb4a1995d04037a12229bdf1ba0fe56ab020fe6714c2983ffabfc54c2ef35d8f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_coldgear/item_equipment_facecover_coldgear_alien_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1786021,
+    "sha256": "e1282f713799e276ab9d795c5202951f33d0ac41dc4e260ad875c3ab589d32a6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_coldgear/item_equipment_facecover_coldgear_skull_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2456755,
+    "sha256": "553d5b967644e6860c0f1677555fdbd18633d5416d5d30ce156b874ca64e254a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac/item_equipment_facecover_devtac_gen2_green_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1947163,
+    "sha256": "640826ad2d8d9acc1e4cae32cea61ae13781d51c1ecab87cd0c9225734964aae",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac/item_equipment_facecover_devtac_gen2_venom_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1869258,
+    "sha256": "4d25bc788f69e322a180cbedfae77e6f8af518be8a0ebec5a5b57ac3e309b1b4",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac_samurai/item_equipment_facecover_devtac_samurai_bp2_black.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1515778,
+    "sha256": "49ee8dedd37fc2907abe24210e6f157303d38cc0af44a79514f2d9cd03f50671",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac_samurai/item_equipment_facecover_devtac_samurai_bp2_gold.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1540099,
+    "sha256": "50d0b3284c3bd356e459f84ec22382802ce867b437262aad7f22d4c0b8d7e13c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac_samurai/item_equipment_facecover_devtac_samurai_bp2_silver.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1526074,
+    "sha256": "d440ff73a208a9412c919c4ca9642e9bdd781928364f7b5f7109b47abc6630f0",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_devtac_samurai/item_equipment_facecover_devtac_samurai_bp2_white.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1701029,
+    "sha256": "76e1364026bd0af120d317e191edaea1b39fc19f463e308e31599adc24ca6bf5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_strikeball_mask/item_equipment_facecover_strikeball_mask_gold_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1887021,
+    "sha256": "1ab47ff0b079f7f8a0d67539da7937e331d9801644832e66191601b3e2b90d94",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_strikeball_mask/item_equipment_facecover_strikeball_mask_grey_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1828683,
+    "sha256": "d468743091a41038ae6732e7743eb573f29c5749f52c7cd3df5ee4a498593945",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_strikeball_mask/item_equipment_facecover_strikeball_mask_white_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1857589,
+    "sha256": "630fcec5e411331986633da268853478842d5aab0d4f7934fdab18a7b3f30403",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_training_mask/item_equipment_facecover_training_mask_bp2_black.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1031348,
+    "sha256": "292a6811f7b08d7af7ab06b1c37dda39f792251ccb2c6530154ac17b6c9ef144",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_training_mask/item_equipment_facecover_training_mask_bp2_camo.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1052795,
+    "sha256": "60885172aaef1bfa4e9651f2acdb8dcefd081e6ff8be934b3f2b119cd37a07ae",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_training_mask/item_equipment_facecover_training_mask_bp2_grey.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1026461,
+    "sha256": "4527b8c92425b1f28e616fc0d4ca0a9157e2aa864ae3857d6e5c27e327b3ca12",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_training_mask/item_equipment_facecover_training_mask_bp2_smile.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1045703,
+    "sha256": "36cca7e34155d64bf34475bfbbac093c93cd7c265fb32b15338f3722bcce9a66",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/facecover_training_mask/item_equipment_facecover_training_mask_bp2_yellow.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1051104,
+    "sha256": "b370483486b2cf0c89a2e079376e3f2796bf0cb9e25d7024c9d2ffe0cd14eb9b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_oakley_x/item_equipment_glasses_oakley_x_bp2_blk.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1007565,
+    "sha256": "52f5bc378cfd4166fb9f4c204bf1811fe657571ff5432ff29eade1bc3969ee9a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_oakley_x/item_equipment_glasses_oakley_x_bp2_grn.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1018601,
+    "sha256": "6f4872657f473e0ce5be28115b08bee71a890ec371eb0dc8f37d69d89d434127",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_oakley_x/item_equipment_glasses_oakley_x_bp2_red.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1023413,
+    "sha256": "60a55c2416e9aaae1de6f3d927ebed418f92991bf5e1d15169af4551e2c7f40b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_perforated/item_equipment_glasses_perforated_bp2_blc.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 619411,
+    "sha256": "39c3d168784cf5b17b695416c4d6d011ce03aa6417fc4c93ba07e5a42cb674cf",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_perforated/item_equipment_glasses_perforated_bp2_blu.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 660968,
+    "sha256": "0218173e10fd6c43e43eee54ff725b4a0da98a023864ab005970c3e9d4e2bbe9",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_perforated/item_equipment_glasses_perforated_bp2_grn.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 666504,
+    "sha256": "26feda5e82276d02ea7100b17cee6124621f88eb8ddf47d3d59ced56880bfbc4",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_perforated/item_equipment_glasses_perforated_bp2_red.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 665887,
+    "sha256": "39b9e61d824892f10e87ca6278450bf79105c0f9df78336bdc14f1c43000b3dc",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_perforated/item_equipment_glasses_perforated_bp2_wht.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 644967,
+    "sha256": "e5e41f353931ce70c1a15eddb9e1a6c0cf57fc9ed62c3edd03a69cafaa071dac",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_pixel/item_equipment_glasses_pixel_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 944737,
+    "sha256": "5c8e9eab455d8b9c5370ced9a117b852f245a44ff336ae761e513c61d23227d0",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_red_charm/item_equipment_glasses_red_charm_bp2_blu.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 561466,
+    "sha256": "8bf65872257a535ae8b418bf96752219910283a6682678d2c0d92156e7520594",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_red_charm/item_equipment_glasses_red_charm_bp2_grn.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 564860,
+    "sha256": "0a90091f6cab2b1b40db6807f424aeeb3e1edcb65db567fe51a983abe9b67fa5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/glasses_red_charm/item_equipment_glasses_red_charm_bp2_wht.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 557574,
+    "sha256": "b38ff812eb6f14d4daa21da7ee8a69362a46ecf33f1654c0b471a7816aaea017",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/head_arena_coyote/item_equipment_head_arena_coyote_cup1.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2748506,
+    "sha256": "bb299070ba576281c4e2b4758549d64a22646c8b0d4e4d78151c930177b6a1c6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/headset_peltor_tep_300/item_equipment_headset_peltor_tep_300.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 717645,
+    "sha256": "b00421d0e0c15bb0650563a190b323fc012599014228661a9e2b78b694bd759d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_champion/item_equipment_helmet_champion_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2675809,
+    "sha256": "f6f8c8c583a953f5b6246100021b52fe29fe3993769daad8e87e2f499fd20f62",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_applique/item_equipment_helmet_galvion_applique_multicam_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2596302,
+    "sha256": "748db17fa7f95f0aaa4a892c66a33d2928bc141e8a41687d5aac659af6d8175a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_applique/item_equipment_helmet_galvion_applique_venom_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2325692,
+    "sha256": "81604954e99c97bf952b6372a5cd8c02c9e54ef87661bc4d0cc70460a273dd22",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_caiman/item_equipment_helmet_galvion_caiman_multicam_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4137767,
+    "sha256": "58cd13bf1f4077e992d49ebc74b768b7a2aa0c7babe1fb7bc936bea0e66807b9",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_caiman/item_equipment_helmet_galvion_caiman_venom_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4045882,
+    "sha256": "e820637483d3eaec9440bf54e0104cf97dc9b1b826c8fc0d7ea1f33f2f024995",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_mandible/item_equipment_helmet_galvion_mandible_multicam_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 693928,
+    "sha256": "b231cd0c5b38deac5db351ea9fa022d0ea14fb30088e2f789ba95c6d42c3ff77",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_galvion_mandible/item_equipment_helmet_galvion_mandible_venom_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 697394,
+    "sha256": "eb01de01c2c02ad7946085c135b47bddb4a99ea345f3f2fc1f847e7828698151",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_neosteel/item_equipment_helmet_neosteel_aces_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2818662,
+    "sha256": "0617f95fbbcf103edee642c3cd14c4391de78de3339d85bd837f299c319b46ab",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_neosteel/item_equipment_helmet_neosteel_orange_stains_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2809814,
+    "sha256": "bc80f3cf17db8d0b5307a3568e76a901e671bc07d788e58bfcb3f463b96217c5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_neosteel_mandible/item_equipment_helmet_neosteel_mandible_aces_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 655514,
+    "sha256": "abb8b68a65d9b5dc233920a59c01e59105ba6de176b186335c9e744436f8b317",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_neosteel_mandible/item_equipment_helmet_neosteel_mandible_black_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 991069,
+    "sha256": "f97bd553f5ef34b68ccc035f0cade72456abdda81470346864ae647b8b5fa3ae",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_bp2_coyote_stripes.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5492647,
+    "sha256": "86fb73beb3d191401f150bf23867c34b3140b8150f2587c1583dac2116563b38",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_bp2_green_dot.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5570811,
+    "sha256": "d1fade48eaee77a04c504dd3f067f0c68b728132342ff8fe4d70fd9e16399e78",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_bp2_green_stripes.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5527555,
+    "sha256": "8d1b10ef880e952900410ef6981985a3106063f96d12618baf28fb5926f7e46e",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_bp2_sand.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5525320,
+    "sha256": "d5bc9fba950b6bfe6d33c3633323e03caea1fd11d9e5fb485680e1e71fccbbea",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_vulkan_5/item_equipment_helmet_vulkan5_camo_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1833229,
+    "sha256": "46fd55a7e0b3a1d2d966c2444c2009708ebef356fdd22b3149bd591d354f7c93",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_vulkan_5/item_equipment_helmet_vulkan5_eightball_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1844255,
+    "sha256": "4c2bdb0e0fbedfca5cbaf756a698ef6f43c34b9397aaf22233898752af2cbffb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/helmet_vulkan_5/item_equipment_helmet_vulkan5_flame_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 1841346,
+    "sha256": "19b2ee87fb9c6fdd31ab1aaf3c7b50537f977d158020fa53d2250f8b7efef075",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/mustache_curled_handlebar/item_equipment_mustache_curled_handlebar_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 656723,
+    "sha256": "e7998e688c657627e774cf9a58da2e813eb844f4b7e7d20d3ba9383db827f19d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/mustache_horseshoe/item_equipment_mustache_horseshoe_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 668803,
+    "sha256": "5b67be0bb868d6b9bb6b6ac2683a3e15bc728625a9c59b70094db6acadf3387b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/rig_alpha/item_equipment_rig_alpha_au_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3220036,
+    "sha256": "ed0849eff91fe1f8fed5bd0495e87e42db1c6fa75d5072191a6271c7f133a4b7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/rig_boss_birdeye/item_equipment_rig_bearing_aor1_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2765882,
+    "sha256": "877cb20db3e077a290f3ef0ee27900f0bad01d2a762cdaf0e600a3e6fe1734b5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/rig_mk3/item_equipment_rig_mk3_moss_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3441143,
+    "sha256": "3c1758a37b4db7df967dc62260578ba6b307cdf7ad2a266d08a965beffd6064c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_marpat_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 7979128,
+    "sha256": "2d11ff9cea9cd6c5603c6ce27242e5bb4d178478c3a0c3d5abaa62065a4cdc15",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/equipment/rig_strandhogg/item_equipment_rig_strandhogg_abu_bp2.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 8050632,
+    "sha256": "8f03951fde6af53f9aa3078b15ec9b139809a6a015a61a133d3988d3aded5198",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/charges/charge_ar15_radian_raptor_sd_ambidextrous_charging_handle.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2722294,
+    "sha256": "ac0aedef43b2efb287df92f31bc7307a97a90a7eb326df749fc81b13bc1443af",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_radian_model1_m_lok_14_inch.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 8955198,
+    "sha256": "d2a62d60cc3fa5cb990041e17ed97078661bafd7bb2df88f16b19b9fd547d5bb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_11_inch_m_lok.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4816905,
+    "sha256": "964bdb2d41645d6213938315596cb165e4b4d99cb36009cfd95ca8644d70d63b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_15_inch_m_lok.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4741735,
+    "sha256": "bdb4d98ccb5a484bc5262300d86b5cdecda2c0bfc25263a645786797b40ab2ea",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_17_inch_m_lok.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4764002,
+    "sha256": "23fbb4c47e830c66d860db22160d175e77e61846f8ecfd90989030dbd42a2418",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_8_5_inch_m_lok.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4830855,
+    "sha256": "f19a52fedccc9bef755ebfef6b9d320449ed70fb8b4b4f013836a7da806c058c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_base_blk.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2602601,
+    "sha256": "2b79cd9cebfe209e8ee7f26dade17211bc06e11b0b3bb61f072c216ceb5cdd93",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_base_red.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2679942,
+    "sha256": "e4fc1df4445c433ecaf289f729ca61879953e553ec116cb828a1a36476da741f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/handguards/handguard_ar15_strike_industries_gridlok_base_yellow.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2702359,
+    "sha256": "25186334c94ebcf86ea1859a33e4956d5949989c128bca35423f3f44b0ccba53",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/mounts/mount_ar15_strike_industries_gridlok_extention_blk.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2553754,
+    "sha256": "bd850c826359c4c4effa1d44a22a346678f36fbe525edce735e836c943e25c7c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/mounts/mount_ar15_strike_industries_gridlok_extention_red.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2672706,
+    "sha256": "c9af515eb321bc57a06bf8b1560d77c92f13e90aef51b897547bed2cff26d4b1",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/mounts/mount_ar15_strike_industries_gridlok_extention_yellow.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2716467,
+    "sha256": "33053c320e26d4e7febd8856b9b0fc302c446158025a3a835094a411224897d7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/recievers/reciever_ar15_radian_model1_std.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9051460,
+    "sha256": "c095fcced5d6091613b2fae2d2048da99420d14e7031954d6c9c098f6d6ad7ac",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_30mm_leupold_mark_4_mr_t_ts_30a2_25_8x36.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9826861,
+    "sha256": "44df8d2e7d51f2c57c20c05cdb89125fc357c8e4ce76c9f89c102108a3a28908",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_all_falke_falke_le.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2756863,
+    "sha256": "c497544ab7584b5f4708c651cddf19d89176ecaa8625a232cf52b8da23803bdf",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_base_meprolight_mepro_m21.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9836985,
+    "sha256": "5da38c01a12d4334cc7049ae25c2fd81819557fe22f7f05cf7018bde1fa5fa77",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_base_swampfox_justice.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2636126,
+    "sha256": "6a2d135c062415e13343cdb06041ed3fec6eb70283441f91f2cabc8ad01c6f26",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_base_trijicon_sro.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2816135,
+    "sha256": "59469ef7b578afaec31283e4373963718f8fa8c9b0c3ab25f32fff8c4ed8d480",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/mods/scopes/scope_base_trijicon_sro_fde.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2911436,
+    "sha256": "f4fd81587bf53ce58c22385cb2591c5cbfc462dd3e02a3e6a89d682830c3647c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/items/spec/item_spec_sz_1/item_spec_sz_1.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2528252,
+    "sha256": "f8b0fe29c718bf945160454b09102ae34f9280c9e0224559d91b11cb2bdabfa1",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/location_objects/lootable/prefab/rand_loot_container_twitch_common.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 14090224,
+    "sha256": "eb9955eaa921995e825822eb14cb9b02e175a6a852e7672a856bcdb7ea1d4d56",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/location_objects/lootable/prefab/rand_loot_container_twitch_rare.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 14090208,
+    "sha256": "4f70e66c3609b9f12a433cdaf95bb08e8dfacf571a9691366502f2789640d24c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/location_objects/lootable/prefab/rand_loot_container_twitch_superrare.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 14090240,
+    "sha256": "168934a200c25278972f86102dcd8fed9107366cf48e0d2fc7da260b41e32ca6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/weapons/p226r/weapon_sig_p226r_9x19_container.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 12903268,
+    "sha256": "dd53a712c874f4312e1b7f8ab6af7c51e9783e091909d69737b0fb8cf0aa4701",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles/assets/content/weapons/usable_items/item_food_beefstew_2/textures/client_assets.bundle",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5250096,
+    "sha256": "d3c549ff292ae93d04fa4909c14b6cec460fcf542f5e4c5f4fcf0dceae00bc1b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/bundles.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 181121,
+    "sha256": "b713c5eb1e7cc1dd422e5ff561a2c620ce6b8df542dff699f0c94d0bd03c1941",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAchievements/Achievements/achievements.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 73569,
+    "sha256": "0f55af12472dea83deff4eece3dcdadf0c4630f65c2cf75ecb5593b1afa8a695",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAchievements/Locales/en.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5682,
+    "sha256": "03aa181d6fcea774a677ea7a796127d449f628ad68788762da88d211e968ee8b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAchievements/Locales/ru.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 7318,
+    "sha256": "60e5e4444215cffe6a5c383870de4a3333fed7d7752072fa407eb6a0c66d5882",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/jaeger.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 15571,
+    "sha256": "74f60a4d149085142a87488f93a3499dc9bbe19a4eb02d42268ee4885b14de99",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/mechanic.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 50291,
+    "sha256": "8e314664aa8a2cec5530b64eed40a273e428184f7f292e557cf25109b536af54",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/peacekeeper.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 49909,
+    "sha256": "e705cb51a07c0bd6885966613e31aa69ceb47211cfc98b696eb698b789f9f0c3",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/prapor.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 27310,
+    "sha256": "8d24464504320a659a56cc09d3f89519ebb236ca65af9a8417c8344d318d9117",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/ragman.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4311,
+    "sha256": "aaadf58b6227e439a7c6f6923908eab47c839e74d6077da19f38cc64191e1a45",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/ref.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 731,
+    "sha256": "01ed065798b29e4bd2fdef1801590dca031b8993579ea855178534ad9fcdc6fd",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomAssortSchemes/skier.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 33379,
+    "sha256": "8941a896953dbab4d75860dada2a1b53b4fa22fe1ffe4efb0396ea99fd545681",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomClothing/clothing_configs_updated.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 36443,
+    "sha256": "2a4090c07b9d1528a42c67ad27fa4975bc841511c45f49caad21714dc242f0fc",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Ammo_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 43150,
+    "sha256": "d5f6e697bce9718c8cca14646359d7c92e779ea2a6797ef9b8cf91334df0e209",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/AmmoBox_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 48540,
+    "sha256": "105fe0a2b0a4bd6d38f69c4f1bbbaa09dac6ba778175ca3a7e536e20b81f6876",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmBand_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 28273,
+    "sha256": "c44450dd6a56e5fc32dbdac1cd6aa249a378773663761285b59a70327d9faba8",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmBand_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 14715,
+    "sha256": "d1c86e87cc147d154ef6c974831eff12cafb89bc02cd239303e490e7bb716844",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Armor_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 57797,
+    "sha256": "cbb15a925de3ce4b18fcd939d856232bbfc9abbd0e9e944564286e40b8c5bf1d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmoredEquipment_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 28934,
+    "sha256": "f84cb5365657f002c132343577f658e7e96c446a32f2c611d12b381f04fb6d2d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmoredEquipment_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9603,
+    "sha256": "37dfe56a866d546fdc89964e69577a6580ec0543b89322ec3b525b848192ba6c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmoredEquipment_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4369,
+    "sha256": "29245447229dfbe7f0f5ae2a340f665362bdff276a97260dce7576500689f2f3",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/ArmorPlate_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4855,
+    "sha256": "e74baf81ba225c7f2eea8baf39e96ce042855337647aec02e70864a7344653f0",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/AssaultCarbine_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 21950,
+    "sha256": "98f9a2a36264cd1d335951b640bc9f0c1d6624d94e3c8960a0ce08b620b50748",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/AssaultRifle_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 143350,
+    "sha256": "67ec7c9284ee3398f08d3a575f6f1d15bf92cbc220c81e91c1677310ecb74ad8",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/AuxiliaryMod_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 38049,
+    "sha256": "eb0e4501d3563265c0501db1051cd501507cca971565e2b34a69ac43bd4d25ff",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Backpack_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 15428,
+    "sha256": "9088adb6c3a0df7a1209f46a6c2cf032f6ca25137fe502d4d126d4a40488444a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Barrel_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 126414,
+    "sha256": "6d31c543ff11d7648a282da9c549753137ef523409defa39f08787fff36c42c8",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Bipod_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9744,
+    "sha256": "937a41ca2e0da68402e7d27a98ab4c9aa86acff5b016fc6ef277867ad934db58",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/BuiltInInserts_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 105188,
+    "sha256": "b4d8ad0d1a3139af9d62e619ada8f70d28cdc47f6068d91f4f9e8a113baee839",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Charge_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 27526,
+    "sha256": "398f13274c9dc28617dd51a43b609ae7bc46bc96408eba13776ed182a9f27d21",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Charge_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4024,
+    "sha256": "f9c3edf74fd4dcb8ff7109cb53c3d208cb69febd0e26f85319bce28f74c3e2b7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Collimator_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9048,
+    "sha256": "e75a6efdd2bffd8d072f1e5a390edc81b55c8445685e682227eb1da004231eb3",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/CompactCollimator_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 15470,
+    "sha256": "054dbf80b9ab9af8a5141150ba372608548ab207b2a94cc909f6d79e566f3006",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/FaceCover_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 140317,
+    "sha256": "f8ea8af7651d2bcc3cc4ec9e2dd98513202df2cbf29410f6d0203b19ead46470",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/FaceCover_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 22652,
+    "sha256": "24dbd96a99f37c968595d7e23e50135c192a21b9ef0426177bb259282cff1410",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/FlashHider_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 44099,
+    "sha256": "5132faadf8dc6d0886638d8a34f25663e669eff7b816f22fc895c235f0321e72",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/FlashHider_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4197,
+    "sha256": "a33ceb7ff7adbc4ee5b5172b8fb15654a50eff142b56e751cf4bb5f0fdb902ba",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Flashlight_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4203,
+    "sha256": "1d8c2bd87cf0e996ddd19df738ef1aa1d48ea53a4c0d54f9d2ae4d8dc0a766a0",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Flyer_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 24669,
+    "sha256": "d4365f7991ced3fcffbc0985218dd92b2fe56abe4fccf24254e5819027b3f024",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Flyer_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 16474,
+    "sha256": "1e00bd49e5d1c2ccb7e25841a787093fccf5e87da707de3d1845b3850f33cfd5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Food_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3595,
+    "sha256": "137d95cd93aaa9fd3eb81253882306c443f607b1aaa8f01a84c30dc819a92554",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Gasblock_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 23271,
+    "sha256": "0287b307b0fc17ce4d0c8b5af771ee4d9792cf5dee7ed8e9eaca987e853b640a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Gasblock_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9993,
+    "sha256": "146ae4872eef179590ba15d542119def42e8b5f18398acbe323d0fa4005150e6",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Handguard_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 472020,
+    "sha256": "50b6dbd24db3afb614a2515ce26733e6688ff5da55941c24dd5f4d2e8cc7c895",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Handguard_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 51305,
+    "sha256": "465802c20723f9abc98b34fb9aed17a7bc7f5d70672d8f884827e5a791c27496",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Headphones_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 7047,
+    "sha256": "231036809b4d90f3e32a51af945e137d8cd0c8e86a87902bf848ab6b26c2a1cb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Headphones_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 12315,
+    "sha256": "5d4de99606adfff65f5de295c1d70a743970cfd3418fd6bb5b58f1e9b422ef77",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Headwear_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 158832,
+    "sha256": "10a92b58c253738a41991525432858fb10b6d8a7637a6a447f57c3d2538a76f5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Headwear_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 27960,
+    "sha256": "e596665a18b2e6be38054211d90a09fe9f87d49b2a06668956ac9062bf7181d5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Headwear_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 9044,
+    "sha256": "1f0972518861186774068c2ad163a2dd81d3361183eb014852e35ba4b8d64964",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/IronSight_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 42387,
+    "sha256": "d33c779743ee71dae34fec0bd8e54fff69aa2880788d79adffa52423deac6a6b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Jewelry_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 68188,
+    "sha256": "1a5de697db81c1fd4d5a33652f0eeae8b739751c0bd985558ef44191c0f54307",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Jewelry_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 7288,
+    "sha256": "d10fcf9c3606ee79748448f708d52985637e908d5d75adb56c28f3d67c1df6b2",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Jewelry_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3658,
+    "sha256": "34bf06dd453409c2e8c1ed3314037a058e6cad60602b532c62ed607abbd22763",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Knife_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 8555,
+    "sha256": "e619528b3273fbc71fc44ef1e9ff35ff8f0c49f929f92a33eecdbf060e03ee58",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Magazine_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 40454,
+    "sha256": "d61d322f0e2d699403ac624c75e50d6b308455e456afe16a71642f18d51ed2ef",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/MarksmanRifle_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 23793,
+    "sha256": "f373c443ec1e5981409524b07d9a77b23d2e5c573b470d25af10dbc950148e24",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/MarksmanRifle_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 25574,
+    "sha256": "e217732f18518b5e4438c562c555537a20a68249bb6e08a900dcb727a74494cc",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Medical_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4835,
+    "sha256": "4f3b14e1d61c752b9129b75ee4f567fcb4458635ba04acc77c2e92d55830daee",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/MobContainer_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 31801,
+    "sha256": "87eedd306dfc96f708d00a78c5d0af612bb05fe19ca037c87f1f2f03b50df011",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Mount_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 205379,
+    "sha256": "a59677c8e0d303da1269963acf1fdfc71639ab2ba5eaba437926df2d1ee4a29c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/MuzzleCombo_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 19584,
+    "sha256": "fcf595229bed854207dd95fd2f9af996c36feb91954550fd5f5425f0b8fd5d5d",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/NightVision_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 5302,
+    "sha256": "d74b4fa7f167beaef781276b5c2ec8d5fc0638e9fe035edb20c2570424bda320",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/OpticScope_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 6213,
+    "sha256": "3897fcc9a1184a63ad1f3483e2ef08bb2016bad917dfde9b70221de63da7fc31",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Other_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 70257,
+    "sha256": "c8ff66fbae881e0eab8ac93ed78a913ddcd42449aadeab4849875a61772c5c23",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/PistolGrip_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 27360,
+    "sha256": "2683cdd2a51577a0cdf8e893a5130c94812f7af37a390294a15bdea0a85cae3f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Receiver_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 72577,
+    "sha256": "8d0c2b451be3a2ae9e87aa18896f37d8ecec1dc72f0781afad8782f9b48a4cb7",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Receiver_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10568,
+    "sha256": "4b49c64396ec480a674ac66f670b60231ec9b40c1f022f227195b3bdd7273f41",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Silencer_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 14701,
+    "sha256": "e10d7f913b3da7c223a88df99082cde5b236e28f377721c68f5a5bfb66538929",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Silencer_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 10643,
+    "sha256": "f36de50ddd5da3a26935c43b177df65dab8d151d2e2fc221d88be37634c8bccd",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/SimpleContainer_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4303,
+    "sha256": "47f2879c9c563f9dcb7519b91a1a2e824309468432ea14e15a043dbe1927dd32",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/SimpleContainer_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 18876,
+    "sha256": "35a2bb1453630100491fa43e544637619e9830819c923a806be5d4991bf31317",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/SimpleContainer_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3994,
+    "sha256": "9e17b51b7bf3a2f0f3274be1c7807fb57356d4cfdc1887317b406fd614eb77df",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/SniperRifle_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 19426,
+    "sha256": "f4552bf55761c2a111ba394ac12273f9f8421bb8656c51e97a2e6219ee0e76e8",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/SpecItem_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 3140,
+    "sha256": "77d97751d33219e8b5590a0ac4ecc2875caa285fabb46edaa5440bee71b816d5",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Stock_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 114090,
+    "sha256": "1b096967af26ecf02198d1def62dea30ce2cef1928630e09df4bca208289ae3c",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Stock_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4254,
+    "sha256": "2530cf23dfb07fd8f80ac261df284ea4fa71ed0a82968b9529631370bcea3e3f",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/TacticalCombo_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4062,
+    "sha256": "af25398193fb9b058c0919b38b69377cb0c3d394a83a35349cb062df12374005",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Vest_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 211720,
+    "sha256": "a8639d400eeeb008a44d81f204d160e5066a3410bbe5bf5a8ffe1bea36817c6a",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Vest_config_2.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 61337,
+    "sha256": "539b1a54751f521d88f11a48db9a31073164b25336d6986f6b67af08187f66bf",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Visors_config.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 54024,
+    "sha256": "9ded48c5eb58c51dd1a85e4c305e9d36ca24a0c6f38052c2479846a99c9c91d4",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomItems/Visors_config_3.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 4125,
+    "sha256": "56488fd657a431a64a5964140a6a4d354c65b782a39176cc64a8f24b74242509",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomLocales/ch.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 158461,
+    "sha256": "079f7a777967b62f6df79e65264e668cda04c755be9c0d1de6a1545fef979336",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomLocales/en.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 160273,
+    "sha256": "99bfdda0de07888847c0346bfc361f065ac6e8cc9a61c54a47e7b42297b4045b",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomLocales/ru.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 213409,
+    "sha256": "37884547b509101497a15b09c0669303e2da677ee265a0ce391690623c8907cb",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/db/CustomVoices/voices_configs.json",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 2597,
+    "sha256": "805c85ceb6c59c4a373733f9587df75341e5095f3445bcf0eecd5127245063b2",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  },
+  {
+    "path": "SPT/user/mods/WTT-ContentBackport/WTT-ContentBackport.dll",
+    "component": "WTT-ContentBackport",
+    "mode": "server",
+    "size": 51712,
+    "sha256": "81ef6164760235d7d589945822d097a9a71a9e1558b5dd4c46bd121d1d00cd37",
+    "reason": "No exact matching file found in the currently obtainable author releases. Supply a legitimately obtained local copy; no substitute version is accepted."
+  }
+]
