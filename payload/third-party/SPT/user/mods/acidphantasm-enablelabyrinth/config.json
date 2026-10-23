@@ -1,0 +1,17 @@
+{
+  "ChangePmcExfilTimers": true,
+  "PrimaryPmcExfilTimer": {
+    "ExfiltrationTime": 15.0,
+    "ExfiltrationType": "Individual",
+    "ElapsedSecondsBeforeAvailable": 600.0
+  },
+  "GuaranteeSecretExfilKey": true,
+  "RemoveKeycardRequirement": true,
+  "AllowScavEntryToLabyrinthFromMap": true,
+  "ConfigAppSettings": {
+    "ShowUndo": false,
+    "ShowDefault": false,
+    "DisableAnimations": false,
+    "AllowUpdateChecks": false
+  }
+}
