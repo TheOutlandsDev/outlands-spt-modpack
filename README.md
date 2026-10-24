@@ -1,4 +1,4 @@
-# The Outlands SPT 0.5.1 — matching node-01
+# The Outlands SPT — matching node-01
 
 **[Download Client + SelfHost 0.5.1](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.1.zip)**
 
@@ -26,9 +26,9 @@ installation for review.
 Client installs **356 files**; SelfHost installs **2508**. The installer downloads
 pinned author payloads and builds five WTT DLLs from pinned source. Those exact
 builds now run on node-01. No manual mod imports or global SDK are required.
-Play Outlands **1.3.0** and original source/tests are included.
-[The separate bootstrap](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.3.0.zip)
-is for already-matching installations and requires the host's private profile.
+The full 0.5.1 installer includes the earlier bootstrap. **Install Play Outlands 1.4.0 afterward** to enable individual-file sync. Original source/tests are included.
+[The separate bootstrap](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.4.0.zip)
+requires a matching base installation and the host's private profile. Install it once, then use its desktop shortcut every time. It downloads only changed/missing managed files from the host before opening SPT Launcher; unchanged clients download no mod payloads.
 
 Halloween/zombies/fall settings, steady-fight AI tuning, automatic Scav War, and
 remote quest acceptance with local-only turn-ins are preserved. A live content calendar rotates hotspots and seven theme bonuses while Halloween stays active daily. Infected AI loyalty/revenge guards are now included for all players and the headless host. Daily announced
@@ -53,3 +53,18 @@ Do not redistribute the assembled cache/game/mod folder.
 
 [Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.1.json) ·
 [Earlier release history](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases)
+
+## Current file synchronization
+
+[Download Play Outlands 1.4.0](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.4.0.zip) · [Sync source and self-host update](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Outlands-File-Sync-1.4.0-Source.zip)
+
+Updater engine 1.2.0 compares the 351 approved client files with the host's
+versioned manifest, downloads only missing/different files over Tailscale, verifies
+SHA-256, backs up changed originals, and blocks launch on failure. Verified file
+downloads survive retries. All 27 frozen base dependencies are checked. Raw
+runtime paths, profiles, personal settings and server/headless files never route.
+The hosted gameplay baseline is still 2026.10.24.2; this changes the transport,
+not gameplay. The existing complete Client/SelfHost 0.5.1 download remains valid.
+Self-host operators apply the source update using FILE-SYNC.md, publish their
+reviewed inventory and rebuild only the dashboard. Old full-pack updaters remain
+supported. A real Windows first-run test and shared raid remain outstanding.

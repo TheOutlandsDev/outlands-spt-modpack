@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "version": "1.4.0",
+  "updaterEngine": "1.2.0",
+  "hostedBundleVersion": "2026.10.24.3",
+  "gameplayPackageVersion": "2026.10.24.2",
+  "managedFiles": 351,
+  "baseVerificationFiles": 27,
+  "transport": "sha256-v1",
+  "backwardsCompatibleLegacyZip": true,
+  "tests": {
+    "privateBackendTests": 42,
+    "publicBackendTests": 42,
+    "existingUpdaterChecks": 90,
+    "syncOrchestrationChecks": 30,
+    "publicSyncOrchestrationChecks": 30,
+    "shortcutChecksWithComAdapter": 17,
+    "packBuilderTests": 13,
+    "liveTailscaleHttpsChangedFiles": 2,
+    "liveTailscalePayloadBytes": 23092,
+    "liveTailscaleSecondRunPayloadDownloads": 0,
+    "windowsDesktopExecutionTested": false,
+    "twoPlayerRaidTested": false
+  },
+  "privateSourceCommit": "6bc95a74ec91893f51657e157c977ce326697d3f",
+  "files": [
+    {
+      "path": "FILE-SYNC.md",
+      "bytes": 3066,
+      "sha256": "3a2f76003fe3eaafba54354e63e265e002dc55b8015d263516166378ad3a8058"
+    },
+    {
+      "path": "Outlands-File-Sync-1.4.0-Source.zip",
+      "bytes": 67062,
+      "sha256": "6e653c56980b7549f1e3d01b783aa9e66a5d4db9d53c70caed409095e0de0d5d"
+    },
+    {
+      "path": "Play-Outlands-Public-1.4.0.zip",
+      "bytes": 21871,
+      "sha256": "03129504e8eb52481822ca91906e5faa821fa07a508d163c5b65f08de4c804cf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5227,
+      "sha256": "bc4e7ef56febd7f6f19a22790ec864fe427b6398a9c41ef4b392a13e83db5c9f"
+    }
+  ]
+}
