@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "publishedFor": "2026-10-24",
+  "sourceArchive": "Outlands-Public-Source-2026.10.24.zip",
+  "sourceArchiveSha256": "5d943568d5329f0aedbd52cb56235b009e2b2ad536e42f40dd69c77657460295",
+  "sourceBaseCommit": "7278f685f83c23a68b73c8a286f4ee7aed6a2535",
+  "sourceLayout": "106-file reviewed overlay; extract onto a checkout of the source base repository",
+  "sourceArchiveFiles": {
+    ".github/workflows/verify.yml": {
+      "sha": "436939b7bb0697a061f892563595ab53d716ff6c",
+      "mode": "100644",
+      "bytes": 1088,
+      "sha256": "75828e7b5f76ec801006c34fd06ea527f703d46497b8dd2d4d4f6672d07ba3d1"
+    },
+    "README.md": {
+      "sha": "5088151f9de4ca6c17d23878932c915dfb46dbd7",
+      "mode": "100644",
+      "bytes": 4924,
+      "sha256": "5884735efbad7cc0bdc966e47fbd595a6b8caeefab388ecd516847d9cf06d121"
+    },
+    "SHA256SUMS": {
+      "sha": "fa906c94860071a6b94dc464e814c075941e00d8",
+      "mode": "100644",
+      "bytes": 43151,
+      "sha256": "7ace30365c7dac4cb8cdf82f9dd5b7bc339225962bd586a54e41b4770e72ce9a"
+    },
+    "SOURCE-SHA256SUMS": {
+      "sha": "6a5173b1c351e799762427c0711e5f431c803cd1",
+      "mode": "100644",
+      "bytes": 37794,
+      "sha256": "fdbb86c3167b550e2aecc66ca7d9bd17dab25f0dc71dabb3b22b0b93efec910d"
+    },
+    "docs/JOIN-OUTLANDS.md": {
+      "sha": "10db424555338df1d5771e80f3e21b2ef3feddea",
+      "mode": "100644",
+      "bytes": 2635,
+      "sha256": "96251357519cb654b5139f4c3b0a30b5c486fe5b3ef53bcb97cf716ffeb3830a"
+    },
+    "docs/PUBLIC-DISTRIBUTION.md": {
+      "sha": "5e8ff4338d1237c902bdf4979d09632889689779",
+      "mode": "100644",
+      "bytes": 2065,
+      "sha256": "fdedc842d6052e54bd1b61ccddee69592647144853d2111b30dbecf5152a3242"
+    },
+    "docs/SELF-HOSTING.md": {
+      "sha": "1d91eac12904304f55d43e433ff56317880f08e6",
+      "mode": "100644",
+      "bytes": 3897,
+      "sha256": "e7d2c09bc6aa89edacf818c68ace1028afb9a3d0e0b30c06eed055acb0369af7"
+    },
+    "docs/VIDEO-GUIDE.md": {
+      "sha": "1aadf4498918101485dbffcf4c2820c51694bf13",
+      "mode": "100644",
+      "bytes": 1217,
+      "sha256": "6c8877cd4732f91de5c304517b8c91a80ffd88d5c37a920b48b3bcc55b04990b"
+    },
+    "host-kit/.gitignore": {
+      "sha": "6378d8c802a0d7fcafc51fbd010b8aa5fb12077d",
+      "mode": "100644",
+      "bytes": 111,
+      "sha256": "fb788a7884b50c4f081487fc236dbd9a87d894f36ddce7c056d329e41b76818a"
+    },
+    "host-kit/GAMEPLAY.md": {
+      "sha": "dc68ddf08223a3647848f1cac5431ac245c770f1",
+      "mode": "100644",
+      "bytes": 1977,
+      "sha256": "552eece221bc145926f6c0d76a712084d15a0f5db87c2f368bf49ea0a7ca19a2"
+    },
+    "host-kit/HOSTED-COMPATIBILITY.json": {
+      "sha": "916dfdda645f10183f41f3fa2f84ba36536dd028",
+      "mode": "100644",
+      "bytes": 23987,
+      "sha256": "3473e933fd27db9ca34738bc313312bd2a94ba8654495baef92e4f98d9dc21f2"
+    },
+    "host-kit/LICENSE": {
+      "sha": "5f2b52235a7a9435b66293678c46ab1ea2b0170a",
+      "mode": "100644",
+      "bytes": 1422,
+      "sha256": "ed122b0e5fb9d3367be64d2d412b57e4bb643e2c24086e8cdad91a71f1380f9d"
+    },
+    "host-kit/README.md": {
+      "sha": "9004e4a3f5f1533056201854779c02c9fefca84e",
+      "mode": "100644",
+      "bytes": 6383,
+      "sha256": "b780e74e15beb70201b02ac78b382720384310d2d0a9254e4a9a284af7bbdaab"
+    },
+    "host-kit/SOURCE-MANIFEST.json": {
+      "sha": "8488507b8288489e8b66908fe8e3e4af09187c91",
+      "mode": "100644",
+      "bytes": 17179,
+      "sha256": "fbfaa438263ec9cf96624f8c94fce70642c7f9ab02b4e66f1af07a151c6b2a4f"
+    },
+    "host-kit/VALIDATION.json": {
+      "sha": "4dd31e43907a8a9be79ade6c1e7614594d5b09d5",
+      "mode": "100644",
+      "bytes": 972,
+      "sha256": "abbce96e0d8c079cc1742daa9fec393e8d891c4d9e7342a1385e3f124b27160d"
+    },
+    "host-kit/VALIDATION.md": {
+      "sha": "10374d98d63cec5c2169279232c4f45053e8761c",
+      "mode": "100644",
+      "bytes": 1626,
+      "sha256": "28022f1349f1f8e2a05852888bb5d04735dffd87686b5211220b975a3e4ac9fe"
+    },
+    "host-kit/containers/Backend.Dockerfile": {
+      "sha": "271000b7773716c198135bd0d4dfbc0d7d176737",
+      "mode": "100644",
+      "bytes": 580,
+      "sha256": "2e1a0078c255e060ff47b2a0a9a875ab9e10057376ebe74b2168c29ea91fc471"
+    },
+    "host-kit/containers/Headless.Dockerfile": {
+      "sha": "fbae358ba5c4441485876dfc636c173f36eb38f3",
+      "mode": "100644",
+      "bytes": 747,
+      "sha256": "9292d685a3a4444560d97754dd23f5386b92f7f5c62c603a518e8bc44de25386"
+    },
+    "host-kit/containers/backend-entrypoint.sh": {
+      "sha": "3a08eb0631d3e1b3810307b8c30d4a782308688a",
+      "mode": "100755",
+      "bytes": 215,
+      "sha256": "539a9c6dc0505a1e77c799d26ec28e8b9f7ee9812a536fb00ec3fcfa29e02cfc"
+    },
+    "host-kit/containers/docker.sh": {
+      "sha": "e0097a38ac1066faacaade92a422c57e8ca6a2c3",
+      "mode": "100755",
+      "bytes": 441,
+      "sha256": "4e3271271c141737da48f2c3fe5c2380a450414f910fb3484c302b9aca3260a7"
+    },
+    "host-kit/containers/headless-entrypoint.sh": {
+      "sha": "665d81298d395f2d90c9f114c78acc4b7b09443a",
+      "mode": "100755",
+      "bytes": 1251,
+      "sha256": "382fec43f73d9d4d247ebd9deb4203ddba1cb19471bbcde845d70a6b2855e870"
+    },
+    "host-kit/containers/healthcheck.py": {
+      "sha": "410fabe2f999ae2eb059ae699cd21d2f75b82dcd",
+      "mode": "100644",
+      "bytes": 943,
+      "sha256": "711c2c4b3ba3ff227049c62ab4d047661c5b95b3bde911107c8f09c309319cc6"
+    },
+    "host-kit/containers/stacks/spt-fika/compose.yaml": {
+      "sha": "431207187a7f8ae4c953a5ab52c4db6a86c58391",
+      "mode": "100644",
+      "bytes": 2608,
+      "sha256": "33ec89d778b0ed284fe8ed316206fda4ad00939e406ac66154c1ca38515d728c"
+    },
+    "host-kit/downloads/Outlands-Authored-Policies-2026.10.24.zip": {
+      "sha": "32daea0fb725a7dc2498a7f9347d8240fe3c6b5d",
+      "mode": "100644",
+      "bytes": 41620,
+      "sha256": "660c318d1b2c9104738915238cc8c983a658a7cd2f98b37c77ee033646c2105c"
+    },
+    "host-kit/downloads/Outlands-Authored-Policies-2026.10.24.zip.sha256": {
+      "sha": "59a945b2bdb25d5357c041698d6e6fa06cd05fbe",
+      "mode": "100644",
+      "bytes": 108,
+      "sha256": "029b011105dec13bc2d69dd5152e81c810b18d2df4558b165efc306f6eb0d85f"
+    },
+    "host-kit/downloads/Play-Outlands-Public-1.2.0.zip": {
+      "sha": "b01c802f631269ebd9902e799fc3d06785af938e",
+      "mode": "100644",
+      "bytes": 20870,
+      "sha256": "f85ced7abcd2c2eb3792c483586b22c7b4a8fc79ee9605745d2c0f18371a688a"
+    },
+    "host-kit/downloads/Play-Outlands-Public-1.2.0.zip.sha256": {
+      "sha": "84bce634a4432d47f5c4ef940cd2b1e3bb6c3d54",
+      "mode": "100644",
+      "bytes": 97,
+      "sha256": "c401291866986e481fd036ecb9499bc17cf95b4e1e8b55a60a6f1a651c63d184"
+    },
+    "host-kit/player-dashboard/.dockerignore": {
+      "sha": "ce1181bc571aa749307403b90d7ccdac369d3719",
+      "mode": "100644",
+      "bytes": 36,
+      "sha256": "1fff393851d266c8e6028d28727da07a1e159b6fefffca749dbe15da605f2068"
+    },
+    "host-kit/player-dashboard/.gitignore": {
+      "sha": "4d7a6c0c0a41710e6c53f33074aaed2c0f0c470a",
+      "mode": "100644",
+      "bytes": 160,
+      "sha256": "e8d59cfc38a5511565cf7b6f7926c06871c174aa1854357b7721bea9c3b37250"
+    },
+    "host-kit/player-dashboard/Dockerfile": {
+      "sha": "d558e9146ce8e2894e85c06e71cb298a468d41c5",
+      "mode": "100644",
+      "bytes": 328,
+      "sha256": "e42e396a34b3e22577b0d01e0fc95f6dbef0917e21385473bff5270c80223471"
+    },
+    "host-kit/player-dashboard/README.md": {
+      "sha": "5117785bd589af4db4db338c172d1962bdc6462e",
+      "mode": "100644",
+      "bytes": 1074,
+      "sha256": "9c23eba4b3681caef63f8e3005c1750cb6dad0c6c8bade7fb289ced067829603"
+    },
+    "host-kit/player-dashboard/app.py": {
+      "sha": "8e888c96f6d405448e3b9808f880880d523e77b2",
+      "mode": "100644",
+      "bytes": 26118,
+      "sha256": "5f1a4ab7caccdf634a108351b4cf08ab8c7e5218b6b7ebd88d4a1a0df4be1922"
+    },
+    "host-kit/player-dashboard/client-pack/README.md": {
+      "sha": "2100891b4488a92dc0197c00234be17f72f5bbbc",
+      "mode": "100644",
+      "bytes": 3166,
+      "sha256": "459e60a22d638e58af4bee64e0e40cd1aad398bebe6d77df89c248dc11501c17"
+    },
+    "host-kit/player-dashboard/client-pack/build.py": {
+      "sha": "27dfe385176924e76c7afaaa1100b6caf5b1a67d",
+      "mode": "100644",
+      "bytes": 14002,
+      "sha256": "25cd38ef697648256d5da6b0f3a5ff786859409724a929eefd6158014a670438"
+    },
+    "host-kit/player-dashboard/client-pack/inventory.json": {
+      "sha": "afdf86cf512ffecb3d61ab34233e94c52338c16c",
+      "mode": "100644",
+      "bytes": 78859,
+      "sha256": "ce91e1d3b667bbef0418959e6a9088aa3bcf36d98d83ac9d7246e516245f8617"
+    },
+    "host-kit/player-dashboard/client-pack/test_pack.py": {
+      "sha": "146f71947812eda979694eebf78e9104e0d9e819",
+      "mode": "100644",
+      "bytes": 8669,
+      "sha256": "5210332038ae4f8d3d8a2324f3298e1a06fa60de9c8c29c6bcb1fb44a20795b9"
+    },
+    "host-kit/player-dashboard/client-updater/Install Play Outlands.cmd": {
+      "sha": "e19d7d018421fd21d64f2b806de8c45a1c590139",
+      "mode": "100644",
+      "bytes": 401,
+      "sha256": "5a6077394abc6fb5b1c6e0ca7cc3edf61c7cb5e0fb7d5549b3df2773b37d2913"
+    },
+    "host-kit/player-dashboard/client-updater/Install-PlayOutlands.ps1": {
+      "sha": "6da7aff1aaa1e5bf2b568f0be02f45279ea8a408",
+      "mode": "100644",
+      "bytes": 7341,
+      "sha256": "1a57b910f2c11876df08d453ef29456a5c071f448abe625f5509f2c379e1fd8e"
+    },
+    "host-kit/player-dashboard/client-updater/LICENSE": {
+      "sha": "5f2b52235a7a9435b66293678c46ab1ea2b0170a",
+      "mode": "100644",
+      "bytes": 1422,
+      "sha256": "ed122b0e5fb9d3367be64d2d412b57e4bb643e2c24086e8cdad91a71f1380f9d"
+    },
+    "host-kit/player-dashboard/client-updater/Outlands Client Updater.cmd": {
+      "sha": "6b5f2f118d32c11e56a490ff21691d9dc62642e0",
+      "mode": "100644",
+      "bytes": 429,
+      "sha256": "2874d8e1aeb1a943f81c8817f23f859e57ab7d13009b7956033123d432a96508"
+    },
+    "host-kit/player-dashboard/client-updater/README.md": {
+      "sha": "319b543b35c728aa26b55edc1e87980bf3303855",
+      "mode": "100644",
+      "bytes": 1788,
+      "sha256": "48868010fdc37619c1a51fca11e20d2b4e43e5ac07b0cc60f0e3e5b164ef38eb"
+    },
+    "host-kit/player-dashboard/client-updater/README.txt": {
+      "sha": "4ae82b85e7ee5d636ed8cb54f907fa4682c160e1",
+      "mode": "100644",
+      "bytes": 1690,
+      "sha256": "28181b6f8a533cff8f3a4adbebec94cc6cd336ec61fd96021d1fa17bb4796a8a"
+    },
+    "host-kit/player-dashboard/client-updater/Update and Play.cmd": {
+      "sha": "ccf9f7cf52f178e9dfd19d2bf2dcb0c578cd64c5",
+      "mode": "100644",
+      "bytes": 91,
+      "sha256": "e6dfbbc2d1be4e1eed44e04481ae81024952c23da3b4dc4907d1fc83f7e4c7f9"
+    },
+    "host-kit/player-dashboard/client-updater/Update-Outlands.ps1": {
+      "sha": "625daafaa10cdb12a508cb55d62e58bbcb7d1929",
+      "mode": "100644",
+      "bytes": 38533,
+      "sha256": "4adb9e88b4fc5b26853c650c68606f981992258a2ce7bf4abbf7024a37e5cf47"
+    },
+    "host-kit/player-dashboard/client-updater/client-policy.json": {
+      "sha": "b62f712dd7770856fa02ab4468594dd51fade6c5",
+      "mode": "100644",
+      "bytes": 33356,
+      "sha256": "820f958525c83993236ef3e60f2a9849962caa73883ecab73d42f8152ac77a42"
+    },
+    "host-kit/player-dashboard/client-updater/server-profile.example.json": {
+      "sha": "f0539bbdee850f58cb99ea11dcb62db608f8c023",
+      "mode": "100644",
+      "bytes": 85,
+      "sha256": "02c60b99151f91985762d675efe6f72d82b97ffda131e169bddde73ec1bc14ca"
+    },
+    "host-kit/player-dashboard/client-updater/tests-server-profile.ps1": {
+      "sha": "5c2c20999fe2b370403bacec8c0ba5b4a7adc50c",
+      "mode": "100644",
+      "bytes": 2212,
+      "sha256": "f48a7a6bade7efdcc880555052607296560c5afa903f43fb0f2105d7b48bd594"
+    },
+    "host-kit/player-dashboard/client-updater/tests-shortcut.ps1": {
+      "sha": "4d5a688c450861c818c50ba3b08ef2a2bc1c6f91",
+      "mode": "100644",
+      "bytes": 4213,
+      "sha256": "0817ed9cc4f2a198fa61d245ace55058f6034946eaa1f9e361b8f25ac10f5a92"
+    },
+    "host-kit/player-dashboard/client-updater/tests.ps1": {
+      "sha": "b0e87a9966eb382e46ba879b410bad807d76d31b",
+      "mode": "100644",
+      "bytes": 19095,
+      "sha256": "e80ea4949b14f31d2cfd42444251ae84928a48dbce247e228e513de6473bfc18"
+    },
+    "host-kit/player-dashboard/compose.yaml": {
+      "sha": "5933b72476bf0d7041e36e3a3135dc95aebf942c",
+      "mode": "100644",
+      "bytes": 1193,
+      "sha256": "463e9157581f0b85021a4709a67b4f13d84a4290d9ea149f0678bb7092b8c9e7"
+    },
+    "host-kit/player-dashboard/config.example.json": {
+      "sha": "ea174b0b5f60c71ce96cf321b6394de9ee3478cc",
+      "mode": "100644",
+      "bytes": 259,
+      "sha256": "684e2718a27c95df2bb25a17660369e76c712ad2c4e7d13afba85eb236e8ff0b"
+    },
+    "host-kit/player-dashboard/configure-local.py": {
+      "sha": "a6c93f60a46594ae720083bbe029f36abed79a6e",
+      "mode": "100644",
+      "bytes": 1451,
+      "sha256": "909b3d8b3760982954ec1185efff16966fa60b8f2a6597008ea583c710bb7a7c"
+    },
+    "host-kit/player-dashboard/deploy-local.py": {
+      "sha": "9792da0678353313e79f5655ce0322d325842e55",
+      "mode": "100644",
+      "bytes": 2092,
+      "sha256": "17a33be3f89a63418836dba546878049936f9f6fb4af1309e5a5c32cae4d81ac"
+    },
+    "host-kit/player-dashboard/desktop/icons/logs.svg": {
+      "sha": "cc21bba7b8ba2799cdb6634f7274d9423b809278",
+      "mode": "100644",
+      "bytes": 904,
+      "sha256": "2b4d6b6767b4bd85c31adf7d154223c7346a4a3fb2199500d6baa9ef19e0e359"
+    },
+    "host-kit/player-dashboard/desktop/icons/metrics.svg": {
+      "sha": "5ca89ebc70e06ec5d947e45fb9fb14276538c8de",
+      "mode": "100644",
+      "bytes": 792,
+      "sha256": "6e6f6faac31b6adc60059a42620260142acd57e45b0e095e5f02ac8c1b0f6516"
+    },
+    "host-kit/player-dashboard/desktop/icons/players.svg": {
+      "sha": "652501029026daa9088ffc6d968c690733241e8e",
+      "mode": "100644",
+      "bytes": 731,
+      "sha256": "9c84450a91839c3e3eb237284ed122f5d249f8e647d574e6f1d9976dca82e451"
+    },
+    "host-kit/player-dashboard/desktop/install-shortcuts.py": {
+      "sha": "7f01837fbd7bb3c75c408a2b537ccacaec3520d4",
+      "mode": "100644",
+      "bytes": 2906,
+      "sha256": "2794b6d6496c69128fd75f9d3a867c9704092c11e98064deac7804e216502044"
+    },
+    "host-kit/player-dashboard/desktop/open-view.py": {
+      "sha": "2f5aa2893f2522a42df2c28af69dd00fe59e76cf",
+      "mode": "100644",
+      "bytes": 2183,
+      "sha256": "f11715890918b5a9c12be79671530db9afd2346c5d096b9cabc8008983d14411"
+    },
+    "host-kit/player-dashboard/maintenance/README.md": {
+      "sha": "d596511ac145514bcb3899462ce1e3d28e33022b",
+      "mode": "100644",
+      "bytes": 5665,
+      "sha256": "d03585305df3924c18b2cf4ef443b09d500315fca045240e6405bdc90b19b088"
+    },
+    "host-kit/player-dashboard/maintenance/engine.py": {
+      "sha": "555dabe0c19114d3021b176050f20127f49bf074",
+      "mode": "100644",
+      "bytes": 8559,
+      "sha256": "fe492d311c96b50e19b702e04b9c1610b0ef14037d81c3287cd67164e93d83b7"
+    },
+    "host-kit/player-dashboard/maintenance/install.py": {
+      "sha": "e09155ed85b8af4001b84318b2855944731e3cd4",
+      "mode": "100644",
+      "bytes": 2881,
+      "sha256": "dee08c3a689701387474132766c7ab497154e321b99f701dc21665231b11cf9a"
+    },
+    "host-kit/player-dashboard/maintenance/test_maintenance.py": {
+      "sha": "e064938e92ab4dca650a5918add06c8474d64ea1",
+      "mode": "100644",
+      "bytes": 19017,
+      "sha256": "e43475fbe0c644c9ee241711df4c7193d5e37c1c02704c2b08d083f238c845ed"
+    },
+    "host-kit/player-dashboard/maintenance/worker.py": {
+      "sha": "ceb9f33a1c5bbfb446627e9741a61cf466cfe57e",
+      "mode": "100644",
+      "bytes": 18975,
+      "sha256": "54e699af96ee4d498bae6ef5530025ef5494c1f5196e01e9e716df06aca5b80c"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/ClientPackPolicy.cs": {
+      "sha": "da284a60b7bd59dfb7d90a7ebc14cbbd5a90b32f",
+      "mode": "100644",
+      "bytes": 10233,
+      "sha256": "c045bd39fbd5503019f51a7494f924ff44a14586b147b25d9bd279527aeb7263"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/InspectPlugins.cs": {
+      "sha": "f14f6bac9315cb19b71126372cbab16cce949200",
+      "mode": "100644",
+      "bytes": 2220,
+      "sha256": "eb04a03db877ca4972f280bf7e631450c727e7fa9cba3107f1c3f854416712e0"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/README.md": {
+      "sha": "28a2e6f2088dd89cb689e5367e95ecc670062bdc",
+      "mode": "100644",
+      "bytes": 4375,
+      "sha256": "a43b63e5a0c997df2df5d28206c85b6646a5c3635711e7e68d020549fe26d131"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/TestPolicy.cs": {
+      "sha": "89c22c77ebb01ecaf60f2ddb4d99b88635002e9e",
+      "mode": "100644",
+      "bytes": 12598,
+      "sha256": "4326f9e1345e28b4f8f6acc53c558af9a612dbd6393a2e0b5dd93548c39294e5"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/build.py": {
+      "sha": "3afad98078581ad3a0c5e7d6b0dafb0fe6c12114",
+      "mode": "100644",
+      "bytes": 3362,
+      "sha256": "a9b1e05ccd0e71168ba317d09d94d518a61a42ea69465eeb6a84d07df5d3ddc1"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/generate.py": {
+      "sha": "363ef04267fb69a6e96e8a1ddd241ea74a61d544",
+      "mode": "100644",
+      "bytes": 4508,
+      "sha256": "84d3f0881eb3970141c211904f954d6008b284e11411fe9b2bd7e01bb931c0a0"
+    },
+    "host-kit/player-dashboard/mods/client-pack-policy/scan.py": {
+      "sha": "9795fe065b6756782823c10a8065336980831b66",
+      "mode": "100644",
+      "bytes": 2658,
+      "sha256": "2f32437c23efbc16913cdde58946743eac2754da8c468c0495ea9158b620e078"
+    },
+    "host-kit/player-dashboard/mods/local-quest-turnins/LocalQuestTurnIns.cs": {
+      "sha": "9df9f5d99218a0840603ffcbb4a27298d99a1801",
+      "mode": "100644",
+      "bytes": 6138,
+      "sha256": "901a12406d4a146ea78d2bf700d52959307f6a57d205c52f4fb1f0e4c56d2db1"
+    },
+    "host-kit/player-dashboard/mods/local-quest-turnins/README.md": {
+      "sha": "4130c22c6fa5d63a88ee4017b7c4dcaba6095850",
+      "mode": "100644",
+      "bytes": 2745,
+      "sha256": "e65ecd016d67446d8c73caa90e88f22a39937ab9df31266a07a59547029267fe"
+    },
+    "host-kit/player-dashboard/mods/local-quest-turnins/TestPolicy.cs": {
+      "sha": "02015b6f30a44af808aeb0d1a245565a78f185a5",
+      "mode": "100644",
+      "bytes": 10732,
+      "sha256": "70b1b41b740caede64755a92101b761932271b918e47ab668a51f308c81b1634"
+    },
+    "host-kit/player-dashboard/mods/local-quest-turnins/build.py": {
+      "sha": "42b0702eacca409e5a72efa580702e53e26670b3",
+      "mode": "100644",
+      "bytes": 3243,
+      "sha256": "2e10dab2a2f6d13732d69c1d44401690cece6b5655700fd0dcbfa7ad8645020c"
+    },
+    "host-kit/player-dashboard/mods/maintenance/Maintenance.cs": {
+      "sha": "f9ecbb9d60f3533ba726e2a6df65967a9df7bb0c",
+      "mode": "100644",
+      "bytes": 12678,
+      "sha256": "0e28f1094ed1b4854864d579c8ff93d4938df7adb7540448cf7b12be6158aff6"
+    },
+    "host-kit/player-dashboard/mods/maintenance/README.md": {
+      "sha": "ba248ea9fdc45de212080df36b8a8e620a966831",
+      "mode": "100644",
+      "bytes": 4439,
+      "sha256": "ec2712394fcbbc5a1ba612838deb774d7ae585e064649a93bff2ac818b33f3c4"
+    },
+    "host-kit/player-dashboard/mods/maintenance/TestPolicy.cs": {
+      "sha": "70fa4d9a628b0ed23c5d95531abc506c43634f0c",
+      "mode": "100644",
+      "bytes": 15037,
+      "sha256": "8a28eeef18506b5060ec4c37fa2f36d94e4d92b0b51f2225c1f062988d63fffc"
+    },
+    "host-kit/player-dashboard/mods/maintenance/build.py": {
+      "sha": "7c0e28309e7ce92ec0ff3830b9cd0d55a2fb90b8",
+      "mode": "100644",
+      "bytes": 3315,
+      "sha256": "36bd88b4f56af40566f36592bd8ce0775a2036a75de7f535a9696f88700dadf6"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/INSTALL.txt": {
+      "sha": "532fb92114da227b9f264aa490dacbedc462f798",
+      "mode": "100644",
+      "bytes": 1661,
+      "sha256": "4404a56ae53ad3b91b953991e21fcb10730f28ed943024e6291ee4020adc1f10"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/InspectContracts.cs": {
+      "sha": "5fb4d6ce3e5a0a492a76e680cd6e95fe34068f25",
+      "mode": "100644",
+      "bytes": 10155,
+      "sha256": "da732f93fa8b307293d8d022620f4704e1a0514fe6d2ff8b428f0ec89099c87f"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/QuestAccessPolicy.cs": {
+      "sha": "d332e38519315b07c81abd44b712b4a8178d3195",
+      "mode": "100644",
+      "bytes": 562,
+      "sha256": "5a9ef3f23111fb8d3bdff3cd263b361802a0365fd6c933e5e1a092ff85dec6b8"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/README.md": {
+      "sha": "7fd3454f3fb715305459dcb7a5975b1be8edc177",
+      "mode": "100644",
+      "bytes": 5209,
+      "sha256": "02a4c5dda14c1894bb144d33d4bb44e166d72a6cd6e2fe939e37ca54dbcd4717"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/RemoteQuestsPlugin.cs": {
+      "sha": "171a65bb531198ad4a09e94c622e8937d7511583",
+      "mode": "100644",
+      "bytes": 11828,
+      "sha256": "0fef72533600d903d38fc8e220d518eb934a1be0651ed877a26155db82ee0d6c"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/TestNavigation.cs": {
+      "sha": "d0ed8f7a483c564a89d24375efd51ec4d58be171",
+      "mode": "100644",
+      "bytes": 10390,
+      "sha256": "1d223f80b855a82376da0d67f0e2e83780f5984d0c79c09ef3367a6ca3c63146"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/TestPolicy.cs": {
+      "sha": "4a7e3aebab0f37dfcaffe178a4c6e5eaedafce03",
+      "mode": "100644",
+      "bytes": 1183,
+      "sha256": "cd516ab347b73b6c1450473f09ea4c8644482e3bbcf6d6ea6a367028466189de"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/TestTurnIns.cs": {
+      "sha": "b5b019c026f561def1cf7426b0675fe5a983ab14",
+      "mode": "100644",
+      "bytes": 9243,
+      "sha256": "d1ec51d792f91ce136336818a194332a2a91c9b9d63f994fd809e2291c78e070"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/TestUiStubs.cs": {
+      "sha": "db44abcef835c92e33afa6d70994358d410fb7ca",
+      "mode": "100644",
+      "bytes": 9990,
+      "sha256": "a407b9924e711d28ff4750b226a7dc22d85608bbb329c7bfcb7639070189dd1b"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/TurnInPatches.cs": {
+      "sha": "6c6810ff02a135cbff1f50a398b0481c24f12ce9",
+      "mode": "100644",
+      "bytes": 8393,
+      "sha256": "fc96e00529071d941f3d34d1eabeeba1aa8f6a5e2d04182ce7ee6dc5749b72ae"
+    },
+    "host-kit/player-dashboard/mods/remote-quests/build.py": {
+      "sha": "bb0349088c126808d441a2147f809b5915b5878c",
+      "mode": "100644",
+      "bytes": 6914,
+      "sha256": "4ddc3cffa6eaab30a28144b0511b5fe6846435aede302479b24dffc0404c8fdb"
+    },
+    "host-kit/player-dashboard/mods/scav-war/README.md": {
+      "sha": "b9bde71b09e9c3469a2516b776b2b8294970f967",
+      "mode": "100644",
+      "bytes": 2415,
+      "sha256": "3aae586616c4377f3e8ec071695375518e4b73406c60c597f3e70787127f0d32"
+    },
+    "host-kit/player-dashboard/mods/scav-war/ScavWarPolicy.cs": {
+      "sha": "e0bef68c3d973e62b5914bbadd0762561bf1ef34",
+      "mode": "100644",
+      "bytes": 2512,
+      "sha256": "45f71e7a1a5d4181a8f48011d93c492c3d44a6158b85ee9ee929b9d95de8a57e"
+    },
+    "host-kit/player-dashboard/mods/scav-war/TestPolicy.cs": {
+      "sha": "74df66f96e57f45d1c7916762149266a64b32ab3",
+      "mode": "100644",
+      "bytes": 4670,
+      "sha256": "2e881c703aca2194794c292bbf17ef997be7f221bc448be0e381092e16d7d754"
+    },
+    "host-kit/player-dashboard/mods/scav-war/build.py": {
+      "sha": "5528984f36751b2eb31d4686cf7cdd9d3c696699",
+      "mode": "100644",
+      "bytes": 3187,
+      "sha256": "3490643b4369d409b9bdd9e5aca1f8d1a75a47b2ecc408728ef197301a5e6ea2"
+    },
+    "host-kit/player-dashboard/ops/NETWORK.md": {
+      "sha": "e65bcf540cc3d4c451a83f7381a54a90af8b55bf",
+      "mode": "100644",
+      "bytes": 1776,
+      "sha256": "5e76f36b31bf2c415bbd6987e74098b4beb64c68159b3d6670dbff4c3cde8dcd"
+    },
+    "host-kit/player-dashboard/ops/configure-narconet-client-policy.py": {
+      "sha": "2c1129cf97482c6c0d4d3aa214760134b856769b",
+      "mode": "100644",
+      "bytes": 5885,
+      "sha256": "6c3848d44beb321903b1efc863d7fab6bdfb2b9b8537eb43cc2dbc18f744db44"
+    },
+    "host-kit/player-dashboard/ops/enable-private-hosting.sh": {
+      "sha": "4e1f10a67c3ed1f77f62d8e3a9ab16b2047e64eb",
+      "mode": "100644",
+      "bytes": 1313,
+      "sha256": "aaf11124b5850bf16cb0f584096728138ad350de974e669975928325210ad168"
+    },
+    "host-kit/player-dashboard/ops/halloween.py": {
+      "sha": "982cd7857fb0035a1f8285ee8deda715fe255834",
+      "mode": "100644",
+      "bytes": 8715,
+      "sha256": "8b245ef56fe78cebddfcd23d230d3a81768907cef4410edbde9316445cf3abb2"
+    },
+    "host-kit/player-dashboard/ops/node01-spt-tailnet.service": {
+      "sha": "dca9d5e6382a0fdf252fffdb6e955d40c40918ad",
+      "mode": "100644",
+      "bytes": 248,
+      "sha256": "db7e6f4b04d08d10f05a376b5423167c728a425d4fe67018f8bc2a8764387b7e"
+    },
+    "host-kit/player-dashboard/ops/publish-client-bundle.py": {
+      "sha": "4cfe0ec178c0cba570c6cde56787efd43b93a38d",
+      "mode": "100644",
+      "bytes": 9841,
+      "sha256": "1941d3eba495ea424a34d5af3ff9f3d36a6cb1f47debbef796f0977f97c37e58"
+    },
+    "host-kit/player-dashboard/ops/tailnet-firewall.nft": {
+      "sha": "627315f71a5033c5edca316d1c24ab8e6830cec3",
+      "mode": "100644",
+      "bytes": 639,
+      "sha256": "11292f7f6cbc9a1037776f93cd8df860a0f440043ab54b14306619663b1b5248"
+    },
+    "host-kit/player-dashboard/tests/test_app.py": {
+      "sha": "fde1aef838471b3e075786e2f72edf17e11717c3",
+      "mode": "100644",
+      "bytes": 20715,
+      "sha256": "7c1fc8599bff8606952c131105fd79cd5964352a53b668dc699586109a07e7d4"
+    },
+    "host-kit/player-dashboard/tests/test_client_bundle.py": {
+      "sha": "bfcfb36e9d6036d642e530927f47b306eba7543c",
+      "mode": "100644",
+      "bytes": 9924,
+      "sha256": "22c0585df9d60483fae63ce09beb2c9240a9675c05c0888f06540f2bf4092c10"
+    },
+    "host-kit/player-dashboard/tests/test_narconet_policy.py": {
+      "sha": "ae2ebfc305517ba02b9dd40a31e3761f4de21eda",
+      "mode": "100644",
+      "bytes": 4263,
+      "sha256": "d033ebd09d839934540f1d13369040928a1cd909bf020ecaa3ee1954d0762d29"
+    },
+    "host-kit/player-dashboard/web/app.js": {
+      "sha": "211088e49ffd0c7d398fa7082bab1558340aacdd",
+      "mode": "100644",
+      "bytes": 21299,
+      "sha256": "670728c062f3017590ecb2093580c10f202007db4dac818bb0bcaf389e9a4caa"
+    },
+    "host-kit/player-dashboard/web/index.html": {
+      "sha": "530a26011c24661039ba42af2ed1dfeccecbc5b7",
+      "mode": "100644",
+      "bytes": 13271,
+      "sha256": "ed32c3726f9e321d5baa8abff61f14360ca7bba7bb5587b183107f8bc900d7e7"
+    },
+    "host-kit/player-dashboard/web/styles.css": {
+      "sha": "c1a0708d2eed7fa072fc3e66a3e59fe7f5d7b6ed",
+      "mode": "100644",
+      "bytes": 25634,
+      "sha256": "32e82c5c670dad2529a16377be74ca1695d03bab59702416163685434eec8186"
+    }
+  },
+  "authoredDllsMatchNode01": true,
+  "completePublicClientMatchesNode01": false,
+  "clientSelfHostAlignmentPending": true,
+  "liveDeploymentChanged": false,
+  "validation": {
+    "schemaVersion": 1,
+    "preparedOn": "2026-10-24",
+    "publication": "source-and-authored-artifacts",
+    "privateHostChanged": false,
+    "publicInstallerMatchesHostedModpack": false,
+    "clientAndSelfHostAlignmentPending": true,
+    "windowsAndSharedRaidSmokeTestsPending": true,
+    "checks": {
+      "dashboardPublisherNarcoNetFixtures": 36,
+      "maintenanceFixtures": 25,
+      "clientPackBuilderFixtures": 13,
+      "privateOriginContractChecks": 15,
+      "shortcutAdapterChecks": 18,
+      "updaterProductionChecks": 90,
+      "serverScavWarActualFikaFixture": "passed",
+      "localQuestTurnInActualCallbacks": 31,
+      "maintenanceAdmissionActualCallbacks": 52,
+      "fixedPluginPolicyActualCallbacks": 31,
+      "authoredDllsByteEqualToMaintained": 5
+    },
+    "exclusions": [
+      "retail/base game",
+      "vendor dependencies and modpack payloads",
+      "private endpoints and connection profiles",
+      "accounts and credentials",
+      "profiles and saves",
+      "raw logs and backups"
+    ]
+  },
+  "publicationTransport": "GitHub signed-in browser file upload; repository integration read-only"
+}
