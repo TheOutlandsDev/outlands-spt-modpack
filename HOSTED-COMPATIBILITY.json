@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "reviewedOn": "2026-10-24",
-  "hostedBundleVersion": "2026.10.24.1",
-  "publicReconstructionVersion": "0.5.0",
+  "hostedBundleVersion": "2026.10.24.2",
+  "publicReconstructionVersion": "0.5.1",
   "publicBootstrapVersion": "1.3.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
@@ -12,8 +12,8 @@
   "missingHostedManagedFiles": [],
   "unexpectedHumanDlls": [],
   "clientInstallFiles": 356,
-  "selfHostInstallFiles": 2506,
-  "selfHostStaticFilesEqualHosted": 2502,
+  "selfHostInstallFiles": 2508,
+  "selfHostStaticFilesEqualHosted": 2504,
   "selfHostPrivateConfigurationExceptions": [
     "BepInEx/config/com.fika.core.cfg",
     "BepInEx/config/com.fika.headless.cfg",
@@ -28,5 +28,5 @@
   "headlessHealthyAndIdle": true,
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
-  "requiresOneTimeClientInstallerUpgrade": "Run the complete 0.5.0 Client installer before Play Outlands 1.3.0: the WTT base patcher changed, and the updater intentionally refuses to replace base files."
+  "requiresOneTimeClientInstallerUpgrade": "Run the complete 0.5.1 Client installer before Play Outlands 1.3.0: the WTT base patcher changed, and the updater intentionally refuses to replace base files."
 }
