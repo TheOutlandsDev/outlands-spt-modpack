@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "publishedFor": "2026-10-24",
+  "version": "0.5.0",
+  "hostedBundleVersion": "2026.10.24.1",
+  "archive": "The-Outlands-SPT-0.5.0.zip",
+  "archiveSha256": "c4a2eba8e7dabd748894250a8936d8c0a9e9319243d9c0495fdba113dfb3fd31",
+  "archiveBytes": 3180931,
+  "archiveFiles": 271,
+  "sourceLayout": "Complete installer, host-kit, docs and original custom-tools in one ZIP; root wrappers enter installer directory. Older browsable repository folders are historical.",
+  "completePublicClientMatchesNode01": true,
+  "clientSelfHostAlignmentPending": false,
+  "liveDeploymentChanged": true,
+  "activationAtUtc": "2026-10-24T12:27:33.345406+00:00",
+  "backendAndHeadlessHealthy": true,
+  "validation": {
+    "schemaVersion": 1,
+    "version": "0.5.0",
+    "checkedOn": "2026-10-24",
+    "liveBaselineActive": true,
+    "stages": {
+      "Client": {
+        "files": 356,
+        "sha256AndSizeVerified": 356,
+        "installedModImports": 0,
+        "sourceBuildOutputs": 3
+      },
+      "SelfHost": {
+        "files": 2506,
+        "sha256AndSizeVerified": 2506,
+        "installedModImports": 0,
+        "sourceBuildOutputs": 5
+      }
+    },
+    "pinnedSources": 961,
+    "sourceBuildsReproduced": 5,
+    "ownerLayerEntries": 348,
+    "tests": {
+      "planLockRoleSeparationAndOwnerHashes": "passed",
+      "clientInstallPreviewBackupAuditAndNegativeCases": "passed",
+      "baseGameplayPreviewBackupApplyCheckIdempotence": "passed; resulting documents semantically equal live",
+      "actualUpdaterFullPackVerification": "passed; 351 members and 27 base pins",
+      "actualPluginValidatorRoleCases": 7,
+      "privateDashboardPublisherNarcoNetRegressionTests": 36,
+      "clientPackBuilderRegressionTests": 13,
+      "isolatedSelfHostBackend": "ready on separate loopback port; no live profiles imported; all three checked Outlands policy modules announced; no startup fatal markers",
+      "liveBackendAndHeadless": "both healthy and idle after controlled backup/cutover",
+      "allLiveClientHashes": "351 managed + 27 base verified",
+      "allLiveLockedStaticFiles": 2502
+    },
+    "privateConfigurationExceptions": [
+      "BepInEx/config/com.fika.core.cfg",
+      "BepInEx/config/com.fika.headless.cfg",
+      "BepInEx/config/com.lacyway.fda.cfg",
+      "SPT/user/mods/fika-server/assets/configs/fika.jsonc"
+    ],
+    "knownPrivateValueScanHits": 0,
+    "licensedException": "Deployed repaired MIT Flea Simulator DLL, corresponding source and full upstream MIT notice; no other third-party payloads bundled.",
+    "freshWindowsDesktopSetupTested": false,
+    "freshMultiplayerTested": false,
+    "limitations": "Linux PowerShell assembly used an archive-extraction adapter and the same pinned inputs/production control flow. Windows shortcut COM, fresh approved Windows first-connect asset transfer and two-player Ground Zero extraction/save/next-raid testing remain pending. Healthy idle headless is not a raid test."
+  },
+  "publicationTransport": "Owner-signed-in GitHub browser upload; original repository history and unrelated content retained."
+}
