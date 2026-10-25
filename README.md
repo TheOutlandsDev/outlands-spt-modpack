@@ -64,17 +64,17 @@ SHA-256, backs up changed originals, and blocks launch on failure. Verified file
 downloads survive retries. All 27 frozen base dependencies are checked. Raw
 runtime paths, profiles, personal settings and server/headless files never route.
 The hosted gameplay baseline is still 2026.10.24.3; this changes the transport,
-not gameplay. The existing complete Client/SelfHost 0.5.3 download includes the same spawn preset. Existing 0.5.1 clients remain compatible.
+not gameplay. The existing complete Client/SelfHost 0.5.3 download includes the same spawn preset. Existing 0.5.1 clients update through Play Outlands.
 Self-host operators apply the source update using FILE-SYNC.md, publish their
 reviewed inventory and rebuild only the dashboard. Old full-pack updaters remain
 supported. A real Windows first-run test and shared raid remain outstanding.
 
 ## Moderate AI population
 
-0.5.3 adds four AI slots on larger maps and two on Factory/Ground Zero, plus
+The earlier 0.5.2 spawn preset added four AI slots on larger maps and two on Factory/Ground Zero, plus
 one extra regular Scav per eligible wave where group caps allow. Existing PMC
-chances and timing stay unchanged. Difficulty, bosses, zombie
-density, loot and client DLLs remain unchanged. Scav War remains on.
+chances and timing stay unchanged. That spawn preset alone preserved difficulty, bosses, zombie
+density, loot and client DLLs. The current 0.5.3 insurance fix changes one client DLL. Scav War remains on.
 [Exact preset and host instructions](SPAWN-PRESET.md). Caps are ceilings, not a
 guarantee of the number alive. This server-side preset is active on node-01 after a backed-up idle
 restart; players relaunch afterward to refresh cached raid settings.
