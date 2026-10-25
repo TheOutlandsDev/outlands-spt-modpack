@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "reviewedOn": "2026-10-24",
   "hostedBundleVersion": "2026.10.24.2",
-  "publicReconstructionVersion": "0.5.1",
-  "publicBootstrapVersion": "1.3.0",
+  "publicReconstructionVersion": "0.5.2",
+  "publicBootstrapVersion": "1.4.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
   "exactClientMatch": true,
@@ -28,5 +28,62 @@
   "headlessHealthyAndIdle": true,
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
-  "requiresOneTimeClientInstallerUpgrade": "Run the complete 0.5.1 Client installer before Play Outlands 1.3.0: the WTT base patcher changed, and the updater intentionally refuses to replace base files."
+  "requiresOneTimeClientInstallerUpgrade": "Run the complete 0.5.1 Client installer before Play Outlands 1.3.0: the WTT base patcher changed, and the updater intentionally refuses to replace base files.",
+  "serverSpawnPreset": "2026.10.24-spawns.1",
+  "serverSpawnActivation": "active",
+  "clientFilesChangedBySpawnPreset": false,
+  "serverSpawnPresetActivatedAtUtc": "2026-10-25T01:17:50.942314+00:00",
+  "serverSpawnEffectiveCaps": {
+    "bigmap": {
+      "before": 28,
+      "after": 32
+    },
+    "factory4_day": {
+      "before": 12,
+      "after": 14
+    },
+    "factory4_night": {
+      "before": 12,
+      "after": 14
+    },
+    "interchange": {
+      "before": 30,
+      "after": 34
+    },
+    "lighthouse": {
+      "before": 30,
+      "after": 34
+    },
+    "rezervbase": {
+      "before": 30,
+      "after": 34
+    },
+    "sandbox": {
+      "before": 17,
+      "after": 19
+    },
+    "sandbox_high": {
+      "before": 18,
+      "after": 20
+    },
+    "shoreline": {
+      "before": 34,
+      "after": 38
+    },
+    "tarkovstreets": {
+      "before": 30,
+      "after": 34
+    },
+    "woods": {
+      "before": 33,
+      "after": 37
+    },
+    "laboratory": {
+      "before": 19,
+      "after": 23
+    }
+  },
+  "serverSpawnScavWaveSlotIncrease": 1,
+  "serverSpawnClientFilesChanged": false,
+  "serverBaseSptConfigsChanged": false
 }
