@@ -119,3 +119,14 @@ Four weekly campaign phases, distinct daily encounter bonuses, primary/secondary
 hotspot briefings and an interactive seven-day forecast are active. Optional squad
 challenges are self assessed. Loot chance bonuses stay within 5%; bot caps and
 human client hashes are unchanged. [Exact behavior and remaining tests](OPERATIONS.md).
+
+## Offline event and recovery rehearsal
+
+All seven event days passed against isolated actual SPT backends across all 12 map
+variants. The latest 324-file local checkpoint passed two backend cold starts with
+profile inventory/quest/skill/standing data intact and Live Content 1.1.0 restored.
+The rehearsal passed 7,604 assertions and changed no production files or services.
+[Method, per-day results and remaining gameplay tests](REHEARSAL-RESULTS.json).
+The frozen 0.5.7 download is unchanged; these later results update this root status.
+Fresh Windows install, shared raid combat, extraction/saves and a physical host
+reboot remain untested. Google Drive copies remain manual snapshots.

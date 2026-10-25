@@ -30,3 +30,21 @@ an isolated backend startup passed. The live backend/headless restarted and
 passed native plugin validation. Real encounter feel, client UI, fresh Windows
 installation, extraction/saves and a shared Ground Zero raid still need players.
 See host-kit/player-dashboard/mods/live-content/README.md for exact modifiers.
+
+## Completed backend rehearsal
+
+All seven themes were booted with the byte-identical event DLL in an isolated
+backend, using a test-only event-selection clock. Twelve map variants per day
+were checked against independent expected changes and actual client/locations
+HTTP output: PMC chance/timing/cap behavior, enabled boss chance, eligible Scav
+windows, wave counts/slots, location loot multipliers, infection, reciprocal
+Scav/infected hostility and Ground Zero protection. Boss sightings adjusted one
+Reserve boss wave and three Customs boss waves. Engine-managed Scav windows
+remained unchanged; ten eligible Reserve windows moved earlier on its hotspot
+days. This is configured behavior, not evidence of spawned or attacking bots.
+
+The latest local checkpoint restored 324 files, including the event DLL/settings,
+and booted twice without instrumentation. Restored inventory, quest, skill,
+hideout and trader-standing data stayed unchanged. No live service restart or
+production edit was performed. See [the bounded rehearsal record](REHEARSAL-RESULTS.json).
+The immutable 0.5.7 archive remains byte-for-byte unchanged.

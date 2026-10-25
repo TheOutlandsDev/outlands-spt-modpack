@@ -124,5 +124,14 @@
   "optionalChallengesTracked": false,
   "operationsGameplayRaidTested": false,
   "clientFilesChangedByOperations": false,
-  "isolatedEventBackendStartupPassed": true
+  "isolatedEventBackendStartupPassed": true,
+  "sevenDayBackendRehearsalPassed": true,
+  "sevenDayBackendMapsPerDay": 12,
+  "latestLocalCheckpointRecoveryColdStartsPassed": 2,
+  "latestLocalCheckpointFilesRestored": 324,
+  "latestLocalCheckpointProfileIntegrityVerified": true,
+  "rehearsalAssertionsPassed": 7604,
+  "rehearsalUsesIsolatedClockProbe": true,
+  "rehearsalChangedProductionFiles": false,
+  "rehearsalReport": "REHEARSAL-RESULTS.json"
 }

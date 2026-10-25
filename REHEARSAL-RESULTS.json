@@ -1,0 +1,236 @@
+{
+  "filesRestored": 324,
+  "restoredBytes": 97140125,
+  "eventDllRestored": true,
+  "eventSettingsRestored": true,
+  "backendColdStarts": [
+    {
+      "coldStart": 1,
+      "backendReady": true,
+      "profileAccessible": true,
+      "eventVersion": "1.1.0"
+    },
+    {
+      "coldStart": 2,
+      "backendReady": true,
+      "profileAccessible": true,
+      "eventVersion": "1.1.0"
+    }
+  ],
+  "eventDayRehearsals": [
+    {
+      "date": "2026-10-26",
+      "theme": "Supply lanes",
+      "campaign": "Containment",
+      "hotspots": [
+        "bigmap",
+        "interchange"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "bigmap": 10,
+        "interchange": 10
+      },
+      "scavAdjusted": {
+        "bigmap": 0,
+        "interchange": 0
+      },
+      "bossAdjusted": {
+        "bigmap": 0,
+        "interchange": 0
+      },
+      "primaryLootMultiplier": 1.05,
+      "hotspotInfection": 30,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Patrol surge",
+      "campaign": "Containment",
+      "hotspots": [
+        "woods",
+        "rezervbase"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "woods": 10,
+        "rezervbase": 10
+      },
+      "scavAdjusted": {
+        "woods": 0,
+        "rezervbase": 10
+      },
+      "bossAdjusted": {
+        "woods": 0,
+        "rezervbase": 0
+      },
+      "primaryLootMultiplier": 1,
+      "hotspotInfection": 30,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Containment patrol",
+      "campaign": "Containment",
+      "hotspots": [
+        "shoreline",
+        "lighthouse"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "shoreline": 10,
+        "lighthouse": 10
+      },
+      "scavAdjusted": {
+        "shoreline": 0,
+        "lighthouse": 0
+      },
+      "bossAdjusted": {
+        "shoreline": 0,
+        "lighthouse": 0
+      },
+      "primaryLootMultiplier": 1.02,
+      "hotspotInfection": 30,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Smuggler routes",
+      "campaign": "Containment",
+      "hotspots": [
+        "interchange",
+        "tarkovstreets"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "interchange": 10,
+        "tarkovstreets": 10
+      },
+      "scavAdjusted": {
+        "interchange": 0,
+        "tarkovstreets": 0
+      },
+      "bossAdjusted": {
+        "interchange": 0,
+        "tarkovstreets": 0
+      },
+      "primaryLootMultiplier": 1.05,
+      "hotspotInfection": 30,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Boss sightings",
+      "campaign": "Containment",
+      "hotspots": [
+        "rezervbase",
+        "bigmap"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "rezervbase": 10,
+        "bigmap": 10
+      },
+      "scavAdjusted": {
+        "rezervbase": 10,
+        "bigmap": 0
+      },
+      "bossAdjusted": {
+        "rezervbase": 1,
+        "bigmap": 3
+      },
+      "primaryLootMultiplier": 1.02,
+      "hotspotInfection": 30,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Outbreak hunt",
+      "campaign": "Containment",
+      "hotspots": [
+        "lighthouse",
+        "woods"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "lighthouse": 10,
+        "woods": 10
+      },
+      "scavAdjusted": {
+        "lighthouse": 0,
+        "woods": 0
+      },
+      "bossAdjusted": {
+        "lighthouse": 0,
+        "woods": 0
+      },
+      "primaryLootMultiplier": 1.03,
+      "hotspotInfection": 35,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "Recovery runs",
+      "campaign": "Containment",
+      "hotspots": [
+        "tarkovstreets",
+        "shoreline"
+      ],
+      "mapsChecked": 12,
+      "pmcAdjusted": {
+        "tarkovstreets": 10,
+        "shoreline": 10
+      },
+      "scavAdjusted": {
+        "tarkovstreets": 0,
+        "shoreline": 0
+      },
+      "bossAdjusted": {
+        "tarkovstreets": 0,
+        "shoreline": 0
+      },
+      "primaryLootMultiplier": 1.04,
+      "hotspotInfection": 15,
+      "groundZeroProtected": true,
+      "capsAndDifficultyUnchanged": true,
+      "httpLocationsVerified": true
+    }
+  ],
+  "assertionsPassed": 7604,
+  "networkMode": "none",
+  "publishedPorts": 0,
+  "productionEventDllByteIdentical": true,
+  "liveServicesRestarted": false,
+  "liveServicesHealthy": true,
+  "profilesUnchanged": true,
+  "managedClientFilesVerified": 351,
+  "baseFilesVerified": 27,
+  "startupErrors": 0,
+  "windowsFreshInstallTested": false,
+  "twoPlayerGroundZeroRaidTested": false,
+  "combatBehaviorObserved": false,
+  "physicalHostRebootTested": false,
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-25T16:40:24.262094+00:00",
+  "release": "0.5.7",
+  "eventVersion": "1.1.0",
+  "productionSourceCommit": "1215b30055d101452dcd004ed5e1a9ed59b0aa0e",
+  "productionInstallerCommit": "dab1bd4f35131af313bcf3533c66db8daed5b374",
+  "productionInstallerSha256": "a306f358a85ac45e2e033ceaa7f28fe2a38e0604d0cc89d2a978e1454d827c75",
+  "eventDllSha256": "eaeebc6023c4484a7717ac914f3d7b0859e8604ac9b45e548342f72da7e03b1d",
+  "method": "Two uninstrumented restored-server boots, followed by seven isolated actual-backend boots. A test-only Harmony prefix supplies the event selection timestamp once; it does not change the host clock or production event DLL. Before/after database and PMC configuration snapshots are compared with an independent schedule specification, and actual client/locations HTTP responses are checked.",
+  "scope": "Configuration and recovery acceptance only. No live bot spawns, attacks, hits, headless combat performance, Windows installation, multiplayer extraction or raid-save acceptance observed.",
+  "cloudBackupPolicy": "Manual copies only; latest local checkpoint restored. No cloud upload or live restart performed."
+}
