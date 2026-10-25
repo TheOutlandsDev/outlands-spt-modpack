@@ -12,11 +12,11 @@ matching release ZIP, author-download plan and installation lock. Supply your
 own compatible SPT 4.0.13 / EFT 0.16.9.40087 base. Keep the game, installer cache,
 backups and runtime separate from your public Git checkout.
 
-The 0.5.8 reconstruction uses node-01's active 2026.10.24.3 baseline. It builds
+The 0.5.9 reconstruction uses node-01's active 2026.10.24.3 baseline. It builds
 five WTT DLLs from pinned author source; those exact builds now run on node-01.
 SelfHost installs 2508 files, including the headless role, server mods and
 Outlands modules. Client installs 356 files and omits headless-only plugins. Use
-separate SelfHost and human Client folders. The installer applies eleven narrow
+separate SelfHost and human Client folders. The installer applies twelve narrow
 seasonal configuration changes; it never ships the game's base configuration
 documents. Halloween, infected maps/fall settings, AI tuning, automatic Scav War
 and remote quest acceptance with local-only turn-ins match the hosted setup.

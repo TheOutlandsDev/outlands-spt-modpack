@@ -5,7 +5,7 @@ Public bootstrap 1.4.0 / updater engine 1.2.0. The game baseline remains
 
 ## Players
 
-Install the matching complete 0.5.8 Client once if not already on 0.5.0/0.5.8.
+Install the matching complete 0.5.9 Client once if not already on 0.5.0/0.5.9.
 Extract Play-Outlands-Public-1.4.0.zip, keep/obtain the private server-profile.json,
 and run Install Play Outlands.cmd once. Thereafter use Play Outlands, with
 Tailscale connected and game/launchers closed. A current installation transfers
@@ -15,7 +15,7 @@ are not silently self-replaced; this one-time shortcut upgrade is required.
 
 ## Independent hosts
 
-Start with complete SelfHost 0.5.8. Overlay host-kit/player-dashboard source from
+Start with complete SelfHost 0.5.9. Overlay host-kit/player-dashboard source from
 this archive onto the corresponding dashboard source folder; keep deployment/
 config, secrets, private profile and runtime outside the public source. Configure
 your private Tailscale HTTPS origin using server-profile.json. Source includes

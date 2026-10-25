@@ -1,6 +1,30 @@
 # The Outlands SPT — matching node-01
 
-**[Download Client + SelfHost 0.5.8](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.8.zip)**
+## Headless animation guard and hitch diagnostics — 0.5.9
+
+Outlands Headless Raid Diagnostics 0.4.0 skips cosmetic patrol animation checks
+only for Fika headless bots and adds bounded timings around bot loading and
+activation. It does not suppress warnings or replace animation callbacks. The
+matching SelfHost contains the same DLL and headless plugin
+validation policy. Human client files are unchanged: 351 managed files and 27
+base pins. Existing matching players continue using Play Outlands.
+
+The earlier large frame hitch occurred near spawning, which establishes timing
+correlation rather than a confirmed cause. New timings are intended to identify
+which work coincides with another hitch. Animation guard behavior, gunplay and frame
+performance still require a new raid; this release does not claim all hitches
+are fixed. No spawn, difficulty, economy or player profile changes are included.
+
+The cultist summoning ritual stays disabled. Zombies, Halloween, Scav War,
+rotating encounters, loot bonuses and optional squad challenges remain enabled.
+See [the current host checks](HOST-FIX-CHECKS.json).
+
+The dated seven-day event/recovery report belongs to 0.5.7. RITUAL-CHECKS.json
+belongs to 0.5.8. Those are retained historical evidence; neither full rehearsal
+was repeated for this host-only update. Fresh Windows installation and the shared
+Ground Zero acceptance test remain pending.
+
+**[Download Client + SelfHost 0.5.9](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.9.zip)**
 
 The current public download reconstructs node-01's active **2026.10.24.3** mod
 baseline: **351 human managed files and 27 verified base files**. Both the backend
@@ -19,7 +43,7 @@ left for its operator. See [the verified compatibility record](HOSTED-COMPATIBIL
 
 **This release changes the host only. Existing matching 0.5.3 players use Play Outlands; the 351 client files are unchanged.**
 
-**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.8 Client installer once. The WTT base
+**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.9 Client installer once. The WTT base
 patcher changed; the updater deliberately stops on an old base rather than
 replacing it silently. The installer backs up overwritten files/profiles and
 quarantines only exact recognized older-release leftovers. Unknown DLLs stop
@@ -28,7 +52,7 @@ installation for review.
 Client installs **356 files**; SelfHost installs **2508**. The installer downloads
 pinned author payloads and builds five WTT DLLs from pinned source. Those exact
 builds now run on node-01. No manual mod imports or global SDK are required.
-The full 0.5.8 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
+The full 0.5.9 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
 [The separate bootstrap](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.4.0.zip)
 requires a matching base installation and the host's private profile. Install it once, then use its desktop shortcut every time. It downloads only changed/missing managed files from the host before opening SPT Launcher; unchanged clients download no mod payloads.
 
@@ -53,7 +77,7 @@ included with its corresponding source and full upstream notice; other vendor
 payloads are fetched from pinned author sources and retain their authors' terms.
 Do not redistribute the assembled cache/game/mod folder.
 
-[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.8.json) ·
+[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.9.json) ·
 [Earlier release history](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases)
 
 ## Current file synchronization
@@ -66,7 +90,7 @@ SHA-256, backs up changed originals, and blocks launch on failure. Verified file
 downloads survive retries. All 27 frozen base dependencies are checked. Raw
 runtime paths, profiles, personal settings and server/headless files never route.
 The hosted gameplay baseline is still 2026.10.24.3; this changes the transport,
-not gameplay. The existing complete Client/SelfHost 0.5.8 download includes the same spawn preset. Existing 0.5.1 clients update through Play Outlands.
+not gameplay. The existing complete Client/SelfHost 0.5.9 download includes the same spawn preset. Existing 0.5.1 clients update through Play Outlands.
 Self-host operators apply the source update using FILE-SYNC.md, publish their
 reviewed inventory and rebuild only the dashboard. Old full-pack updaters remain
 supported. A real Windows first-run test and shared raid remain outstanding.
@@ -83,20 +107,20 @@ restart; players relaunch afterward to refresh cached raid settings.
 
 ## AI and insurance fixes
 
-Client/SelfHost 0.5.8 contains the corrected headless map-limit lookup, 350m
+Client/SelfHost 0.5.9 contains the corrected headless map-limit lookup, 350m
 AI activation range and Remote Quests 1.0.3 insurance skip. Players upgrading from before 0.5.3 close the game/launcher and use Play Outlands
 to obtain that earlier client fix. This portal release changes no client files.
 [Details, tests and remaining raid checks](AI-AND-INSURANCE.md).
 
 ## Automatic client update instructions
 
-Client/SelfHost 0.5.8 includes durable in-game update notices, a dashboard reminder
+Client/SelfHost 0.5.9 includes durable in-game update notices, a dashboard reminder
 and release-aware admission for stale running games. Close game and launcher and
 run Play Outlands before playing after activation. [Behavior, limits and tests](CLIENT-UPDATES.md).
 
-## Raid diagnostics and recovery — 0.5.8
+## Prior raid diagnostics and recovery — 0.5.8
 
-The SelfHost download now matches node-01's active headless diagnostics 0.3.0,
+The earlier 0.5.8 SelfHost used the headless diagnostics 0.3.0 baseline,
 configuration and fixed validation policy. All 351 managed player files and 27
 base verification hashes remain unchanged. Matching players use Play Outlands.
 The host-kit includes read-only raid metrics, bounded logs and manual encrypted

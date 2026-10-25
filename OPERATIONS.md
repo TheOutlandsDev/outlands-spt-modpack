@@ -1,4 +1,28 @@
-# Rotating operations — Client and SelfHost 0.5.8
+# Rotating operations — Client and SelfHost 0.5.9
+
+## Headless animation guard and hitch diagnostics — 0.5.9
+
+Outlands Headless Raid Diagnostics 0.4.0 skips cosmetic patrol animation checks
+only for Fika headless bots and adds bounded timings around bot loading and
+activation. It does not suppress warnings or replace animation callbacks. The
+matching SelfHost contains the same DLL and headless plugin
+validation policy. Human client files are unchanged: 351 managed files and 27
+base pins. Existing matching players continue using Play Outlands.
+
+The earlier large frame hitch occurred near spawning, which establishes timing
+correlation rather than a confirmed cause. New timings are intended to identify
+which work coincides with another hitch. Animation guard behavior, gunplay and frame
+performance still require a new raid; this release does not claim all hitches
+are fixed. No spawn, difficulty, economy or player profile changes are included.
+
+The cultist summoning ritual stays disabled. Zombies, Halloween, Scav War,
+rotating encounters, loot bonuses and optional squad challenges remain enabled.
+See [the current host checks](HOST-FIX-CHECKS.json).
+
+The dated seven-day event/recovery report belongs to 0.5.7. RITUAL-CHECKS.json
+belongs to 0.5.8. Those are retained historical evidence; neither full rehearsal
+was repeated for this host-only update. Fresh Windows installation and the shared
+Ground Zero acceptance test remain pending.
 
 ## Ritual disabled — 0.5.8
 

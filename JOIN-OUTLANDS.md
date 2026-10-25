@@ -9,7 +9,7 @@
 3. Install [Tailscale](https://tailscale.com/download). The maintainer privately
    provides the appropriate machine share/invite and access approval. Do not
    publish invites, auth keys, email addresses, device IDs or access screenshots.
-4. Download the complete **0.5.8** package, extract it outside the game folder and
+4. Download the complete **0.5.9** package, extract it outside the game folder and
    run **Start-Outlands-Client.cmd**. It reconstructs the same human baseline as
    node-01: 351 managed files plus the five required mod dependencies/patchers.
    Run this installer once even if you used the older bootstrap: the WTT base
