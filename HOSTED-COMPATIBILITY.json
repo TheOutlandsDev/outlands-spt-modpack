@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "2026-10-24",
+  "reviewedOn": "2026-10-25",
   "hostedBundleVersion": "2026.10.24.3",
-  "publicReconstructionVersion": "0.5.3",
+  "publicReconstructionVersion": "0.5.4",
   "publicBootstrapVersion": "1.4.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
@@ -28,7 +28,7 @@
   "headlessHealthyAndIdle": true,
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
-  "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands for this managed DLL update. Old base WTT patchers require the complete current Client installer.",
+  "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands; 0.5.4 changes no client/base hashes. One fresh game startup is required after guard activation; older base dependencies still require the current full Client installer.",
   "serverSpawnPreset": "2026.10.24-spawns.1",
   "serverSpawnActivation": "active",
   "clientFilesChangedBySpawnPreset": false,
@@ -93,5 +93,10 @@
   "insuranceWindowsUiTested": false,
   "headlessMapCapLiveRaidVerified": false,
   "aiAndInsuranceActivatedAtUtc": "2026-10-25T03:51:21.631815+00:00",
-  "sourceCommit": "0933bdd95028ad9e6226e344cb3b17fe16123e1f"
+  "sourceCommit": "252ebc32e163587a7a41aad2ffd128be23cff821",
+  "clientReleasePolicyVersion": "1.2.0",
+  "clientFilesChangedByReleaseGuard": false,
+  "clientUpdateNotices": true,
+  "clientUpdateWindowsUiTested": false,
+  "clientReleaseGuardActivatedAtUtc": "2026-10-25T12:07:15.583106+00:00"
 }
