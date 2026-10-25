@@ -109,5 +109,6 @@ link-bundle generator for an existing private Hub. The page separates the first
 complete Client install from normal Play Outlands updates. Current join,
 SelfHost, video and redistribution guides are aligned with this release.
 [Player guide](JOIN-OUTLANDS.md) · [SelfHost](SELF-HOSTING.md) ·
-[Hub integration](HUB-INTEGRATION.md). The maintained Hub deployment is a
-separate operator step; publishing the bundle does not apply it to server-01.
+[Hub integration](HUB-INTEGRATION.md). The maintained Hub now has four SPT cards in Game Operations, preserving all
+33 earlier apps. [Deployment evidence and remaining tests](https://github.com/TheOutlandsDev/outlands-spt-modpack/blob/main/HUB-DEPLOYMENT.json).
+Independent hosts apply their own integration separately.

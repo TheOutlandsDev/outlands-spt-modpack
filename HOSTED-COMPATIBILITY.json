@@ -109,6 +109,13 @@
   "diagnosticsActivatedAtUtc": "2026-10-25T13:18:26.990538+00:00",
   "playerPortalIncluded": true,
   "hubIntegrationPrepared": true,
-  "hubIntegrationDeployed": false,
-  "portalChangesGameFiles": false
+  "hubIntegrationDeployed": true,
+  "portalChangesGameFiles": false,
+  "hubDeploymentReviewedAtUtc": "2026-10-25T14:34:45.790198+00:00",
+  "hubCatalogApps": 37,
+  "hubPriorAppsPreserved": 33,
+  "hubBrowserClickthroughVerified": true,
+  "hubProxyChanged": false,
+  "hubExactSptRedirectActivated": false,
+  "hubDeploymentRecord": "HUB-DEPLOYMENT.json"
 }

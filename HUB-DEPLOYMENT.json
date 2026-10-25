@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-25T14:34:45.790198+00:00",
+  "publicInstallerVersion": "0.5.6",
+  "publicInstallerSha256": "643f6ad209800852d20f2725cf4f3c86ac614c83fe737570e95c0108365a8803",
+  "publicInstallerBytes": 3282430,
+  "publicInstallerUnchanged": true,
+  "hubIntegrationDeployed": true,
+  "previousCardsPreserved": 33,
+  "cardsAdded": [
+    "Play Outlands",
+    "SPT Live Raids",
+    "SPT Client and SelfHost",
+    "SPT Access and Help"
+  ],
+  "catalogCards": 37,
+  "gameOperationsCards": 8,
+  "sourceAndLinkGuardChecksPassed": true,
+  "serverToNodeVerifiedHttpsPassed": true,
+  "desktopBrowserCategoryAndInternalClickthroughPassed": true,
+  "proxyChanged": false,
+  "exactSptRedirectActivated": false,
+  "gameServicesRestarted": false,
+  "gameFilesChanged": 0,
+  "freshWindowsInstallTested": false,
+  "twoPlayerGroundZeroRaidTested": false,
+  "physicalMobileDeviceTested": false,
+  "approvedPlayerIdentityTested": false,
+  "unapprovedPlayerDenialTested": false,
+  "privateHubConfigPublished": false
+}
