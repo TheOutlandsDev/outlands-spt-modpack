@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "reviewedOn": "2026-10-24",
-  "hostedBundleVersion": "2026.10.24.2",
-  "publicReconstructionVersion": "0.5.2",
+  "hostedBundleVersion": "2026.10.24.3",
+  "publicReconstructionVersion": "0.5.3",
   "publicBootstrapVersion": "1.4.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
@@ -28,7 +28,7 @@
   "headlessHealthyAndIdle": true,
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
-  "requiresOneTimeClientInstallerUpgrade": "Run the complete 0.5.1 Client installer before Play Outlands 1.3.0: the WTT base patcher changed, and the updater intentionally refuses to replace base files.",
+  "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands for this managed DLL update. Old base WTT patchers require the complete current Client installer.",
   "serverSpawnPreset": "2026.10.24-spawns.1",
   "serverSpawnActivation": "active",
   "clientFilesChangedBySpawnPreset": false,
@@ -85,5 +85,13 @@
   },
   "serverSpawnScavWaveSlotIncrease": 1,
   "serverSpawnClientFilesChanged": false,
-  "serverBaseSptConfigsChanged": false
+  "serverBaseSptConfigsChanged": false,
+  "hostedSyncBundleVersion": "2026.10.24.4",
+  "headlessBotCapPolicyVersion": "1.1.0",
+  "remoteQuestsVersion": "1.0.3",
+  "dynamicAiRangeMetres": 350,
+  "insuranceWindowsUiTested": false,
+  "headlessMapCapLiveRaidVerified": false,
+  "aiAndInsuranceActivatedAtUtc": "2026-10-25T03:51:21.631815+00:00",
+  "sourceCommit": "0933bdd95028ad9e6226e344cb3b17fe16123e1f"
 }
