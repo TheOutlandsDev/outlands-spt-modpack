@@ -1,4 +1,22 @@
-# Rotating operations — Client and SelfHost 0.5.7
+# Rotating operations — Client and SelfHost 0.5.8
+
+## Ritual disabled — 0.5.8
+
+The cultist summoning ritual is disabled. Halloween, infected AI, autumn,
+Scav War, rotating hotspots, loot bonuses and optional squad challenges stay
+enabled. This changes one base server setting and the host helper default;
+the 351 managed client files and 27 base pins stay unchanged. The dashboard
+also recognizes Reserve's native `RezervBase` map name in raid diagnostics.
+
+Existing matching players continue using Play Outlands. Independent hosts
+stop the game, launcher, server and headless client, back up, then run the
+matching SelfHost installer to apply the preset. The installer preserves
+verified configuration backups and refuses conflicting custom settings.
+See [the narrow release checks](RITUAL-CHECKS.json).
+
+The seven-day event/recovery rehearsal below was performed for 0.5.7 on
+2026-10-25. It remains prior-build evidence; the full rehearsal was not repeated
+for this one-setting update. The event DLL and calendar settings are unchanged.
 
 Outlands Live Content 1.1.0 adds distinct daily encounter pacing, primary and
 secondary hotspot operations, four weekly campaign phases, small location loot
@@ -20,7 +38,7 @@ including DST. Delayed maintenance keeps the active plan until restart.
 
 Matching players keep using Play Outlands: all 351 managed client files and 27
 base hashes are unchanged. New players use the complete Client installer.
-SelfHost changes one server DLL plus dashboard/maintenance source. Hosts use the
+The prior 0.5.7 feature update changed one server DLL plus dashboard/maintenance source. Hosts use the
 new full SelfHost install for a new installation, or stop at an idle boundary,
 back up and deploy the included matching authored event source/DLL and host-kit
 source update. Event DLL/settings are now explicitly covered in daily checkpoints.
@@ -31,7 +49,7 @@ passed native plugin validation. Real encounter feel, client UI, fresh Windows
 installation, extraction/saves and a shared Ground Zero raid still need players.
 See host-kit/player-dashboard/mods/live-content/README.md for exact modifiers.
 
-## Completed backend rehearsal
+## Completed backend rehearsal — prior 0.5.7 build
 
 All seven themes were booted with the byte-identical event DLL in an isolated
 backend, using a test-only event-selection clock. Twelve map variants per day
