@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedOn": "2026-10-25",
   "hostedBundleVersion": "2026.10.24.3",
-  "publicReconstructionVersion": "0.5.5",
+  "publicReconstructionVersion": "0.5.6",
   "publicBootstrapVersion": "1.4.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
@@ -28,7 +28,7 @@
   "headlessHealthyAndIdle": true,
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
-  "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands; 0.5.5 changes no client/base hashes. One fresh game startup is required after guard activation; older base dependencies still require the current full Client installer.",
+  "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands; 0.5.6 changes no client/base hashes. One fresh game startup is required after guard activation; older base dependencies still require the current full Client installer.",
   "serverSpawnPreset": "2026.10.24-spawns.1",
   "serverSpawnActivation": "active",
   "clientFilesChangedBySpawnPreset": false,
@@ -93,7 +93,7 @@
   "insuranceWindowsUiTested": false,
   "headlessMapCapLiveRaidVerified": false,
   "aiAndInsuranceActivatedAtUtc": "2026-10-25T03:51:21.631815+00:00",
-  "sourceCommit": "fed317c841c6ce8d38bc074654c7d07bb8062d79",
+  "sourceCommit": "6ca2d6df9470d92e246f8264d120ec93a7ba35f8",
   "clientReleasePolicyVersion": "1.2.0",
   "clientFilesChangedByReleaseGuard": false,
   "clientUpdateNotices": true,
@@ -106,5 +106,9 @@
   "isolatedRecoveryColdStartsPassed": 2,
   "physicalHostRebootTested": false,
   "backupCloudSchedule": "manual only",
-  "diagnosticsActivatedAtUtc": "2026-10-25T13:18:26.990538+00:00"
+  "diagnosticsActivatedAtUtc": "2026-10-25T13:18:26.990538+00:00",
+  "playerPortalIncluded": true,
+  "hubIntegrationPrepared": true,
+  "hubIntegrationDeployed": false,
+  "portalChangesGameFiles": false
 }
