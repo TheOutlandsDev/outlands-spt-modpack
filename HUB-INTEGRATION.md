@@ -1,6 +1,6 @@
 # One private front door for Outlands SPT
 
-Release 0.5.6 adds the read-only player page at the game dashboard's `/play/`
+Release 0.5.7 adds the read-only player page at the game dashboard's `/play/`
 path. First-time users get the complete Client installer; returning players use
 Play Outlands. The same page shows live backend/headless health, player totals,
 launcher address, active content and maintenance. No game files or profile
@@ -39,9 +39,9 @@ SPT Live Raids opened the live node pages with current data. This does not
 establish fresh Windows installation, physical-phone behavior, two-player raid
 success, or approved/unapproved player identity boundaries. Those remain tests.
 
-The portable generator remains in the unchanged 0.5.6 package. The native Hub
+The portable generator remains in the unchanged 0.5.7 package. The native Hub
 checkout contains unrelated edits and sensitive inline configuration, so those
 files are excluded from public publication. The bounded deployment result is
 [recorded separately](https://github.com/TheOutlandsDev/outlands-spt-modpack/blob/main/HUB-DEPLOYMENT.json). Deployment flags inside the immutable
-0.5.6 ZIP describe its packaging time; this current record supersedes that
+0.5.7 ZIP describe its packaging time; this current record supersedes that
 operational status without changing any installer or gameplay hashes.
