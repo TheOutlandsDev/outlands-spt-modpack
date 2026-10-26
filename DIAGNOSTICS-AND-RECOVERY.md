@@ -1,3 +1,53 @@
+# Host-tool maintenance — 0.5.11
+
+## Checkpoint coverage and extracted guide links — 0.5.11
+
+Future maintenance checkpoints now explicitly include four remaining original
+server modules: AI population tuning, open Scav transits, minimal hardcore and
+prestige requirements. This protects their existing DLLs during recovery; it
+does not change the DLLs or gameplay. Existing checkpoints are not rewritten or
+retroactively expanded. The native warning archive stays private.
+
+The extracted package README now opens its included guides correctly, points
+to the internal package checksum list and links to the online publication record.
+The GitHub README keeps its repository-relative links. Every local Markdown
+target in the assembled ZIP is checked before the archive is accepted.
+
+This is host-tool source and documentation only. All 86 game-installer files,
+the owner layer, download plan, installation lock, plugin policies and human
+files remain the frozen 0.5.9 baseline. The complete download is version 0.5.11;
+its installer still reports gameplay payload 0.5.9. Existing players keep using
+Play Outlands; no client update or game restart is needed for these changes.
+
+See [current downtime checks](DOWNTIME-CHECKS.json). The dated seven-day, ritual,
+headless-fix and post-raid reports retain their original scope. The previous
+Ground Zero/Customs review found about 59.5 median headless FPS, remaining
+159–319 ms hitches of unproven cause, and two Fika inventory failures/resync
+requests with no visible inventory problems reported by the player. It cannot
+prove native animation warnings disappeared because those logs were pruned.
+Fresh Windows installation and shared two-player Ground Zero acceptance remain
+separate tests; this maintenance release does not claim either one passed.
+
+
+## Recovery rehearsal — 2026-10-26
+
+The existing 325-file saved-state checkpoint restored over a separately verified
+2,504-file pinned baseline. Two network-isolated backend cold starts passed in
+27.97 and 25.89 seconds, preserving all 11 saved profile records’ inventory,
+quest, skill, standing and hideout data. Production game containers kept their
+identities/start times. This did not create a fresh production checkpoint.
+
+Raw live profile files were not all byte-identical: one headless hideout timer
+advanced during its existing background save, reproduced after the isolated
+test ended. Its gameplay fields were unchanged; the other 190 files stayed
+byte-identical. The rehearsal used no live profile mount, hardlink or probe
+write. The four-module coverage fix protects future checkpoints; it does not
+expand the tested older checkpoint. Manual encrypted recovery preparation
+passed locally, while the previous Drive copy remains unchanged.
+[Exact evidence and limits](RECOVERY-CHECKS-2026-10-26.json).
+
+## Prior maintenance and diagnostics record
+
 # Native warning retention — 0.5.10
 
 The host maintenance tools now preserve a private, bounded copy of native error
