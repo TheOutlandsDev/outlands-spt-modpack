@@ -1,5 +1,19 @@
 # The Outlands SPT — matching node-01
 
+Matching Client and SelfHost setup, Play Outlands file updates, private player access and headless diagnostics for a compatible SPT installation.
+
+## Start here
+
+| What to know | Details |
+| --- | --- |
+| Requirements | Your legitimate SPT 4.0.13 / EFT 0.16.9.40087 installation and the matching Fika 2.2.5 setup. The supplied Client and SelfHost entry points are Windows launch helpers. |
+| New installation | Use the [current complete download](#current-download), extract it outside the game folder and follow its included Client or SelfHost instructions. |
+| Existing matching client | Connect your approved Tailscale access, close the game and launcher, then use **Play Outlands**. Hosted play needs maintainer-approved access and a private host profile; a download does not grant access. |
+| Independent host | Review [SelfHost setup](SELF-HOSTING.md) and use the matching package, policy and your own private settings. |
+| Current status | Host-tool checks and backend recovery rehearsals are documented below. Fresh Windows installation and a shared two-player Ground Zero acceptance run remain separate, pending checks. |
+
+The detailed release notes below distinguish the complete download, frozen gameplay payload and updater versions. Start with the current download rather than an older archive from the history.
+
 ## Checkpoint coverage and extracted guide links — 0.5.11
 
 Future maintenance checkpoints now explicitly include four remaining original
@@ -98,6 +112,8 @@ The dated seven-day event/recovery report belongs to 0.5.7. RITUAL-CHECKS.json
 belongs to 0.5.8. Those are retained historical evidence; neither full rehearsal
 was repeated for this host-only update. Fresh Windows installation and the shared
 Ground Zero acceptance test remain pending.
+
+## Current download
 
 **[Download Client + SelfHost 0.5.11](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.11.zip)**
 
