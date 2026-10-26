@@ -1,6 +1,36 @@
 # The Outlands SPT — matching node-01
 
-## Headless animation guard and hitch diagnostics — 0.5.9
+## Native warning retention and post-raid review — 0.5.10
+
+The host maintenance tools now preserve a private, bounded copy of native error
+logs before Fika prunes old sessions. Up to eight sessions retain two error files
+each, with the last 512 KiB per file: at most 8 MiB of log payload plus bounded
+metadata. Truncated files are marked. Original logs remain read only; the copies
+are never served by the player dashboard or included in GitHub. This is local
+diagnostic evidence, not an off-node backup or an inventory/gameplay repair.
+
+This is a host-tool source update. The included game installer and all game/mod
+payloads remain the frozen 0.5.9 baseline. No client file, DLL, plugin CRC, spawn
+setting or profile changes. Existing matching players keep using Play Outlands;
+no client update or game restart is needed for this change. Self-host operators
+update the included maintenance source together after reviewing the host guide.
+
+Two later headless raids measured about 59.5 FPS during established busy play:
+Ground Zero 59.48 and Customs 59.51 median. No frame of one second or longer was
+observed during established play. Smaller 159–319 ms hitches remain; their cause
+is unproven. Loading and initial activation are reported separately. The guard
+counter reached 16 and 23 with zero policy errors. Native error logs from those
+raids had already been pruned, so absence of animation warnings is unverified.
+
+Two Fika inventory errors produced failure/resync requests. The player reported
+no visible inventory problems; a resync request alone does not prove recovery.
+See [the aggregate raid review](POST-0.4-RAID-REVIEW.json),
+[native warning retention](NATIVE-LOG-RETENTION.md) and the current
+[host-tool checks](HOST-TOOLS-CHECKS.json). The older dated acceptance records
+remain historical evidence. Fresh Windows installation and a shared two-player
+Ground Zero acceptance run are still separate tests.
+
+## Prior headless animation guard and hitch diagnostics — 0.5.9
 
 Outlands Headless Raid Diagnostics 0.4.0 skips cosmetic patrol animation checks
 only for Fika headless bots and adds bounded timings around bot loading and
@@ -24,7 +54,7 @@ belongs to 0.5.8. Those are retained historical evidence; neither full rehearsal
 was repeated for this host-only update. Fresh Windows installation and the shared
 Ground Zero acceptance test remain pending.
 
-**[Download Client + SelfHost 0.5.9](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.9.zip)**
+**[Download Client + SelfHost 0.5.10](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.10.zip)**
 
 The current public download reconstructs node-01's active **2026.10.24.3** mod
 baseline: **351 human managed files and 27 verified base files**. Both the backend
@@ -77,7 +107,7 @@ included with its corresponding source and full upstream notice; other vendor
 payloads are fetched from pinned author sources and retain their authors' terms.
 Do not redistribute the assembled cache/game/mod folder.
 
-[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.9.json) ·
+[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.10.json) ·
 [Earlier release history](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases)
 
 ## Current file synchronization

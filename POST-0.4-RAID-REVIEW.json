@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-26",
+  "observedGameplayRelease": "0.5.9",
+  "diagnosticsVersion": "0.4.0",
+  "scope": "Aggregate headless simulation metrics from two retained runs. No profile identities, run IDs, native log text or private connection details are included.",
+  "phaseDefinitions": {
+    "loading": "Before first active bot.",
+    "activation": "First 30 seconds after first active-bot sample.",
+    "established": "More than 30 seconds after first active-bot sample.",
+    "busy": "Established samples with at least ten active bots."
+  },
+  "raids": [
+    {
+      "map": "Ground Zero",
+      "establishedBusySamples": 164,
+      "establishedMedianHeadlessFps": 59.48,
+      "establishedMinimumHeadlessFps": 49.44,
+      "establishedMaximumFrameMs": 318.76,
+      "establishedFramesAtLeast100ms": 1,
+      "maxAliveBots": 17,
+      "maxActiveBots": 16,
+      "maxCreatedBots": 17,
+      "botTaskCalls": 17,
+      "botTasksCompleted": 17,
+      "botTaskFailuresOrCancellations": 0,
+      "cosmeticSecondaryInspectionGuards": 16,
+      "cosmeticMagazineSkips": 0,
+      "utilityPolicyErrors": 0,
+      "instrumentationErrorMaxima": {
+        "botHookErrors": 0,
+        "measurementErrors": 0,
+        "droppedSnapshots": 0,
+        "writerErrors": 0
+      }
+    },
+    {
+      "map": "Customs",
+      "establishedBusySamples": 239,
+      "establishedMedianHeadlessFps": 59.51,
+      "establishedMinimumHeadlessFps": 42.1,
+      "establishedMaximumFrameMs": 311.49,
+      "establishedFramesAtLeast100ms": 2,
+      "maxAliveBots": 26,
+      "maxActiveBots": 21,
+      "maxCreatedBots": 26,
+      "botTaskCalls": 26,
+      "botTasksCompleted": 26,
+      "botTaskFailuresOrCancellations": 0,
+      "cosmeticSecondaryInspectionGuards": 23,
+      "cosmeticMagazineSkips": 0,
+      "utilityPolicyErrors": 0,
+      "instrumentationErrorMaxima": {
+        "botHookErrors": 0,
+        "measurementErrors": 0,
+        "droppedSnapshots": 0,
+        "writerErrors": 0
+      }
+    }
+  ],
+  "establishedPlayFramesAtLeastOneSecondObserved": false,
+  "smallerEstablishedHitchesRemain": true,
+  "hitchCauseConfirmed": false,
+  "loadingMultiSecondFramesObserved": true,
+  "loadingFramesCountedAsEstablishedPlay": false,
+  "nativeAnimationWarningAbsenceVerified": false,
+  "nativeAnimationWarningEvidenceLimitation": "Previous native per-raid error logs were pruned at startup. Other retained logs cannot prove that animation warnings disappeared.",
+  "fikaInventoryErrorsObserved": 2,
+  "inventoryFailureAndResyncRequestsIssued": true,
+  "playerReportedVisibleInventoryProblems": false,
+  "inventoryRecoveryConfirmedFromResyncRequestAlone": false,
+  "userReport": "The player reported no visible inventory problems.",
+  "limitations": [
+    "Target-bearing bots do not prove shots or successful attacks.",
+    "These values measure headless simulation rather than Windows rendered FPS.",
+    "Remaining 159\u2013319 ms established-play hitches require correlation; their cause is unproven.",
+    "Multi-second loading frames and up to 487 ms activation frames are separate from established play.",
+    "Async bot-task completion latency is not a synchronous frame stall.",
+    "No retained metrics establish a Reserve headless run in this observation set.",
+    "This review does not establish a fresh Windows installation, multiplayer Ground Zero acceptance or a physical host reboot."
+  ]
+}
