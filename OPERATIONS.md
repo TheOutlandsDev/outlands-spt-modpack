@@ -1,3 +1,5 @@
+Current 0.5.13 update: Scav War is off; Scavs still fight infected AI. Balanced reinforcement waves and headless combat telemetry are described in [COMBAT-CHECKS.json](COMBAT-CHECKS.json) and [SPAWN-PRESET.md](SPAWN-PRESET.md). The dated details below retain their earlier scope.
+
 # Host-tool maintenance — 0.5.11
 
 ## Checkpoint coverage and extracted guide links — 0.5.11

@@ -14,7 +14,29 @@ Matching Client and SelfHost setup, Play Outlands file updates, private player a
 
 The detailed release notes below distinguish the complete download, frozen gameplay payload and updater versions. Start with the current download rather than an older archive from the history.
 
-## Increased AI population — 0.5.12
+## Scav War off and balanced reinforcement waves — 0.5.13
+
+Scav War is now off on the hosted server. Scavs keep normal faction relationships
+and remain hostile to infected AI. Infected-kill reputation protection stays active.
+Small Scav groups use existing map zones in four-minute reinforcement windows:
+six waves through minute 24 on larger maps, three on Ground Zero, two on Factory,
+and none on Labs. The increased population caps and PMC patrol schedule remain.
+
+The authoritative headless process removes the selected SAIN preset's distant
+AI-versus-AI vision/hearing limits in memory. Human preset files, aim and damage
+stay unchanged. New aggregate diagnostics show movement, visible/shootable targets,
+weapon readiness, ammunition and native weapon-shot events. A target is not proof
+of shooting; a shot event is not proof of a hit. The reported standing/non-firing
+AI root cause remains unconfirmed, and a new raid must verify behavior/performance.
+
+The complete matching SelfHost includes the three updated authored DLLs, settings, enabled diagnostics configuration
+and fixed headless CRC policy. All 351 managed human files, 27 base pins and the
+human release fingerprint remain unchanged. Close game/launcher and use Play
+Outlands after deployment. [Combat checks](COMBAT-CHECKS.json) ·
+[Wave schedule and host instructions](SPAWN-PRESET.md).
+
+## Prior increased AI population — 0.5.12
+
 
 Large-map limits gain six AI slots (Reserve and Interchange 34→40), with larger
 minimum Scav groups and PMC opening patrols. Reinforcements are more reliable
@@ -131,7 +153,7 @@ Ground Zero acceptance test remain pending.
 
 ## Current download
 
-**[Download Client + SelfHost 0.5.12](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.12.zip)**
+**[Download Client + SelfHost 0.5.13](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.13.zip)**
 
 The current public download reconstructs node-01's active **2026.10.24.3** mod
 baseline: **351 human managed files and 27 verified base files**. Both the backend
@@ -150,20 +172,20 @@ left for its operator. See [the verified compatibility record](HOSTED-COMPATIBIL
 
 **This release changes the host only. Existing matching 0.5.3 players use Play Outlands; the 351 client files are unchanged.**
 
-**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.12 Client installer once. The WTT base
+**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.13 Client installer once. The WTT base
 patcher changed; the updater deliberately stops on an old base rather than
 replacing it silently. The installer backs up overwritten files/profiles and
 quarantines only exact recognized older-release leftovers. Unknown DLLs stop
 installation for review.
 
-Client installs **356 files**; SelfHost installs **2508**. The installer downloads
+Client installs **356 files**; SelfHost installs **2509**. The installer downloads
 pinned author payloads and builds five WTT DLLs from pinned source. Those exact
 builds now run on node-01. No manual mod imports or global SDK are required.
-The current 0.5.12 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
+The current 0.5.13 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
 [The separate bootstrap](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.4.0.zip)
 requires a matching base installation and the host's private profile. Install it once, then use its desktop shortcut every time. It downloads only changed/missing managed files from the host before opening SPT Launcher; unchanged clients download no mod payloads.
 
-Halloween/zombies/fall settings, steady-fight AI tuning, automatic Scav War, and
+Halloween/zombies/fall settings, steady-fight AI tuning, Scav War-off faction rules, and
 remote quest acceptance with local-only turn-ins are preserved. A live content calendar rotates hotspots and seven theme bonuses while Halloween stays active daily. Infected AI loyalty/revenge guards are now included for all players and the headless host. Daily announced
 maintenance remains 5 AM Eastern and waits for raids to finish. Independent
 hosts supply their own approved Tailscale access, addresses and headless identity.
@@ -184,7 +206,7 @@ included with its corresponding source and full upstream notice; other vendor
 payloads are fetched from pinned author sources and retain their authors' terms.
 Do not redistribute the assembled cache/game/mod folder.
 
-[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.12.json) ·
+[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.13.json) ·
 [Earlier release history](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases)
 
 ## Current file synchronization
@@ -197,7 +219,7 @@ SHA-256, backs up changed originals, and blocks launch on failure. Verified file
 downloads survive retries. All 27 frozen base dependencies are checked. Raw
 runtime paths, profiles, personal settings and server/headless files never route.
 The hosted gameplay baseline is still 2026.10.24.3; this changes the transport,
-not gameplay. The current complete Client/SelfHost 0.5.12 download includes the increased population preset. Existing 0.5.1 clients update through Play Outlands.
+not gameplay. The current complete Client/SelfHost 0.5.13 download includes the increased population preset. Existing 0.5.1 clients update through Play Outlands.
 Self-host operators apply the source update using FILE-SYNC.md, publish their
 reviewed inventory and rebuild only the dashboard. Old full-pack updaters remain
 supported. A real Windows first-run test and shared raid remain outstanding.
@@ -207,7 +229,7 @@ supported. A real Windows first-run test and shared raid remain outstanding.
 The earlier 0.5.2 spawn preset added four AI slots on larger maps and two on Factory/Ground Zero, plus
 one extra regular Scav per eligible wave where group caps allow. Existing PMC
 chances and timing stay unchanged. That spawn preset alone preserved difficulty, bosses, zombie
-density, loot and client DLLs. The earlier 0.5.3 insurance fix changed one client DLL. Scav War remains on.
+density, loot and client DLLs. The earlier 0.5.3 insurance fix changed one client DLL. That earlier release kept Scav War on; the current 0.5.13 host policy turns it off.
 [Exact preset and host instructions](SPAWN-PRESET.md). Caps are ceilings, not a
 guarantee of the number alive. This server-side preset is active on node-01 after a backed-up idle
 restart; players relaunch afterward to refresh cached raid settings.

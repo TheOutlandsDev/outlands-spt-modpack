@@ -1,4 +1,16 @@
-# Increased AI population — 0.5.12
+# Scav War off and balanced reinforcement waves — 0.5.13
+
+Scav War is disabled by the 1.2.0 Fika host policy; Scavs still fight infected AI.
+Existing population caps below remain. In addition to the existing PMC schedule,
+regular Scavs receive 1–2 bot reinforcement waves in 60-second windows beginning
+every four minutes. Large maps have six waves through minute 24, Ground Zero
+has three through minute 12, Factory has two through minute 8, and Labs has none.
+These reuse valid enabled Scav zones, preserve disabled waves and difficulty,
+and follow native population/placement checks. A scheduled wave is not a guaranteed
+spawn when the map is full. Use the new movement and weapon-shot diagnostics
+to verify real fighting. Player-visible behavior still requires a raid test.
+
+## Population baseline retained from 0.5.12
 
 Population module 0.2.0 and preset 2026.10.30-spawns.2 address low actual wave
 population, rather than relying on a higher cap alone. Normal large-map Scav

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "release": "0.5.13",
+  "checksPassed": 356,
+  "calendarAndHostilityChecksPassed": 3804,
+  "diagnosticsPolicyChecksPassed": 40,
+  "nativeCosmeticPolicyChecksPassed": 16,
+  "nativeContractsPassed": 97,
+  "dashboardTestsPassed": 66,
+  "fikaScavWarOffRealHookTestPassed": true,
+  "isolatedBackendColdStarts": 2,
+  "scavWarEnabled": false,
+  "scavsFightInfected": true,
+  "infectedReputationProtectionRetained": true,
+  "increasedPopulationCapsRetained": true,
+  "headlessCombatPolicy": "Remove SAIN distant AI-versus-AI limits in memory only",
+  "humanClientFilesChanged": 0,
+  "humanReleaseFingerprintUnchanged": true,
+  "maps": {
+    "bigmap": {
+      "cap": 38,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "factory4_day": {
+      "cap": 16,
+      "scavReinforcementWaves": 2,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 480,
+      "scavWarEnabled": false
+    },
+    "factory4_night": {
+      "cap": 16,
+      "scavReinforcementWaves": 2,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 480,
+      "scavWarEnabled": false
+    },
+    "interchange": {
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "laboratory": {
+      "cap": 25,
+      "scavReinforcementWaves": 0,
+      "firstWindowSeconds": null,
+      "lastWindowSeconds": null,
+      "scavWarEnabled": false
+    },
+    "lighthouse": {
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "rezervbase": {
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "shoreline": {
+      "cap": 44,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "tarkovstreets": {
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "woods": {
+      "cap": 43,
+      "scavReinforcementWaves": 6,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 1440,
+      "scavWarEnabled": false
+    },
+    "sandbox": {
+      "cap": 21,
+      "scavReinforcementWaves": 3,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 720,
+      "scavWarEnabled": false
+    },
+    "sandbox_high": {
+      "cap": 22,
+      "scavReinforcementWaves": 3,
+      "firstWindowSeconds": 240,
+      "lastWindowSeconds": 720,
+      "scavWarEnabled": false
+    }
+  },
+  "playerObservedBeforeUpdate": "AI standing or aiming without firing; no gunshots heard",
+  "movementAndShootingAfterUpdateTested": false,
+  "rootCauseOfStationaryBotsConfirmed": false,
+  "nativePostRaidCrashRootCauseFixed": false,
+  "combatSnapshotEmissionVerifiedInActualDll": true,
+  "diagnosticDoubleProjectionRoundTripPassed": true,
+  "privateSourceCommit": "7446d5c907d607b182536c08bef7f253b86c2b7e",
+  "headlessCombatPolicyVerified": {
+    "sain_ai_vs_ai_limits_disabled": true,
+    "errors": 0
+  },
+  "activatedAtUtc": "2026-10-31T12:28:50.915381+00:00",
+  "activeOnNode01": true,
+  "quiescentBackupVerified": true,
+  "sameContainerImagesPreserved": true,
+  "selfHostStaticFilesEqualHosted": 2505,
+  "privateIdentityTemplates": 4,
+  "managedClientFilesVerified": 351,
+  "baseFilesVerified": 27,
+  "postRaidNativeCrashRootCauseFixed": false
+}
