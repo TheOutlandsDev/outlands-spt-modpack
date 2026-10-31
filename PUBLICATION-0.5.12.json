@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "release": "0.5.12",
+  "archive": "The-Outlands-SPT-0.5.12.zip",
+  "bytes": 3372806,
+  "sha256": "ae91245d30d1bc491123e39e5361a33e51a6c07d9ae032cef58bbbe5b2ce34c4",
+  "clientManagedFiles": 351,
+  "baseVerificationFiles": 27,
+  "selfHostStaticFilesEqualHosted": 2504,
+  "privateIdentityTemplates": 4,
+  "populationModule": "0.2.0",
+  "gameInstallerVersion": "0.5.12",
+  "serverSpawnPreset": "2026.10.30-spawns.2",
+  "populationChecks": "POPULATION-CHECKS.json",
+  "priorReportsRetainedWithOriginalScope": true,
+  "increasedPopulationRaidPerformanceTested": false,
+  "privateRuntimeEvidenceIncluded": false,
+  "frozenPriorArchivesChanged": false
+}

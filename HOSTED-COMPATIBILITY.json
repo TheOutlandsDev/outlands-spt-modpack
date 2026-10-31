@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "reviewedOn": "2026-10-25",
+  "reviewedOn": "2026-10-30",
   "hostedBundleVersion": "2026.10.24.3",
-  "publicReconstructionVersion": "0.5.11",
+  "publicReconstructionVersion": "0.5.12",
   "publicBootstrapVersion": "1.4.0",
   "hostedManagedFiles": 351,
   "hostedBaseVerificationFiles": 27,
@@ -29,61 +29,60 @@
   "windowsFreshInstallTested": false,
   "sharedGroundZeroRaidTested": false,
   "requiresOneTimeClientInstallerUpgrade": "Matching 0.5.x clients use Play Outlands; 0.5.9 changes no human client or base dependency hashes. Older base dependencies still require the full matching Client installer.",
-  "serverSpawnPreset": "2026.10.24-spawns.1",
+  "serverSpawnPreset": "2026.10.30-spawns.2",
   "serverSpawnActivation": "active",
   "clientFilesChangedBySpawnPreset": false,
-  "serverSpawnPresetActivatedAtUtc": "2026-10-25T01:17:50.942314+00:00",
+  "serverSpawnPresetActivatedAtUtc": "2026-10-31T03:36:54.501467+00:00",
   "serverSpawnEffectiveCaps": {
     "bigmap": {
-      "before": 28,
-      "after": 32
-    },
-    "factory4_day": {
-      "before": 12,
-      "after": 14
-    },
-    "factory4_night": {
-      "before": 12,
-      "after": 14
-    },
-    "interchange": {
-      "before": 30,
-      "after": 34
-    },
-    "lighthouse": {
-      "before": 30,
-      "after": 34
-    },
-    "rezervbase": {
-      "before": 30,
-      "after": 34
-    },
-    "sandbox": {
-      "before": 17,
-      "after": 19
-    },
-    "sandbox_high": {
-      "before": 18,
-      "after": 20
-    },
-    "shoreline": {
-      "before": 34,
+      "before": 32,
       "after": 38
     },
+    "factory4_day": {
+      "before": 14,
+      "after": 16
+    },
+    "factory4_night": {
+      "before": 14,
+      "after": 16
+    },
+    "interchange": {
+      "before": 34,
+      "after": 40
+    },
+    "lighthouse": {
+      "before": 34,
+      "after": 40
+    },
+    "rezervbase": {
+      "before": 34,
+      "after": 40
+    },
+    "sandbox": {
+      "before": 19,
+      "after": 21
+    },
+    "sandbox_high": {
+      "before": 20,
+      "after": 22
+    },
+    "shoreline": {
+      "before": 38,
+      "after": 44
+    },
     "tarkovstreets": {
-      "before": 30,
-      "after": 34
+      "before": 34,
+      "after": 40
     },
     "woods": {
-      "before": 33,
-      "after": 37
+      "before": 37,
+      "after": 43
     },
     "laboratory": {
-      "before": 19,
-      "after": 23
+      "before": 23,
+      "after": 25
     }
   },
-  "serverSpawnScavWaveSlotIncrease": 1,
   "serverSpawnClientFilesChanged": false,
   "serverBaseSptConfigsChanged": false,
   "hostedSyncBundleVersion": "2026.10.24.4",
@@ -93,7 +92,7 @@
   "insuranceWindowsUiTested": false,
   "headlessMapCapLiveRaidVerified": false,
   "aiAndInsuranceActivatedAtUtc": "2026-10-25T03:51:21.631815+00:00",
-  "sourceCommit": "ecde0c8d5f4f1ca0c09a79bfa3d92468203bb1e4",
+  "sourceCommit": "9aa4645e97b809dee3e34ab211cecdf0bc95e984",
   "clientReleasePolicyVersion": "1.2.0",
   "clientFilesChangedByReleaseGuard": false,
   "clientUpdateNotices": true,
@@ -152,16 +151,16 @@
   "diagnosticsCurrentReleaseRaidTested": false,
   "hostFixAcceptanceRecord": "HOST-FIX-CHECKS.json",
   "clientManagedFileChanges": 0,
-  "gamePayloadBaselineVersion": "0.5.9",
-  "gameInstallerVersion": "0.5.9",
-  "sourceOnlyHostToolUpdate": true,
+  "gamePayloadBaselineVersion": "0.5.12",
+  "gameInstallerVersion": "0.5.12",
+  "sourceOnlyHostToolUpdate": false,
   "nativeWarningArchiveIncluded": true,
   "nativeWarningArchivePublic": false,
   "nativeWarningArchiveMaxSessions": 8,
   "nativeWarningArchiveFilesPerSession": 2,
   "nativeWarningArchiveMaxBytesPerFile": 524288,
   "nativeWarningArchiveMaxPayloadBytes": 8388608,
-  "noGameRestartRequired": true,
+  "noGameRestartRequired": false,
   "hostToolChecks": "DOWNTIME-CHECKS.json",
   "post04RaidReview": "POST-0.4-RAID-REVIEW.json",
   "nativeAnimationWarningAbsenceVerified": false,
@@ -175,7 +174,12 @@
   "hostToolChecksAtUtc": "2026-10-26T10:10:56.541804+00:00",
   "hostToolsDeployedOnNode01": true,
   "extractedReadmeLinksRepaired": true,
-  "gameRestartRequired": false,
+  "gameRestartRequired": true,
   "clientUpdateRequired": false,
-  "authoredModuleCheckpointCoverageAdded": 4
+  "authoredModuleCheckpointCoverageAdded": 4,
+  "populationModuleVersion": "0.2.0",
+  "populationChecks": "POPULATION-CHECKS.json",
+  "increasedPopulationRaidPerformanceTested": false,
+  "populationChecksPassed": true,
+  "activeOnNode01": true
 }

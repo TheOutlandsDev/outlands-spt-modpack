@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "release": "0.5.12",
+  "populationModuleVersion": "0.2.0",
+  "presetVersion": "2026.10.30-spawns.2",
+  "assertionsPassed": 1529,
+  "policyChecksPassed": 231,
+  "maps": {
+    "bigmap": {
+      "beforeCap": 32,
+      "afterCap": 38,
+      "scavMinimumBefore": 6,
+      "scavMinimumAfter": 12
+    },
+    "factory4_day": {
+      "beforeCap": 14,
+      "afterCap": 16,
+      "scavMinimumBefore": 13,
+      "scavMinimumAfter": 14
+    },
+    "factory4_night": {
+      "beforeCap": 14,
+      "afterCap": 16,
+      "scavMinimumBefore": 14,
+      "scavMinimumAfter": 15
+    },
+    "interchange": {
+      "beforeCap": 34,
+      "afterCap": 40,
+      "scavMinimumBefore": 1,
+      "scavMinimumAfter": 18
+    },
+    "laboratory": {
+      "beforeCap": 23,
+      "afterCap": 25,
+      "scavMinimumBefore": 0,
+      "scavMinimumAfter": 0
+    },
+    "lighthouse": {
+      "beforeCap": 34,
+      "afterCap": 40,
+      "scavMinimumBefore": 0,
+      "scavMinimumAfter": 12
+    },
+    "rezervbase": {
+      "beforeCap": 34,
+      "afterCap": 40,
+      "scavMinimumBefore": 21,
+      "scavMinimumAfter": 30
+    },
+    "shoreline": {
+      "beforeCap": 38,
+      "afterCap": 44,
+      "scavMinimumBefore": 3,
+      "scavMinimumAfter": 16
+    },
+    "tarkovstreets": {
+      "beforeCap": 34,
+      "afterCap": 40,
+      "scavMinimumBefore": 9,
+      "scavMinimumAfter": 18
+    },
+    "woods": {
+      "beforeCap": 37,
+      "afterCap": 43,
+      "scavMinimumBefore": 5,
+      "scavMinimumAfter": 12
+    },
+    "sandbox": {
+      "beforeCap": 19,
+      "afterCap": 21,
+      "scavMinimumBefore": 2,
+      "scavMinimumAfter": 5
+    },
+    "sandbox_high": {
+      "beforeCap": 20,
+      "afterCap": 22,
+      "scavMinimumBefore": 5,
+      "scavMinimumAfter": 5
+    }
+  },
+  "networkIsolatedBackendColdStarts": 2,
+  "startupErrors": 0,
+  "humanClientFilesChanged": 0,
+  "baseDependencyFilesChanged": 0,
+  "scavWarChanged": false,
+  "difficultyChanged": false,
+  "bossesAndInfectionChanged": false,
+  "lootEconomyChanged": false,
+  "combatBehaviorObserved": false,
+  "increasedPopulationRaidPerformanceTested": false,
+  "windowsFreshInstallTested": false,
+  "activatedAtUtc": "2026-10-31T03:36:54.501467+00:00",
+  "activeOnNode01": true,
+  "quiescentBackupVerified": true,
+  "sameContainerImagesPreserved": true,
+  "selfHostStaticFilesEqualHosted": 2504,
+  "privateIdentityTemplates": 4,
+  "managedClientFilesVerified": 351,
+  "baseFilesVerified": 27,
+  "dashboardTestsPassed": 63,
+  "postRaidNativeCrashRootCauseFixed": false
+}
