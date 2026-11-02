@@ -14,7 +14,28 @@ Matching Client and SelfHost setup, Play Outlands file updates, private player a
 
 The detailed release notes below distinguish the complete download, frozen gameplay payload and updater versions. Start with the current download rather than an older archive from the history.
 
-## Scav War off and balanced reinforcement waves — 0.5.13
+## Christmas and winter — 0.5.14
+
+Halloween, zombies, summoning and Halloween hostility replacement are disabled.
+Christmas is active across the year with winter weather. The frozen build's native
+Santa/gifts, festive gear/loot, hideout Christmas tree, dancing trees, Runddans and
+Christmas BTR skin are enabled. Native per-map Santa chances remain; an encounter
+is not guaranteed. Labs requires its normal access card again.
+
+Live Content 1.3.0 keeps all map and forecast infection at zero, uses winter squad
+challenges and preserves normal Scav/PMC relationships. Scav War stays off. The
+balanced reinforcement schedule, population caps, diagnostics and daily maintenance
+remain. This removes the Halloween hostility override but does not establish that
+the reported AI engagement problem is fixed. Rendering and real combat need a raid.
+
+The complete matching Client/SelfHost download is 0.5.14. Its SelfHost DLL/settings
+and semantic seasonal/weather patches match the hosted preset; all 351 human files,
+27 base pins and the human release fingerprint are unchanged. Existing players close
+game/launcher and use Play Outlands. Existing SelfHost operators stop services and
+apply the full matching package with backups; exact prior Outlands seasonal values
+are recognized, while unknown custom settings refuse. [Seasonal checks](SEASONAL-CHECKS.json).
+
+## Prior Scav War and reinforcement update — 0.5.13
 
 Scav War is now off on the hosted server. Scavs keep normal faction relationships
 and remain hostile to infected AI. Infected-kill reputation protection stays active.
@@ -153,7 +174,7 @@ Ground Zero acceptance test remain pending.
 
 ## Current download
 
-**[Download Client + SelfHost 0.5.13](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.13.zip)**
+**[Download Client + SelfHost 0.5.14](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/The-Outlands-SPT-0.5.14.zip)**
 
 The current public download reconstructs node-01's active **2026.10.24.3** mod
 baseline: **351 human managed files and 27 verified base files**. Both the backend
@@ -172,7 +193,7 @@ left for its operator. See [the verified compatibility record](HOSTED-COMPATIBIL
 
 **This release changes the host only. Existing matching 0.5.3 players use Play Outlands; the 351 client files are unchanged.**
 
-**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.13 Client installer once. The WTT base
+**Existing 0.5.0 players: use Play Outlands to fetch this managed update.** New players and pre-0.5 users run the full 0.5.14 Client installer once. The WTT base
 patcher changed; the updater deliberately stops on an old base rather than
 replacing it silently. The installer backs up overwritten files/profiles and
 quarantines only exact recognized older-release leftovers. Unknown DLLs stop
@@ -181,12 +202,12 @@ installation for review.
 Client installs **356 files**; SelfHost installs **2509**. The installer downloads
 pinned author payloads and builds five WTT DLLs from pinned source. Those exact
 builds now run on node-01. No manual mod imports or global SDK are required.
-The current 0.5.13 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
+The current 0.5.14 installer includes **Play Outlands 1.4.0** for individual-file sync. Original source/tests are included.
 [The separate bootstrap](https://github.com/TheOutlandsDev/outlands-spt-modpack/raw/refs/heads/main/Play-Outlands-Public-1.4.0.zip)
 requires a matching base installation and the host's private profile. Install it once, then use its desktop shortcut every time. It downloads only changed/missing managed files from the host before opening SPT Launcher; unchanged clients download no mod payloads.
 
-Halloween/zombies/fall settings, steady-fight AI tuning, Scav War-off faction rules, and
-remote quest acceptance with local-only turn-ins are preserved. A live content calendar rotates hotspots and seven theme bonuses while Halloween stays active daily. Infected AI loyalty/revenge guards are now included for all players and the headless host. Daily announced
+Christmas/winter settings, balanced AI waves, Scav War-off faction rules, and
+remote quest acceptance with local-only turn-ins are preserved. A live content calendar rotates hotspots and seven theme bonuses while Christmas stays active daily. Infected AI loyalty/revenge guards are now included for all players and the headless host. Daily announced
 maintenance remains 5 AM Eastern and waits for raids to finish. Independent
 hosts supply their own approved Tailscale access, addresses and headless identity.
 
@@ -206,7 +227,7 @@ included with its corresponding source and full upstream notice; other vendor
 payloads are fetched from pinned author sources and retain their authors' terms.
 Do not redistribute the assembled cache/game/mod folder.
 
-[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.13.json) ·
+[Checksums](SHA256SUMS) · [Publication record](PUBLICATION-0.5.14.json) ·
 [Earlier release history](https://github.com/TheOutlandsDev/outlands-spt-modpack/releases)
 
 ## Current file synchronization
@@ -219,7 +240,7 @@ SHA-256, backs up changed originals, and blocks launch on failure. Verified file
 downloads survive retries. All 27 frozen base dependencies are checked. Raw
 runtime paths, profiles, personal settings and server/headless files never route.
 The hosted gameplay baseline is still 2026.10.24.3; this changes the transport,
-not gameplay. The current complete Client/SelfHost 0.5.13 download includes the increased population preset. Existing 0.5.1 clients update through Play Outlands.
+not gameplay. The current complete Client/SelfHost 0.5.14 download includes the increased population preset. Existing 0.5.1 clients update through Play Outlands.
 Self-host operators apply the source update using FILE-SYNC.md, publish their
 reviewed inventory and rebuild only the dashboard. Old full-pack updaters remain
 supported. A real Windows first-run test and shared raid remain outstanding.

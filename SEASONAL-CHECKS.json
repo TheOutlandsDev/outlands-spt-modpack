@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "release": "0.5.14",
+  "season": "Christmas",
+  "weather": "Winter",
+  "liveContentVersion": "1.3.0",
+  "checksPassed": 97,
+  "calendarPolicyChecksPassed": 5285,
+  "dashboardTestsPassed": 68,
+  "isolatedBackendColdStarts": 1,
+  "nativeChristmasEnabled": true,
+  "nativeHalloweenEnabled": false,
+  "nativeZombiesEnabled": false,
+  "nativeRitualEnabled": false,
+  "nativeRunddansEnabled": true,
+  "nativeWinterEnabled": true,
+  "normalHostilityPreserved": true,
+  "scavWarEnabled": false,
+  "humanClientFilesChanged": 0,
+  "maps": {
+    "bigmap": {
+      "infection": 0,
+      "cap": 38,
+      "scavReinforcementWaves": 6,
+      "santaChance": 85,
+      "dancingTree": true
+    },
+    "factory4_day": {
+      "infection": 0,
+      "cap": 16,
+      "scavReinforcementWaves": 2,
+      "santaChance": 50,
+      "dancingTree": false
+    },
+    "factory4_night": {
+      "infection": 0,
+      "cap": 16,
+      "scavReinforcementWaves": 2,
+      "santaChance": null,
+      "dancingTree": false
+    },
+    "interchange": {
+      "infection": 0,
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": true
+    },
+    "laboratory": {
+      "infection": 0,
+      "cap": 25,
+      "scavReinforcementWaves": 0,
+      "santaChance": 75,
+      "dancingTree": false
+    },
+    "lighthouse": {
+      "infection": 0,
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": true
+    },
+    "rezervbase": {
+      "infection": 0,
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": true
+    },
+    "shoreline": {
+      "infection": 0,
+      "cap": 44,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": true
+    },
+    "tarkovstreets": {
+      "infection": 0,
+      "cap": 40,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": false
+    },
+    "woods": {
+      "infection": 0,
+      "cap": 43,
+      "scavReinforcementWaves": 6,
+      "santaChance": 75,
+      "dancingTree": true
+    },
+    "sandbox": {
+      "infection": 0,
+      "cap": 21,
+      "scavReinforcementWaves": 3,
+      "santaChance": 75,
+      "dancingTree": false
+    },
+    "sandbox_high": {
+      "infection": 0,
+      "cap": 22,
+      "scavReinforcementWaves": 3,
+      "santaChance": null,
+      "dancingTree": false
+    }
+  },
+  "aiEngagementFixConfirmed": false,
+  "playerChristmasRenderingTested": false,
+  "frozenBuildUnchanged": true,
+  "activeOnNode01": true,
+  "activatedAtUtc": "2026-11-02T11:05:08.348156+00:00",
+  "quiescentBackupVerified": true,
+  "sameContainerImagesPreserved": true,
+  "privateSourceCommit": "342b3584caaf86b141e39aa308a02882cb03dc20",
+  "installerMigrationChecksPassed": 20,
+  "installerOriginalBaseApplyPassed": true,
+  "installerPriorOutlandsApplyPassed": true,
+  "installerUnknownCustomSettingsRefused": true,
+  "selfHostStaticFilesEqualHosted": 2505,
+  "privateIdentityTemplates": 4,
+  "managedClientFilesVerified": 351,
+  "baseFilesVerified": 27,
+  "clientUpdateRequired": false,
+  "semanticSeasonalWeatherParityPassed": true
+}

@@ -1,3 +1,5 @@
+Current 0.5.14: Christmas and winter are active; Halloween, infection and rituals are off. Scav War remains off and balanced waves remain. Normal Labs access requirements return. See [SEASONAL-CHECKS.json](SEASONAL-CHECKS.json). Dated reports below retain their earlier scope.
+
 # Scav War off and balanced reinforcement waves — 0.5.13
 
 Scav War is disabled by the 1.2.0 Fika host policy; Scavs still fight infected AI.

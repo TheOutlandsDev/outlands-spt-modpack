@@ -1,3 +1,5 @@
+Current 0.5.14: Christmas and winter are active; Halloween, infection and rituals are off. Scav War remains off and balanced waves remain. Normal Labs access requirements return. See [SEASONAL-CHECKS.json](SEASONAL-CHECKS.json). Dated reports below retain their earlier scope.
+
 Current 0.5.13 update: Scav War is off; Scavs still fight infected AI. Balanced reinforcement waves and headless combat telemetry are described in [COMBAT-CHECKS.json](COMBAT-CHECKS.json) and [SPAWN-PRESET.md](SPAWN-PRESET.md). The dated details below retain their earlier scope.
 
 # Host-tool maintenance — 0.5.11
